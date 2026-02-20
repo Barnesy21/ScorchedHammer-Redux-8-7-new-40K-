@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="10aa-d6c2-a406-11d3" name="Imperial Guard" gameSystemId="sys-d1dc-a418-d2d6-9a0a" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Riflemen Squad" hidden="false" id="491a-5134-69d6-5990">
+      <infoLinks>
+        <infoLink name="Riflemen" id="fc93-302e-0c86-5e7b" hidden="false" type="profile" targetId="3330-3a7c-40e0-034e"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Riflemen" hidden="false" id="5e95-c14e-6988-c7c3">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="9"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="6d12-4dce-41ab-b3d0"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Rifle" hidden="false" id="b34b-8e2d-3815-7469">
+              <infoLinks>
+                <infoLink name="Lascannon" id="042b-7860-d1e4-0cb2" hidden="false" type="profile" targetId="1732-e074-a0dc-d063"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="246a-8f73-248a-3e72-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="246a-8f73-248a-3e72-max"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Troop" hidden="false" id="b3bd-deb9-5d51-560b" targetId="168f-b2da-4fd7-90d7" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile name="Riflemen" typeId="0e60-8aee-4ae3-760d" typeName="Unit" hidden="false" id="3330-3a7c-40e0-034e">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">4+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">4+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">3</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">3</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">1</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">1</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">5+</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <entryLinks>
+    <entryLink import="true" name="Riflemen Squad" hidden="false" id="d626-0909-f52d-96a6" targetId="491a-5134-69d6-5990" type="selectionEntry"/>
+  </entryLinks>
+</catalogue>
