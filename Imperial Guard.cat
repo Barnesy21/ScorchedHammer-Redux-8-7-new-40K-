@@ -6964,7 +6964,11 @@ Models in those units count as having made a Normal Move this phase they cannon 
         <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="a7a1-7a47-0c75-030b" primary="false" name="Faction: Imperium"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Lord Commissar" hidden="false" id="5d6f-abf7-01b3-ce33" type="selectionEntry" targetId="c9c2-989e-2387-ff68"/>
+        <entryLink import="true" name="Lord Commissar" hidden="false" id="5d6f-abf7-01b3-ce33" type="selectionEntry" targetId="c9c2-989e-2387-ff68">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="18e0-41f6-f8b2-7420" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Lord Castellan" hidden="false" id="8f21-913a-ac92-33c1">
