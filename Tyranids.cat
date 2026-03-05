@@ -29,6 +29,9 @@
               <description>Endless Multitude Models in your army may Advance and Shoot without Penalty as if they had assault Weapons</description>
             </rule>
           </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="211a-3a9d-e185-8d1a" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Monstrous Aggression" hidden="false" id="dd30-2757-ea1f-0db3">
           <rules>
@@ -36,6 +39,9 @@
               <description>Models with the Monster Keyword gain the Devastating Wounds and Rending Special rules on there weapons</description>
             </rule>
           </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ac3-55ae-b1a1-87f7" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Hunting Preditors" hidden="false" id="bac4-675e-a874-c647">
           <rules>
@@ -43,6 +49,9 @@
               <description>Vanguard Invader Units in your army are eligble to Charge in a turn in which they fell back or advanced</description>
             </rule>
           </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b42-b850-c787-b3e9" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Hyper Aggression" hidden="false" id="d3d0-0b2c-dff4-847e">
           <rules>
@@ -50,6 +59,9 @@
               <description>Endless Multitude and Harvister Models in your army have the sustained Hit special rule</description>
             </rule>
           </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6229-d2d0-2319-ebd1" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Cunning Instincts" hidden="false" id="cac8-2924-5c3f-d10d">
           <rules>
@@ -57,6 +69,9 @@
               <description>Synapse Models in your army have the Sustained Hits 2 Special Rule on all Melee Weapons</description>
             </rule>
           </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="75ba-b314-9e0f-2093" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Endless Swarm" hidden="false" id="7529-b091-7c07-bc52">
           <rules>
@@ -64,6 +79,9 @@
               <description>Endless Multitude Units from your army at the beginning of each turn roll a D6 for each slain model in the unit on a 3+ Return the model to the unit</description>
             </rule>
           </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5baa-3464-c17e-aa56" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Surprise Assault" hidden="false" id="4966-c017-483c-e94c">
           <rules>
@@ -71,12 +89,15 @@
               <description>Endless Multitude and Vanguard Invader Units in your army Have the Shrouded Special Rule</description>
             </rule>
           </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5887-de10-c2cb-7858" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="00d8-e1b1-59c1-3dec-min" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="00d8-e1b1-59c1-3dec-max" includeChildSelections="false"/>
-        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6e94-f9aa-3689-201c" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="6e94-f9aa-3689-201c" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Hive Fleet" hidden="false" id="01e6-ec0c-5ab9-3c43">
@@ -5258,7 +5279,7 @@ At the end of your Shooting phase, select one enemy unit that had one or more mo
       <characteristics>
         <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
         <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
-        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User </characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
@@ -5451,6 +5472,11 @@ At the end of your Shooting phase, select one enemy unit that had one or more mo
     <entryLink import="true" name="Hive Tyrant" hidden="false" id="a289-095b-75cb-5427" targetId="c246-ff04-4468-7f03" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="HQ" hidden="false" id="0d4e-22a9-481c-5cfc" targetId="df66-426b-8561-5154" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Synaptic Directive" hidden="false" id="7a58-a708-1566-a5c3" targetId="2c25-9edd-0307-40bf" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Configuration" hidden="false" id="23fd-93b9-1bbd-a425" targetId="2eb6-e424-69d8-5b7c" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
