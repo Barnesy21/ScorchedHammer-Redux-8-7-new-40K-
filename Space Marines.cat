@@ -23477,42 +23477,42 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Vail of Time " typeId="f7ae-1618-90a8-558c" typeName="Psychic Power" hidden="false" id="c100-792d-0506-03d6">
+    <profile name="Vail of Time " typeId="f7ae-1618-90a8-558c" typeName="Psychic Power (Augment/HEX)" hidden="false" id="c100-792d-0506-03d6">
       <characteristics>
         <characteristic name="Warp Charge" typeId="073a-3360-beab-6247">6</characteristic>
         <characteristic name="Range" typeId="59ce-10fb-8689-2d17">18&quot;</characteristic>
         <characteristic name="Details" typeId="f78e-01c6-7e67-f2db">Veil of Timehas a warp charge value of 6. If manifested, select one friendly unit within 18&quot; of this Psyker. Until the start of your next Psychic phase, when an Advance roll or charge roll is made for that unit, you can re-roll the dice. In addition, that unit always fights first in the Fight phase, even if it did not charge. If the enemy has units that have charged, or that have a similar ability, then alternate choosing units to fight with, starting with the player whose turn is taking place.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Might of Heros" typeId="f7ae-1618-90a8-558c" typeName="Psychic Power" hidden="false" id="10a8-40d5-299c-2440">
+    <profile name="Might of Heros" typeId="f7ae-1618-90a8-558c" typeName="Psychic Power (Augment/HEX)" hidden="false" id="10a8-40d5-299c-2440">
       <characteristics>
         <characteristic name="Warp Charge" typeId="073a-3360-beab-6247">6</characteristic>
         <characteristic name="Range" typeId="59ce-10fb-8689-2d17">12&quot;</characteristic>
         <characteristic name="Details" typeId="f78e-01c6-7e67-f2db">If manifested, select an model within 12&quot; of the Psyker. Until the start of your next Psychic phase, add 1 to that model&apos;s Strength, Toughness, and Attacks characteristics.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Null Zone" typeId="f7ae-1618-90a8-558c" typeName="Psychic Power" hidden="false" id="d785-f878-65eb-20d4">
+    <profile name="Null Zone" typeId="f7ae-1618-90a8-558c" typeName="Psychic Power (Augment/HEX)" hidden="false" id="d785-f878-65eb-20d4">
       <characteristics>
         <characteristic name="Warp Charge" typeId="073a-3360-beab-6247">7</characteristic>
         <characteristic name="Range" typeId="59ce-10fb-8689-2d17">self</characteristic>
         <characteristic name="Details" typeId="f78e-01c6-7e67-f2db">Null Zone has a warp charge value of 7. If manifested, then until the start of your next Psychic phase, invulnerable saves cannot be made for enemy units whilst they are within 6&quot; of this Psyker, and when a Psychic test is taken for an enemy model within 6&quot; of this Psyker, the result is halved (rounding up)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Psychic Scourge" typeId="f7ae-1618-90a8-558c" typeName="Psychic Power" hidden="false" id="3b08-5722-de18-52e6">
+    <profile name="Psychic Scourge" typeId="f7ae-1618-90a8-558c" typeName="Psychic Power (Augment/HEX)" hidden="false" id="3b08-5722-de18-52e6">
       <characteristics>
         <characteristic name="Warp Charge" typeId="073a-3360-beab-6247">6</characteristic>
         <characteristic name="Range" typeId="59ce-10fb-8689-2d17">18&quot;</characteristic>
         <characteristic name="Details" typeId="f78e-01c6-7e67-f2db">Psychic Scourge has a warp charge value of 6. If manifested, select one enemy unit within 18&quot; of and visible to this Psyker. Then, roll one D6 and add this Psyker’s Leadership characteristic to the result. Your opponent then rolls one D6 and adds the highest Leadership characteristic of models in the selected unit to the result. If your total score is higher than your opponent’s, the selected unit suffers D3 mortal wounds; if it is equal to your opponent’s score, the selected unit suffers 1 mortal wound; if it is less than your opponent’s score, nothing happens</characteristic>
       </characteristics>
     </profile>
-    <profile name="Fury of the Ancients" typeId="f7ae-1618-90a8-558c" typeName="Psychic Power" hidden="false" id="b854-0a6d-cfef-9fda">
+    <profile name="Fury of the Ancients" typeId="f7ae-1618-90a8-558c" typeName="Psychic Power (Augment/HEX)" hidden="false" id="b854-0a6d-cfef-9fda">
       <characteristics>
         <characteristic name="Warp Charge" typeId="073a-3360-beab-6247">7</characteristic>
         <characteristic name="Range" typeId="59ce-10fb-8689-2d17">12&quot;</characteristic>
         <characteristic name="Details" typeId="f78e-01c6-7e67-f2db">Fury of the Ancients has a warp charge value of 7. If manifested, select one enemy model that is within 12&quot; of and visible to this Psyker. Draw the shortest possible imaginary straight line, 1mm wide, between this Psyker’s base and that model’s base; the selected model&apos;s unit and each other enemy unit that this line passes across suffers 1 mortal wound.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Psychic Fortress" typeId="f7ae-1618-90a8-558c" typeName="Psychic Power" hidden="false" id="53df-a111-51e2-8bf6">
+    <profile name="Psychic Fortress" typeId="f7ae-1618-90a8-558c" typeName="Psychic Power (Augment/HEX)" hidden="false" id="53df-a111-51e2-8bf6">
       <characteristics>
         <characteristic name="Warp Charge" typeId="073a-3360-beab-6247">5</characteristic>
         <characteristic name="Range" typeId="59ce-10fb-8689-2d17">18</characteristic>

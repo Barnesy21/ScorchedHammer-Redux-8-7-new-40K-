@@ -60,6 +60,7 @@
     <categoryEntry name="Swarm" id="15a8-dbd9-2f00-1bb7" hidden="false"/>
     <categoryEntry name="Titanic" id="8fd7-9e42-1362-fa3a" hidden="false"/>
     <categoryEntry name="Squadron" id="32c7-bd0c-be24-947e" hidden="false"/>
+    <categoryEntry name="Daemon Engine" id="99ca-3b7e-4b57-d1cb" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Unrestricted" id="f60d-e135-0f6e-16f2" hidden="false">
@@ -465,7 +466,7 @@
         <characteristicType name="Keywords (Basic)" id="ed09-2889-f9d3-5756"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Psychic Power" id="f7ae-1618-90a8-558c" hidden="false">
+    <profileType name="Psychic Power (Augment/HEX)" id="f7ae-1618-90a8-558c" hidden="false">
       <characteristicTypes>
         <characteristicType name="Warp Charge" id="073a-3360-beab-6247"/>
         <characteristicType name="Range" id="59ce-10fb-8689-2d17"/>
@@ -509,6 +510,17 @@
         <characteristicType name="Rear" id="2860-31bc-c8c7-ef9b"/>
         <characteristicType name="A" id="1d7f-46f3-6b93-222d"/>
         <characteristicType name="HP" id="0766-41aa-1542-dddd"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Psychic Power Weapon" id="e57e-15c3-e702-5811" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Cast" id="b070-88f4-6531-deb7"/>
+        <characteristicType name="Range" id="257a-022c-bfc5-a51f"/>
+        <characteristicType name="Type" id="6bc2-4191-d0d9-71d5"/>
+        <characteristicType name="S" id="a4b2-ce42-4524-4475"/>
+        <characteristicType name="AP" id="ad1a-ecf9-b29f-0f6a"/>
+        <characteristicType name="D" id="4249-543a-3dc5-4143"/>
+        <characteristicType name="Abilities" id="7b54-f22e-32e3-b559"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -673,13 +685,38 @@
     <rule name="Pinning" id="50d5-7e8d-9e86-92ec" hidden="false">
       <description>Models hit with this special rule must take a leadership test. if they Fail the Unit is -1 BS/WS and the unit has -2 to Movement and charges Until the unit successfully passes a Test. If the Unit Passes the Test they only have -1 to their movement and Charge Rolls.</description>
     </rule>
+    <rule name="Lingering Death" id="c121-507f-6923-410f" hidden="false">
+      <description>When an Enemy unit is hit with this weapon If the unit Moves in the following turn the unit Takes D3 Hits from this weapon. (You may want to place a marker to remind you)</description>
+    </rule>
+    <rule name="Blinding" id="7abc-6411-f9ab-2ff4" hidden="false">
+      <description>A model Hit by a weapon with this special Rule is -1 to Hit rolls until the following turn.</description>
+    </rule>
+    <rule name="Hatred (Psyker)" id="445a-9deb-277f-6fdf" hidden="false">
+      <description>If this model is targeting a Model with the Psyker Keyword you may Re-roll Failed hit rolls</description>
+    </rule>
+    <rule name="Regeneration" id="4043-2477-c227-5925" hidden="false">
+      <description>A weapon with this special Rule regains Lost wound equal to the number specified if a enemy model is slain by it.</description>
+    </rule>
+    <rule name="Psychic Power" id="3523-6d8f-6ec2-d607" hidden="false">
+      <description>A weapon with this special Rule Automatically Hits the target with the specified Amount of attacks when the cast is successful.</description>
+    </rule>
+    <rule name="It Will Not Die" id="a986-140c-698b-a206" hidden="false">
+      <description>A Model with this Special Rule at the Beginning of each turn Roll a D6 on the Number Specified The model Regains one Wound</description>
+    </rule>
+    <rule name="Fights First" id="1384-8d09-f4b5-4f24" hidden="false">
+      <description>Units with this ability that are eligible to fight do so in the Fights First step, provided every model in the unit has this ability. If you both have fights first Alternate Starting with the Defender</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile name="Smite" typeId="f7ae-1618-90a8-558c" typeName="Psychic Power" hidden="false" id="d933-af1d-85f4-05df">
+    <profile name="Smite" typeId="e57e-15c3-e702-5811" typeName="Psychic Power Weapon" hidden="false" id="d933-af1d-85f4-05df">
       <characteristics>
-        <characteristic name="Warp Charge" typeId="073a-3360-beab-6247">5</characteristic>
-        <characteristic name="Range" typeId="59ce-10fb-8689-2d17">18&quot;</characteristic>
-        <characteristic name="Details" typeId="f78e-01c6-7e67-f2db">Smite has a warp charge value of 5. If manifested, the closest visible enemy unit within 18&quot; of the psyker suffers D3 mortal wounds (pg 181). If the result of the Psychic test was more than 10 the target suffers D6 mortal wounds instead.</characteristic>
+        <characteristic name="Cast" typeId="b070-88f4-6531-deb7">5</characteristic>
+        <characteristic name="Range" typeId="257a-022c-bfc5-a51f">18&quot;</characteristic>
+        <characteristic name="Type" typeId="6bc2-4191-d0d9-71d5">Pistol D3</characteristic>
+        <characteristic name="S" typeId="a4b2-ce42-4524-4475">7</characteristic>
+        <characteristic name="AP" typeId="ad1a-ecf9-b29f-0f6a">-D3</characteristic>
+        <characteristic name="D" typeId="4249-543a-3dc5-4143">D3</characteristic>
+        <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Devastating Wounds, If the result of the Psychic test was more than 10 the target suffers D6 instead.</characteristic>
       </characteristics>
     </profile>
     <profile name="Krak Grenade" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="1eca-9959-1926-60d9">
@@ -789,7 +826,7 @@
     </profile>
     <profile name="Extra Armor " typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="3a0c-7483-f53d-7ecf">
       <characteristics>
-        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Vehicles treat crew stunned as crew shaken instead</characteristic>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This Vehicle has it&apos;s front Armour increased by +1 from attacks outside 9&quot;. in addition Count Crew Stunned results as Crew Shaken instead.</characteristic>
       </characteristics>
     </profile>
     <profile name="Firing Points" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="315b-dec0-980c-2286">
@@ -1532,6 +1569,26 @@ Matched Play: This model and any units embarked aboard it are exempt from the Ta
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Volkite Culverin" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="acd9-9a06-b14a-06a0">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">45&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 4</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Devastating wounds</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Volkite Caliver" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="7bbc-204d-fedd-ff20">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">30&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Devastating wounds</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -12974,7 +12974,7 @@ Zephyr&apos;s Grace: You can re-roll the dice for affected units when they Advan
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">This Weapon always hits on an unmodified Hit roll of a 6+ Unless the target has been hit by a weapon with the Markerlight ability then it hits on normal BS. Indirect Fire</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">This Weapon always hits on an unmodified Hit roll of a 6+ Unless the target has been hit by a weapon with the Markerlight ability then it hits on normal BS. Indirect Fire, One Shot</characteristic>
       </characteristics>
     </profile>
     <profile name="Attached Drones" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="2184-dac8-e46b-2773">
@@ -13133,7 +13133,7 @@ Nova-charge: Choose for either of this model&apos;s Heavy burst cannon Type to c
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">16</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">One Shot, This Weapon always hits on an unmodified Hit roll of a 6+ Unless the target has been hit by a weapon with the Markerlight ability then it hits on normal BS.</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">One Shot, This Weapon always hits on an unmodified Hit roll of a 6+ Unless the target has been hit by a weapon with the Markerlight ability then it hits on normal BS. One Shot</characteristic>
       </characteristics>
     </profile>
     <profile name="Cluster Rocket System" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="9d9b-cf39-1ed3-5c0f">
