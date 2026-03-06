@@ -39,7 +39,7 @@
         <selectionEntry type="upgrade" import="true" name="Monstrous Aggression" hidden="false" id="dd30-2757-ea1f-0db3">
           <rules>
             <rule name="Monstrous Aggression" id="9c7f-0459-0d8a-0e24" hidden="false">
-              <description>Models with the Monster Keyword gain the Devastating Wounds and Rending Special rules on there weapons</description>
+              <description>Models with the Monster Keyword gain the Rending Special rule on their weapons</description>
             </rule>
           </rules>
           <constraints>
@@ -89,7 +89,7 @@
         <selectionEntry type="upgrade" import="true" name="Surprise Assault" hidden="false" id="4966-c017-483c-e94c">
           <rules>
             <rule name="Suprise Assault" id="345f-a773-5214-1681" hidden="false">
-              <description>Endless Multitude and Vanguard Invader Units in your army Have the Shrouded Special Rule</description>
+              <description>Endless Multitude and Vanguard Invader Units in your army Have the Shrouded Special Rule and Gain Cover outside 6&quot;</description>
             </rule>
           </rules>
           <constraints>
@@ -124,6 +124,66 @@
           </rules>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="629d-0ddd-403c-2338" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psyonic Burst" hidden="false" id="8da7-7d29-9fbc-ee4e">
+          <rules>
+            <rule name="Psyonic Burst" id="3e35-489b-ab69-3af6" hidden="false">
+              <description>Psyker Models in your Army May Re-roll 1 Dice When casting a Psyhic Power.</description>
+            </rule>
+          </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="039e-c239-6fdb-1b0e" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psyonic Thrust" hidden="false" id="f4b8-cd52-3bd2-c211">
+          <rules>
+            <rule name="Psyonic Thrust" id="3cc6-179f-a040-da86" hidden="false">
+              <description>Psychic Weapons in your army have the Sustained Hits 3 Special Rule.</description>
+            </rule>
+          </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7c87-6847-1978-87db" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psyonic Augmentation" hidden="false" id="6ea3-c6c9-06a9-d034">
+          <rules>
+            <rule name="Psyonic Augmentation" id="0548-9d34-4e09-eabe" hidden="false">
+              <description>Psyker Units in your army May cast 1 Additional Psychic Augment this turn.</description>
+            </rule>
+          </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f565-12f4-163a-6949" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Tide of Claws" hidden="false" id="173c-8c04-de4b-8057">
+          <rules>
+            <rule name="Tide of Claws" id="0797-fc8c-0b8b-cfbf" hidden="false">
+              <description>Endless Multitude Units from your army have the Sustained Hits 2 Special Rule for melee weapons</description>
+            </rule>
+          </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5053-2586-7310-3201" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Living Skyes" hidden="false" id="0754-be82-6843-b37e">
+          <rules>
+            <rule name="Living Skyes" id="ba74-4bc8-071f-f82e" hidden="false">
+              <description>Endless Multitude Units from your army have the Sustained Hits 1 Special Rule for Ranged weapons</description>
+            </rule>
+          </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a48e-c94f-9f9a-d9a7" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Crushing Strike" hidden="false" id="f8b8-eca5-67ee-7814">
+          <rules>
+            <rule name="Crushing Strike" id="7309-bdef-c8a8-29b3" hidden="false">
+              <description>Models with the Monster Keyword gain the Shred Special rule on their weapons</description>
+            </rule>
+          </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0c9a-30a4-b932-ff9f" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -7510,7 +7570,7 @@ At the end of your Shooting phase, select one enemy unit that had one or more mo
         <categoryLink name="HQ" hidden="false" id="badf-a8d9-e5b7-e5e4" targetId="df66-426b-8561-5154" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Nurothrope" hidden="false" id="555d-ac60-c908-ba25" targetId="2b93-64c6-25e2-e3fa" type="selectionEntry">
+    <entryLink import="true" name="Neurothrope" hidden="false" id="555d-ac60-c908-ba25" targetId="2b93-64c6-25e2-e3fa" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="HQ" hidden="false" id="7cc2-d1d8-9876-1aaa" targetId="df66-426b-8561-5154" primary="true"/>
       </categoryLinks>
