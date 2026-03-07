@@ -197,6 +197,11 @@
           </modifiers>
         </categoryLink>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="5"/>
+      </costs>
     </forceEntry>
     <forceEntry name="Brigade Detachment +12CP" id="503c-6ad1-98f2-8d4c" hidden="false">
       <categoryLinks>
@@ -256,6 +261,11 @@
           </modifiers>
         </categoryLink>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="12"/>
+      </costs>
     </forceEntry>
     <forceEntry name="Outrider Detachment +1CP" id="7e58-9d60-c9dc-2662" hidden="false">
       <categoryLinks>
@@ -312,6 +322,11 @@
           </modifiers>
         </categoryLink>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="1"/>
+      </costs>
     </forceEntry>
     <forceEntry name="Spearhead Detachment +1CP" id="c0fb-4ce7-f368-26e3" hidden="false">
       <categoryLinks>
@@ -368,6 +383,11 @@
           </modifiers>
         </categoryLink>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="1"/>
+      </costs>
     </forceEntry>
     <forceEntry name="Vanguard Detachment +1CP" id="a6f4-e872-c078-f016" hidden="false">
       <categoryLinks>
@@ -424,6 +444,28 @@
           </modifiers>
         </categoryLink>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="1"/>
+      </costs>
+    </forceEntry>
+    <forceEntry name="Super Heavy Auxillary +3" id="b224-71d0-1879-1dc2" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Lord of War" hidden="false" id="8595-bacd-1567-88fd" targetId="2891-0302-74c6-87b5">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="ca8d-4793-882f-1387"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a775-5e95-c928-4ab9"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Strategems" hidden="false" id="840e-e480-6075-f286" targetId="1865-5724-ebbb-f26e"/>
+        <categoryLink name="Configuration" hidden="false" id="aeda-8ed2-0f15-2e75" targetId="2eb6-e424-69d8-5b7c"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="5"/>
+      </costs>
     </forceEntry>
   </forceEntries>
   <costTypes>
@@ -705,6 +747,9 @@
     </rule>
     <rule name="Fights First" id="1384-8d09-f4b5-4f24" hidden="false">
       <description>Units with this ability that are eligible to fight do so in the Fights First step, provided every model in the unit has this ability. If you both have fights first Alternate Starting with the Defender</description>
+    </rule>
+    <rule name="Lethal Hits" id="102b-cf2d-76ec-9852" hidden="false">
+      <description>and Unmodified Hit roll of a 6 automatically wounds the target</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -1589,6 +1634,41 @@ Matched Play: This model and any units embarked aboard it are exempt from the Ta
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Devastating wounds</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Death to the False Emperor" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="2024-d649-d323-85c0">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Each time you target an IMPERIUM unit, Melee Attacks have sustained Hits 1 Special rule if the weapon already has sustained hits Add 1 to the sustained hits Value</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Daemonic" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="1f45-5b21-ff49-2884">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Units with this ability have a 5+ invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Combi-Bolter (C)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="bc91-cd2c-c664-4d7d">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Rapid Fire 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Reaper Autocannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="1b62-5564-d15c-9e15">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 4</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Teleport Strike" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="9acf-3f38-709d-6528">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">During deployment, you can set up this model in a teleportarium chamber instead of placing it on the battlefield. At the end of any of your Movement phases the model can use a teleport strike to arrive on the battlefield - set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

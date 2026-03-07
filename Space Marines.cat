@@ -398,6 +398,9 @@
                           </constraints>
                         </selectionEntry>
                       </selectionEntries>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c6c7-1083-f285-ffb6" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Occulus Bolt Carbine" hidden="false" id="5383-92a2-2b90-0ee1">
                       <infoLinks>
@@ -1828,6 +1831,9 @@
                           </constraints>
                         </selectionEntry>
                       </selectionEntries>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="71cb-658b-77a3-6bb3" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Occulus Bolt Carbine" hidden="false" id="ae78-64e9-6a17-034e">
                       <infoLinks>
@@ -3567,6 +3573,9 @@
                       </constraints>
                     </selectionEntry>
                   </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd24-32d2-7a46-fef6" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Master Crafted Occulus Bolt Carbine" hidden="false" id="9211-ac2f-ed53-a550">
                   <infoLinks>
@@ -6190,6 +6199,9 @@
                           </constraints>
                         </selectionEntry>
                       </selectionEntries>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2272-d7c7-2f6d-734b" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Occulus Bolt Carbine" hidden="false" id="6096-9b35-da8a-cbb6">
                       <infoLinks>
@@ -6571,6 +6583,7 @@
               </selectionEntries>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="self" shared="true" id="38bc-03d7-51f1-573c"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f568-29fd-7092-1869" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
           </selectionEntries>
@@ -7674,6 +7687,9 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
                       </constraints>
                     </selectionEntry>
                   </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ca7-4cca-9dde-a5d0" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Master Crafted Occulus Bolt Carbine" hidden="false" id="a474-a1d3-ac54-35e9">
                   <infoLinks>
@@ -7865,6 +7881,9 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
                       </constraints>
                     </selectionEntry>
                   </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="354a-e4ab-71df-7098" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Master Crafted Occulus Bolt Carbine" hidden="false" id="626d-3f13-b2a8-f16b">
                   <infoLinks>
@@ -8896,6 +8915,9 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
                       </constraints>
                     </selectionEntry>
                   </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e9ae-c158-694c-0afe" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Master Crafted Occulus Bolt Carbine" hidden="false" id="2891-859d-8238-4acb">
                   <infoLinks>
@@ -9302,6 +9324,9 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
                       </constraints>
                     </selectionEntry>
                   </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f549-cc00-9a09-c876" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Master Crafted Occulus Bolt Carbine" hidden="false" id="d049-e437-27be-de5a">
                   <infoLinks>
@@ -9701,6 +9726,9 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
                           </constraints>
                         </selectionEntry>
                       </selectionEntries>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d66-bc0a-7320-22ca" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Occulus Bolt Carbine" hidden="false" id="fa4c-af49-a87d-9787">
                       <infoLinks>
@@ -11750,6 +11778,9 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
                           </constraints>
                         </selectionEntry>
                       </selectionEntries>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8471-5b8f-704e-194d" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Occulus Bolt Carbine" hidden="false" id="66b2-4593-1deb-5bc2">
                       <infoLinks>
@@ -14960,6 +14991,9 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
                           </constraints>
                         </selectionEntry>
                       </selectionEntries>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a442-f845-64b7-6ba9" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Occulus Bolt Carbine" hidden="false" id="9a42-8108-b5ed-59c8">
                       <infoLinks>
@@ -17440,6 +17474,9 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
                       </constraints>
                     </selectionEntry>
                   </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9656-a232-443a-390d" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -18002,6 +18039,9 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
                       </constraints>
                     </selectionEntry>
                   </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7515-ab5f-1b32-0c04" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Master Crafted Occulus Bolt Carbine" hidden="false" id="4f66-4ed1-8876-a14f">
                   <infoLinks>
@@ -19666,6 +19706,9 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
                       </constraints>
                     </selectionEntry>
                   </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e2b4-e5de-ac0e-08e2" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Master Crafted Occulus Bolt Carbine" hidden="false" id="e836-0164-5b90-00d3">
                   <infoLinks>
@@ -20314,6 +20357,9 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
                       </constraints>
                     </selectionEntry>
                   </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bec5-f03f-8854-cd0d" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Master Crafted Occulus Bolt Carbine" hidden="false" id="7636-dcbe-e4bb-ecae">
                   <infoLinks>
@@ -20662,6 +20708,9 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
                       </constraints>
                     </selectionEntry>
                   </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e8a9-a647-4880-e85f" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -21217,6 +21266,9 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
                       </constraints>
                     </selectionEntry>
                   </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="558b-fb5c-4de3-a23c" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Occulus Bolt Carbine" hidden="false" id="1863-13f4-3b69-74e2">
                   <infoLinks>
@@ -21695,6 +21747,9 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
                       </constraints>
                     </selectionEntry>
                   </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="66fa-c25e-70c9-2778" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Occulus Bolt Carbine" hidden="false" id="8c72-1f31-e918-dec4">
                   <infoLinks>
