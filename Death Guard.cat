@@ -1588,6 +1588,272 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plague Company" hidden="false" id="ebc6-f147-51d5-4cdc">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="3283-a27b-3a5c-603b-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3283-a27b-3a5c-603b-max" includeChildSelections="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Mortarians Anvil" hidden="false" id="0484-f258-a963-204b"/>
+        <selectionEntry type="upgrade" import="true" name="The Harbingers" hidden="false" id="b836-7f4d-c291-776e"/>
+        <selectionEntry type="upgrade" import="true" name="The Inexorable" hidden="false" id="2f96-f5a8-acf6-3ff1"/>
+        <selectionEntry type="upgrade" import="true" name="The Wretched" hidden="false" id="f420-0fc3-3de6-6ff7"/>
+        <selectionEntry type="upgrade" import="true" name="The Poxmongers" hidden="false" id="0155-ee12-a7eb-ea9a"/>
+        <selectionEntry type="upgrade" import="true" name="The Ferrymen" hidden="false" id="a056-e31c-1037-b89c"/>
+        <selectionEntry type="upgrade" import="true" name="Mortarion&apos;s Chosen Sons" hidden="false" id="bbe9-61b7-85f7-1903"/>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Pestulators" hidden="false" id="a7e2-b22e-c2e0-f2b5">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Pestulator" hidden="false" id="7b9c-8e96-8327-e467">
+          <constraints>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="29e3-1ee8-ab13-cd8b" includeChildSelections="false"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="3cef-8380-cee1-8240" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Plague Marine" id="84fc-a24a-e5e5-396b" hidden="false" type="profile" targetId="bc86-acc6-9792-8970"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="23"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Plague Heavy Weapon" hidden="false" id="d34f-0dfa-1cb2-d132">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9f41-2130-a3e7-9128-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9f41-2130-a3e7-9128-max" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="193d-555d-ea80-356b" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Entropic Cannon" hidden="false" id="61df-5228-8a16-accd">
+                  <infoLinks>
+                    <infoLink name="Entropy Cannon" id="a0aa-5719-79f7-dc77" hidden="false" type="profile" targetId="8ec9-3800-77cb-e0e2"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f6a-c89b-c8bb-75a9" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Plague Heavy Bolter" hidden="false" id="9347-f900-3d5c-ee34">
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b5c-5a37-6301-fa60" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Plague Heavy Bolter" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="6272-6815-e0fc-60dd">
+                      <characteristics>
+                        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 3</characteristic>
+                        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+                        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+                        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+                        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Plague Weapon, Sustained hits</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Blightrain Autocannon" hidden="false" id="4b57-728a-cac0-281f">
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="74da-9528-68cb-2096" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Blightrain Autocannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="59db-8892-22e1-81fe">
+                      <characteristics>
+                        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&quot;</characteristic>
+                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 2</characteristic>
+                        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
+                        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+                        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+                        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Plague Weapon</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Blight Launcher" hidden="false" id="ef42-5660-db08-758c">
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="deba-bc6b-10a2-ed12" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Heavy Blight Launcher" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="3541-f2f2-19e1-01ea">
+                      <characteristics>
+                        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 4</characteristic>
+                        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+                        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+                        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+                        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Plague Weapon</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Blightbringer Chaingun" hidden="false" id="0bab-0951-c7bc-5fe9">
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Blightbringer Chaingun" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="4064-0c42-04db-88e8">
+                      <characteristics>
+                        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 8</characteristic>
+                        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+                        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+                        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Plague Weapon</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="696a-240f-ca39-801b" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Plague Champion" hidden="false" id="270d-21bb-8bdd-9c38">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d164-26ed-0f5f-8257-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d164-26ed-0f5f-8257-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Plague Marine Sargent" id="6064-0068-8843-6eea" hidden="false" type="profile" targetId="fadb-3bc6-bcc6-43f8"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="c596-7d07-2bce-aaa9">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="5497-c8c3-d0b3-d48b">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f7a-6b87-9430-df23" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="9"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Power Fist" id="f3eb-15e4-86ed-1a28" hidden="false" type="profile" targetId="224f-aeee-d137-5ce0"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="703f-87c0-b96f-8a61">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="140e-ac88-3c61-c259" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Bolt Pistol" id="56cf-4467-191f-775d" hidden="false" type="profile" targetId="1806-24b6-c877-b09c"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="fd0a-300e-05aa-f13d">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9bc-315a-0fec-1dac" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Boltgun" id="9d43-ce96-19c9-5472" hidden="false" type="profile" targetId="6e59-15d1-ba4a-238f"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Plague Knife" hidden="false" id="5e4d-91be-5429-cad0">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c205-c1b6-0b95-eb24" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Plague Knife" id="03c3-44e6-f4dc-a0e1" hidden="false" type="profile" targetId="62fc-b9fd-a1fc-396b"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="13c9-67dc-0a32-07e6">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="66db-3e4e-f3e6-5b0a" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Plasma Pistol" id="bcf7-0657-8bc9-74ed" hidden="false" type="profile" targetId="4cad-8e15-0a15-5da1"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Plasma gun" hidden="false" id="be64-5b89-a09d-1d96">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f4e4-b566-6f91-7cb7" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="11"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Plasma Gun" id="4d4c-1804-feda-c39f" hidden="false" type="profile" targetId="e405-dfde-fb54-5782"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Plaguesword" hidden="false" id="58bc-d22f-59a7-4257">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d5b-9271-53df-f864" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="1"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Plague Sword" id="6d09-7bb8-6968-efa1" hidden="false" type="profile" targetId="86aa-4e86-1c62-006a"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="self" shared="true" id="dfee-17a4-572e-af00" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c6d-22c4-c2f6-adf7" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="23"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Hateful Assault" id="9c63-c965-14d7-a2c4" hidden="false" type="rule" targetId="73c3-c791-cd2f-6ad2"/>
+        <infoLink name="Disgustingly Resilient" id="70f9-2469-6d68-a49b" hidden="false" type="profile" targetId="69b0-824a-e032-be02"/>
+        <infoLink name="Death to the False Emperor" id="e1e4-a761-3b18-a3b9" hidden="false" type="profile" targetId="2024-d649-d323-85c0"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Relentless March" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="b822-db7f-3117-68c8">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This unit can move and fire Heavy weapons without penalty</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="7b13-fba9-fb18-8e00" targetId="2853-e9f2-7a9e-0e91" primary="false"/>
+        <categoryLink name="Faction: Chaos" hidden="false" id="81fd-ead8-88be-3e14" targetId="fe3b-618d-1e31-f4db" primary="false"/>
+        <categoryLink name="Faction: Heretic Astartes" hidden="false" id="c8c6-5b76-8b15-a330" targetId="0349-c0bf-197c-9f69" primary="false"/>
+        <categoryLink name="Faction: Nurgle" hidden="false" id="14ca-b2ca-48bf-c7c8" targetId="bd7a-da51-0607-4803" primary="false"/>
+        <categoryLink name="Faction: Death Guard" hidden="false" id="0057-3659-3ef2-a1cc" targetId="868e-c7b1-6069-f31f" primary="false"/>
+        <categoryLink name="Plague Company" hidden="false" id="3dd4-d35e-cdf9-5636" targetId="604b-6fa4-c84e-08eb" primary="false"/>
+        <categoryLink name="Bulwark" hidden="false" id="fb42-0f40-982a-1eea" targetId="d5a3-05eb-a3f1-5bfe" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Plague Marines" hidden="false" id="c69f-8b53-3cd4-63a9" targetId="a977-9492-7459-841c" type="selectionEntry">
@@ -1645,6 +1911,11 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
         <categoryLink name="Configuration" hidden="false" id="73f4-7640-8b5c-2127" targetId="2eb6-e424-69d8-5b7c" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Pestulators" hidden="false" id="9289-fc52-dd0e-8d47" targetId="a7e2-b22e-c2e0-f2b5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Heavy Support" hidden="false" id="4e6d-6b81-4f9e-ae2a" targetId="4597-ff43-1b4c-478d" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedProfiles>
     <profile name="Plague Knife" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="62fc-b9fd-a1fc-396b">
@@ -1654,7 +1925,7 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Plague Weapon, If you have 2 Plague Knives Equipped </characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Plague Weapon, If you have 2 Plague Knives Equipped</characteristic>
       </characteristics>
     </profile>
     <profile name="Plague Marine" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="bc86-acc6-9792-8970">
