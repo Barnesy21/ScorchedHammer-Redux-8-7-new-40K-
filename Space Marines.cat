@@ -21871,6 +21871,365 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
         <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="7cf0-413d-9233-7d52" primary="false" name="Faction: Imperium"/>
       </categoryLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="(Sal) Adrax Agatone" hidden="true" id="60f3-83f8-5ec4-594c">
+      <profiles>
+        <profile name="(Sal) Adrax Agatone" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="2344-9285-c7a7-d703">
+          <characteristics>
+            <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+            <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+            <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+            <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+            <characteristic name="T" typeId="7dd6-7000-6498-6a92">4</characteristic>
+            <characteristic name="W" typeId="f05f-2129-62a8-9a30">6</characteristic>
+            <characteristic name="A" typeId="d794-d261-842e-1ef8">5</characteristic>
+            <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+            <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Unto the Anvil" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="193e-4dc4-8797-3d6a">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Add 1 to wound rolls for attacks made with melee weapons by models in friendly SALAMANDERS units whilst their unit is within 6&quot; of this model and if that unit made a charge move, was charged or performed a Heroic Intervention this turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Arridian Drakehide Cloak" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="614f-895d-6e43-0d3d">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">When resolving an attack against this model, reduce the Damage characteristic of the weapon used by 1, to a minimum of 1, for that attack.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Drakkis" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="3d21-82f5-2b41-cb34">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault D6</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Torrant</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Malleus Noctum" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="0118-0192-9e04-9904">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">x2</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">4</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Unwieldy</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Rites of battle" id="51e4-1acf-d4f7-7631" hidden="false" type="profile" targetId="e8c1-0912-32e1-607e"/>
+        <infoLink name="Iron Halo" id="01ea-1a29-b2c4-6056" hidden="false" type="profile" targetId="d397-3f45-5d92-64dd"/>
+        <infoLink name="Krak Grenade" id="4e2e-8c78-d5ba-1f4f" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+        <infoLink name="Frag Grenade" id="f24c-b1ee-6f2f-9bbe" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+        <infoLink name="Angels of Death" id="bc9f-21b6-2ceb-94c2" hidden="false" type="rule" targetId="01a4-bec8-b573-fde7"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="140"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="3e3f-a84c-cfa2-0462">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e9e3-472c-2a93-6345" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+          <profiles>
+            <profile name="Lord of Fire" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="d0ef-2d41-c59c-f30c">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">There are no secrets of flame and fire unknown to this Salamander, and he uses them in battle like no other.You can re-roll the dice to determine the number of attacks made with flame weapons (see Codex: Space Marines) by friendly SALAMANDERS models whilst their unit is within 6&quot; of this Warlord.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Stratagem: Hero of the Chapter" hidden="false" id="d656-e6df-62a8-d3cf" type="selectionEntry" targetId="a1ac-dcc0-159e-c943">
+          <profiles>
+            <profile name="Lord of Fire" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="7030-cd00-b527-c485">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">There are no secrets of flame and fire unknown to this Salamander, and he uses them in battle like no other.You can re-roll the dice to determine the number of attacks made with flame weapons (see Codex: Space Marines) by friendly SALAMANDERS models whilst their unit is within 6&quot; of this Warlord.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7d40-d55a-04d6-7055" shared="true" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Character" hidden="false" id="e2e2-6623-a865-3373" targetId="3275-df5e-2474-90ed" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="bebf-1c6a-b1d7-072f" targetId="2853-e9f2-7a9e-0e91" primary="false"/>
+        <categoryLink name="Faction: Adeptus Astartes" hidden="false" id="b7ad-24ac-cb83-1a54" targetId="d419-b07a-d287-f96c" primary="false"/>
+        <categoryLink name="Faction: Imperium" hidden="false" id="1401-eb4a-2a26-d4a7" targetId="fb8f-9c9a-4f7c-d364" primary="false"/>
+        <categoryLink name="Adeptus Astartes" hidden="false" id="61b8-7701-e8fa-a204" targetId="0ed8-ef39-46e7-3be8" primary="false"/>
+        <categoryLink name="Faction: Salamanders" hidden="false" id="4c8c-015a-df6d-01b5" targetId="649e-1866-2617-040d" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Stratagem: Hero of the Chapter" hidden="false" id="a1ac-dcc0-159e-c943">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f98b-8104-ef84-48da" includeChildSelections="true"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="-1"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="(Sal) Bray&apos;arth Ashmantle" hidden="true" id="6f73-f411-029b-80a2">
+      <profiles>
+        <profile name="(Sal) Bray&apos;arth Ashmantle" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="c20b-3202-8141-ebd1">
+          <characteristics>
+            <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+            <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+            <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+
+</characteristic>
+            <characteristic name="S" typeId="ffee-9c9b-6655-d843">8</characteristic>
+            <characteristic name="T" typeId="7dd6-7000-6498-6a92">9</characteristic>
+            <characteristic name="W" typeId="f05f-2129-62a8-9a30">8</characteristic>
+            <characteristic name="A" typeId="d794-d261-842e-1ef8">4</characteristic>
+            <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+            <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ancient Beyond Measure" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="1d47-cc54-84a4-6e5e">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">If your army is Battle-forged, then Bray&apos;arth Ashmantle may only be your Warlord if no other HQ units are present.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Wrought by Vulkan" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="1610-d0ff-c924-a83b">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Bray&apos;arth Ashmantle has a 5+ invulnerable save. In addition, roll a D6 each time this model loses a wound; on a 4+ the damage is ignored and that wound is not lost.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Burning Wrath" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="3d2b-b820-bcf9-4cd9">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">2&quot;</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Pistol 2D6</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Torrant</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dreadfire claw" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="53bb-e9e9-dc22-1b9f">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">x2</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dreadfire claw" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="89c6-90b0-7749-e0b8">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">x2</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dreadfire Heavy Flamer" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="4200-ea32-3da1-7b89">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy D6</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Torrant</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dreadfire Heavy Flamer" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="a0c3-5b75-284e-6057">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy D6</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Torrant</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Explodes D6" id="0d32-d596-bd04-603a" hidden="false" type="profile" targetId="3ae3-6036-8383-2f89"/>
+        <infoLink name="Smoke Launchers" id="931b-184d-49e5-7181" hidden="false" type="rule" targetId="51af-0fb9-3ca5-d307"/>
+        <infoLink name="Angels of Death" id="0e17-368a-6c8b-7e40" hidden="false" type="rule" targetId="01a4-bec8-b573-fde7"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="325"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="6b19-6fbf-ef0c-6366">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c389-2e02-3f7d-ac54" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+          <profiles>
+            <profile name="Lord of Fire" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="655f-862a-47b0-b1f3">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">There are no secrets of flame and fire unknown to this Salamander, and he uses them in battle like no other.You can re-roll the dice to determine the number of attacks made with flame weapons (see Codex: Space Marines) by friendly SALAMANDERS models whilst their unit is within 6&quot; of this Warlord.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7d40-d55a-04d6-7055" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Character" hidden="false" id="3fb0-d8bc-2348-6bfa" targetId="3275-df5e-2474-90ed" primary="false"/>
+        <categoryLink name="Walker" hidden="false" id="67f1-cae5-ca3f-8008" targetId="a87c-ffdd-175d-cbcb" primary="false"/>
+        <categoryLink name="Faction: Adeptus Astartes" hidden="false" id="57cd-c609-7879-8e8b" targetId="d419-b07a-d287-f96c" primary="false"/>
+        <categoryLink name="Faction: Imperium" hidden="false" id="1af0-9bec-d622-3206" targetId="fb8f-9c9a-4f7c-d364" primary="false"/>
+        <categoryLink name="Adeptus Astartes" hidden="false" id="98e4-815d-c641-5cd4" targetId="0ed8-ef39-46e7-3be8" primary="false"/>
+        <categoryLink name="Faction: Salamanders" hidden="false" id="0198-4300-527a-5473" targetId="649e-1866-2617-040d" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="(Sal) Harath Shen" hidden="true" id="b592-bd55-90f2-1d96">
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="75"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="(Sal) Harath Shen" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="5f6e-9294-9557-75e7">
+          <characteristics>
+            <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+            <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+            <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">3+</characteristic>
+            <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+            <characteristic name="T" typeId="7dd6-7000-6498-6a92">4</characteristic>
+            <characteristic name="W" typeId="f05f-2129-62a8-9a30">5</characteristic>
+            <characteristic name="A" typeId="d794-d261-842e-1ef8">3</characteristic>
+            <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+            <characteristic name="Save" typeId="952f-14da-4484-d1ea">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Master of Chirurgery" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="cd34-0a88-398b-2895">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">At the end of any of your Movement phases, Harath Shen can attempt to heal or revive a single model. Select a friendly SALAMANDERS INFANTRY or BIKER unit within 3&quot; of the Harath Shen. If that unit contains a wounded model, it immediately regains D3+1 lost wounds. If the chosen unit contains no wounded models but one or more of its models have been slain during the battle, roll a D6. On a 3+, a single slain model is returned to the unit with 1 wound remaining. If Harath Shen fails to revive a model, he can do nothing else for the remainder of the turn (shoot, charge, fight, etc.) as he recovers the gene-seed of the fallen warrior. A unit can only be the target of the Narthecium/Master of Chirurgery ability once in each turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bloodfire" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="7d86-1d6b-09d0-9990">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Pistol 1</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Power Saber" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="0381-6aee-2b80-142c">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Frag Grenade" id="d97e-57f2-1547-a3a1" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+        <infoLink name="Krak Grenade" id="3325-c303-16d6-8ad4" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+        <infoLink name="Angels of Death" id="c68e-c44c-2e81-8381" hidden="false" type="rule" targetId="01a4-bec8-b573-fde7"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7d40-d55a-04d6-7055" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Character" hidden="false" id="d2a0-2af7-d973-9b70" targetId="3275-df5e-2474-90ed" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="37d1-647a-37e3-4dff" targetId="2853-e9f2-7a9e-0e91" primary="false"/>
+        <categoryLink name="Faction: Adeptus Astartes" hidden="false" id="49e8-44d8-53b4-99fe" targetId="d419-b07a-d287-f96c" primary="false"/>
+        <categoryLink name="Faction: Imperium" hidden="false" id="ccc4-637f-f54e-8a3b" targetId="fb8f-9c9a-4f7c-d364" primary="false"/>
+        <categoryLink name="Adeptus Astartes" hidden="false" id="2e1f-7a89-6a65-6874" targetId="0ed8-ef39-46e7-3be8" primary="false"/>
+        <categoryLink name="Faction: Salamanders" hidden="false" id="263f-22b9-b285-9888" targetId="649e-1866-2617-040d" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="(Sal) Vulkan He&apos;stan" hidden="false" id="8527-958a-dba9-46d9">
+      <infoLinks>
+        <infoLink name="Angels of Death" id="78c9-7272-fbed-6e69" hidden="false" type="rule" targetId="01a4-bec8-b573-fde7"/>
+        <infoLink name="Krak Grenade" id="e205-48e8-fb06-ea1e" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+        <infoLink name="Frag Grenade" id="ec46-3672-c2c8-2cd3" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+        <infoLink name="Bolt Pistol" id="834d-a27b-84a8-f8c9" hidden="false" type="profile" targetId="1806-24b6-c877-b09c"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7d40-d55a-04d6-7055" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="(Sal) Vulkan He&apos;stan" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="b4e0-f674-efaf-19e7">
+          <characteristics>
+            <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+            <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+            <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+            <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+            <characteristic name="T" typeId="7dd6-7000-6498-6a92">4</characteristic>
+            <characteristic name="W" typeId="f05f-2129-62a8-9a30">6</characteristic>
+            <characteristic name="A" typeId="d794-d261-842e-1ef8">4</characteristic>
+            <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+            <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Kesare&apos;s Mantle" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="6a26-5920-8b7c-e73f">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Vulkan He&apos;stan has a 3+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Forgefather" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="d3ae-49b7-a5e4-d7ce">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">You can re-roll hit rolls and you can re- roll wound rolls for attacks made with flame weapons or melta weapons by models in friendly SALAMANDERS units whilst their unit is within 6&quot; of this model. For purposes of this ability, a melta weapon is any weapon profile whose name includes the word &apos;melta&apos; and a flame weapon is any weapon profile whose name includes the word &apos;flame&apos;. Vulkan He&apos;stan&apos;s Gauntlet of the Forge is also a flame weapon.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Gauntlet of the Forge" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="bd2c-7ead-7182-ed48">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">D6+3</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Torrant, Ignores cover</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Spear of Vulkan" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="c8b4-5d83-1d2a-06b6">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Devastating wounds</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Space Marine" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="6c97-2c07-9834-8355">
@@ -24105,6 +24464,21 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
         <categoryLink targetId="4597-ff43-1b4c-478d" id="dc2c-c00d-ceed-0ef4" primary="true" name="Heavy Support"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="(Sal) Adrax Agatone" hidden="false" id="a442-a03d-5f43-d074" targetId="60f3-83f8-5ec4-594c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="HQ" hidden="false" id="423d-2dcd-7cb0-5aa3" targetId="df66-426b-8561-5154" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="(Sal) Bray&apos;arth Ashmantle" hidden="false" id="ef78-dec3-a176-20ac" targetId="6f73-f411-029b-80a2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="HQ" hidden="false" id="ddb9-a51f-82bb-94df" targetId="df66-426b-8561-5154" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="(Sal) Harath Shen" hidden="false" id="d4f4-14fe-08a4-c7cc" targetId="b592-bd55-90f2-1d96" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="HQ" hidden="false" id="1d09-748e-0191-17b6" targetId="df66-426b-8561-5154" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <categoryEntries>
     <categoryEntry name="Adeptus Astartes" id="0ed8-ef39-46e7-3be8" hidden="false"/>
@@ -24114,5 +24488,9 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
     <categoryEntry name="Phobos" id="c28d-9023-be22-0c3b" hidden="false"/>
     <categoryEntry name="Gravis" id="af89-22a2-c4cd-0e85" hidden="false"/>
     <categoryEntry name="Terminator" id="c1cc-f873-78bf-52a2" hidden="false"/>
+    <categoryEntry name="Faction: Salamanders" id="649e-1866-2617-040d" hidden="false"/>
+    <categoryEntry name="Faction: Imperial Fists" id="3fa3-73a3-a66f-967f" hidden="false"/>
+    <categoryEntry name="Faction: Raven guard" id="f268-2602-fbf8-1350" hidden="false"/>
+    <categoryEntry name="Faction: Ultramarines" id="8044-774d-7a6e-8662" hidden="false"/>
   </categoryEntries>
 </catalogue>

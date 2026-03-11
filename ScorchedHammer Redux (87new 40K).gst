@@ -61,6 +61,7 @@
     <categoryEntry name="Titanic" id="8fd7-9e42-1362-fa3a" hidden="false"/>
     <categoryEntry name="Squadron" id="32c7-bd0c-be24-947e" hidden="false"/>
     <categoryEntry name="Daemon Engine" id="99ca-3b7e-4b57-d1cb" hidden="false"/>
+    <categoryEntry name="Daemon" id="eaba-5458-ed6b-b752" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Unrestricted" id="f60d-e135-0f6e-16f2" hidden="false">
@@ -84,6 +85,7 @@
         <categoryLink name="Flyer" hidden="false" id="6afe-8ed1-ce81-3793" targetId="5227-ca6a-0424-8c0c"/>
         <categoryLink name="Dedicated Transport" hidden="false" id="f199-a97c-8889-37d0" targetId="21a4-2f2e-888a-1b11"/>
         <categoryLink name="Lord of War" hidden="false" id="8271-68df-48b1-e6df" targetId="2891-0302-74c6-87b5"/>
+        <categoryLink name="Primarch" hidden="false" id="b6ca-6a73-c26a-637c" targetId="f155-f5fb-8a74-0926"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry name="Patrol Detachment" id="a190-9514-e026-87ea" hidden="false">
@@ -750,6 +752,9 @@
     </rule>
     <rule name="Lethal Hits" id="102b-cf2d-76ec-9852" hidden="false">
       <description>and Unmodified Hit roll of a 6 automatically wounds the target</description>
+    </rule>
+    <rule name="Instant Death" id="2c8b-f4f4-8aae-4cf9" hidden="false">
+      <description>Infantry Models Hit by a weapon with this special rule if saves are failed are reduced to 0 wounds.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -1669,6 +1674,46 @@ Matched Play: This model and any units embarked aboard it are exempt from the Ta
     <profile name="Teleport Strike" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="9acf-3f38-709d-6528">
       <characteristics>
         <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">During deployment, you can set up this model in a teleportarium chamber instead of placing it on the battlefield. At the end of any of your Movement phases the model can use a teleport strike to arrive on the battlefield - set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Phosphex Bombs" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="4344-63b6-b9ab-9892">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">6&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Grenade D6</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Instant Death</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Malefic Talons" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="5db9-a7fe-d2d8-e0f7">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Extra Attack, if two talons are equipped, this weapon has Extra Attacks 3</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hellforged Sword" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="1b3f-3edf-cdff-2cd1">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Daemonic Axe" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="2ca2-fbd8-b55f-18ee">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+1</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Unwieldy</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

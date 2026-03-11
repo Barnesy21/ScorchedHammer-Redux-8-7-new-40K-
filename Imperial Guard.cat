@@ -1483,6 +1483,11 @@
         <characteristic name="Save" typeId="952f-14da-4484-d1ea">4+</characteristic>
       </characteristics>
     </profile>
+    <profile name="Death March" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="c20f-9298-622d-8953">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This unit has a 5+ Feel No Pain Save</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <categoryEntries>
     <categoryEntry name="Faction: &lt;REGIMENT&gt;" id="6466-1173-0f9f-9c6c" hidden="false"/>
@@ -2209,7 +2214,8 @@
           <constraints>
             <constraint type="min" value="2" field="selections" scope="self" shared="true" id="6d8c-32b5-c0fa-2a59" includeChildSelections="false"/>
             <constraint type="max" value="4" field="selections" scope="self" shared="true" id="d35d-be19-6f65-fbee" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d73b-6286-a854-b9a2" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d73b-6286-a854-b9a2-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d73b-6286-a854-b9a2-max" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Leaders" hidden="false" id="b4b6-d49e-eb7a-e950">
@@ -2380,8 +2386,8 @@
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="617b-3fc6-5392-5472-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="617b-3fc6-5392-5472-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="617b-3fc6-5392-5472-max-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="617b-3fc6-5392-5472-max-max" includeChildSelections="false"/>
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="3a7a-ca47-5e0d-43f8" includeChildSelections="false"/>
             <constraint type="max" value="2" field="selections" scope="self" shared="true" id="6030-f93c-14b5-6bf1" includeChildSelections="false"/>
           </constraints>
@@ -2412,7 +2418,8 @@
           <constraints>
             <constraint type="min" value="2" field="selections" scope="self" shared="true" id="3201-8032-6bb9-62ce" includeChildSelections="false"/>
             <constraint type="max" value="5" field="selections" scope="self" shared="true" id="2d2c-ca04-b526-db11" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e2e8-a882-0dc8-03c2" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e2e8-a882-0dc8-03c2-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e2e8-a882-0dc8-03c2-max" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Platoon Command Squad" hidden="false" id="dff2-494a-5cf1-1252">
@@ -2426,8 +2433,8 @@
           <constraints>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1a9f-9827-a0c4-f6a5" includeChildSelections="false"/>
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="ebc6-6c2a-4640-c417-min" includeChildSelections="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ebc6-6c2a-4640-c417-max-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ebc6-6c2a-4640-c417-max-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ebc6-6c2a-4640-c417-max-max-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ebc6-6c2a-4640-c417-max-max-max" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Conscript Squads" hidden="false" id="70ee-a519-de20-d1b9">
@@ -6923,7 +6930,8 @@ Models in those units count as having made a Normal Move this phase they cannon 
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7508-6b70-aaaa-c4e4" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7508-6b70-aaaa-c4e4-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7508-6b70-aaaa-c4e4-max" includeChildSelections="false"/>
             <constraint type="min" value="2" field="selections" scope="self" shared="true" id="6097-f542-0ab0-6ee3" includeChildSelections="false"/>
             <constraint type="max" value="4" field="selections" scope="self" shared="true" id="783f-5b49-4262-ad2f" includeChildSelections="false"/>
           </constraints>
@@ -7105,8 +7113,8 @@ Models in those units count as having made a Normal Move this phase they cannon 
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3ca2-8bdc-d6b0-018c-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ca2-8bdc-d6b0-018c-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3ca2-8bdc-d6b0-018c-max-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ca2-8bdc-d6b0-018c-max-max" includeChildSelections="false"/>
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="b962-584d-5e48-62d8" includeChildSelections="false"/>
             <constraint type="max" value="2" field="selections" scope="self" shared="true" id="be94-c992-5dd9-5bcf" includeChildSelections="false"/>
           </constraints>
@@ -7954,12 +7962,20 @@ Models in those units count as having made a Normal Move this phase they cannon 
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Command Element" hidden="false" id="3950-51bf-40bf-cc6f">
           <entryLinks>
-            <entryLink import="true" name="Rough Rider Command Squad" hidden="false" id="05a5-0e64-e27d-d020" type="selectionEntry" targetId="4069-6bf9-cdab-98e7"/>
-            <entryLink import="true" name="Death Rider Command Squad" hidden="false" id="951a-3203-b043-f2e2" type="selectionEntry" targetId="ee8d-5b23-a817-5ecc"/>
+            <entryLink import="true" name="Rough Rider Command Squad" hidden="false" id="05a5-0e64-e27d-d020" type="selectionEntry" targetId="4069-6bf9-cdab-98e7">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e38-0180-a667-1a72" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Death Rider Command Squad" hidden="false" id="951a-3203-b043-f2e2" type="selectionEntry" targetId="ee8d-5b23-a817-5ecc">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b050-4923-fca1-74f7" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="db26-52dd-3a29-b1c7-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db26-52dd-3a29-b1c7-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="db26-52dd-3a29-b1c7-max-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db26-52dd-3a29-b1c7-max-max" includeChildSelections="false"/>
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="642e-bc06-55bc-dcff" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3e83-8dec-8041-280d" includeChildSelections="false"/>
           </constraints>
@@ -8928,7 +8944,7 @@ Models in those units count as having made a Normal Move this phase they cannon 
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Rough Rider Command Squad" hidden="false" id="4069-6bf9-cdab-98e7">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Veterans Death Riders" hidden="false" id="62c7-adb1-d138-832b">
+        <selectionEntry type="upgrade" import="true" name="Veterans Rough Riders" hidden="false" id="62c7-adb1-d138-832b">
           <selectionEntries>
             <selectionEntry type="model" import="true" name="/WF Medi-pack" hidden="false" id="7d76-cb9b-9606-6f7c">
               <infoLinks>
@@ -9023,10 +9039,154 @@ Models in those units count as having made a Normal Move this phase they cannon 
                 <entryLink import="true" name="Lasguns" hidden="false" id="ba93-2dda-2ecc-692e" type="selectionEntry" targetId="8b56-695b-3d8e-673e"/>
               </entryLinks>
             </selectionEntry>
+            <selectionEntry type="model" import="true" name="Veteran Rough Rider" hidden="false" id="db31-39f4-e787-bad3">
+              <constraints>
+                <constraint type="max" value="4" field="selections" scope="self" shared="true" id="0d15-e18f-ec37-051a" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70a2-415f-933e-64a6" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Veteran Rough Rider" id="e49b-5cc7-cd08-5ae2" hidden="false" type="profile" targetId="6f2e-61ab-bba8-0da3"/>
+                <infoLink name="Hunting Lance (Frag tip)" id="1e23-b63a-25e9-80a4" hidden="false" type="profile" targetId="f5ef-50be-a575-9a95"/>
+                <infoLink name="Hunting Lance (Melta tip)" id="173c-0a69-c3d6-d45c" hidden="false" type="profile" targetId="b8e0-a28a-a53a-07b3"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Laspistol and Chainsword" hidden="false" id="99b6-80f4-b477-0159">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ffa-ac0d-9abd-ce43" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Chainsword" id="9cda-f331-74e7-5597" hidden="false" type="profile" targetId="1dcb-d141-e4b1-dea0"/>
+                    <infoLink name="Laspistol" id="98c5-bb1e-0f76-7827" hidden="false" type="profile" targetId="1911-a700-cd50-763d"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="11"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Lasguns" hidden="false" id="2c65-1362-cebf-8ae0" type="selectionEntry" targetId="8b56-695b-3d8e-673e"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="/WF Special Rule" hidden="false" id="1d7c-a983-f619-fb25">
+              <constraints>
+                <constraint type="max" value="4" field="selections" scope="self" shared="true" id="c4b7-e9fd-3b78-fa9f" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c512-da1e-1ceb-c26f" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Vox-caster" id="579b-d12f-1e72-76f1" hidden="false" type="profile" targetId="db7b-4363-dafb-35cd"/>
+                <infoLink name="Veteran Rough Rider" id="a7c6-0bdc-d992-a1f3" hidden="false" type="profile" targetId="6f2e-61ab-bba8-0da3"/>
+                <infoLink name="Hunting Lance (Frag tip)" id="7e22-c698-484a-b329" hidden="false" type="profile" targetId="f5ef-50be-a575-9a95"/>
+                <infoLink name="Hunting Lance (Melta tip)" id="1ffa-2216-fb99-a37e" hidden="false" type="profile" targetId="b8e0-a28a-a53a-07b3"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Laspistol and Chainsword" hidden="false" id="72a9-3d90-30e7-3ab3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0caa-80ad-f89b-fe60" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Chainsword" id="8331-967b-6d7c-91cb" hidden="false" type="profile" targetId="1dcb-d141-e4b1-dea0"/>
+                    <infoLink name="Laspistol" id="2315-7661-45ce-220e" hidden="false" type="profile" targetId="1911-a700-cd50-763d"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Special Weapon" hidden="false" id="977a-f9f2-1063-5578">
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="4"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Special Weapon" hidden="false" id="fb1c-a0fe-db75-6a0e">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="cef0-7d2a-7226-c621">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b4fc-99ec-b217-1c53" includeChildSelections="false"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink name="Flamer" id="48f5-4e34-e1f5-dbbe" hidden="false" type="profile" targetId="c8ec-c3db-58e3-1daf"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Grenade Launcher" hidden="false" id="f8e7-329b-625e-4ed9">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d051-78f4-0167-3601" includeChildSelections="false"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink name="Grenade Launcher (Frag)" id="30d9-b4a7-738b-fb36" hidden="false" type="profile" targetId="3b8f-0441-f224-86ad"/>
+                            <infoLink name="Grenade Launcher (Krak)" id="e3e9-f204-e856-c68f" hidden="false" type="profile" targetId="db0f-6f31-f228-0fb1"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="bd1b-0782-04f7-3507">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="fdb5-55d4-e3a7-30a6" includeChildSelections="false"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink name="Meltagun" id="e74a-21b2-38f3-5874" hidden="false" type="profile" targetId="0457-12b1-1d6e-b59d"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="5bdf-86c4-2b52-f8cd">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c575-4dee-f1b0-398e" includeChildSelections="false"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink name="Plasma Gun" id="43eb-b32f-e315-0321" hidden="false" type="profile" targetId="e405-dfde-fb54-5782"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="7"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Long-Las" hidden="false" id="de97-37e3-ab90-5a2b">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0c7c-c2b9-7597-3245" includeChildSelections="false"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink name="Long-Las" id="00b6-b666-c1c3-69dc" hidden="false" type="profile" targetId="bf45-3a12-b25b-ef62"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="417e-9aa2-1b6d-7fb9" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d3e-c715-26fb-7567" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b90-31b1-84e2-32a3" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="11"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7b29-5239-a7aa-2a58-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b29-5239-a7aa-2a58-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7b29-5239-a7aa-2a58-max-max-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b29-5239-a7aa-2a58-max-max-max" includeChildSelections="false"/>
             <constraint type="min" value="2" field="selections" scope="self" shared="true" id="fb83-9836-8f11-295b" includeChildSelections="false"/>
             <constraint type="max" value="4" field="selections" scope="self" shared="true" id="e9fb-6c23-2cce-f36a" includeChildSelections="false"/>
           </constraints>
@@ -9383,9 +9543,9 @@ Models in those units count as having made a Normal Move this phase they cannon 
         <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="dbaa-794f-48e8-e68c" primary="false" name="Faction: Imperium"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Death Rider Command Squad" hidden="false" id="ee8d-5b23-a817-5ecc">
+    <selectionEntry type="unit" import="true" name="Death Rider Command Squad" hidden="true" id="ee8d-5b23-a817-5ecc">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Veterans Rough Riders" hidden="false" id="2f4c-be0a-0bc3-1add">
+        <selectionEntry type="upgrade" import="true" name="Veterans Death Riders" hidden="false" id="2f4c-be0a-0bc3-1add">
           <selectionEntries>
             <selectionEntry type="model" import="true" name="/WF Medi-pack" hidden="false" id="0b0c-3f5f-bd42-bfd3">
               <infoLinks>
@@ -9393,19 +9553,17 @@ Models in those units count as having made a Normal Move this phase they cannon 
                 <infoLink name="Veteran Death Rider" id="90c9-e787-242b-4b50" hidden="false" type="profile" targetId="c16f-2ed4-565c-f433"/>
                 <infoLink name="Hunting Lance (Frag tip)" id="ec45-66ee-1008-487d" hidden="false" type="profile" targetId="f5ef-50be-a575-9a95"/>
                 <infoLink name="Power Saber" id="2a4d-8b5d-ff99-d3db" hidden="false" type="profile" targetId="8e96-e4a0-bfff-101d"/>
+                <infoLink name="Helbore Lasgun" id="2a13-3b40-9907-326e" hidden="false" type="profile" targetId="105b-5bd8-1ae2-2938"/>
               </infoLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="23f0-eedc-5b9f-b2a8" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3d1f-cdab-4b86-de91" includeChildSelections="false"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
                 <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
                 <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
               </costs>
-              <entryLinks>
-                <entryLink import="true" name="Lasguns" hidden="false" id="0813-c639-3c6a-6c1c" type="selectionEntry" targetId="8b56-695b-3d8e-673e"/>
-              </entryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="/WF Platoon Standard" hidden="false" id="f9e1-c6a5-9d84-1a02">
               <constraints>
@@ -9417,15 +9575,13 @@ Models in those units count as having made a Normal Move this phase they cannon 
                 <infoLink name="Hunting Lance (Frag tip)" id="e0ef-a302-9339-010a" hidden="false" type="profile" targetId="f5ef-50be-a575-9a95"/>
                 <infoLink name="Veteran Death Rider" id="a727-dde9-69c2-95e8" hidden="false" type="profile" targetId="c16f-2ed4-565c-f433"/>
                 <infoLink name="Power Saber" id="1960-0b31-a638-b2a8" hidden="false" type="profile" targetId="8e96-e4a0-bfff-101d"/>
+                <infoLink name="Helbore Lasgun" id="70a2-da6a-b30c-ab9f" hidden="false" type="profile" targetId="105b-5bd8-1ae2-2938"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="11"/>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
                 <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
                 <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
               </costs>
-              <entryLinks>
-                <entryLink import="true" name="Lasguns" hidden="false" id="6477-d7a6-888f-5977" type="selectionEntry" targetId="8b56-695b-3d8e-673e"/>
-              </entryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="/WF Vox-Caster" hidden="false" id="e3b9-704c-64f1-d16e">
               <constraints>
@@ -9437,20 +9593,138 @@ Models in those units count as having made a Normal Move this phase they cannon 
                 <infoLink name="Hunting Lance (Frag tip)" id="88bd-d866-e70c-e8cf" hidden="false" type="profile" targetId="f5ef-50be-a575-9a95"/>
                 <infoLink name="Veteran Death Rider" id="7055-fcaa-004f-7617" hidden="false" type="profile" targetId="c16f-2ed4-565c-f433"/>
                 <infoLink name="Power Saber" id="898a-6b2a-2755-a5e1" hidden="false" type="profile" targetId="8e96-e4a0-bfff-101d"/>
+                <infoLink name="Helbore Lasgun" id="b805-a2ed-9abc-19fe" hidden="false" type="profile" targetId="105b-5bd8-1ae2-2938"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="11"/>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
                 <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
                 <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
               </costs>
-              <entryLinks>
-                <entryLink import="true" name="Lasguns" hidden="false" id="4715-c390-04be-2ef6" type="selectionEntry" targetId="8b56-695b-3d8e-673e"/>
-              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="/WF Special Weapon" hidden="false" id="4ebd-f96b-86b9-502c">
+              <constraints>
+                <constraint type="max" value="4" field="selections" scope="self" shared="true" id="6729-0a64-2f75-aef7" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Hunting Lance (Frag tip)" id="f0b2-02cf-fdf6-10c4" hidden="false" type="profile" targetId="f5ef-50be-a575-9a95"/>
+                <infoLink name="Power Saber" id="f6ad-dfc1-733e-6b0e" hidden="false" type="profile" targetId="8e96-e4a0-bfff-101d"/>
+                <infoLink name="Veteran Death Rider" id="a796-0f2b-d7ed-331f" hidden="false" type="profile" targetId="c16f-2ed4-565c-f433"/>
+                <infoLink name="Helbore Lasgun" id="a9df-4a06-ec6b-64f0" hidden="false" type="profile" targetId="105b-5bd8-1ae2-2938"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Special Weapon" hidden="false" id="f4dc-720b-9e3c-0394">
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="4"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Special Weapon" hidden="false" id="4e8d-6394-718c-858e">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="b3df-966c-e58f-1879">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3dca-4119-153c-7c58" includeChildSelections="false"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink name="Flamer" id="2afb-af3d-b4eb-50c3" hidden="false" type="profile" targetId="c8ec-c3db-58e3-1daf"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Grenade Launcher" hidden="false" id="6534-c3e3-53ea-ea79">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0d62-e718-7ce5-b6f0" includeChildSelections="false"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink name="Grenade Launcher (Frag)" id="7a2f-622a-5b38-d8a1" hidden="false" type="profile" targetId="3b8f-0441-f224-86ad"/>
+                            <infoLink name="Grenade Launcher (Krak)" id="d6cf-f727-af4a-399b" hidden="false" type="profile" targetId="db0f-6f31-f228-0fb1"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="11b9-2d74-6d18-3ab3">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b184-8cc2-8ab9-87be" includeChildSelections="false"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink name="Meltagun" id="83ca-73a9-bd9d-69b2" hidden="false" type="profile" targetId="0457-12b1-1d6e-b59d"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="26fd-278f-bb47-3dba">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="acac-9649-67f8-2477" includeChildSelections="false"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink name="Plasma Gun" id="469c-932f-2a2b-4b44" hidden="false" type="profile" targetId="e405-dfde-fb54-5782"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="7"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Long-Las" hidden="false" id="a10d-78a0-aa4d-78cc">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="835c-609a-8cd7-46af" includeChildSelections="false"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink name="Long-Las" id="0d28-8a55-c8f9-db63" hidden="false" type="profile" targetId="bf45-3a12-b25b-ef62"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="87ce-ed19-28fa-5814" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac39-cb58-8857-b067" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8fcb-1e76-c200-5b6c" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Veteran Death Rider" hidden="false" id="2f6d-7082-d41b-4c80">
+              <infoLinks>
+                <infoLink name="Hunting Lance (Frag tip)" id="c3d6-2ed8-38c3-a6a3" hidden="false" type="profile" targetId="f5ef-50be-a575-9a95"/>
+                <infoLink name="Power Saber" id="9574-2297-9639-5aea" hidden="false" type="profile" targetId="8e96-e4a0-bfff-101d"/>
+                <infoLink name="Veteran Death Rider" id="18ce-caa9-923b-c9c4" hidden="false" type="profile" targetId="c16f-2ed4-565c-f433"/>
+                <infoLink name="Helbore Lasgun" id="434d-6187-1b16-04ba" hidden="false" type="profile" targetId="105b-5bd8-1ae2-2938"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="4" field="selections" scope="self" shared="true" id="9b43-7cfb-b869-ff71" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d90d-9cdd-ad07-823c-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d90d-9cdd-ad07-823c-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d90d-9cdd-ad07-823c-max-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d90d-9cdd-ad07-823c-max-max" includeChildSelections="false"/>
             <constraint type="min" value="2" field="selections" scope="self" shared="true" id="a841-a215-2e1b-3731" includeChildSelections="false"/>
             <constraint type="max" value="4" field="selections" scope="self" shared="true" id="8541-644a-4e25-d9a2" includeChildSelections="false"/>
           </constraints>
@@ -9806,21 +10080,29 @@ Models in those units count as having made a Normal Move this phase they cannon 
         <categoryLink targetId="d600-490e-cd19-6402" id="ad82-ce9b-ec87-f379" primary="false" name="Faction: Imperial Guard"/>
         <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="12d9-f1e3-7362-95c8" primary="false" name="Faction: Imperium"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="force" childId="3672-2be4-2196-d5e5" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink name="Death March" id="6dba-51d2-df57-3a9c" hidden="false" type="profile" targetId="c20f-9298-622d-8953"/>
+      </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Death Riders" hidden="false" id="1503-52c1-e0cd-9b19">
+    <selectionEntry type="upgrade" import="true" name="Death Riders" hidden="true" id="1503-52c1-e0cd-9b19">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Death Rider" hidden="false" id="3287-e597-d451-a907">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="d4d9-19fa-4679-6496">
-              <entryLinks>
-                <entryLink import="true" name="Lasguns" hidden="false" id="ed3a-bace-e2e3-9154" type="selectionEntry" targetId="8b56-695b-3d8e-673e"/>
-              </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fdfe-5f14-62ad-c58d" includeChildSelections="false"/>
               </constraints>
               <infoLinks>
                 <infoLink name="Hunting Lance (Frag tip)" id="15d9-79b5-aec8-8f58" hidden="false" type="profile" targetId="f5ef-50be-a575-9a95"/>
                 <infoLink name="Power Saber" id="3656-7849-49d3-ef5d" hidden="false" type="profile" targetId="8e96-e4a0-bfff-101d"/>
+                <infoLink name="Helbore Lasgun" id="b6bf-b9c9-5c36-881b" hidden="false" type="profile" targetId="105b-5bd8-1ae2-2938"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -9845,15 +10127,13 @@ Models in those units count as having made a Normal Move this phase they cannon 
           </costs>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="a0ef-d7db-5826-fbac">
-              <entryLinks>
-                <entryLink import="true" name="Lasguns" hidden="false" id="9a58-a28a-3a7d-f2f5" type="selectionEntry" targetId="8b56-695b-3d8e-673e"/>
-              </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b7bf-9cbf-d878-9508" includeChildSelections="false"/>
               </constraints>
               <infoLinks>
                 <infoLink name="Power Saber" id="444c-da11-4214-bc22" hidden="false" type="profile" targetId="8e96-e4a0-bfff-101d"/>
                 <infoLink name="Hunting Lance (Frag tip)" id="c5c2-659c-fe1b-4729" hidden="false" type="profile" targetId="f5ef-50be-a575-9a95"/>
+                <infoLink name="Helbore Lasgun" id="71c1-017c-6220-c9c1" hidden="false" type="profile" targetId="105b-5bd8-1ae2-2938"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -9881,6 +10161,16 @@ Models in those units count as having made a Normal Move this phase they cannon 
           </characteristics>
         </profile>
       </profiles>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="force" childId="3672-2be4-2196-d5e5" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink name="Death March" id="42fe-8ec8-c4fb-b925" hidden="false" type="profile" targetId="c20f-9298-622d-8953"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <profileTypes>
