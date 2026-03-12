@@ -8544,6 +8544,14 @@ Models in those units count as having made a Normal Move this phase they cannon 
             </selectionEntry>
           </selectionEntries>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="6cb2-8315-e909-1fdd">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f118-8734-c734-3986" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Smoke Launchers" id="5a8e-7f69-183e-3066" hidden="false" type="rule" targetId="51af-0fb9-3ca5-d307"/>

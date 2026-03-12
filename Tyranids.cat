@@ -3288,6 +3288,9 @@ Select one objective marker. Until the end of the battle, while this model is wi
                 <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
                 <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Acid Spray" id="84a0-4786-04cb-95ec" hidden="false" type="profile" targetId="6a1a-0e1a-0663-ab50"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Fleshborer Hive" hidden="false" id="1e11-4b0b-4cd6-12bc">
               <constraints>
@@ -3298,6 +3301,9 @@ Select one objective marker. Until the end of the battle, while this model is wi
                 <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
                 <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Fleshborer Hive" id="ce3c-130c-f970-008a" hidden="false" type="profile" targetId="8559-f828-0649-9f3b"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Rupture Cannon" hidden="false" id="6be3-14fd-8161-a05a">
               <constraints>
@@ -3308,6 +3314,9 @@ Select one objective marker. Until the end of the battle, while this model is wi
                 <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
                 <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Rupture Cannon" id="2009-afb8-c252-2b5a" hidden="false" type="profile" targetId="503a-4fca-4c14-ecb9"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <constraints>

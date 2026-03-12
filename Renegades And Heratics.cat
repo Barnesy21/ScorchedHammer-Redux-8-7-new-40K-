@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="38df-f5cb-0d33-21c8" name="Renegades And Heratics" gameSystemId="sys-d1dc-a418-d2d6-9a0a" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Renegade Cultists" hidden="false" id="b379-33ed-bbf0-9352">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Renegade Cultist Champion" hidden="false" id="4f98-9ca2-7774-28ea">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+          </costs>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Weapon Options" hidden="false" id="8d7e-6e44-5876-2766">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Autogun" hidden="false" id="2649-d273-3d06-76c0">
+                  <profiles>
+                    <profile name="Autogun" typeId="7eb2-2d64-a03e-cda1" typeName="Weapons" hidden="false" id="5fcf-8cd1-ccca-459d">
+                      <characteristics>
+                        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Rapid Fire 1</characteristic>
+                        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">3</characteristic>
+                        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+                        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Autopistol &amp; Brutal Assault weapon" hidden="false" id="aecf-f909-130d-7144">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Autopistol" hidden="false" id="68f0-7cfe-1346-0f36">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec3a-f0e4-040d-40bc-min"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec3a-f0e4-040d-40bc-max"/>
+                      </constraints>
+                      <profiles>
+                        <profile name="Autopistol" typeId="7eb2-2d64-a03e-cda1" typeName="Weapons" hidden="false" id="b096-5794-76bb-4f88">
+                          <characteristics>
+                            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+                            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Pistol 1</characteristic>
+                            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">3</characteristic>
+                            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+                            <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Brutal Assault Weapon" hidden="false" id="db46-a7f3-93fa-5d24">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a96a-9aa9-e016-465f-min"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a96a-9aa9-e016-465f-max"/>
+                      </constraints>
+                      <profiles>
+                        <profile name="Brutal Assault Weapon" typeId="7eb2-2d64-a03e-cda1" typeName="Weapons" hidden="false" id="9d0d-a006-b8b5-9889">
+                          <characteristics>
+                            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+                            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+                            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">user</characteristic>
+                            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+                            <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Assault Weapon</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Shotgun &amp; Brutal Assault weapon" hidden="false" id="ed43-1bea-c60d-11be">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Brutal Assault Weapon" hidden="false" id="e37f-3ed6-118d-88ac">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8ae4-4d5a-819c-9c76-min"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ae4-4d5a-819c-9c76-max"/>
+                      </constraints>
+                      <profiles>
+                        <profile name="Brutal Assault Weapon" typeId="7eb2-2d64-a03e-cda1" typeName="Weapons" hidden="false" id="28b8-93b7-e7cb-65d2">
+                          <characteristics>
+                            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+                            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+                            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">user</characteristic>
+                            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+                            <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Assault Weapon</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Shotgun" hidden="false" id="10df-4ff7-4d10-f7c0">
+                      <profiles>
+                        <profile name="Shotgun" typeId="7eb2-2d64-a03e-cda1" typeName="Weapons" hidden="false" id="b81c-c6e1-acb1-16ee">
+                          <characteristics>
+                            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+                            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 2</characteristic>
+                            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">3</characteristic>
+                            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+                            <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Brutal</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a1b6-06a2-e992-68e5"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8245-3249-2e39-f129"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="79ed-a563-b4cb-9035"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="356f-fa16-96f8-7e8f"/>
+          </constraints>
+          <profiles>
+            <profile name="Renegade Cultist Champion" typeId="0e60-8aee-4ae3-760d" typeName="Unit" hidden="false" id="e207-5326-121a-0667">
+              <characteristics>
+                <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+                <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">4+</characteristic>
+                <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">4+</characteristic>
+                <characteristic name="S" typeId="ffee-9c9b-6655-d843">3</characteristic>
+                <characteristic name="T" typeId="7dd6-7000-6498-6a92">3</characteristic>
+                <characteristic name="W" typeId="f05f-2129-62a8-9a30">1</characteristic>
+                <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+                <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">6</characteristic>
+                <characteristic name="Save" typeId="952f-14da-4484-d1ea">6+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Renegade Cultists" hidden="false" id="4369-9ff3-7d5b-a121">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+          </costs>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Cultist w/ Autogun" hidden="false" id="6b39-b9bc-8598-fb69">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Autogun" hidden="false" id="38a6-581d-e729-339d">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eaf4-b5a9-8066-9d8f-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eaf4-b5a9-8066-9d8f-max"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Autogun" typeId="7eb2-2d64-a03e-cda1" typeName="Weapons" hidden="false" id="222d-2273-99c7-bc61">
+                      <characteristics>
+                        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Rapid Fire 1</characteristic>
+                        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">3</characteristic>
+                        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+                        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Cultist w/ Brutal assault weapon" hidden="false" id="ab52-152c-1f15-eae1">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Autopistol" hidden="false" id="02ae-fe85-961a-dd47">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5b10-c6e0-918f-0a93-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5b10-c6e0-918f-0a93-max"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Autopistol" typeId="7eb2-2d64-a03e-cda1" typeName="Weapons" hidden="false" id="3030-39fe-2b37-a59b">
+                      <characteristics>
+                        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Pistol 1</characteristic>
+                        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">3</characteristic>
+                        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+                        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Brutal Assault Weapon" hidden="false" id="9e64-4fed-8e49-b33b">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="075c-5cec-44a6-fb6e-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="075c-5cec-44a6-fb6e-max"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Brutal Assault Weapon" typeId="7eb2-2d64-a03e-cda1" typeName="Weapons" hidden="false" id="c565-d027-b929-2995">
+                      <characteristics>
+                        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+                        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">user</characteristic>
+                        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+                        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Assault Weapon</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Cultist w/ Special Weapon" hidden="false" id="6051-2365-df06-7763">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Weapon Option" hidden="false" id="2d42-079a-f068-b939">
+                  <constraints>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="d1d5-319e-6314-2e16"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="d1d5-319e-6314-2e16">
+                      <repeats>
+                        <repeat value="10" repeats="1" field="selections" scope="4369-9ff3-7d5b-a121" childId="model" shared="true" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Heavy Stubber" hidden="false" id="6659-8fce-987d-2007">
+                      <profiles>
+                        <profile name="Heavy Stubber" typeId="7eb2-2d64-a03e-cda1" typeName="Weapons" hidden="false" id="f7f0-fe61-cd43-4a64">
+                          <characteristics>
+                            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+                            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 3</characteristic>
+                            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+                            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+                            <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="4958-97ac-dfb6-5853">
+                      <profiles>
+                        <profile name="Flamer" typeId="7eb2-2d64-a03e-cda1" typeName="Weapons" hidden="false" id="9311-9249-252e-dfbf">
+                          <characteristics>
+                            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+                            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault D6</characteristic>
+                            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+                            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+                            <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Torrant, Ignores Cover</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="1d59-3f5c-a670-cc30">
+                      <profiles>
+                        <profile name="Plasma Gun - Standard" typeId="7eb2-2d64-a03e-cda1" typeName="Weapons" hidden="false" id="2664-2dd2-4925-0f21">
+                          <characteristics>
+                            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+                            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Rapid Fire 1</characteristic>
+                            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
+                            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+                            <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile name="Plasma Gun - Overcharged" typeId="7eb2-2d64-a03e-cda1" typeName="Weapons" hidden="false" id="c506-c2a1-40d7-24d0">
+                          <characteristics>
+                            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+                            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Rapid Fire 1</characteristic>
+                            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+                            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+                            <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+                            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="0182-d89c-821b-ebbd">
+                      <profiles>
+                        <profile name="Meltagun" typeId="7eb2-2d64-a03e-cda1" typeName="Weapons" hidden="false" id="e5f4-f768-08c7-1967">
+                          <characteristics>
+                            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+                            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 1</characteristic>
+                            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+                            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+                            <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+                            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Melta 2</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Grenade Launcher" hidden="false" id="998b-1f32-5377-39ba">
+                      <profiles>
+                        <profile name="Grenade Launcher - Frag" typeId="7eb2-2d64-a03e-cda1" typeName="Weapons" hidden="false" id="13e7-bfd4-33c0-f708">
+                          <characteristics>
+                            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+                            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault D6</characteristic>
+                            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+                            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+                            <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Blast</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile name="Grenade Launcher - Krak" typeId="7eb2-2d64-a03e-cda1" typeName="Weapons" hidden="false" id="97f7-0213-112d-42e9">
+                          <characteristics>
+                            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+                            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 1</characteristic>
+                            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+                            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+                            <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+                            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+          <profiles>
+            <profile name="Chaos Covenant" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="08f9-83c6-31d4-2c1b">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2"/>
+              </characteristics>
+            </profile>
+            <profile name="Uncertain Worth" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="22b7-4361-9be7-5454">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2"/>
+              </characteristics>
+            </profile>
+            <profile name="Renegade Cultists" typeId="0e60-8aee-4ae3-760d" typeName="Unit" hidden="false" id="2384-ec0a-e98b-4b09">
+              <characteristics>
+                <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+                <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">4+</characteristic>
+                <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">4+</characteristic>
+                <characteristic name="S" typeId="ffee-9c9b-6655-d843">3</characteristic>
+                <characteristic name="T" typeId="7dd6-7000-6498-6a92">3</characteristic>
+                <characteristic name="W" typeId="f05f-2129-62a8-9a30">1</characteristic>
+                <characteristic name="A" typeId="d794-d261-842e-1ef8">1</characteristic>
+                <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">5</characteristic>
+                <characteristic name="Save" typeId="952f-14da-4484-d1ea">6+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="9" field="selections" scope="parent" shared="true" id="3d4d-76d2-49af-eaa4"/>
+            <constraint type="max" value="29" field="selections" scope="parent" shared="true" id="1206-f05e-84c3-5b84"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Troop" hidden="false" id="3e3e-6398-d552-90bc" targetId="168f-b2da-4fd7-90d7" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

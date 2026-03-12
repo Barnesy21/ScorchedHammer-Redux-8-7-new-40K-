@@ -756,6 +756,9 @@
     <rule name="Instant Death" id="2c8b-f4f4-8aae-4cf9" hidden="false">
       <description>Infantry Models Hit by a weapon with this special rule if saves are failed are reduced to 0 wounds.</description>
     </rule>
+    <rule name="Rage" id="f386-f46f-4023-6d51" hidden="false">
+      <description>A Model with this Special Rule makes extra Attacks on the charge based on the number that follow the Rage rule if no number +1 Attack</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile name="Smite" typeId="e57e-15c3-e702-5811" typeName="Psychic Power Weapon" hidden="false" id="d933-af1d-85f4-05df">
