@@ -1174,7 +1174,7 @@
     <profile name="Demolisher cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="fe43-1071-ced7-54da">
       <characteristics>
         <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
-        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy D6</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Ordance D6</characteristic>
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">10</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
@@ -1486,6 +1486,16 @@
     <profile name="Death March" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="c20f-9298-622d-8953">
       <characteristics>
         <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This unit has a 5+ Feel No Pain Save</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Banebalde Battle Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="1064-1cda-29f9-a6e9">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">72&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Ordanence 3D6</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">9</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -10180,6 +10190,166 @@ Models in those units count as having made a Normal Move this phase they cannon 
         <infoLink name="Death March" id="42fe-8ec8-c4fb-b925" hidden="false" type="profile" targetId="c20f-9298-622d-8953"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Baneblade" hidden="false" id="ebf8-3e32-6fad-4cf1">
+      <categoryLinks>
+        <categoryLink targetId="a7a3-131f-c2e8-667f" id="8f99-5fec-5240-428f" primary="false" name="Vehicle"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="5cde-3475-17c1-992a" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="d600-490e-cd19-6402" id="491a-90c5-1310-76e9" primary="false" name="Faction: Imperial Guard"/>
+        <categoryLink targetId="6466-1173-0f9f-9c6c" id="d110-0155-0299-2119" primary="false" name="Faction: &lt;REGIMENT&gt;"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Baneblade Sponsons" hidden="false" id="554d-b9c2-b4c2-9cfb">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Lascannon &amp; Twin Heavy Bolters" hidden="false" id="acd9-dbe9-9271-e35b">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="29"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="a9ee-4154-4618-d19a" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lascannon &amp; Twin Heavy Flamers" hidden="false" id="ab66-c72d-de55-42f0">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="43"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="dc55-0e75-f1bb-1f05" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="4" field="selections" scope="self" shared="true" id="adf9-4cac-8ee3-29b0" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0090-a160-ef3e-4119" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Pintle Mount" hidden="false" id="fdf1-f2c3-86c4-113f">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Heavy Stubber" hidden="false" id="4a55-2a59-e564-838a">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ebf-0c77-2bdf-f626" includeChildSelections="false"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink targetId="8fd7-9e42-1362-fa3a" id="0f89-29cb-9c14-b866" primary="false" name="Titanic"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="ddf0-329c-2825-2163">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5387-5c08-e13b-a078" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0c6d-f6e7-3a43-ee22" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="efee-3796-ecfe-5a04" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Vehicle Equipment" hidden="false" id="2f8e-8827-815c-da66" type="selectionEntry" targetId="1023-e216-832d-7a29">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e97-2a50-0573-d4a2" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Banebalde Aces" hidden="false" id="17c8-c02c-c57c-bfe0" type="selectionEntry" targetId="74d0-0eb3-6eb8-b506"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Baneblade" id="dc12-f3ff-3fc5-c17b" hidden="false" type="profile" targetId="fae1-b8fb-6c7e-79b3"/>
+        <infoLink name="Twin Heavy Bolter" id="764c-a9e9-ffdf-de94" hidden="false" type="profile" targetId="0c2e-a0d3-25c9-1e0c"/>
+        <infoLink name="Demolisher cannon" id="0192-f6c1-2be7-58ec" hidden="false" type="profile" targetId="fe43-1071-ced7-54da"/>
+        <infoLink name="Autocannon" id="1c63-7bce-2250-9336" hidden="false" type="profile" targetId="ba43-76b7-1c65-9abf"/>
+        <infoLink name="Banebalde Battle Cannon" id="6347-d3f8-d566-b2f3" hidden="false" type="profile" targetId="1064-1cda-29f9-a6e9"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="394"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Adamantium Tracks" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="5ddc-013c-7882-e5e6">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banebalde Aces" hidden="false" id="74d0-0eb3-6eb8-b506">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Hull-down Deployment" hidden="false" id="777f-11c5-e81b-a6cc">
+          <profiles>
+            <profile name="Hull-down Deployment" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="e239-b89a-6e41-f1fb">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">“This model receives the benefit of cover until the first time it moves in the battle.”</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1640-91db-fcf7-4ce1" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="-1"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Inspiring Might" hidden="false" id="eb99-eb0f-6ebf-afc6">
+          <profiles>
+            <profile name="Inspiring Might" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="f093-53c6-ee24-8018">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">“When a Morale test is taken for a friendly ASTRA MILITARUMunit within 6&quot; of this model, roll one additional D6 and discard one of the dice.”</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a2cc-1284-9c83-760b" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="-1"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Steadfast Leviathan" hidden="false" id="bad9-d144-e9d7-0e6b">
+          <profiles>
+            <profile name="Steadfast Leviathan" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="f3b5-03c9-27ca-a7dd">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">“If your army is Battle-forged, this model gains the Regimental Doctrine of its even if it is in a Super-heavy Auxiliary Detachment”</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e88-19af-d3ca-d17d" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="-1"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="74c1-b827-cb97-2617" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0024-cb6b-bf1e-bc1f" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
   </sharedSelectionEntries>
   <profileTypes>
     <profileType name="Voice of Command Orders" id="1b09-2146-ec48-394d" hidden="false">
@@ -10383,6 +10553,11 @@ Models in those units count as having made a Normal Move this phase they cannon 
     <entryLink import="true" name="Calvary Platoon" hidden="false" id="80a9-bbd4-2b62-b064" targetId="931d-0c0e-e341-e338" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Fast Attack" hidden="false" id="a5de-ac4c-6b23-ae2d" targetId="a2f8-3f8a-6b0f-82d7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Baneblade" hidden="false" id="fd98-5c5f-45a9-dd32" targetId="ebf8-3e32-6fad-4cf1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="2891-0302-74c6-87b5" id="0364-108c-a4aa-8078" primary="true" name="Lord of War"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
