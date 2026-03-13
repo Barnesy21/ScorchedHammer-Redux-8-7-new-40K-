@@ -769,7 +769,7 @@
         <characteristic name="S" typeId="a4b2-ce42-4524-4475">7</characteristic>
         <characteristic name="AP" typeId="ad1a-ecf9-b29f-0f6a">-D3</characteristic>
         <characteristic name="D" typeId="4249-543a-3dc5-4143">D3</characteristic>
-        <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Devastating Wounds, If the result of the Psychic test was more than 10 the target suffers D6 instead.</characteristic>
+        <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Power, Devastating Wounds, If the result of the Psychic test was more than 10 the target suffers D6 instead.</characteristic>
       </characteristics>
     </profile>
     <profile name="Krak Grenade" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="1eca-9959-1926-60d9">

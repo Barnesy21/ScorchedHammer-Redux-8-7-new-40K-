@@ -486,7 +486,7 @@ Battle Round 4-5  = 14&quot;</description>
       <infoLinks>
         <infoLink name="Disgustingly Resilient" id="e0f6-9c5b-6f86-1c77" hidden="false" type="profile" targetId="69b0-824a-e032-be02"/>
         <infoLink name="Mindless" id="9c2c-0919-3a65-6b0e" hidden="false" type="profile" targetId="f629-70f3-f948-cded"/>
-        <infoLink name="Unrelenting Horde" id="a0b7-072b-de82-58d9" hidden="false" type="profile" targetId="17a9-4818-a616-32ed"/>
+        <infoLink name="Unrelenting Hord" id="a0b7-072b-de82-58d9" hidden="false" type="profile" targetId="17a9-4818-a616-32ed"/>
         <infoLink name="Diseased Horde" id="acc8-0f11-1804-3435" hidden="false" type="profile" targetId="20fd-5b4a-e1cf-fd5b"/>
       </infoLinks>
       <profiles>
@@ -1544,7 +1544,7 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
                 <characteristic name="S" typeId="a4b2-ce42-4524-4475">4</characteristic>
                 <characteristic name="AP" typeId="ad1a-ecf9-b29f-0f6a">-2</characteristic>
                 <characteristic name="D" typeId="4249-543a-3dc5-4143">1</characteristic>
-                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Weapon</characteristic>
+                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Power</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1590,7 +1590,7 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
                 <characteristic name="S" typeId="a4b2-ce42-4524-4475">7</characteristic>
                 <characteristic name="AP" typeId="ad1a-ecf9-b29f-0f6a">-3</characteristic>
                 <characteristic name="D" typeId="4249-543a-3dc5-4143">D3</characteristic>
-                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Weapon</characteristic>
+                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Power</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1622,7 +1622,7 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
                 <characteristic name="S" typeId="a4b2-ce42-4524-4475">4</characteristic>
                 <characteristic name="AP" typeId="ad1a-ecf9-b29f-0f6a">-2</characteristic>
                 <characteristic name="D" typeId="4249-543a-3dc5-4143">D3</characteristic>
-                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Weapon, Devastating Wounds</characteristic>
+                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Power, Devastating Wounds</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1654,7 +1654,7 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
                 <characteristic name="S" typeId="a4b2-ce42-4524-4475">3</characteristic>
                 <characteristic name="AP" typeId="ad1a-ecf9-b29f-0f6a">-3</characteristic>
                 <characteristic name="D" typeId="4249-543a-3dc5-4143">1</characteristic>
-                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Weapon, Torrant, Devastating Wounds</characteristic>
+                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Power, Devastating Wounds</characteristic>
               </characteristics>
             </profile>
           </profiles>

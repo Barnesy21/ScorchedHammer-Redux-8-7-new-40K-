@@ -14,7 +14,7 @@
       <description>When a model with this special rule is slain all friendly non synaps units within 18&quot; Regardless of if another sysnaps Beast is within range. must take a leadership test minus the LD of this model slain. the amount failed by for the LD test is removed as casulties.</description>
     </rule>
     <rule name="Instincitve Behaviour" id="82a5-7292-5e79-ef8e" hidden="false">
-      <description>Unless a Unit with this Ability is within 24&quot; of a Synapse Creature, You must take a Ld Test, If you pass the unit may act as normal, if you fail,the unit must target the closest enemy unit in the Shooting Charge and close combat phase. If a model with this rule is wholly within 3&quot; of a Synapse Beast whenever the model is targeted by a attack, roll a D6 on a 4+ this model takes the hit instead of the Synapse Creature.</description>
+      <description>Unless a Unit with this Ability is within 12&quot; of a Synapse Creature(Unless other Synaps Rules increase Synapse range), You must take a Ld Test, If you pass the unit may act as normal, if you fail,the unit must target the closest enemy unit in the Shooting Charge and close combat phase. If a model with this rule is wholly within 3&quot; of a Synapse Beast whenever the model is targeted by a attack, roll a D6 on a 4+ this model takes the hit instead of the Synapse Creature.</description>
     </rule>
     <rule name="Shadow in the Warp" id="9016-82fe-c277-2be5" hidden="false">
       <description>Enemy PSKYERS must subtract 1 from any Psychic tests they make if they are within 18&quot; of any units with this ability. TYRANID PSYKERS are not affected.</description>
@@ -1611,11 +1611,15 @@ Each time a friendly TYRANIDS model makes an attack that targets that unit, add 
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e57-b4b5-3f1e-3d3a" includeChildSelections="false"/>
           </constraints>
           <profiles>
-            <profile name="Psychic Scream" typeId="f7ae-1618-90a8-558c" typeName="Psychic Power (Augment/HEX)" hidden="false" id="89a2-d47b-1a85-6987">
+            <profile name="Psychic Scream" typeId="e57e-15c3-e702-5811" typeName="Psychic Power Weapon" hidden="false" id="3dd4-d901-cd79-28a4">
               <characteristics>
-                <characteristic name="Warp Charge" typeId="073a-3360-beab-6247">5</characteristic>
-                <characteristic name="Range" typeId="59ce-10fb-8689-2d17">18&quot;</characteristic>
-                <characteristic name="Details" typeId="f78e-01c6-7e67-f2db">If manifested, the nearest enemy unit within range suffers D3 mortal wounds. In addition, if that unit is a PSYKER, roll two dice. If the result is higher than their Leadership characteristic, randomly select one of their psychic powers. They can no longer use that psychic power.</characteristic>
+                <characteristic name="Cast" typeId="b070-88f4-6531-deb7">5+</characteristic>
+                <characteristic name="Range" typeId="257a-022c-bfc5-a51f">18&quot;</characteristic>
+                <characteristic name="Type" typeId="6bc2-4191-d0d9-71d5">2D6</characteristic>
+                <characteristic name="S" typeId="a4b2-ce42-4524-4475">5</characteristic>
+                <characteristic name="AP" typeId="ad1a-ecf9-b29f-0f6a">-1</characteristic>
+                <characteristic name="D" typeId="4249-543a-3dc5-4143">2</characteristic>
+                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Power, Ignores Cover</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1723,48 +1727,6 @@ Each time a friendly TYRANIDS model makes an attack that targets that unit, add 
           </modifiers>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a16-ef61-449a-1f53" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Kraken: Synaptic Lure" hidden="true" id="2606-3b60-a77c-726f">
-          <profiles>
-            <profile name="Synaptic Lure" typeId="f7ae-1618-90a8-558c" typeName="Psychic Power (Augment/HEX)" hidden="false" id="a3cb-906c-a426-f12a">
-              <characteristics>
-                <characteristic name="Warp Charge" typeId="073a-3360-beab-6247">5</characteristic>
-                <characteristic name="Range" typeId="59ce-10fb-8689-2d17">-</characteristic>
-                <characteristic name="Details" typeId="f78e-01c6-7e67-f2db">If manifested, select one enemy unit. Until the end of the turn, when a charge roll is made for a charge made by a friendly KRAKEN unit that targets that enemy unit, you can re-roll the result.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="0677-3e35-0306-ee5b" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca1b-3132-15db-380a" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Kraken: Synaptic Lure" hidden="true" id="c0b5-6a28-3a65-9dfd">
-          <profiles>
-            <profile name="Synaptic Lure" typeId="f7ae-1618-90a8-558c" typeName="Psychic Power (Augment/HEX)" hidden="false" id="95a7-45ad-8b51-d9d3">
-              <characteristics>
-                <characteristic name="Warp Charge" typeId="073a-3360-beab-6247">5</characteristic>
-                <characteristic name="Range" typeId="59ce-10fb-8689-2d17">-</characteristic>
-                <characteristic name="Details" typeId="f78e-01c6-7e67-f2db">If manifested, select one enemy unit. Until the end of the turn, when a charge roll is made for a charge made by a friendly KRAKEN unit that targets that enemy unit, you can re-roll the result.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="0677-3e35-0306-ee5b" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e893-6da9-4beb-d7df" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -1954,7 +1916,7 @@ Each time a friendly TYRANIDS model makes an attack that targets that unit, add 
             <characteristic name="S" typeId="a4b2-ce42-4524-4475">7</characteristic>
             <characteristic name="AP" typeId="ad1a-ecf9-b29f-0f6a">-2</characteristic>
             <characteristic name="D" typeId="4249-543a-3dc5-4143">D3</characteristic>
-            <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Precision</characteristic>
+            <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Precision, Psychic Power</characteristic>
           </characteristics>
         </profile>
         <profile name="NeuroLance(Norn)" typeId="e57e-15c3-e702-5811" typeName="Psychic Power Weapon" hidden="false" id="6c9b-4402-bba4-0c5a">
@@ -1965,7 +1927,7 @@ Each time a friendly TYRANIDS model makes an attack that targets that unit, add 
             <characteristic name="S" typeId="a4b2-ce42-4524-4475">8</characteristic>
             <characteristic name="AP" typeId="ad1a-ecf9-b29f-0f6a">-3</characteristic>
             <characteristic name="D" typeId="4249-543a-3dc5-4143">D6</characteristic>
-            <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Melta</characteristic>
+            <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Melta, Psychic Power</characteristic>
           </characteristics>
         </profile>
         <profile name="Neuroblast(Norn)" typeId="e57e-15c3-e702-5811" typeName="Psychic Power Weapon" hidden="false" id="6bea-16ca-680c-d730">
@@ -1976,7 +1938,7 @@ Each time a friendly TYRANIDS model makes an attack that targets that unit, add 
             <characteristic name="S" typeId="a4b2-ce42-4524-4475">6</characteristic>
             <characteristic name="AP" typeId="ad1a-ecf9-b29f-0f6a">-2</characteristic>
             <characteristic name="D" typeId="4249-543a-3dc5-4143">1</characteristic>
-            <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">-</characteristic>
+            <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Power</characteristic>
           </characteristics>
         </profile>
         <profile name="Unnatural Resilience" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="25ad-844d-4b8c-dbf3">
@@ -4964,7 +4926,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
             <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">Psychic Scream + node Lash + 1 Hive Mind</characteristic>
           </characteristics>
         </profile>
-        <profile name="Neuro Tyrant" typeId="e57e-15c3-e702-5811" typeName="Psychic Power Weapon" hidden="false" id="dd1f-2107-498a-085c">
+        <profile name="Psychic Scream" typeId="e57e-15c3-e702-5811" typeName="Psychic Power Weapon" hidden="false" id="dd1f-2107-498a-085c">
           <characteristics>
             <characteristic name="Cast" typeId="b070-88f4-6531-deb7">5+</characteristic>
             <characteristic name="Range" typeId="257a-022c-bfc5-a51f">18&quot;</characteristic>
