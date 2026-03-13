@@ -4626,7 +4626,7 @@ At the Begining of Each turn. Flip the Card or read which Command protocol you h
     </profile>
     <profile name="Guardian Protocols" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="2372-a1a1-e536-7ab0">
       <characteristics>
-        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">While a friendly INFANTRY NOBLE or DYNASTIC AGENT INFANTRY NOBLE unit is within 3&quot; of this unit, that NOBLE unit can use the Look Out, Sir rule even if this unit contains fewer than 3 models.</characteristic>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">While a friendly INFANTRY ROYAL COURT or DYNASTIC AGENT INFANTRY NOBLE unit is within 3&quot; of this unit, that NOBLE unit can use the Look Out, Sir rule even if this unit contains fewer than 3 models.</characteristic>
       </characteristics>
     </profile>
     <profile name="Hyperphase Threshers" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="9359-94dc-a79b-c373">
