@@ -1101,7 +1101,7 @@ Battle Round 4-5  = 14&quot;</description>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Plagueburst Crawler" hidden="false" id="c0c7-b690-e31d-295d">
       <costs>
-        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="100"/>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="120"/>
         <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
       </costs>
@@ -1117,6 +1117,9 @@ Battle Round 4-5  = 14&quot;</description>
                 <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
                 <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Heavy Stubber" id="727b-b2ea-43c5-f698" hidden="false" type="profile" targetId="36a9-6824-5d27-c11a"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Rothail volly gun" hidden="false" id="ecd1-f6da-f2b0-329d">
               <constraints>
@@ -1127,6 +1130,9 @@ Battle Round 4-5  = 14&quot;</description>
                 <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
                 <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Rothail volley gun" id="33bf-b08d-f980-2898" hidden="false" type="profile" targetId="9a79-c441-116b-6351"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1145,6 +1151,10 @@ Battle Round 4-5  = 14&quot;</description>
                 <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
                 <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Entropy Cannon" id="ab00-f71c-cfa5-7100" hidden="false" type="profile" targetId="8ec9-3800-77cb-e0e2"/>
+                <infoLink name="Entropy Cannon" id="74c7-eb32-663a-b687" hidden="false" type="profile" targetId="8ec9-3800-77cb-e0e2"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="2x Plaguespitter" hidden="false" id="a7c2-583d-77cb-d1cb">
               <constraints>
@@ -1155,6 +1165,9 @@ Battle Round 4-5  = 14&quot;</description>
                 <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
                 <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Plaguespitter" id="22ba-5e56-243d-c331" hidden="false" type="profile" targetId="4aed-5246-48ef-5336"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -5391,7 +5404,7 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Plague Weapon, TOrrant</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Plague Weapon, Torrant</characteristic>
       </characteristics>
     </profile>
     <profile name="Fleshmower" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="7136-53e9-20ed-58a6">

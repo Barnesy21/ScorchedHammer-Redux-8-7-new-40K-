@@ -4067,7 +4067,7 @@ If it Sets to Defend, then until the end of the phase, it cannot fire Overwatch,
             <profile name="Protocol of the Undying Legions" typeId="1edb-3ed2-30b5-9bc7" typeName="Command Protocol" hidden="false" id="bdf5-f477-d5f2-e4b2">
               <characteristics>
                 <characteristic name="Directive 1" typeId="1b88-35de-019a-bcb1">Directive 1: Each time this unit uses its Living Metal ability, each model in this unit regains 1 additional lost wound.</characteristic>
-                <characteristic name="Directive 2" typeId="4189-1187-edb5-0fdf">Directive 2: Each time you make Reanimation Protocol rolls for this unit, you can re-roll one of the dice.</characteristic>
+                <characteristic name="Directive 2" typeId="4189-1187-edb5-0fdf">Directive 2: Each time you make Reanimation Protocol rolls, you can re-roll 1s for infantry Models.</characteristic>
               </characteristics>
             </profile>
           </profiles>
