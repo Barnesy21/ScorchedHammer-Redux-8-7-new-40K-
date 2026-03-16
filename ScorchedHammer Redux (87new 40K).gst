@@ -673,7 +673,7 @@
       <description>When targeting a Vehicle with a Armor value you roll 2D6 instead of 1D6 to determine armor penetration.</description>
     </rule>
     <rule name="Gravitation" id="e9c9-9165-6581-3188" hidden="false">
-      <description>If the target has a 3+ armor save or is a vehicle Damage is 2.</description>
+      <description>If the target has a 3+ armor save or is a vehicle Damage is increased by +1</description>
     </rule>
     <rule name="Haywire" id="997f-aedc-18d3-1691" hidden="false">
       <description>When targeting a vehicle if a successful hit is scored roll a D6 on a 1or 2 the vehicle suffers 1 wound in addition to normal effects</description>
@@ -758,6 +758,9 @@
     </rule>
     <rule name="Rage" id="f386-f46f-4023-6d51" hidden="false">
       <description>A Model with this Special Rule makes extra Attacks on the charge based on the number that follow the Rage rule if no number +1 Attack</description>
+    </rule>
+    <rule name="Sweeping" id="bbdd-7503-ee6f-902c" hidden="false">
+      <description>A model equipped with this weapon makes extra attacks equal in value to the number shown for each attack allocated to the weapon is chosen to fight with.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -1532,6 +1535,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Whirlwind Vengeance Launcher" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="6c9f-389f-c125-e29b">
       <characteristics>
@@ -1720,4 +1730,19 @@ Matched Play: This model and any units embarked aboard it are exempt from the Ta
       </characteristics>
     </profile>
   </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Enable Blast Weapons" hidden="false" id="a708-62bf-064c-0ccd">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="0676-24d6-2071-4e51-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0676-24d6-2071-4e51-max" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Enable Blast Weapons" hidden="false" id="ea2d-b976-68ee-23ec" targetId="a708-62bf-064c-0ccd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Configuration" hidden="false" id="fe70-796b-be12-95ef" targetId="2eb6-e424-69d8-5b7c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
 </gameSystem>

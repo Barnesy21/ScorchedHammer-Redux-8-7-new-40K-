@@ -660,6 +660,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Platoon Standard" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="b6b3-ca1c-6c84-3061">
       <characteristics>
@@ -893,6 +900,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Hot-Shot Lasgun" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="6372-0a96-4c87-aaf5">
       <characteristics>
@@ -983,6 +997,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Melta</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Extra Armour" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="f71a-d74f-3097-3d5b">
       <characteristics>
@@ -1077,32 +1098,53 @@
     <profile name="Earth Shaker Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="02ed-a36d-fcf1-bb1d">
       <characteristics>
         <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">240&quot;</characteristic>
-        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy D6</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Ordnance D6</characteristic>
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">9</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Indirect Fire</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Medusa Siege Gun" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="cc70-b40a-a4ea-8f57">
       <characteristics>
         <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">50&quot;</characteristic>
-        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy D6</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Ordnance D6</characteristic>
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">10</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Indirect Fire</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Storm Eagle Rockets" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="0663-4949-24f5-7ae2">
       <characteristics>
         <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">120&quot;</characteristic>
-        <characteristic name="Type" typeId="b392-8288-2208-6ab2">2D6</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Ordnance 2D6</characteristic>
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">10</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Indirect Fire, One Shot</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Vehicle Squadron" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="bb79-b8e5-b207-ae90">
       <characteristics>
@@ -1118,6 +1160,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Indirect Fire, Shred</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Hydra Quad Autocannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="fb38-3983-8ca7-0c64">
       <characteristics>
@@ -1160,6 +1209,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Conqueror Battle Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="7c0e-f20f-35a4-53bd">
       <characteristics>
@@ -1170,6 +1226,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Demolisher cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="fe43-1071-ced7-54da">
       <characteristics>
@@ -1180,6 +1243,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Eradicator Nova Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="1fb7-623f-1e5b-753e">
       <characteristics>
@@ -1190,6 +1260,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Ignores Cover</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Executioner Plasma Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="c1b6-42da-1376-578e">
       <characteristics>
@@ -1200,6 +1277,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Rending 4+, Gets Hot</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Exterminator Autocannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="f81d-4352-7c3f-bf53">
       <characteristics>
@@ -1260,6 +1344,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Oppressor Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="bb4b-f68a-45d4-a9f1">
       <characteristics>
@@ -1270,6 +1361,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Coaxial Autocannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="8cfc-244b-e91a-34da">
       <characteristics>
@@ -1300,6 +1398,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Malleus Rocket Launcher" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="72f3-b16d-4d60-c571">
       <characteristics>
@@ -1310,6 +1415,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Heavy Lascannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="822a-6a55-de1e-b3e9">
       <characteristics>
@@ -1330,6 +1442,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Indirect Fire</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Castellan" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="d874-aca5-6798-e317">
       <characteristics>
@@ -1497,6 +1616,339 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Demolisher cannon (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="867c-21e4-3fb0-4538">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Ordnance 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">10</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">5&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Conqueror Battle Cannon (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="2525-eb32-dd18-aae6">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">5&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Eradicator Nova Cannon (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="2864-889a-d048-3240">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Ignores Cover, 5&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Melta-Cannon (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="5def-70d3-a0eb-a280">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Melta, 3&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Chem Cannon (T)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="aafd-e212-6a93-cdc5">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Template</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">*</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Poison 2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Inferno Cannon (T)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="300b-add4-8732-9ab4">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;+Template</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Ignores cover</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Executioner Plasma Cannon (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="17a1-75fc-28b1-8aaa">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 3</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Rending 4+, Gets Hot, 5&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Earth Shaker Cannon (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="73fd-bdbd-857f-c38f">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">240&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Ordnance 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">9</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Indirect Fire, 5&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Bombast Field Gun (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="fd3b-2b4f-22bc-e8b0">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Indirect Fire, 5&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Malleus Rocket Launcher (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="fc2b-9d66-f1fb-4baa">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 6</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">5&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Medusa Siege Gun (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="ad86-dea5-79e3-45c8">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">50&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Ordnance 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">10</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Indirect Fire, 5&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Twin Battle Cannon (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="1a46-b8f5-15c9-e4b0">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">72&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Ordnance 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">5&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Wyvern Quad Stormshard Mortar (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="088e-fe13-ed03-456a">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 4</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Indirect Fire, Shred, 5&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Banebalde Battle Cannon (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="8ec2-82ee-e0df-ea7d">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">72&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Ordnance 3</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">9</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">10&quot; Apocalyptic Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Grenade Launcher (Frag) (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="6192-3a48-fb25-2847">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">3&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Frag Bombs (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="8e1d-420a-248a-26b4">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">6&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Grenade 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">3&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Storm Eagle Rockets (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="7e12-35dc-968e-443c">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">120&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Ordnance D3</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">10</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Indirect Fire, One Shot, 5&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Battle Cannon (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="342e-d80d-7458-ac93">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">72&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Ordnance 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">5&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Pulveriser Cannon (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="5cb7-8d91-1de3-38b1">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">3&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Oppressor Cannon (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="d156-bd7a-6073-90e2">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">72&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 3</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">12</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">5&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
   </sharedProfiles>
   <categoryEntries>
@@ -3474,6 +3926,7 @@
             <infoLink name="Ripper Gun (Shooting)" id="5bc6-9a1e-ff0e-e476" hidden="false" type="profile" targetId="2af2-0c8d-d779-bd39"/>
             <infoLink name="Frag Bombs" id="e741-5282-21be-3cb3" hidden="false" type="profile" targetId="0721-b341-c113-d1c3"/>
             <infoLink name="Ogryn" id="ab6a-a105-8873-ae83" hidden="false" type="profile" targetId="14ee-708e-0a43-0b2b"/>
+            <infoLink name="Frag Bombs (B)" id="7a4d-2697-2b46-c26a" hidden="false" type="profile" targetId="8e1d-420a-248a-26b4"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="30"/>
@@ -3491,6 +3944,7 @@
             <infoLink name="Ripper Gun (Melee)" id="e8fc-1087-9738-53ab" hidden="false" type="profile" targetId="bfb0-2470-452e-88a8"/>
             <infoLink name="Ripper Gun (Shooting)" id="1e86-bd78-fa42-2a86" hidden="false" type="profile" targetId="2af2-0c8d-d779-bd39"/>
             <infoLink name="Frag Bombs" id="9a20-25b3-2281-ec09" hidden="false" type="profile" targetId="0721-b341-c113-d1c3"/>
+            <infoLink name="Frag Bombs (B)" id="a563-e791-a4c3-6ceb" hidden="false" type="profile" targetId="8e1d-420a-248a-26b4"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="30"/>
@@ -3528,6 +3982,7 @@
                 <modifier type="set" value="4+" field="952f-14da-4484-d1ea"/>
               </modifiers>
             </infoLink>
+            <infoLink name="Frag Bombs (B)" id="7bdf-5149-39bf-f508" hidden="false" type="profile" targetId="8e1d-420a-248a-26b4"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="35"/>
@@ -3631,6 +4086,7 @@
               </modifiers>
             </infoLink>
             <infoLink name="Frag Bombs" id="b576-2f06-ea1c-60ac" hidden="false" type="profile" targetId="0721-b341-c113-d1c3"/>
+            <infoLink name="Frag Bombs (B)" id="bc7f-1afc-1c91-423e" hidden="false" type="profile" targetId="8e1d-420a-248a-26b4"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="35"/>
@@ -4682,7 +5138,8 @@
                     <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Chem Cannon" id="9082-d419-18c3-ba8a" hidden="false" type="profile" targetId="d937-e83c-0511-5377"/>
+                    <infoLink name="Melta-Cannon" id="1740-8ae9-ee95-ab8e" hidden="false" type="profile" targetId="d572-f1a6-e6e2-807c"/>
+                    <infoLink name="Melta-Cannon (B)" id="3a2b-35af-2bf4-5cdd" hidden="false" type="profile" targetId="5def-70d3-a0eb-a280"/>
                   </infoLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="self" shared="true" id="02ae-e4c0-5811-ad23" includeChildSelections="false"/>
@@ -4695,7 +5152,7 @@
                     <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Melta-Cannon" id="1740-8ae9-ee95-ab8e" hidden="false" type="profile" targetId="d572-f1a6-e6e2-807c"/>
+                    <infoLink name="Chem Cannon" id="9082-d419-18c3-ba8a" hidden="false" type="profile" targetId="d937-e83c-0511-5377"/>
                   </infoLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d5cc-a4d5-c7d6-effe" includeChildSelections="false"/>
@@ -5089,6 +5546,7 @@
                   </constraints>
                   <infoLinks>
                     <infoLink name="Medusa Siege Gun" id="98c6-ebcd-fe1f-8262" hidden="false" type="profile" targetId="cc70-b40a-a4ea-8f57"/>
+                    <infoLink name="Medusa Siege Gun (B)" id="52da-b8d7-f8ac-0ab8" hidden="false" type="profile" targetId="ad86-dea5-79e3-45c8"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="23"/>
@@ -5102,6 +5560,7 @@
                   </constraints>
                   <infoLinks>
                     <infoLink name="Earth Shaker Cannon" id="363d-901a-4f6e-09bc" hidden="false" type="profile" targetId="02ed-a36d-fcf1-bb1d"/>
+                    <infoLink name="Earth Shaker Cannon (B)" id="1a1b-363d-1b15-9c7d" hidden="false" type="profile" targetId="73fd-bdbd-857f-c38f"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="23"/>
@@ -5118,6 +5577,10 @@
                     <infoLink name="Storm Eagle Rockets" id="0ada-0564-9f62-df79" hidden="false" type="profile" targetId="0663-4949-24f5-7ae2"/>
                     <infoLink name="Storm Eagle Rockets" id="dd6d-afdc-2f60-d306" hidden="false" type="profile" targetId="0663-4949-24f5-7ae2"/>
                     <infoLink name="Storm Eagle Rockets" id="73a1-c310-3380-cfd7" hidden="false" type="profile" targetId="0663-4949-24f5-7ae2"/>
+                    <infoLink name="Storm Eagle Rockets (B)" id="a716-97c5-bab9-735f" hidden="false" type="profile" targetId="7e12-35dc-968e-443c"/>
+                    <infoLink name="Storm Eagle Rockets (B)" id="a121-1093-fb15-3a69" hidden="false" type="profile" targetId="7e12-35dc-968e-443c"/>
+                    <infoLink name="Storm Eagle Rockets (B)" id="4a2f-5600-02a4-08e0" hidden="false" type="profile" targetId="7e12-35dc-968e-443c"/>
+                    <infoLink name="Storm Eagle Rockets (B)" id="75c5-956b-6e32-696b" hidden="false" type="profile" targetId="7e12-35dc-968e-443c"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="33"/>
@@ -5131,6 +5594,7 @@
                   </constraints>
                   <infoLinks>
                     <infoLink name="Wyvern Quad Stormshard Mortar" id="ae55-7e8b-435b-a1be" hidden="false" type="profile" targetId="09b4-db20-ed11-0a1d"/>
+                    <infoLink name="Wyvern Quad Stormshard Mortar (B)" id="b7be-7061-e01d-184e" hidden="false" type="profile" targetId="088e-fe13-ed03-456a"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
@@ -5271,11 +5735,35 @@
                 <characteristic name="D" typeId="805f-6ece-e727-1ac1">*</characteristic>
                 <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">This weapon can only be fired once per battle. This weapon can target units that are not visible to the bearer. Each time you hit the target with this weapon it suffers a mortal wound. After resolving all damage on the unit, roll a D6 for every other unit within 6&quot; of the target unit - on a 4+ that unit also suffers D3 mortal wounds.</characteristic>
               </characteristics>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </profile>
             <profile name="The Hour is Nigh" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="5054-3776-ae9a-5196">
               <characteristics>
                 <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">The Deathstrike Missile cannot be fired normally in the Shooting phase or during Overwatch. In a friendly Shooting phase, if you wish to fire the Deathstrike Missile, roll a D6 and add the battle round number. If the result is 8 or more, you can fire the Deathstrike Missile during this Shooting phase. For example, in the third battle round, a roll of 5+ would be needed to fire the Deathstrike Missile.</characteristic>
               </characteristics>
+            </profile>
+            <profile name="Deathstrike Missile (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="f37d-f8f4-4a5c-7374">
+              <characteristics>
+                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">200&quot;</characteristic>
+                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Ordnance 1</characteristic>
+                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">10</characteristic>
+                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-6</characteristic>
+                <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6+9</characteristic>
+                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">10&quot; Blast, Ignores cover, One Shot</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </profile>
           </profiles>
           <infoLinks>
@@ -5380,6 +5868,7 @@
                   </constraints>
                   <infoLinks>
                     <infoLink name="Medusa Siege Gun" id="98ce-8c72-9831-c234" hidden="false" type="profile" targetId="cc70-b40a-a4ea-8f57"/>
+                    <infoLink name="Medusa Siege Gun (B)" id="4f15-e7dd-d5ef-906c" hidden="false" type="profile" targetId="ad86-dea5-79e3-45c8"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="23"/>
@@ -5393,6 +5882,7 @@
                   </constraints>
                   <infoLinks>
                     <infoLink name="Earth Shaker Cannon" id="ef47-7c74-06a5-12bd" hidden="false" type="profile" targetId="02ed-a36d-fcf1-bb1d"/>
+                    <infoLink name="Earth Shaker Cannon (B)" id="a763-cbc8-b98b-3d96" hidden="false" type="profile" targetId="73fd-bdbd-857f-c38f"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="23"/>
@@ -5409,6 +5899,10 @@
                     <infoLink name="Storm Eagle Rockets" id="b1bd-ac2c-8a33-b855" hidden="false" type="profile" targetId="0663-4949-24f5-7ae2"/>
                     <infoLink name="Storm Eagle Rockets" id="4456-2b2f-28d4-9870" hidden="false" type="profile" targetId="0663-4949-24f5-7ae2"/>
                     <infoLink name="Storm Eagle Rockets" id="aec7-6b1c-4205-e843" hidden="false" type="profile" targetId="0663-4949-24f5-7ae2"/>
+                    <infoLink name="Storm Eagle Rockets (B)" id="38ba-0eb4-048a-6751" hidden="false" type="profile" targetId="7e12-35dc-968e-443c"/>
+                    <infoLink name="Storm Eagle Rockets (B)" id="896a-d4a6-791b-a671" hidden="false" type="profile" targetId="7e12-35dc-968e-443c"/>
+                    <infoLink name="Storm Eagle Rockets (B)" id="a438-464a-f708-7112" hidden="false" type="profile" targetId="7e12-35dc-968e-443c"/>
+                    <infoLink name="Storm Eagle Rockets (B)" id="b7f7-b1c9-f07c-95df" hidden="false" type="profile" targetId="7e12-35dc-968e-443c"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="33"/>
@@ -5422,6 +5916,7 @@
                   </constraints>
                   <infoLinks>
                     <infoLink name="Wyvern Quad Stormshard Mortar" id="6140-f2c6-4e9e-1516" hidden="false" type="profile" targetId="09b4-db20-ed11-0a1d"/>
+                    <infoLink name="Wyvern Quad Stormshard Mortar (B)" id="a4a7-07c8-d23e-4b30" hidden="false" type="profile" targetId="088e-fe13-ed03-456a"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
@@ -5670,6 +6165,7 @@
                   </costs>
                   <infoLinks>
                     <infoLink name="Battle Cannon" id="3052-fa76-6e25-d338" hidden="false" type="profile" targetId="dc3c-53ae-e493-5a62"/>
+                    <infoLink name="Battle Cannon (B)" id="4f26-4ac1-24d0-10d5" hidden="false" type="profile" targetId="342e-d80d-7458-ac93"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Conqueror Battle Cannon" hidden="false" id="915a-4862-6263-a776">
@@ -5683,6 +6179,7 @@
                   </costs>
                   <infoLinks>
                     <infoLink name="Conqueror Battle Cannon" id="fc9d-077d-1004-ab8a" hidden="false" type="profile" targetId="7c0e-f20f-35a4-53bd"/>
+                    <infoLink name="Conqueror Battle Cannon (B)" id="3d9c-46d7-836f-08b9" hidden="false" type="profile" targetId="2525-eb32-dd18-aae6"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Demolisher Cannon" hidden="false" id="8bd0-9a67-2b57-ecf5">
@@ -5696,6 +6193,7 @@
                   </costs>
                   <infoLinks>
                     <infoLink name="Demolisher Cannon" id="a6bb-0040-336a-acda" hidden="false" type="profile" targetId="2e24-ced3-cb79-8083"/>
+                    <infoLink name="Demolisher cannon (B)" id="4243-3cbb-4f74-ed64" hidden="false" type="profile" targetId="867c-21e4-3fb0-4538"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Eradicator Nova Cannon" hidden="false" id="884f-16c6-5b5c-ed99">
@@ -5709,6 +6207,7 @@
                   </costs>
                   <infoLinks>
                     <infoLink name="Eradicator Nova Cannon" id="d281-6a09-47fb-ce03" hidden="false" type="profile" targetId="1fb7-623f-1e5b-753e"/>
+                    <infoLink name="Eradicator Nova Cannon (B)" id="8a29-384b-0e62-bfdd" hidden="false" type="profile" targetId="2864-889a-d048-3240"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Executioner Plasma Cannon" hidden="false" id="4b53-8149-2309-fef4">
@@ -5721,7 +6220,8 @@
                     <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Executioner Plasma Cannon" id="521a-4b5e-6188-5705" hidden="false" type="profile" targetId="c1b6-42da-1376-578e"/>
+                    <infoLink name="Executioner Plasma Cannon (B)" id="521a-4b5e-6188-5705" hidden="false" type="profile" targetId="17a1-75fc-28b1-8aaa"/>
+                    <infoLink name="Executioner Plasma Cannon" id="0577-459f-3c98-e273" hidden="false" type="profile" targetId="c1b6-42da-1376-578e"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Exterminator Autocannon" hidden="false" id="6b20-74f5-c9a1-0a90">
@@ -5995,7 +6495,8 @@
                     <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Demolisher Cannon" id="7c26-3e48-c7f9-044f" hidden="false" type="profile" targetId="2e24-ced3-cb79-8083"/>
+                    <infoLink name="Demolisher cannon" id="7c26-3e48-c7f9-044f" hidden="false" type="profile" targetId="fe43-1071-ced7-54da"/>
+                    <infoLink name="Demolisher cannon (B)" id="b5ce-8ab1-bbb4-5a42" hidden="false" type="profile" targetId="867c-21e4-3fb0-4538"/>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -6303,7 +6804,8 @@
                     <constraint type="max" value="1" field="selections" scope="self" shared="true" id="84bb-88a5-9777-f8e9" includeChildSelections="false"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink name="Twin Battle Cannon" id="861a-3a68-9660-a9bf" hidden="false" type="profile" targetId="9b87-391d-b4c7-8dba"/>
+                    <infoLink name="Twin Battle Cannon (B)" id="861a-3a68-9660-a9bf" hidden="false" type="profile" targetId="1a46-b8f5-15c9-e4b0"/>
+                    <infoLink name="Twin Battle Cannon" id="71fc-a249-1e0f-0970" hidden="false" type="profile" targetId="9b87-391d-b4c7-8dba"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Oppressor Cannon and Autocannon." hidden="false" id="a503-b775-d43a-72b3">
@@ -6312,6 +6814,7 @@
                   </constraints>
                   <infoLinks>
                     <infoLink name="Oppressor Cannon" id="6f5e-38ae-929d-abbd" hidden="false" type="profile" targetId="bb4b-f68a-45d4-a9f1"/>
+                    <infoLink name="Oppressor Cannon (B)" id="a3ab-06be-1431-2488" hidden="false" type="profile" targetId="d156-bd7a-6073-90e2"/>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -6372,6 +6875,7 @@
                   </constraints>
                   <infoLinks>
                     <infoLink name="Pulveriser Cannon" id="39f3-f3c2-17eb-8871" hidden="false" type="profile" targetId="0120-760c-8733-3429"/>
+                    <infoLink name="Pulveriser Cannon (B)" id="a752-9ae2-f1b4-ddcb" hidden="false" type="profile" targetId="5cb7-8d91-1de3-38b1"/>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -6471,6 +6975,7 @@
                   </constraints>
                   <infoLinks>
                     <infoLink name="Bombast Field Gun" id="98a4-0f3d-767b-daca" hidden="false" type="profile" targetId="83a6-c345-d5ab-83bd"/>
+                    <infoLink name="Bombast Field Gun (B)" id="e750-9b7f-8f18-385b" hidden="false" type="profile" targetId="fd3b-2b4f-22bc-e8b0"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heavy Lascannon" hidden="false" id="3290-a690-6897-0277">
@@ -6487,6 +6992,7 @@
                   </constraints>
                   <infoLinks>
                     <infoLink name="Malleus Rocket Launcher" id="6fd3-89f4-9469-720a" hidden="false" type="profile" targetId="72f3-b16d-4d60-c571"/>
+                    <infoLink name="Malleus Rocket Launcher (B)" id="1d1b-c24e-1c96-826e" hidden="false" type="profile" targetId="fc2b-9d66-f1fb-4baa"/>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -7331,6 +7837,7 @@ Models in those units count as having made a Normal Move this phase they cannon 
                       </constraints>
                       <infoLinks>
                         <infoLink name="Twin Battle Cannon" id="1591-de2f-2bd6-0a50" hidden="false" type="profile" targetId="9b87-391d-b4c7-8dba"/>
+                        <infoLink name="Twin Battle Cannon (B)" id="2c30-68d1-3bec-15ce" hidden="false" type="profile" targetId="1a46-b8f5-15c9-e4b0"/>
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Oppressor Cannon and Autocannon." hidden="false" id="e9c9-b5c9-db55-1d9d">
@@ -7339,6 +7846,7 @@ Models in those units count as having made a Normal Move this phase they cannon 
                       </constraints>
                       <infoLinks>
                         <infoLink name="Oppressor Cannon" id="34a7-06de-8823-8df5" hidden="false" type="profile" targetId="bb4b-f68a-45d4-a9f1"/>
+                        <infoLink name="Oppressor Cannon (B)" id="10b6-1e98-0952-279d" hidden="false" type="profile" targetId="d156-bd7a-6073-90e2"/>
                       </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
@@ -7399,6 +7907,7 @@ Models in those units count as having made a Normal Move this phase they cannon 
                       </constraints>
                       <infoLinks>
                         <infoLink name="Pulveriser Cannon" id="0e2c-5d43-d624-7aaa" hidden="false" type="profile" targetId="0120-760c-8733-3429"/>
+                        <infoLink name="Pulveriser Cannon (B)" id="2b31-5c04-f916-12a1" hidden="false" type="profile" targetId="5cb7-8d91-1de3-38b1"/>
                       </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
@@ -7468,71 +7977,6 @@ Models in those units count as having made a Normal Move this phase they cannon 
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Main Weapon" hidden="false" id="b4cc-6739-3707-b32a">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Battle Cannon" hidden="false" id="4d1c-5793-bcc2-5a5a">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0f99-a07b-ecb0-90bf" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="37"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Battle Cannon" id="cad3-3aa1-35fd-0d64" hidden="false" type="profile" targetId="dc3c-53ae-e493-5a62"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Conqueror Battle Cannon" hidden="false" id="8aa3-0a69-5cd4-ae79">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4a58-a7e7-6550-3888" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="55"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Conqueror Battle Cannon" id="73b2-09ba-bdc2-70d7" hidden="false" type="profile" targetId="7c0e-f20f-35a4-53bd"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Demolisher Cannon" hidden="false" id="3f97-3dda-2d07-b8c0">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="46ef-f3a5-f7b7-0f9d" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="35"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Demolisher Cannon" id="4a5a-95fe-3c43-843d" hidden="false" type="profile" targetId="2e24-ced3-cb79-8083"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Eradicator Nova Cannon" hidden="false" id="cb5b-81b7-d37d-38fb">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="274d-b275-0ffe-714f" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="30"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Eradicator Nova Cannon" id="04dd-f920-d213-c007" hidden="false" type="profile" targetId="1fb7-623f-1e5b-753e"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Executioner Plasma Cannon" hidden="false" id="d8a7-fc8b-b332-76ec">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b72b-f644-7991-5a23" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="30"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Executioner Plasma Cannon" id="9b26-99db-213c-b5b3" hidden="false" type="profile" targetId="c1b6-42da-1376-578e"/>
-                      </infoLinks>
-                    </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Exterminator Autocannon" hidden="false" id="a901-5d10-0c32-26d3">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1bf3-5335-23ea-5858" includeChildSelections="false"/>
@@ -7570,6 +8014,76 @@ Models in those units count as having made a Normal Move this phase they cannon 
                       </costs>
                       <infoLinks>
                         <infoLink name="Vanquisher Battle Cannon" id="b346-6e94-4d37-37df" hidden="false" type="profile" targetId="16cd-a6df-f9ef-ce99"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Battle Cannon" hidden="false" id="7192-2b59-6dc2-9675">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="024a-5571-6b94-02cf" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="37"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Battle Cannon" id="afb2-7ace-fcbd-0a63" hidden="false" type="profile" targetId="dc3c-53ae-e493-5a62"/>
+                        <infoLink name="Battle Cannon (B)" id="9ad4-4a19-d9a6-22a7" hidden="false" type="profile" targetId="342e-d80d-7458-ac93"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Conqueror Battle Cannon" hidden="false" id="763b-2b87-7c83-871c">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="67ed-9cdc-f4ea-aada" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="55"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Conqueror Battle Cannon" id="f265-672d-6c3e-8237" hidden="false" type="profile" targetId="7c0e-f20f-35a4-53bd"/>
+                        <infoLink name="Conqueror Battle Cannon (B)" id="2780-0701-b458-688c" hidden="false" type="profile" targetId="2525-eb32-dd18-aae6"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Demolisher Cannon" hidden="false" id="4132-dfb4-c917-a343">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="bdde-f9b6-8c66-e425" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="35"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Demolisher Cannon" id="adf3-bfbf-681c-8e04" hidden="false" type="profile" targetId="2e24-ced3-cb79-8083"/>
+                        <infoLink name="Demolisher cannon (B)" id="4fc6-c837-0161-70b4" hidden="false" type="profile" targetId="867c-21e4-3fb0-4538"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Eradicator Nova Cannon" hidden="false" id="b015-38e9-af13-485a">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5d4d-4a52-483f-c6a5" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="30"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Eradicator Nova Cannon" id="9d77-c881-c680-a953" hidden="false" type="profile" targetId="1fb7-623f-1e5b-753e"/>
+                        <infoLink name="Eradicator Nova Cannon (B)" id="df04-084e-018b-0d0d" hidden="false" type="profile" targetId="2864-889a-d048-3240"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Executioner Plasma Cannon" hidden="false" id="81e1-33b1-32bb-098d">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d15c-0200-bd79-8567" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="30"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Executioner Plasma Cannon (B)" id="aae2-0f10-7b2e-cb8f" hidden="false" type="profile" targetId="17a1-75fc-28b1-8aaa"/>
+                        <infoLink name="Executioner Plasma Cannon" id="2264-c23b-f88f-e31c" hidden="false" type="profile" targetId="c1b6-42da-1376-578e"/>
                       </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
@@ -7786,7 +8300,8 @@ Models in those units count as having made a Normal Move this phase they cannon 
                         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
                       </costs>
                       <infoLinks>
-                        <infoLink name="Demolisher Cannon" id="d0b2-63e1-7d88-cb8d" hidden="false" type="profile" targetId="2e24-ced3-cb79-8083"/>
+                        <infoLink name="Demolisher cannon" id="d0b2-63e1-7d88-cb8d" hidden="false" type="profile" targetId="fe43-1071-ced7-54da"/>
+                        <infoLink name="Demolisher cannon (B)" id="c2a5-7659-f9f1-7fef" hidden="false" type="profile" targetId="867c-21e4-3fb0-4538"/>
                       </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
@@ -8030,6 +8545,7 @@ Models in those units count as having made a Normal Move this phase they cannon 
                       </constraints>
                       <infoLinks>
                         <infoLink name="Twin Battle Cannon" id="33d9-6bc3-7137-94ce" hidden="false" type="profile" targetId="9b87-391d-b4c7-8dba"/>
+                        <infoLink name="Twin Battle Cannon (B)" id="e9f3-8148-cf8b-784c" hidden="false" type="profile" targetId="1a46-b8f5-15c9-e4b0"/>
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Oppressor Cannon and Autocannon." hidden="false" id="e877-312d-87ed-b5fd">
@@ -8038,6 +8554,7 @@ Models in those units count as having made a Normal Move this phase they cannon 
                       </constraints>
                       <infoLinks>
                         <infoLink name="Oppressor Cannon" id="351a-d297-fa43-64ed" hidden="false" type="profile" targetId="bb4b-f68a-45d4-a9f1"/>
+                        <infoLink name="Oppressor Cannon (B)" id="fe83-8a3c-ade2-54d3" hidden="false" type="profile" targetId="d156-bd7a-6073-90e2"/>
                       </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
@@ -8098,6 +8615,7 @@ Models in those units count as having made a Normal Move this phase they cannon 
                       </constraints>
                       <infoLinks>
                         <infoLink name="Pulveriser Cannon" id="cb45-036f-c58f-2888" hidden="false" type="profile" targetId="0120-760c-8733-3429"/>
+                        <infoLink name="Pulveriser Cannon (B)" id="046c-d51b-7c43-6db2" hidden="false" type="profile" targetId="5cb7-8d91-1de3-38b1"/>
                       </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
@@ -8167,71 +8685,6 @@ Models in those units count as having made a Normal Move this phase they cannon 
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Main Weapon" hidden="false" id="09fa-93dd-ade3-7de8">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Battle Cannon" hidden="false" id="6181-d0ff-cfc1-385e">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9c3c-6e8f-0674-f6d5" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="37"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Battle Cannon" id="af24-a707-1509-5d61" hidden="false" type="profile" targetId="dc3c-53ae-e493-5a62"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Conqueror Battle Cannon" hidden="false" id="8643-c3e7-960f-0666">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e8c1-eba8-4ef4-27ff" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="55"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Conqueror Battle Cannon" id="ce34-bc3d-bd85-785e" hidden="false" type="profile" targetId="7c0e-f20f-35a4-53bd"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Demolisher Cannon" hidden="false" id="ee18-104c-b9ac-f2f9">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="95a6-bad9-845a-575e" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="35"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Demolisher Cannon" id="673e-4f3c-81e1-0ac7" hidden="false" type="profile" targetId="2e24-ced3-cb79-8083"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Eradicator Nova Cannon" hidden="false" id="ef81-e415-e89d-8fe7">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1081-5071-a88f-e52e" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="30"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Eradicator Nova Cannon" id="59b3-bc0d-95ad-bb74" hidden="false" type="profile" targetId="1fb7-623f-1e5b-753e"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Executioner Plasma Cannon" hidden="false" id="9e90-4b98-457f-7caf">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d838-9cb9-f6e0-171a" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="30"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Executioner Plasma Cannon" id="4c60-06b3-2bd7-ee05" hidden="false" type="profile" targetId="c1b6-42da-1376-578e"/>
-                      </infoLinks>
-                    </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Exterminator Autocannon" hidden="false" id="308e-d728-048a-cd84">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9685-26d7-4624-35fa" includeChildSelections="false"/>
@@ -8269,6 +8722,76 @@ Models in those units count as having made a Normal Move this phase they cannon 
                       </costs>
                       <infoLinks>
                         <infoLink name="Vanquisher Battle Cannon" id="c2fd-4ec1-486e-a19b" hidden="false" type="profile" targetId="16cd-a6df-f9ef-ce99"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Battle Cannon" hidden="false" id="bc8d-703f-2446-d109">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e9de-ec38-cc30-65de" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="37"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Battle Cannon" id="6734-53fe-0ccd-0261" hidden="false" type="profile" targetId="dc3c-53ae-e493-5a62"/>
+                        <infoLink name="Battle Cannon (B)" id="4866-c8e2-9f9e-d592" hidden="false" type="profile" targetId="342e-d80d-7458-ac93"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Conqueror Battle Cannon" hidden="false" id="7769-9f88-8002-6234">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c477-ceae-e03d-885e" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="55"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Conqueror Battle Cannon" id="8fb6-4d49-a816-c738" hidden="false" type="profile" targetId="7c0e-f20f-35a4-53bd"/>
+                        <infoLink name="Conqueror Battle Cannon (B)" id="9b67-c535-ec4a-781f" hidden="false" type="profile" targetId="2525-eb32-dd18-aae6"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Demolisher Cannon" hidden="false" id="a0f5-14e3-21a3-6baf">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c97b-85ca-5027-73a0" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="35"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Demolisher Cannon" id="4af2-d4bd-848f-0056" hidden="false" type="profile" targetId="2e24-ced3-cb79-8083"/>
+                        <infoLink name="Demolisher cannon (B)" id="fa67-1822-4df0-61fb" hidden="false" type="profile" targetId="867c-21e4-3fb0-4538"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Eradicator Nova Cannon" hidden="false" id="cff3-1a86-ad9e-ef16">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2b1e-01a4-567f-9743" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="30"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Eradicator Nova Cannon" id="f771-031a-8fe1-f852" hidden="false" type="profile" targetId="1fb7-623f-1e5b-753e"/>
+                        <infoLink name="Eradicator Nova Cannon (B)" id="c714-c3c8-a84f-6de0" hidden="false" type="profile" targetId="2864-889a-d048-3240"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Executioner Plasma Cannon" hidden="false" id="5ea5-8b55-6334-1e4f">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b2c4-df47-19e0-ca87" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="30"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Executioner Plasma Cannon (B)" id="3b37-094f-c2a2-cae5" hidden="false" type="profile" targetId="17a1-75fc-28b1-8aaa"/>
+                        <infoLink name="Executioner Plasma Cannon" id="62d2-2a4c-51c2-0085" hidden="false" type="profile" targetId="c1b6-42da-1376-578e"/>
                       </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
@@ -8486,6 +9009,7 @@ Models in those units count as having made a Normal Move this phase they cannon 
                       </costs>
                       <infoLinks>
                         <infoLink name="Demolisher Cannon" id="d3af-d52b-ce4a-8926" hidden="false" type="profile" targetId="2e24-ced3-cb79-8083"/>
+                        <infoLink name="Demolisher cannon (B)" id="497d-fc82-08b2-7e37" hidden="false" type="profile" targetId="867c-21e4-3fb0-4538"/>
                       </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
@@ -10209,6 +10733,10 @@ Models in those units count as having made a Normal Move this phase they cannon 
               <constraints>
                 <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="a9ee-4154-4618-d19a" includeChildSelections="false"/>
               </constraints>
+              <infoLinks>
+                <infoLink name="Twin Heavy Bolter" id="ec5c-44dc-6f2c-8459" hidden="false" type="profile" targetId="0c2e-a0d3-25c9-1e0c"/>
+                <infoLink name="Lascannon" id="691a-3b89-4f6b-e036" hidden="false" type="profile" targetId="1732-e074-a0dc-d063"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Lascannon &amp; Twin Heavy Flamers" hidden="false" id="ab66-c72d-de55-42f0">
               <costs>
@@ -10219,6 +10747,10 @@ Models in those units count as having made a Normal Move this phase they cannon 
               <constraints>
                 <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="dc55-0e75-f1bb-1f05" includeChildSelections="false"/>
               </constraints>
+              <infoLinks>
+                <infoLink name="Lascannon" id="0d48-f813-c5f4-8c9c" hidden="false" type="profile" targetId="1732-e074-a0dc-d063"/>
+                <infoLink name="Twin Heavy Flamer" id="bee9-4953-595c-e0a7" hidden="false" type="profile" targetId="e06f-d346-691a-dd95"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -10272,6 +10804,8 @@ Models in those units count as having made a Normal Move this phase they cannon 
         <infoLink name="Demolisher cannon" id="0192-f6c1-2be7-58ec" hidden="false" type="profile" targetId="fe43-1071-ced7-54da"/>
         <infoLink name="Autocannon" id="1c63-7bce-2250-9336" hidden="false" type="profile" targetId="ba43-76b7-1c65-9abf"/>
         <infoLink name="Banebalde Battle Cannon" id="6347-d3f8-d566-b2f3" hidden="false" type="profile" targetId="1064-1cda-29f9-a6e9"/>
+        <infoLink name="Banebalde Battle Cannon (B)" id="1807-324c-4251-a401" hidden="false" type="profile" targetId="8ec2-82ee-e0df-ea7d"/>
+        <infoLink name="Demolisher cannon (B)" id="d134-ea1b-451c-27a2" hidden="false" type="profile" targetId="867c-21e4-3fb0-4538"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="394"/>
