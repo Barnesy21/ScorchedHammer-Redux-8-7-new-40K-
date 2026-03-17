@@ -904,7 +904,7 @@ Inflict D3 mortal wounds on this model and select one result on the table [on th
     </rule>
   </sharedRules>
   <forceEntries>
-    <forceEntry name="Support Lance" id="2684-2cd3-4e13-c458" hidden="false">
+    <forceEntry name="Hunting Pack Lance +7 CP" id="2684-2cd3-4e13-c458" hidden="false">
       <categoryLinks>
         <categoryLink name="Troop" hidden="false" id="f34b-8832-7dff-4c55" targetId="168f-b2da-4fd7-90d7">
           <constraints>
@@ -941,7 +941,7 @@ Inflict D3 mortal wounds on this model and select one result on the table [on th
         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="7"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Sword and Shield Lance" id="afb7-0ec1-4cd4-5b80" hidden="false">
+    <forceEntry name="Tratorus Lance +9 CP" id="afb7-0ec1-4cd4-5b80" hidden="false">
       <categoryLinks>
         <categoryLink name="Troop" hidden="false" id="76e7-5061-2ca0-d639" targetId="168f-b2da-4fd7-90d7">
           <constraints>
@@ -975,28 +975,28 @@ Inflict D3 mortal wounds on this model and select one result on the table [on th
       <costs>
         <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
         <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="4"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="9"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Strike Lance" id="fae1-1845-23ed-9b3f" hidden="false">
+    <forceEntry name="Forgotten Lance +4 CP" id="fae1-1845-23ed-9b3f" hidden="false">
       <categoryLinks>
         <categoryLink name="Troop" hidden="false" id="a9dc-f57b-c06b-92df" targetId="168f-b2da-4fd7-90d7">
           <constraints>
-            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="ce49-f354-9d58-1eee"/>
-            <constraint type="max" value="15" field="selections" scope="parent" shared="true" id="51ee-d5a2-e010-d489"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ce49-f354-9d58-1eee"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="51ee-d5a2-e010-d489"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Lord of War" hidden="false" id="d81d-587e-8eaa-f014" targetId="2891-0302-74c6-87b5">
           <constraints>
-            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="6085-2e44-79fd-4859"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="6085-2e44-79fd-4859"/>
           </constraints>
           <modifiers>
             <modifier type="increment" value="1" field="6085-2e44-79fd-4859">
               <conditions>
-                <condition type="greaterThan" value="4" field="selections" scope="parent" childId="168f-b2da-4fd7-90d7" shared="true"/>
+                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="168f-b2da-4fd7-90d7" shared="true"/>
               </conditions>
               <repeats>
-                <repeat value="5" repeats="2" field="selections" scope="parent" childId="168f-b2da-4fd7-90d7" shared="true" roundUp="false"/>
+                <repeat value="2" repeats="2" field="selections" scope="parent" childId="168f-b2da-4fd7-90d7" shared="true" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -1012,7 +1012,7 @@ Inflict D3 mortal wounds on this model and select one result on the table [on th
       <costs>
         <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
         <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="9"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="4"/>
       </costs>
     </forceEntry>
   </forceEntries>
@@ -1136,7 +1136,7 @@ Inflict D3 mortal wounds on this model and select one result on the table [on th
         <categoryLink targetId="d4d9-474a-93ba-a3b3" id="7d05-a5d3-6e0e-f01c" primary="false" name="Knight Shield"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Knight Tyrant Princept" hidden="false" id="50e1-0838-acce-bc70">
+    <selectionEntry type="model" import="true" name="Knight Tyrant Dreadblade" hidden="false" id="50e1-0838-acce-bc70">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Carapace Weapons" hidden="false" id="09f1-cb22-7372-c181">
           <selectionEntries>
@@ -1701,7 +1701,7 @@ Inflict D3 mortal wounds on this model and select one result on the table [on th
     <selectionEntry type="model" import="true" name="Abominant" hidden="false" id="c15b-655f-b0c5-eb00">
       <infoLinks>
         <infoLink name="Abominant" id="b034-590d-c6ca-6332" hidden="false" type="profile" targetId="aa02-4411-e21e-bd6c"/>
-        <infoLink name="Ion Shield" id="7473-7ae7-2002-c312" hidden="false" type="profile" targetId="90ae-e29d-8dc2-7fc5"/>
+        <infoLink name="Ion Shield (Knight)" id="7473-7ae7-2002-c312" hidden="false" type="profile" targetId="90ae-e29d-8dc2-7fc5"/>
         <infoLink name="Balemace" id="027f-3cff-3bb0-d434" hidden="false" type="profile" targetId="9118-7413-f74a-c145"/>
         <infoLink name="Diabolus Heavy Stubber" id="2872-d65f-bc04-c5fe" hidden="false" type="profile" targetId="b621-381e-1b75-d070"/>
         <infoLink name="Electroscourge" id="5bf9-2324-7515-9e4b" hidden="false" type="profile" targetId="0450-1aa8-a989-3813"/>
@@ -1901,6 +1901,16 @@ If the result of the psychic test was 8 or more, while a friendly WAR DOG-CLASS 
         <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="340f-e75b-b8c3-046c">
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b7b-81a3-f9ed-4608" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Knight Desecrator" hidden="false" id="93b7-1c70-1df2-9954">
       <infoLinks>
@@ -1963,7 +1973,7 @@ If the result of the psychic test was 8 or more, while a friendly WAR DOG-CLASS 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Knight Desecrator Princept" hidden="false" id="ca47-508f-c47f-75f3">
+    <selectionEntry type="model" import="true" name="Knight Desecrator Dreadblade" hidden="false" id="ca47-508f-c47f-75f3">
       <infoLinks>
         <infoLink name="Desecrator" id="591b-d14a-1b58-2d61" hidden="false" type="profile" targetId="9727-2484-d14d-06a3">
           <modifiers>
@@ -2019,6 +2029,14 @@ If the result of the psychic test was 8 or more, while a friendly WAR DOG-CLASS 
           <constraints>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="75c9-93f4-4762-0d25" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b566-0189-e586-65ad" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="8495-7615-c6b8-c6f4">
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="97fa-d045-8fb5-b6ee" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -2214,7 +2232,7 @@ If the result of the psychic test was 8 or more, while a friendly WAR DOG-CLASS 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Knight Despoiler Princept" hidden="false" id="e44a-9065-562a-b849">
+    <selectionEntry type="model" import="true" name="Knight Despoiler Dreadblade" hidden="false" id="e44a-9065-562a-b849">
       <infoLinks>
         <infoLink name="Despoiler" id="2448-e22b-8d6e-75cd" hidden="false" type="profile" targetId="d77c-31c9-ab2a-0864">
           <modifiers>
@@ -2390,6 +2408,14 @@ If the result of the psychic test was 8 or more, while a friendly WAR DOG-CLASS 
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c7c-3257-82c2-a397" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="c367-68d8-ef7a-5ef1">
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="66b7-73c5-814e-5e91" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
       </selectionEntries>
       <profiles>
         <profile name="Dread Dominion (Aura)" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="6a48-577f-b4d1-dbfb">
@@ -2438,9 +2464,14 @@ If the result of the psychic test was 8 or more, while a friendly WAR DOG-CLASS 
             <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">While a friendly WAR DOG-CLASS model is within 9&quot; of this model, each time that friendly model makes a melee attack, re-roll a hit roll of 1.</characteristic>
           </characteristics>
         </profile>
+        <profile name="Blood Field Charge" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="b5a3-cafa-f6a0-a415">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This Model May Advance and Charge in a Turn in which It does not Perform a Shooting Attack</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Knight Rampager Princept" hidden="false" id="9891-d9fc-0b2a-0df7">
+    <selectionEntry type="model" import="true" name="Knight Rampager Dreadblade" hidden="false" id="9891-d9fc-0b2a-0df7">
       <infoLinks>
         <infoLink name="Rampager" id="280d-1969-0a0f-b695" hidden="false" type="profile" targetId="3faf-5751-1864-73dd">
           <modifiers>
@@ -2480,7 +2511,22 @@ If the result of the psychic test was 8 or more, while a friendly WAR DOG-CLASS 
             <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">While a friendly WAR DOG-CLASS model is within 9&quot; of this model, each time that friendly model makes a melee attack, re-roll a hit roll of 1.</characteristic>
           </characteristics>
         </profile>
+        <profile name="Blood Field Charge" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="c7b1-f67b-055c-0b59">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This Model May Advance and Charge in a Turn in which It does not Perform a Shooting Attack</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="bc77-df02-564a-7f5c">
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="984a-0327-ab2f-1a1d" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Knight Ruinator" hidden="false" id="7411-40fb-44d4-4d5d">
       <infoLinks>
@@ -2525,7 +2571,7 @@ If the result of the psychic test was 8 or more, while a friendly WAR DOG-CLASS 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Knight Ruinator Princept" hidden="false" id="82fa-de15-4a73-b112">
+    <selectionEntry type="model" import="true" name="Knight Ruinator Dreadblade" hidden="false" id="82fa-de15-4a73-b112">
       <infoLinks>
         <infoLink name="Ruinator" id="08aa-0249-e623-135e" hidden="false" type="profile" targetId="490f-3d00-c94f-83f8">
           <modifiers>
@@ -2573,6 +2619,171 @@ If the result of the psychic test was 8 or more, while a friendly WAR DOG-CLASS 
           </characteristics>
         </profile>
       </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="1280-168c-dfbb-c9f0">
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="794e-fa8f-d901-c0f1" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Household" hidden="false" id="55f7-5c48-5eda-4085">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Iconoclast Households" hidden="false" id="bc08-747f-8845-4dc7">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="House Herpetrax" hidden="false" id="91df-c20f-80c2-cc50">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dfd2-822d-ed84-7119" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Dauntless" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="9717-ba3f-2458-e9e4">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Add 2 to the Wounds characteristic of WAR DOG-CLASS models with this bond.
+
+
+Add 4 to the Wounds characteristic of TITANIC models with this bond.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="House Khymere" hidden="false" id="1b6e-6836-dad4-26f9">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb9f-3221-de39-210b" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Rampant Cruelty" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="b022-2f84-695e-099e">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Each time a model with this bond makes an attack, if that attack is made against a unit that was below Half-strength when this model was selected to shoot or fight, add 1 to the wound roll.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="House Lucaris" hidden="false" id="dc0d-bab4-bc4e-86f0">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="00e2-8ea8-5c23-eb3e" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Virtue through Strength" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="eca9-d627-b8d5-5f7b">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Each time a model with this bond is selected to fight, you can re-roll one hit roll or one wound roll when resolving that model&apos;s attacks.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Iconoclast Dreadblades" hidden="false" id="f7d4-ce23-f1a8-fc37">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4341-f9ff-2aa1-897a" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Wandering Nobles" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="b524-a056-9bf6-9f91">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">While Friendly War Dog Units are within 9&quot; of Knight Units, they have the Devastating Wounds Ability.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Iconoclast Household" hidden="false" id="5d0f-2c30-56a6-cddd">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d093-5378-1c24-32e1" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Dread Tyrants (Aura)" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="af0f-52f8-d5ef-a711">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">While a friendly War Dog unit is within 9&quot; of a Knight Unit, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c27c-36dc-931d-3328-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c27c-36dc-931d-3328-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Infernal Households" hidden="false" id="0e81-dabd-9ee0-d52e">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="House Khomentis" hidden="false" id="978d-eb3f-36d7-0a10">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="adb4-202b-a494-e4b4" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Profane Symbiosis" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="f85f-6429-3832-63f1">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Each time a model with this bond uses a Daemonic Surge:
+
+
+If you choose to inflict one mortal wound, you can re-roll the D3 when determining what Daemonic Surge result applies to this model until the start of your next Command phase.
+
+
+If you choose to inflict D3 mortal wounds, select two results from the Daemonic Surge table to apply to this model until the start of your next Command phase.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="House Korvax" hidden="false" id="e9a7-b719-aec3-d721">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="24b6-0c2b-4f5b-1153" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Forged in Terror" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="2d4d-c479-1409-8855">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Once per battle, at the start of any battle round, you can select one Harbinger ability from those corresponding to the current battle round, or any previous battle round. That ability becomes active for every model with this bond in your army, even if every unit in your army does not have the CHAOS KNIGHTS keyword.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="House Vextrix" hidden="false" id="a8ed-176e-4d78-6d85">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5af9-7e36-af57-4d98" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Titankin" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="b76f-b31b-4149-97b0">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Each time a model with this bond is selected to shoot, you can re-roll one hit roll and one wound roll when resolving that model&apos;s attacks.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Infernal Dreadblades" hidden="false" id="0964-9aff-6862-722d">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b776-4873-bac1-ec34" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Unnatural Fortitude" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="378a-1994-51a5-16f0">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">When this unit is selected as the target of an attack, until the end of the phase, select one of the following:
+Models in this unit have a +1 to their invulnerable save.
+Models in this unit have the Feel No Pain 5+ ability.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Infernal Households" hidden="false" id="8b21-88f0-fc8e-cd50">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e6f-070b-bc51-4278" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Diabolic Power" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="d5f9-3432-1d3f-efaa">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">When this unit is selected to shoot or fight, select either the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until the end of the phase, weapons equipped by models in this unit have the selected ability.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="54a5-c7ca-bcb9-f1ec-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="54a5-c7ca-bcb9-f1ec-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="a5d1-ff68-0e4e-98b5" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="422b-778d-8f08-751a" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
@@ -2664,6 +2875,11 @@ If the result of the psychic test was 8 or more, while a friendly WAR DOG-CLASS 
     <entryLink import="true" name="Knight Ruinator Princept" hidden="false" id="aa79-05a7-24c3-d2e7" targetId="82fa-de15-4a73-b112" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="df66-426b-8561-5154" id="0008-a567-0f00-6972" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Household" hidden="false" id="b165-c1e5-bee7-9ede" targetId="55f7-5c48-5eda-4085" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Configuration" hidden="false" id="f400-e6ae-7574-0f0f" targetId="2eb6-e424-69d8-5b7c" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
