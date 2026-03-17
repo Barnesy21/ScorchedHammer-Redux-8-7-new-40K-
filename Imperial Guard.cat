@@ -1966,6 +1966,7 @@
           <infoLinks>
             <infoLink name="Guardsmen" id="9435-7858-ba6c-19b8" hidden="false" type="profile" targetId="a967-7593-c9a9-3b05"/>
             <infoLink name="Frag Grenade" id="ea7f-fbce-4185-fdac" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+            <infoLink name="Frag Grenade (B)" id="cb4a-d2ec-96ed-4970" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="4"/>
@@ -2103,6 +2104,10 @@
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf15-be3c-ad09-9b13" includeChildSelections="false"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Frag Grenade (B)" id="eaa4-cadc-7bad-8550" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+            <infoLink name="Frag Grenade" id="f114-848b-f301-219c" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Sargent" hidden="false" id="54dd-8dc2-cae5-1525">
           <costs>
@@ -2238,6 +2243,8 @@
           </constraints>
           <infoLinks>
             <infoLink name="Sargent Guardsmen" id="b011-ca56-748a-8772" hidden="false" type="profile" targetId="135d-1389-8120-30f5"/>
+            <infoLink name="Frag Grenade (B)" id="78bd-10c4-e2d0-8b48" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+            <infoLink name="Frag Grenade" id="09a9-6510-55e6-fa6d" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Guardsmen /WF Voxcaster" hidden="false" id="b775-c301-2cdc-790e">
@@ -2245,6 +2252,7 @@
             <infoLink name="Guardsmen" id="3503-17f1-da24-cca9" hidden="false" type="profile" targetId="a967-7593-c9a9-3b05"/>
             <infoLink name="Frag Grenade" id="4c1d-4024-090c-6cdb" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
             <infoLink name="Vox-caster" id="2683-67d9-dfd0-cc1f" hidden="false" type="profile" targetId="db7b-4363-dafb-35cd"/>
+            <infoLink name="Frag Grenade (B)" id="4c74-d20a-098a-6a8e" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="4"/>
@@ -2261,6 +2269,8 @@
         <selectionEntry type="model" import="true" name="Heavy Weapon Team" hidden="false" id="8e67-98ad-24fe-f898">
           <infoLinks>
             <infoLink name="Heavy Weapon Team" id="8df6-1202-9945-e5f4" hidden="false" type="profile" targetId="3d2d-c4e7-9731-68bc"/>
+            <infoLink name="Frag Grenade (B)" id="9f0b-9368-1849-e064" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+            <infoLink name="Frag Grenade" id="3e66-b252-f82d-1f22" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Heavy Weapon Options" hidden="false" id="88b2-821b-bd91-6162">
@@ -2372,6 +2382,7 @@
             <infoLink name="Conscript" id="6c45-01b8-2d83-96ad" hidden="false" type="profile" targetId="6c04-deb8-691e-f20a"/>
             <infoLink name="Lasgun" id="34e5-66a9-3a97-d217" hidden="false" type="profile" targetId="5031-fc51-20e0-fec1"/>
             <infoLink name="Frag Grenade" id="7df9-f78e-7fd6-272c" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+            <infoLink name="Frag Grenade (B)" id="fd05-720d-87bc-eaf0" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
           </infoLinks>
           <constraints>
             <constraint type="max" value="30" field="selections" scope="parent" shared="true" id="ab86-6751-d253-48be" includeChildSelections="false"/>
@@ -2408,6 +2419,9 @@
               <infoLinks>
                 <infoLink name="Heavy Flamer" id="0e1f-53c9-6f42-9c4b" hidden="false" type="profile" targetId="ad83-916e-b751-a91a"/>
                 <infoLink name="Guardsmen" id="0eb0-e1e5-31f2-3207" hidden="false" type="profile" targetId="a967-7593-c9a9-3b05"/>
+                <infoLink name="Frag Grenade" id="002a-dd44-b831-dd72" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+                <infoLink name="Frag Grenade (B)" id="64e6-8fa5-f9e9-5330" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+                <infoLink name="Krak Grenade" id="0835-bc43-1baa-3026" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
@@ -2419,6 +2433,9 @@
               <infoLinks>
                 <infoLink name="Medi-pack" id="f2cf-1846-7641-83d9" hidden="false" type="profile" targetId="c16e-ee9a-c26a-eaba"/>
                 <infoLink name="Guardsmen" id="b4e0-7dec-3f80-89a6" hidden="false" type="profile" targetId="a967-7593-c9a9-3b05"/>
+                <infoLink name="Frag Grenade" id="bb31-7d86-5f3b-77c7" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+                <infoLink name="Frag Grenade (B)" id="40b5-89b3-cd2d-43ed" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+                <infoLink name="Krak Grenade" id="1871-d983-ab37-22b4" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
               </infoLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a998-333d-5ca4-9587" includeChildSelections="false"/>
@@ -2452,6 +2469,9 @@
               <infoLinks>
                 <infoLink name="Platoon Standard" id="5b7a-a6af-7933-4a3f" hidden="false" type="profile" targetId="b6b3-ca1c-6c84-3061"/>
                 <infoLink name="Guardsmen" id="431e-4843-1b23-5f6b" hidden="false" type="profile" targetId="a967-7593-c9a9-3b05"/>
+                <infoLink name="Frag Grenade" id="f06a-4461-dad6-fd69" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+                <infoLink name="Frag Grenade (B)" id="a040-3fb5-bb28-b3e7" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+                <infoLink name="Krak Grenade" id="25c6-a4f1-2204-522a" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Laspistol and Chainsword" hidden="false" id="17d1-6866-c1cf-af5d">
@@ -2481,6 +2501,9 @@
               <infoLinks>
                 <infoLink name="Vox-caster" id="3d47-6c3f-846f-e7ce" hidden="false" type="profile" targetId="db7b-4363-dafb-35cd"/>
                 <infoLink name="Guardsmen" id="caa7-408d-7815-7d6e" hidden="false" type="profile" targetId="a967-7593-c9a9-3b05"/>
+                <infoLink name="Frag Grenade" id="3c3d-4f58-aed4-5662" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+                <infoLink name="Frag Grenade (B)" id="1f29-cd15-2c41-84d3" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+                <infoLink name="Krak Grenade" id="f2ae-0be7-c760-ae84" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Laspistol and Chainsword" hidden="false" id="2d6f-f4a0-0ccb-bd4a">
@@ -2509,6 +2532,9 @@
               <infoLinks>
                 <infoLink name="Flamer" id="880d-70f8-1531-3e7b" hidden="false" type="profile" targetId="c8ec-c3db-58e3-1daf"/>
                 <infoLink name="Guardsmen" id="0311-79d7-eee3-db4c" hidden="false" type="profile" targetId="a967-7593-c9a9-3b05"/>
+                <infoLink name="Krak Grenade" id="a4cd-aca0-fd1c-c79a" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+                <infoLink name="Frag Grenade (B)" id="b1f7-328f-b7c2-4fce" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+                <infoLink name="Frag Grenade" id="02e4-6983-eb46-86bc" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
@@ -2523,6 +2549,9 @@
               <infoLinks>
                 <infoLink name="Plasma Gun" id="a27f-1cf1-49f4-8036" hidden="false" type="profile" targetId="e405-dfde-fb54-5782"/>
                 <infoLink name="Guardsmen" id="738c-d69e-6d82-9a8a" hidden="false" type="profile" targetId="a967-7593-c9a9-3b05"/>
+                <infoLink name="Frag Grenade" id="2018-db84-27b2-38fb" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+                <infoLink name="Frag Grenade (B)" id="7ba2-c6fc-114d-38e0" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+                <infoLink name="Krak Grenade" id="5948-2cf5-c466-28e1" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="17"/>
@@ -2537,6 +2566,9 @@
               <infoLinks>
                 <infoLink name="Sniper Rifle" id="a0ac-7821-954c-fcda" hidden="false" type="profile" targetId="f352-2d21-4ab8-c8de"/>
                 <infoLink name="Guardsmen" id="b230-d98e-7b85-d0f7" hidden="false" type="profile" targetId="a967-7593-c9a9-3b05"/>
+                <infoLink name="Frag Grenade" id="6b77-983b-f2f1-03f1" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+                <infoLink name="Frag Grenade (B)" id="793d-122f-c2ff-b05b" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+                <infoLink name="Krak Grenade" id="a765-fdf3-cee4-b751" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
@@ -2551,6 +2583,9 @@
               <infoLinks>
                 <infoLink name="Meltagun" id="80a9-44b4-b188-8fa4" hidden="false" type="profile" targetId="0457-12b1-1d6e-b59d"/>
                 <infoLink name="Guardsmen" id="fd37-8272-44e1-b600" hidden="false" type="profile" targetId="a967-7593-c9a9-3b05"/>
+                <infoLink name="Frag Grenade" id="a23f-18a8-e3dd-ddee" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+                <infoLink name="Frag Grenade (B)" id="c892-f4a5-24f7-430d" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+                <infoLink name="Krak Grenade" id="fc75-b43f-4841-25e9" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
@@ -2566,6 +2601,10 @@
                 <infoLink name="Grenade Launcher (Frag)" id="58ea-0099-1e94-5247" hidden="false" type="profile" targetId="3b8f-0441-f224-86ad"/>
                 <infoLink name="Grenade Launcher (Krak)" id="1dd6-2771-caf4-43c8" hidden="false" type="profile" targetId="db0f-6f31-f228-0fb1"/>
                 <infoLink name="Guardsmen" id="e800-48fe-de6d-0eea" hidden="false" type="profile" targetId="a967-7593-c9a9-3b05"/>
+                <infoLink name="Grenade Launcher (Frag) (B)" id="bb0a-731e-0d08-5fd4" hidden="false" type="profile" targetId="6192-3a48-fb25-2847"/>
+                <infoLink name="Frag Grenade" id="648d-7fee-53e9-eb47" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+                <infoLink name="Frag Grenade (B)" id="aa00-cd92-de64-41f0" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+                <infoLink name="Krak Grenade" id="c293-42f3-86c9-16b9" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="9"/>
@@ -2579,6 +2618,9 @@
               </constraints>
               <infoLinks>
                 <infoLink name="Guardsmen" id="b221-2677-4b08-794b" hidden="false" type="profile" targetId="a967-7593-c9a9-3b05"/>
+                <infoLink name="Frag Grenade" id="f376-671f-3521-107a" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+                <infoLink name="Frag Grenade (B)" id="fa25-6980-3e1f-416e" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+                <infoLink name="Krak Grenade" id="a24f-cc6d-3f6a-5a0a" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
@@ -2665,6 +2707,9 @@
               <infoLinks>
                 <infoLink name="Laspistol" id="02c2-d9b3-f180-b9e9" hidden="false" type="profile" targetId="1911-a700-cd50-763d"/>
                 <infoLink name="Guardsmen" id="043a-7ad4-0312-66f8" hidden="false" type="profile" targetId="a967-7593-c9a9-3b05"/>
+                <infoLink name="Frag Grenade" id="4b2f-93ca-8bab-2701" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+                <infoLink name="Frag Grenade (B)" id="2c0e-239a-a041-5042" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+                <infoLink name="Krak Grenade" id="20dd-a950-a35e-3ae1" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
@@ -3462,6 +3507,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
+            <infoLink name="Frag Grenade (B)" id="e149-9207-2bd0-5aba" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
           </infoLinks>
           <entryLinks>
             <entryLink import="true" name="Lasguns" hidden="false" id="e883-6b18-f8de-2811" type="selectionEntry" targetId="8b56-695b-3d8e-673e"/>
@@ -3532,6 +3578,7 @@
             </infoLink>
             <infoLink name="Krak Grenade" id="73f1-c029-8126-e079" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
             <infoLink name="Frag Grenade" id="16b2-d7e3-d018-1695" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+            <infoLink name="Frag Grenade (B)" id="b508-f8b3-d410-e8bc" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Melee Weapon" hidden="false" id="3c39-bc55-8667-618a">
@@ -3673,6 +3720,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
+            <infoLink name="Frag Grenade (B)" id="2fc3-e629-f0a7-e2a6" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
@@ -3784,6 +3832,7 @@
             </infoLink>
             <infoLink name="Frag Grenade" id="ef06-d674-4f59-83c9" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
             <infoLink name="Vox-caster" id="c9f7-3874-6a2f-7be0" hidden="false" type="profile" targetId="db7b-4363-dafb-35cd"/>
+            <infoLink name="Frag Grenade (B)" id="bd08-42a0-13b3-3fb0" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="4"/>
@@ -3820,6 +3869,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
+            <infoLink name="Frag Grenade (B)" id="5c11-2f83-0859-8503" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Heavy Weapon Options" hidden="false" id="de33-1a0e-9a15-520c">
@@ -4248,6 +4298,7 @@
             <infoLink name="Frag Grenade" id="ebd2-a171-aaf3-968d" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
             <infoLink name="Krak Grenade" id="7e68-cb35-36e0-c505" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
             <infoLink name="Kasrkin" id="68a7-b8b9-8071-6c73" hidden="false" type="profile" targetId="71ea-2120-5312-6609"/>
+            <infoLink name="Frag Grenade (B)" id="bc8e-a7b2-4d46-1ae5" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
@@ -4365,6 +4416,7 @@
             <infoLink name="Krak Grenade" id="bc68-24c8-d0e4-73f8" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
             <infoLink name="Kasrkin" id="8301-1da9-6826-3ad3" hidden="false" type="profile" targetId="71ea-2120-5312-6609"/>
             <infoLink name="Hot-Shot Lasgun" id="1629-cb8d-7fb5-a831" hidden="false" type="profile" targetId="6372-0a96-4c87-aaf5"/>
+            <infoLink name="Frag Grenade (B)" id="a342-129d-d19b-ffbb" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
@@ -4410,6 +4462,7 @@
             <infoLink name="Vox-caster" id="8886-b1a1-364a-1dbe" hidden="false" type="profile" targetId="db7b-4363-dafb-35cd"/>
             <infoLink name="Hot-Shot Lasgun" id="3b84-0d23-5098-adaf" hidden="false" type="profile" targetId="6372-0a96-4c87-aaf5"/>
             <infoLink name="Kasrkin" id="9b54-75b6-0771-b8e2" hidden="false" type="profile" targetId="71ea-2120-5312-6609"/>
+            <infoLink name="Frag Grenade (B)" id="80da-149b-dea8-d504" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="4"/>
@@ -4431,6 +4484,7 @@
             <infoLink name="Frag Grenade" id="ad66-b070-0cb2-f966" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
             <infoLink name="Kasrkin Sargent" id="3d4a-7f23-41d0-2c34" hidden="false" type="profile" targetId="026b-a779-d72a-cb0f"/>
             <infoLink name="Melta Bomb" id="f6c1-0a03-f5fa-a70c" hidden="false" type="profile" targetId="601d-447c-863a-0ecb"/>
+            <infoLink name="Frag Grenade (B)" id="edc3-6b89-9519-0ed6" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Melee Weapon" hidden="false" id="3525-9875-281a-e4c0">
@@ -4876,6 +4930,7 @@
                   <infoLinks>
                     <infoLink name="Missile Launcher - Frag" id="e423-993e-be6b-5177" hidden="false" type="profile" targetId="b4ec-c011-5a6b-94b9"/>
                     <infoLink name="Missile Launcher - Krak" id="ad5b-7b64-3991-907f" hidden="false" type="profile" targetId="bd39-d1ed-e0fe-0a02"/>
+                    <infoLink name="Missile Launcher - Frag (B)" id="431c-f448-2383-e7a6" hidden="false" type="profile" targetId="883e-f833-830b-49d5"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
@@ -5022,6 +5077,7 @@
                   <infoLinks>
                     <infoLink name="Missile Launcher - Frag" id="fe38-684a-5122-ad4c" hidden="false" type="profile" targetId="b4ec-c011-5a6b-94b9"/>
                     <infoLink name="Missile Launcher - Krak" id="5e2c-d835-8c97-aee3" hidden="false" type="profile" targetId="bd39-d1ed-e0fe-0a02"/>
+                    <infoLink name="Missile Launcher - Frag (B)" id="559b-451d-a863-8fe8" hidden="false" type="profile" targetId="883e-f833-830b-49d5"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
@@ -5048,6 +5104,7 @@
                   </constraints>
                   <infoLinks>
                     <infoLink name="Plasma Cannon" id="79d5-df41-b7b0-790f" hidden="false" type="profile" targetId="a5ae-6314-45a5-c8a5"/>
+                    <infoLink name="Plasma Cannon (B)" id="759d-6f23-e644-b59c" hidden="false" type="profile" targetId="ad7e-219f-6766-3294"/>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -6336,6 +6393,8 @@
                   <infoLinks>
                     <infoLink name="Plasma Cannon" id="bca0-7349-9bac-d969" hidden="false" type="profile" targetId="a5ae-6314-45a5-c8a5"/>
                     <infoLink name="Plasma Cannon" id="240f-bfd6-5083-af3a" hidden="false" type="profile" targetId="a5ae-6314-45a5-c8a5"/>
+                    <infoLink name="Plasma Cannon (B)" id="1cd4-8cbe-c10c-2717" hidden="false" type="profile" targetId="ad7e-219f-6766-3294"/>
+                    <infoLink name="Plasma Cannon (B)" id="1f0e-22ca-349a-5c22" hidden="false" type="profile" targetId="ad7e-219f-6766-3294"/>
                   </infoLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3c62-18e8-e49a-a493" includeChildSelections="false"/>
@@ -7180,6 +7239,9 @@ Models in those units count as having made a Normal Move this phase they cannon 
               <infoLinks>
                 <infoLink name="Heavy Flamer" id="db5a-7b50-7b1f-5690" hidden="false" type="profile" targetId="ad83-916e-b751-a91a"/>
                 <infoLink name="Veteran Guardsmen" id="00ea-ba60-c2ae-364f" hidden="false" type="profile" targetId="a241-a646-9a4f-cc1c"/>
+                <infoLink name="Krak Grenade" id="2a25-eaf2-e93f-c7ba" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+                <infoLink name="Frag Grenade (B)" id="abf4-eb4d-4f17-1018" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+                <infoLink name="Frag Grenade" id="dfec-bfd0-9ad0-dd14" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
@@ -7191,6 +7253,9 @@ Models in those units count as having made a Normal Move this phase they cannon 
               <infoLinks>
                 <infoLink name="Medi-pack" id="6be4-7c01-9c89-0b0f" hidden="false" type="profile" targetId="c16e-ee9a-c26a-eaba"/>
                 <infoLink name="Veteran Guardsmen" id="ba2e-ea39-d862-9b32" hidden="false" type="profile" targetId="a241-a646-9a4f-cc1c"/>
+                <infoLink name="Krak Grenade" id="ca98-3bcc-adfb-3d36" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+                <infoLink name="Frag Grenade (B)" id="b45f-b9ad-1a4f-4e4f" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+                <infoLink name="Frag Grenade" id="ee80-73d1-0fc9-5645" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
               </infoLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="412c-2852-c8d9-f56d" includeChildSelections="false"/>
@@ -7224,6 +7289,9 @@ Models in those units count as having made a Normal Move this phase they cannon 
               <infoLinks>
                 <infoLink name="Platoon Standard" id="ef6f-9f36-07cf-723e" hidden="false" type="profile" targetId="b6b3-ca1c-6c84-3061"/>
                 <infoLink name="Veteran Guardsmen" id="81eb-f6a3-d173-1392" hidden="false" type="profile" targetId="a241-a646-9a4f-cc1c"/>
+                <infoLink name="Krak Grenade" id="5d3b-280c-653f-7c3f" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+                <infoLink name="Frag Grenade (B)" id="3dda-0eb4-ff6b-1ce1" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+                <infoLink name="Frag Grenade" id="d25a-ba7c-c25b-24cb" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Laspistol and Chainsword" hidden="false" id="552a-ad5b-b62f-1642">
@@ -7253,6 +7321,9 @@ Models in those units count as having made a Normal Move this phase they cannon 
               <infoLinks>
                 <infoLink name="Vox-caster" id="b03f-a007-5943-cdc0" hidden="false" type="profile" targetId="db7b-4363-dafb-35cd"/>
                 <infoLink name="Veteran Guardsmen" id="0db0-c06f-9cbf-d178" hidden="false" type="profile" targetId="a241-a646-9a4f-cc1c"/>
+                <infoLink name="Krak Grenade" id="e8e4-a8bd-176c-8c6b" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+                <infoLink name="Frag Grenade (B)" id="e986-07e3-d766-d55e" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+                <infoLink name="Frag Grenade" id="8311-60fa-0a40-4f8f" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Laspistol and Chainsword" hidden="false" id="5fb4-05a6-6ca3-ba16">
@@ -7281,6 +7352,9 @@ Models in those units count as having made a Normal Move this phase they cannon 
               <infoLinks>
                 <infoLink name="Flamer" id="52ab-8333-093e-9c25" hidden="false" type="profile" targetId="c8ec-c3db-58e3-1daf"/>
                 <infoLink name="Veteran Guardsmen" id="b062-162d-1666-da22" hidden="false" type="profile" targetId="a241-a646-9a4f-cc1c"/>
+                <infoLink name="Krak Grenade" id="9daa-fd81-720c-2eac" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+                <infoLink name="Frag Grenade (B)" id="4e4f-2fec-08c6-4c4b" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+                <infoLink name="Frag Grenade" id="0f97-3d7e-c1b1-8c70" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
@@ -7295,6 +7369,9 @@ Models in those units count as having made a Normal Move this phase they cannon 
               <infoLinks>
                 <infoLink name="Plasma Gun" id="bf96-792c-4efd-bdf1" hidden="false" type="profile" targetId="e405-dfde-fb54-5782"/>
                 <infoLink name="Veteran Guardsmen" id="d824-8fe4-0a09-b3dd" hidden="false" type="profile" targetId="a241-a646-9a4f-cc1c"/>
+                <infoLink name="Krak Grenade" id="751f-55d4-2600-bf3c" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+                <infoLink name="Frag Grenade (B)" id="f466-c744-77b3-206d" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+                <infoLink name="Frag Grenade" id="6d30-1b43-44fe-ef0f" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="17"/>
@@ -7309,6 +7386,9 @@ Models in those units count as having made a Normal Move this phase they cannon 
               <infoLinks>
                 <infoLink name="Sniper Rifle" id="e658-621f-a444-2b49" hidden="false" type="profile" targetId="f352-2d21-4ab8-c8de"/>
                 <infoLink name="Veteran Guardsmen" id="c48b-a7cc-a4ff-98ac" hidden="false" type="profile" targetId="a241-a646-9a4f-cc1c"/>
+                <infoLink name="Krak Grenade" id="73e3-b393-123d-5d40" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+                <infoLink name="Frag Grenade (B)" id="f02f-0584-5102-a7c2" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+                <infoLink name="Frag Grenade" id="6c5f-a598-f7a1-78c5" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
@@ -7323,6 +7403,9 @@ Models in those units count as having made a Normal Move this phase they cannon 
               <infoLinks>
                 <infoLink name="Meltagun" id="bf36-8611-c9df-bbda" hidden="false" type="profile" targetId="0457-12b1-1d6e-b59d"/>
                 <infoLink name="Veteran Guardsmen" id="cbab-22aa-3529-2371" hidden="false" type="profile" targetId="a241-a646-9a4f-cc1c"/>
+                <infoLink name="Krak Grenade" id="bb79-66ea-edfa-422f" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+                <infoLink name="Frag Grenade (B)" id="22f7-ff4d-3836-faa6" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+                <infoLink name="Frag Grenade" id="8ad4-aefb-683a-6d1e" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
@@ -7338,6 +7421,9 @@ Models in those units count as having made a Normal Move this phase they cannon 
                 <infoLink name="Grenade Launcher (Frag)" id="dc7f-6c5f-eab6-a777" hidden="false" type="profile" targetId="3b8f-0441-f224-86ad"/>
                 <infoLink name="Grenade Launcher (Krak)" id="22da-5cbe-0d01-deab" hidden="false" type="profile" targetId="db0f-6f31-f228-0fb1"/>
                 <infoLink name="Veteran Guardsmen" id="a085-f7e9-921b-d42f" hidden="false" type="profile" targetId="a241-a646-9a4f-cc1c"/>
+                <infoLink name="Krak Grenade" id="2017-b2b5-fbd2-44cb" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+                <infoLink name="Frag Grenade (B)" id="9393-3e0e-ab93-78ba" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+                <infoLink name="Frag Grenade" id="2ae5-57b8-8e61-553d" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="9"/>
@@ -7351,6 +7437,9 @@ Models in those units count as having made a Normal Move this phase they cannon 
               </constraints>
               <infoLinks>
                 <infoLink name="Veteran Guardsmen" id="5c22-441b-9df9-b299" hidden="false" type="profile" targetId="a241-a646-9a4f-cc1c"/>
+                <infoLink name="Frag Grenade (B)" id="6181-8b62-c060-fa30" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+                <infoLink name="Krak Grenade" id="5f6a-1d24-7d7e-2492" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+                <infoLink name="Frag Grenade" id="773f-0a3c-e0ca-a365" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
@@ -7437,6 +7526,9 @@ Models in those units count as having made a Normal Move this phase they cannon 
               <infoLinks>
                 <infoLink name="Laspistol" id="6633-3bda-a03f-a39c" hidden="false" type="profile" targetId="1911-a700-cd50-763d"/>
                 <infoLink name="Veteran Guardsmen" id="8b7d-df6a-2c22-c798" hidden="false" type="profile" targetId="a241-a646-9a4f-cc1c"/>
+                <infoLink name="Krak Grenade" id="8215-932a-3684-01ea" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+                <infoLink name="Frag Grenade (B)" id="eaf1-c320-12e3-a31e" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+                <infoLink name="Frag Grenade" id="2d5e-af8c-4518-a651" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
@@ -8159,6 +8251,8 @@ Models in those units count as having made a Normal Move this phase they cannon 
                       <infoLinks>
                         <infoLink name="Plasma Cannon" id="74bb-3bb5-b971-a7f2" hidden="false" type="profile" targetId="a5ae-6314-45a5-c8a5"/>
                         <infoLink name="Plasma Cannon" id="c414-e93f-39fc-b29f" hidden="false" type="profile" targetId="a5ae-6314-45a5-c8a5"/>
+                        <infoLink name="Plasma Cannon (B)" id="468a-63a5-476e-76a3" hidden="false" type="profile" targetId="ad7e-219f-6766-3294"/>
+                        <infoLink name="Plasma Cannon (B)" id="7cac-b6bd-a3ea-8f85" hidden="false" type="profile" targetId="ad7e-219f-6766-3294"/>
                       </infoLinks>
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="self" shared="true" id="11e6-413d-ebc4-d557" includeChildSelections="false"/>
@@ -8867,6 +8961,8 @@ Models in those units count as having made a Normal Move this phase they cannon 
                       <infoLinks>
                         <infoLink name="Plasma Cannon" id="910e-92dc-d850-f18a" hidden="false" type="profile" targetId="a5ae-6314-45a5-c8a5"/>
                         <infoLink name="Plasma Cannon" id="dbe7-3311-6bc2-4f00" hidden="false" type="profile" targetId="a5ae-6314-45a5-c8a5"/>
+                        <infoLink name="Plasma Cannon (B)" id="7f6b-fbcc-2471-f420" hidden="false" type="profile" targetId="ad7e-219f-6766-3294"/>
+                        <infoLink name="Plasma Cannon (B)" id="f5bc-7e8a-3676-b5f4" hidden="false" type="profile" targetId="ad7e-219f-6766-3294"/>
                       </infoLinks>
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3a19-1bd4-918a-febd" includeChildSelections="false"/>
@@ -9137,6 +9233,7 @@ Models in those units count as having made a Normal Move this phase they cannon 
             </infoLink>
             <infoLink name="Krak Grenade" id="effb-4784-03f6-1058" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
             <infoLink name="Frag Grenade" id="dfe6-e3d5-7b5d-fa82" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+            <infoLink name="Frag Grenade (B)" id="3811-769c-e8b7-9cb0" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Melee Weapon" hidden="false" id="833d-c87c-6541-bc93">
@@ -9364,6 +9461,7 @@ Models in those units count as having made a Normal Move this phase they cannon 
                 </modifier>
               </modifiers>
             </infoLink>
+            <infoLink name="Frag Grenade (B)" id="41bf-2178-5c73-687f" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>

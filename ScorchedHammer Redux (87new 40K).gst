@@ -762,6 +762,14 @@
     <rule name="Sweeping" id="bbdd-7503-ee6f-902c" hidden="false">
       <description>A model equipped with this weapon makes extra attacks equal in value to the number shown for each attack allocated to the weapon is chosen to fight with.</description>
     </rule>
+    <rule name="Blast" id="f1ea-c898-9b07-b44c" hidden="false">
+      <description>Place the Designated blast size marker over one model in the unit within range of your weapon, count the number of models hit by the template weapon and roll to hit for the number of models hit by the weapon.
+
+
+&gt; If a model or its base is under the template, Regardless of the how much of the model is hit the model is still hit by the weapon.
+&gt; If the blast template hits a separate Unit, Roll for it after the main unit has resolved all its saves.
+&gt; Blast Weapons do not Ignore cover, that&apos;s is what ignores cover SR is for.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile name="Smite" typeId="e57e-15c3-e702-5811" typeName="Psychic Power Weapon" hidden="false" id="d933-af1d-85f4-05df">
@@ -794,6 +802,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Boltgun" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="6e59-15d1-ba4a-238f">
       <characteristics>
@@ -1097,6 +1112,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot, Rending (4+)</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Plasma Blaster" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="e55b-57d1-f5c0-99e3">
       <characteristics>
@@ -1177,6 +1199,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Heavy Stubber" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="36a9-6824-5d27-c11a">
       <characteristics>
@@ -1327,6 +1356,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Missile Launcher - Krak" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="bd39-d1ed-e0fe-0a02">
       <characteristics>
@@ -1372,6 +1408,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot, Rending 4+</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Twin Heavy Bolter" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="0c2e-a0d3-25c9-1e0c">
       <characteristics>
@@ -1412,6 +1455,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Melta</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Kheres Assault Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="0063-533d-af81-cd94">
       <characteristics>
@@ -1509,7 +1559,7 @@
     <profile name="Predator autocannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="65f2-37ae-6ff2-6658">
       <characteristics>
         <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&quot;</characteristic>
-        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 2D3</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 4</characteristic>
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
@@ -1552,6 +1602,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Indirect Fire</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Whirlwind Castellan Lanucher" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="d830-88d4-4c54-86b4">
       <characteristics>
@@ -1562,6 +1619,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Indirect Fire</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Twin Heavy Plasma Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="4df4-2ad0-cc7c-060d">
       <characteristics>
@@ -1572,6 +1636,13 @@
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot, Rending 4+</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Assault Vehicle" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="12f8-203a-692a-1b13">
       <characteristics>
@@ -1698,6 +1769,13 @@ Matched Play: This model and any units embarked aboard it are exempt from the Ta
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Instant Death</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Malefic Talons" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="5db9-a7fe-d2d8-e0f7">
       <characteristics>
@@ -1729,11 +1807,207 @@ Matched Play: This model and any units embarked aboard it are exempt from the Ta
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Unwieldy</characteristic>
       </characteristics>
     </profile>
+    <profile name="Conversion Beamer (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="a6d3-e735-6ef7-6183">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">72&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Conversion, 3&quot; Blast </characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Frag Grenade (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="b541-c8c6-9e2d-ee3d">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">6&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Grenade 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">3</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">3&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Havoc Launcher (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="55de-6dd1-8422-b690">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">3&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Heavy Plasma Cannon (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="f491-7c2c-175e-bc4c">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">9</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot, Rending 4+, 5&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Missile Launcher - Frag (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="883e-f833-830b-49d5">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">3&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Phosphex Bombs (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="9185-ca08-84a6-3929">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">6&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Grenade 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Instant Death, Lingering Death, 5&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Plasma Cannon (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="ad7e-219f-6766-3294">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot, Rending (4+), 3&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Twin Heavy Plasma Cannon (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="5c07-26ee-2243-9231">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot, Rending 4+, 5&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Melta-Cannon (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="5c4c-62d3-0c42-48da">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Melta, 3&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Whirlwind Castellan Lanucher (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="a90c-59bc-9ae0-0d4e">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">72&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Indirect Fire, 5&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Whirlwind Vengeance Launcher (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="0d60-be9c-e9bf-b9d7">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">72</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Indirect Fire, 3&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Demolisher Cannon (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="d83a-a592-dd00-6824">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">10</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">5&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Enable Blast Weapons" hidden="false" id="a708-62bf-064c-0ccd">
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="0676-24d6-2071-4e51-min" includeChildSelections="true"/>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0676-24d6-2071-4e51-max" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
