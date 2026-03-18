@@ -143,7 +143,7 @@
       <characteristics>
         <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
         <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
-        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Extra Attacks 3</characteristic>
@@ -190,7 +190,7 @@
       <characteristics>
         <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
         <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
-        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+6</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">14</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">6</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
@@ -200,7 +200,7 @@
       <characteristics>
         <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
         <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
-        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Sweeping 3</characteristic>
@@ -210,7 +210,7 @@
       <characteristics>
         <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
         <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
-        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">x2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">16</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">8</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Unwieldy</characteristic>
@@ -220,7 +220,7 @@
       <characteristics>
         <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
         <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
-        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">10</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Sweeping 2</characteristic>
@@ -290,7 +290,7 @@
       <characteristics>
         <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
         <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
-        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
@@ -337,7 +337,7 @@
       <characteristics>
         <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
         <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
-        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Bonus Attacks D3</characteristic>
@@ -547,7 +547,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">x2</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3+3</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2"/>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Unwieldy</characteristic>
       </characteristics>
     </profile>
     <profile name="Siege Claw" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="8c66-938a-00ed-4420">
@@ -2792,7 +2792,7 @@ Models in this unit have the Feel No Pain 5+ ability.</characteristic>
         <categoryLink targetId="2891-0302-74c6-87b5" id="d593-0f92-d128-aece" primary="true" name="Lord of War"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Knight Tyrant Princept" hidden="false" id="d1c0-3fef-4a6b-9b8f" targetId="50e1-0838-acce-bc70" type="selectionEntry">
+    <entryLink import="true" name="Knight Tyrant Dreadblade" hidden="false" id="d1c0-3fef-4a6b-9b8f" targetId="50e1-0838-acce-bc70" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="df66-426b-8561-5154" id="fbf6-6b48-d707-bd72" primary="true" name="HQ"/>
       </categoryLinks>
@@ -2842,7 +2842,7 @@ Models in this unit have the Feel No Pain 5+ ability.</characteristic>
         <categoryLink targetId="2891-0302-74c6-87b5" id="7e96-ea09-6efb-4b6b" primary="true" name="Lord of War"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Knight Desecrator Princept" hidden="false" id="d40f-b647-c016-42ad" targetId="ca47-508f-c47f-75f3" type="selectionEntry">
+    <entryLink import="true" name="Knight Desecrator Dreadblade" hidden="false" id="d40f-b647-c016-42ad" targetId="ca47-508f-c47f-75f3" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="df66-426b-8561-5154" id="be34-9636-4be6-07e2" primary="true" name="HQ"/>
       </categoryLinks>
@@ -2852,7 +2852,7 @@ Models in this unit have the Feel No Pain 5+ ability.</characteristic>
         <categoryLink targetId="2891-0302-74c6-87b5" id="c14f-9736-c430-bcc2" primary="true" name="Lord of War"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Knight Despoiler Princept" hidden="false" id="357e-34a8-576b-d471" targetId="e44a-9065-562a-b849" type="selectionEntry">
+    <entryLink import="true" name="Knight Despoiler Dreadblade" hidden="false" id="357e-34a8-576b-d471" targetId="e44a-9065-562a-b849" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="df66-426b-8561-5154" id="e651-5b6a-ca28-fdab" primary="true" name="HQ"/>
       </categoryLinks>
@@ -2862,7 +2862,7 @@ Models in this unit have the Feel No Pain 5+ ability.</characteristic>
         <categoryLink targetId="2891-0302-74c6-87b5" id="79f0-2fd5-d69a-fb05" primary="true" name="Lord of War"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Knight Rampager Princept" hidden="false" id="a63e-5f78-c914-9b49" targetId="9891-d9fc-0b2a-0df7" type="selectionEntry">
+    <entryLink import="true" name="Knight Rampager Dreadblade" hidden="false" id="a63e-5f78-c914-9b49" targetId="9891-d9fc-0b2a-0df7" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="df66-426b-8561-5154" id="c3e2-da07-bae8-aec0" primary="true" name="HQ"/>
       </categoryLinks>
@@ -2872,7 +2872,7 @@ Models in this unit have the Feel No Pain 5+ ability.</characteristic>
         <categoryLink targetId="2891-0302-74c6-87b5" id="e74a-44ae-fe62-acfa" primary="true" name="Lord of War"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Knight Ruinator Princept" hidden="false" id="aa79-05a7-24c3-d2e7" targetId="82fa-de15-4a73-b112" type="selectionEntry">
+    <entryLink import="true" name="Knight Ruinator Dreadblade" hidden="false" id="aa79-05a7-24c3-d2e7" targetId="82fa-de15-4a73-b112" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="df66-426b-8561-5154" id="0008-a567-0f00-6972" primary="true" name="HQ"/>
       </categoryLinks>
