@@ -22452,6 +22452,15 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
           </characteristics>
         </profile>
       </profiles>
+      <categoryLinks>
+        <categoryLink name="Character" hidden="false" id="0cf4-2693-f918-52a0" targetId="3275-df5e-2474-90ed" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="5572-a763-3782-6c36" targetId="2853-e9f2-7a9e-0e91" primary="false"/>
+        <categoryLink name="Faction: Imperium" hidden="false" id="391a-b03f-6637-6b3a" targetId="fb8f-9c9a-4f7c-d364" primary="false"/>
+        <categoryLink name="Faction: Adeptus Astartes" hidden="false" id="e195-f99c-72b8-ec10" targetId="d419-b07a-d287-f96c" primary="false"/>
+        <categoryLink name="Adeptus Astartes" hidden="false" id="c2ea-48b8-0cc9-1544" targetId="0ed8-ef39-46e7-3be8" primary="false"/>
+        <categoryLink name="Faction: Salamanders" hidden="false" id="db4f-62b2-e674-ff87" targetId="649e-1866-2617-040d" primary="false"/>
+        <categoryLink name="Tacticus" hidden="false" id="b2f8-f700-63dc-6124" targetId="8f99-7a84-6e4e-32fa" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="(BT) The Emperors Champion" hidden="true" id="2036-398c-4670-3d4a">
       <infoLinks>
@@ -24148,7 +24157,7 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
     </profile>
     <profile name="Narthecium" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="6245-be0c-e1f2-b5f0">
       <characteristics>
-        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">At the End of your Movement Phase, Pick a Friendly Infantry Or Biker Model within 3&quot; of the Apothacary. Roll a D6 on a 4+ return 1 Destroyed model to the Unit or return D3 lost wounds to a model in the unit. If a Friendly Unit was destroyed within 6&quot; of the Apothacary this turn roll a D6 on a 5+ gain 1 CP.</characteristic>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">At the End of your Movement Phase, Pick a Friendly Infantry Or Calvery Model within 3&quot; of the Apothacary. Roll a D6 on a 4+ return 1 Destroyed model to the Unit or return D3 lost wounds to a model in the unit. If a Friendly Unit was destroyed within 6&quot; of the Apothacary this turn roll a D6 on a 5+ gain 1 CP.</characteristic>
       </characteristics>
     </profile>
     <profile name="Techmarine" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="ae15-26f9-33df-3f73">
@@ -25797,6 +25806,11 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
     <entryLink import="true" name="Combat Doctrines Selection" hidden="false" id="7797-7585-427d-1e16" targetId="2483-be53-e037-dfac" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="2eb6-e424-69d8-5b7c" id="c84e-ee62-23fe-8827" primary="true" name="Configuration"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="(Sal) Vulkan He&apos;stan" hidden="false" id="080a-44b5-629d-60e5" targetId="8527-958a-dba9-46d9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="HQ" hidden="false" id="5f3d-d6ba-2692-aec9" targetId="df66-426b-8561-5154" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

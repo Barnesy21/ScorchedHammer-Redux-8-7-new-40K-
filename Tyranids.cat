@@ -262,8 +262,181 @@
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Custom Fleet" hidden="false" id="a7ff-78d0-a4a1-9d51">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5ef9-2a2b-8cf7-5540" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="5ef9-2a2b-8cf7-5540" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2527-e332-92cc-ac83" includeChildSelections="false"/>
           </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Adaptive Exoskeleton" hidden="false" id="3b09-64b0-5d04-3992">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72ff-b3c8-2344-61d6" includeChildSelections="false"/>
+              </constraints>
+              <rules>
+                <rule name="Adaptive Exoskeleton" id="7a1e-7501-d874-3256" hidden="false">
+                  <description>TERMAGANT, HORMAGAUNT and GARGOYLE models with this adaptation have a 6+ invulnerable save.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bestial Nature" hidden="false" id="f5f4-2ada-eeaa-ed31">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e756-9d59-92fa-7331" includeChildSelections="false"/>
+              </constraints>
+              <rules>
+                <rule name="Bestial Nature" id="22ff-06a5-c73a-ae2f" hidden="false">
+                  <description>Add 2 to the Attacks characteristic of a model with this adaptation that has a Damage Table whilst using the bottom row of that model&apos;s Damage Table.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bio-Metalic Cysts" hidden="false" id="7174-2448-af68-bce4">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e54d-c1e9-b12c-7e6c" includeChildSelections="false"/>
+              </constraints>
+              <rules>
+                <rule name="Bio-metalic Cysts" id="c000-2691-7343-115f" hidden="false">
+                  <description>Improve the Armour Penetration characteristic of Scything Talons that models with this adaption are equipped with (e.g. AP 0 becomes AP -1).</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Biosphere Consumption" hidden="false" id="bd5b-ccf6-a47e-3f96">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c43e-b376-1cc0-8126" includeChildSelections="false"/>
+              </constraints>
+              <rules>
+                <rule name="Biosphere Consumption" id="de06-faaa-cb82-68ff" hidden="false">
+                  <description>When a MONSTER model with this adaptation would lose a wound, if that model&apos;s unit did not move during your last Movement phase or it is the first battle round, and there are no enemy units within 1&quot; of the model&apos;s unit, roll one D6; on a 6+ it is not lost.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Cranial Channeling" hidden="false" id="bfa8-e4fe-8e63-bd67">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be97-6738-f0b7-23dc" includeChildSelections="false"/>
+              </constraints>
+              <rules>
+                <rule name="Cranial Channeling" id="b48e-b8bb-8240-f98c" hidden="false">
+                  <description>Once per turn, when a Psychic test is taken for a model with this adaptation, you can re-roll the result.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Feeding Frenzy" hidden="false" id="0f60-7fc2-289d-1ba8">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7bcd-7f32-0a6d-8b08" includeChildSelections="false"/>
+              </constraints>
+              <rules>
+                <rule name="Feeding Frenzy" id="d4fd-d6bb-22e1-3be7" hidden="false">
+                  <description>When a pile in move is made for a unit with this adaptation, models in that unit can move up to 6&quot; instead of 3&quot;.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Horror From Beyond" hidden="false" id="a131-a2ae-0bf2-5673">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0762-6ac2-a40d-d54c" includeChildSelections="false"/>
+              </constraints>
+              <rules>
+                <rule name="Horror from Beyond" id="9008-925d-9840-267c" hidden="false">
+                  <description>Subtract 1 from the Leadership characteristic of models in enemy units whilst their unit is within 3&quot; of any MONSTER units from your army with this adaptation.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Hypermetabolic Acceleration" hidden="false" id="ec2b-8729-b58b-878f">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c85-edb8-08ae-e9cd" includeChildSelections="false"/>
+              </constraints>
+              <rules>
+                <rule name="Hypermetabolic Acceleration" id="68fa-348c-70db-19d8" hidden="false">
+                  <description>When a unit with this adaptation Advances, you can re-roll the Advance roll.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Membranous Mobility" hidden="false" id="e7e1-59c4-390d-18be">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9664-d174-f980-dae2" includeChildSelections="false"/>
+              </constraints>
+              <rules>
+                <rule name="Membranous Mobility" id="5a20-7864-9d98-ab2b" hidden="false">
+                  <description>When resolving an attack made with a melee weapon against a model with this adaptation that can FLY, subtract 1 from the hit roll.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Metamorphic Regrowth" hidden="false" id="2d84-fa9e-b686-ae6b">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1440-7813-43e1-c03a" includeChildSelections="false"/>
+              </constraints>
+              <rules>
+                <rule name="Metamorphic Regrowth" id="ebc1-6208-11c2-f5ea" hidden="false">
+                  <description>A model with this adaptation regains 1 lost wound at the start of your turn.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Morphic Sinews" hidden="false" id="3e11-c356-53a3-553f">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6cb8-ef6b-17ed-6395" includeChildSelections="false"/>
+              </constraints>
+              <rules>
+                <rule name="Morphic Sinews" id="3a53-faea-9915-4168" hidden="false">
+                  <description>MONSTER models with this adaptation do not suffer the penalty for moving and firing Heavy weapons, nor for Advancing and firing Assault weapons.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Pack Hunters" hidden="false" id="70f0-2171-54a2-8e9f">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="09e8-1bb4-be1a-37f3" includeChildSelections="false"/>
+              </constraints>
+              <rules>
+                <rule name="Pack Hunters" id="4a9d-edac-3849-f48e" hidden="false">
+                  <description>When resolving an attack made with a melee weapon by a model with this adaptation against a unit that contains fewer models than that model&apos;s unit, improve the Armour penetration characteristic of that weapon by 1 for that attack (e.g. AP 0 becomes AP -1).</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Prey-sight" hidden="false" id="c7f0-19c5-c16c-d056">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="400b-260d-1c75-e7b3" includeChildSelections="false"/>
+              </constraints>
+              <rules>
+                <rule name="Prey-sight" id="cf45-9e73-157a-e0f8" hidden="false">
+                  <description>If a MONSTER unit with this adaptation makes a charge move, is charged or performs a Heroic Intervention, then until the end of the turn, when resolving an attack made with a melee weapon by a model in that unit, add 1 to the hit roll.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Senses of the Outer Dark" hidden="false" id="e54b-6ee0-8110-b656">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b21-ab31-b845-3a75" includeChildSelections="false"/>
+              </constraints>
+              <rules>
+                <rule name="Senses of the Outer Dark" id="6976-5373-add7-78e0" hidden="false">
+                  <description>When a model with this adaptation would lose a wound as a result of an Overwatch attack, roll one D6; on a 4+ that wound is not lost.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shrewd Predators" hidden="false" id="dc41-9593-6fc7-818b">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="11e5-30f6-8f46-5156" includeChildSelections="false"/>
+              </constraints>
+              <rules>
+                <rule name="Shrewd Predators" id="77a5-9d60-e06e-39ca" hidden="false">
+                  <description>When a model with this adaptation makes a consolidation move, if there are no enemy models within 3&quot;, that model does not have to end the move closer to the nearest enemy model.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Sporemist Spines" hidden="false" id="1d35-f6f1-d2d3-6209">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0297-f92a-1216-3d9d" includeChildSelections="false"/>
+              </constraints>
+              <rules>
+                <rule name="Sporemist Spines" id="1354-5cbb-94cd-2c88" hidden="false">
+                  <description>A unit with this adaptation can Advance in a turn in which it Fell Back.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Synaptic Augmentation" hidden="false" id="9f72-150a-c60d-150e">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0120-565e-897a-a502" includeChildSelections="false"/>
+              </constraints>
+              <rules>
+                <rule name="Synaptic Augmentation" id="23a0-2421-7f46-e88f" hidden="false">
+                  <description>When a unit with this adaptation that is within 6&quot; of a friendly PSYKER or SYNAPSE unit fires Overwatch or is Chosen to shoot or fight with, you can re-roll a single hit roll.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <constraints>
@@ -386,9 +559,21 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="fcc1-25ac-ceaa-0d7f" includeChildSelections="false"/>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="fcc1-25ac-ceaa-0d7f" includeChildSelections="true" includeChildForces="true"/>
         <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7d92-f645-a429-b9fa" includeChildSelections="false"/>
       </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="fcc1-25ac-ceaa-0d7f">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="5353-18b6-963d-6518" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" value="3" field="fcc1-25ac-ceaa-0d7f">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="be26-fa0c-2961-6654" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Monsters Adaptive Physiology" hidden="false" id="8fa3-dc21-98bb-cfb1">
       <selectionEntries>
@@ -434,9 +619,21 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="ff44-a2df-77e5-a056" includeChildSelections="false"/>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="ff44-a2df-77e5-a056" includeChildSelections="true" includeChildForces="true"/>
         <constraint type="max" value="1" field="selections" scope="self" shared="true" id="6c67-8acc-127f-9e9d" includeChildSelections="false"/>
       </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="ff44-a2df-77e5-a056">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="ea28-3b95-bd23-6d79" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" value="3" field="ff44-a2df-77e5-a056">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="142a-97ca-fc36-372c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Termagaunts" hidden="false" id="419a-ed99-7971-caf9">
       <selectionEntries>
@@ -4680,7 +4877,68 @@ Select one objective marker. Until the end of the battle, while this model is wi
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Bio-Artifacts" hidden="false" id="9c29-6348-5ef9-c0cd"/>
+    <selectionEntry type="upgrade" import="true" name="Bio-Artifacts" hidden="false" id="9c29-6348-5ef9-c0cd">
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="1 Bio-Artifact" hidden="false" id="ffeb-2c5d-c8a0-8280">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="-1"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a96-7284-6e86-a2ae" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="1 infantry Bio-Adaptation" hidden="false" id="5353-18b6-963d-6518">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="-1"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e002-75f6-69a0-39bd" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="1 Monsterous Bio-Adaptation" hidden="false" id="ea28-3b95-bd23-6d79">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="-1"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a1d-29ae-b780-d251" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="3 infantry Bio-Adaptation" hidden="false" id="be26-fa0c-2961-6654">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="-3"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b8d-a6eb-168d-06fb" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="3 Monsterous Bio-Adaptation" hidden="false" id="142a-97ca-fc36-372c">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="-3"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c80f-7b97-83aa-9691" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="36e0-0151-0187-e532" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
     <selectionEntry type="model" import="true" name="Broodlord" hidden="false" id="371a-cd24-7710-357f">
       <categoryLinks>
         <categoryLink name="Faction: Hive Fleet" hidden="false" id="c3f7-99b0-50b1-a5d0" targetId="c60d-766f-a98b-b80e" primary="false"/>
@@ -7584,6 +7842,11 @@ At the end of your Shooting phase, select one enemy unit that had one or more mo
     <entryLink import="true" name="Swarm Lord" hidden="false" id="312c-bd1f-c812-ae77" targetId="ae73-55ae-03a6-c4be" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="HQ" hidden="false" id="26a2-9058-d99c-1fd3" targetId="df66-426b-8561-5154" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Bio-Artifacts" hidden="false" id="610d-aa05-1ba9-4159" targetId="9c29-6348-5ef9-c0cd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Strategems" hidden="false" id="25a4-a209-7973-dadf" targetId="1865-5724-ebbb-f26e" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
