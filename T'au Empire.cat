@@ -616,6 +616,7 @@
                 <selectionEntry type="upgrade" import="true" name="Tangle Bomb Launcher" hidden="false" id="8b6f-67ce-d32a-71dd">
                   <infoLinks>
                     <infoLink name="Tangle bomb Launcher" id="95ee-ef47-99b2-2e33" hidden="false" type="profile" targetId="c7f4-1c09-735d-87bf"/>
+                    <infoLink name="Tangle bomb Launcher (B)" id="35fa-2aaa-add4-5b53" hidden="false" type="profile" targetId="00a6-a452-f6fa-fb43"/>
                   </infoLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4a6e-8c4e-820a-f81f" includeChildSelections="false"/>
@@ -757,6 +758,7 @@
                 <selectionEntry type="upgrade" import="true" name="Tangle Bomb Launcher" hidden="false" id="258c-8219-147a-7425">
                   <infoLinks>
                     <infoLink name="Tangle bomb Launcher" id="e2fb-0139-e4c5-aecb" hidden="false" type="profile" targetId="c7f4-1c09-735d-87bf"/>
+                    <infoLink name="Tangle bomb Launcher (B)" id="c946-8240-1abb-df7c" hidden="false" type="profile" targetId="00a6-a452-f6fa-fb43"/>
                   </infoLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a780-652b-2cc4-7bc9" includeChildSelections="false"/>
@@ -1074,6 +1076,7 @@
                 <selectionEntry type="upgrade" import="true" name="Tangle Cannon" hidden="false" id="8940-ce97-67eb-6ec2">
                   <infoLinks>
                     <infoLink name="Tangle cannon" id="fda3-1fdb-59d5-4d22" hidden="false" type="profile" targetId="a7ff-6010-c49c-bad1"/>
+                    <infoLink name="Tangle cannon (B)" id="d3e8-3766-7388-5f71" hidden="false" type="profile" targetId="7f9b-fa1f-144f-2992"/>
                   </infoLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="self" shared="true" id="81d0-4546-fafc-fa02" includeChildSelections="false"/>
@@ -1290,6 +1293,7 @@
                     <selectionEntry type="upgrade" import="true" name="Airburst Fragmentation Projector" hidden="false" id="65fb-0d06-03a3-0c9d">
                       <infoLinks>
                         <infoLink name="Airbursting Fragmentation project" id="3e61-c9b8-82d2-9b4c" hidden="false" type="profile" targetId="c285-839b-0609-77a4"/>
+                        <infoLink name="Airbursting Fragmentation project (B)" id="ee95-dde4-6e10-e297" hidden="false" type="profile" targetId="9fb5-94d0-5354-b174"/>
                       </infoLinks>
                       <constraints>
                         <constraint type="max" value="3" field="selections" scope="self" shared="true" id="6e74-f26d-5089-4c25" includeChildSelections="false"/>
@@ -1804,210 +1808,6 @@
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Wargear - Max 3" hidden="false" id="f2b6-e608-5ebb-c7b2">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Ranged Weapons" hidden="false" id="1063-beec-5a53-23f6">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Airburst Fragmentation Projector" hidden="false" id="c664-03bb-815e-9916">
-                      <infoLinks>
-                        <infoLink name="Airbursting Fragmentation project" id="0e5f-e171-4045-3485" hidden="false" type="profile" targetId="c285-839b-0609-77a4"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="7d79-85da-1be5-945b" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Burst Cannon" hidden="false" id="4734-32d9-6126-9a3a">
-                      <infoLinks>
-                        <infoLink name="Burst Cannon" id="3577-2709-8e56-b5ca" hidden="false" type="profile" targetId="2f0f-5d9a-a9e7-7406"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="725c-6c59-2192-40bc" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Cyclic Ion Blaster" hidden="false" id="a298-33c4-d2df-f3d8">
-                      <infoLinks>
-                        <infoLink name="Cyclic ion blaster" id="1bc5-8b0f-8c62-d673" hidden="false" type="profile" targetId="8f86-de87-e74a-8aba"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2834-3fc5-e304-e6ce" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="16"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="de27-741a-2e13-b7f8">
-                      <infoLinks>
-                        <infoLink name="Flamer" id="9cea-c18a-55b7-b642" hidden="false" type="profile" targetId="7045-60bf-1b03-e7fd"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="d12c-dfb0-2ab9-1e4e" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Fusion Blaster" hidden="false" id="f48e-6f33-6542-ab73">
-                      <infoLinks>
-                        <infoLink name="Fusion blaster" id="9f0c-bea6-4418-5907" hidden="false" type="profile" targetId="8789-a127-e467-fd5d"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="3acc-6a6c-060d-4794" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Plasma Rifle" hidden="false" id="2d32-779b-a895-b5e5">
-                      <infoLinks>
-                        <infoLink name="Plasma Rifle" id="9a2c-5a57-63ce-362a" hidden="false" type="profile" targetId="eebc-ebde-87f6-1891"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="a3fd-1e93-2577-80f1" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Missile Pod" hidden="false" id="27a5-adf7-09e6-4ab9">
-                      <infoLinks>
-                        <infoLink name="Missile Pod" id="e214-5f23-ef07-5030" hidden="false" type="profile" targetId="d9d1-eba8-8afb-e15e"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="be1d-5159-ac42-6d63" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Burst Cannon" hidden="false" id="0373-beda-09a0-90a0">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="feec-4014-abb1-ba74">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="20c8-3b9a-400a-b9db-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="20c8-3b9a-400a-b9db-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <infoLinks>
-                        <infoLink name="Twin Burst Cannon" id="05ca-d5b9-5730-85c4" hidden="false" type="profile" targetId="fbfe-ef54-00ce-6e64"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e7e0-6abd-dbc4-e3ef" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Flamer" hidden="false" id="d901-b4ec-ad54-96ab">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="56b6-18d3-4ca9-b5c4">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7f79-56e9-15df-37bb-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f79-56e9-15df-37bb-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a067-f36d-5dfe-5dc8" includeChildSelections="false"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink name="Twin Flamer" id="84d2-b665-c247-e396" hidden="false" type="profile" targetId="6673-5922-594e-de74"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="16"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Fusion Blaster" hidden="false" id="39f1-2db4-0be3-6410">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="c35a-d91a-a0fb-51e9">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="876e-35b4-155c-fc01-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="876e-35b4-155c-fc01-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <infoLinks>
-                        <infoLink name="Twin Fusion blaster" id="2515-48da-3e9f-2647" hidden="false" type="profile" targetId="864a-873a-e7fb-6c8d"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="cf76-d12c-ff41-e9eb" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="24"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Missile Pod" hidden="false" id="2183-1de5-2d1c-72c2">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="79c5-3adb-4727-e409">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="38ab-56ff-55d7-2fb0-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="38ab-56ff-55d7-2fb0-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <infoLinks>
-                        <infoLink name="Twin Missile Pod" id="3013-55d5-dfcb-594c" hidden="false" type="profile" targetId="6d95-d807-4909-2d72"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="f8d9-eff5-00b2-d60e" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Plasma Rifle" hidden="false" id="bd5c-b9e6-bb00-4d4e">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="2fd1-6c39-b304-b876">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9db6-b0e8-4ec3-25ec-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9db6-b0e8-4ec3-25ec-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <infoLinks>
-                        <infoLink name="Twin Plasma Rifle" id="ac90-c312-a7c7-f80c" hidden="false" type="profile" targetId="a391-e457-9f33-5b60"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e619-5d16-431c-0f37" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="18"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="185d-8dbc-d275-d5d7" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c8c7-85ad-8d0b-f67f" includeChildSelections="false"/>
-                  </constraints>
-                </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Support Systems" hidden="false" id="568f-a28b-7f4d-8d11">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Advanced Targeting System" hidden="false" id="06c2-d8b8-4263-01b8">
@@ -2201,6 +2001,211 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a17b-ff82-9804-b432" includeChildSelections="false"/>
                   </constraints>
                 </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Ranged Weapons" hidden="false" id="3354-abdb-ebda-830e">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Airburst Fragmentation Projector" hidden="false" id="062f-e360-687d-a88e">
+                      <infoLinks>
+                        <infoLink name="Airbursting Fragmentation project" id="1bab-7baa-ec56-9ca5" hidden="false" type="profile" targetId="c285-839b-0609-77a4"/>
+                        <infoLink name="Airbursting Fragmentation project (B)" id="00be-c408-e71b-596c" hidden="false" type="profile" targetId="9fb5-94d0-5354-b174"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="7710-ce12-340c-308c" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Burst Cannon" hidden="false" id="bb4f-a903-b788-6033">
+                      <infoLinks>
+                        <infoLink name="Burst Cannon" id="3ad8-7fc8-6990-b82b" hidden="false" type="profile" targetId="2f0f-5d9a-a9e7-7406"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="8a2a-9cce-6826-c580" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Cyclic Ion Blaster" hidden="false" id="8fd1-623a-6f32-653f">
+                      <infoLinks>
+                        <infoLink name="Cyclic ion blaster" id="3d84-3fe1-f54d-9f0a" hidden="false" type="profile" targetId="8f86-de87-e74a-8aba"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7dc1-9e11-ee1b-b471" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="16"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="104e-2c46-cee9-aba1">
+                      <infoLinks>
+                        <infoLink name="Flamer" id="0022-2a62-2f45-c9ec" hidden="false" type="profile" targetId="7045-60bf-1b03-e7fd"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="214e-844e-e09d-8ac7" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Fusion Blaster" hidden="false" id="eb95-174d-8d0b-7a11">
+                      <infoLinks>
+                        <infoLink name="Fusion blaster" id="fc69-1957-0a70-69be" hidden="false" type="profile" targetId="8789-a127-e467-fd5d"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="2484-b12f-fcfb-2409" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Rifle" hidden="false" id="7cf3-4f2c-3e6b-3853">
+                      <infoLinks>
+                        <infoLink name="Plasma Rifle" id="c640-d69c-4076-75e3" hidden="false" type="profile" targetId="eebc-ebde-87f6-1891"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="f066-0cd8-cb7c-9429" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Missile Pod" hidden="false" id="5522-02f2-0a9f-24c5">
+                      <infoLinks>
+                        <infoLink name="Missile Pod" id="3a6d-e07f-e4b1-32a3" hidden="false" type="profile" targetId="d9d1-eba8-8afb-e15e"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="66ab-b579-3774-39ab" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Burst Cannon" hidden="false" id="aadb-35dd-ceca-17df">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="0e78-9dc5-e301-cc06">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3f96-c3ad-72ef-7d16"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="80f5-678e-ac11-54c9"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <infoLinks>
+                        <infoLink name="Twin Burst Cannon" id="6da9-76f2-38fb-c988" hidden="false" type="profile" targetId="fbfe-ef54-00ce-6e64"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="be54-084c-fcb8-bc75" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Flamer" hidden="false" id="9e61-7c07-58e8-fe14">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="5b47-85b1-c421-06a6">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6c54-5322-cc84-b443"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="69fb-d240-3518-992d"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d479-67fa-7bee-aabc" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Twin Flamer" id="2336-37a8-c7d8-b263" hidden="false" type="profile" targetId="6673-5922-594e-de74"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="16"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Fusion Blaster" hidden="false" id="8662-7a7e-4b4f-e549">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="974a-053a-9a6e-036f">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e6ce-3822-1e75-9fd9"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6f5-c414-aee7-af74"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <infoLinks>
+                        <infoLink name="Twin Fusion blaster" id="5388-35ce-e9ee-9cc9" hidden="false" type="profile" targetId="864a-873a-e7fb-6c8d"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="47cd-7166-5957-0a2b" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="24"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Missile Pod" hidden="false" id="23d6-26fa-6819-1ac1">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="d520-5601-212b-32b2">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a31b-35f5-93dd-7e43"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dbb2-ef04-9cce-6ae1"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <infoLinks>
+                        <infoLink name="Twin Missile Pod" id="5d15-b59f-6d3a-81a5" hidden="false" type="profile" targetId="6d95-d807-4909-2d72"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="86ad-765e-01c3-c2aa" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Plasma Rifle" hidden="false" id="3549-06a7-9f06-1a38">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="bc69-a90b-1651-da2d">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c7f6-89e4-9b1a-d649"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="66f3-811c-8142-447c"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <infoLinks>
+                        <infoLink name="Twin Plasma Rifle" id="e7b1-acc7-44c2-4458" hidden="false" type="profile" targetId="a391-e457-9f33-5b60"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="bbfa-8d3a-a089-877c" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="18"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1bf0-3578-896e-3f03" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5f18-bab7-9505-bd35" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
               </selectionEntries>
               <constraints>
                 <constraint type="max" value="6" field="selections" scope="self" shared="true" id="f833-88ef-bcef-7647" includeChildSelections="true"/>
@@ -2319,197 +2324,6 @@
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Wargear - Max 3" hidden="false" id="8b1d-f645-e4dc-9e45">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Ranged Weapons" hidden="false" id="d233-1842-eb80-27ca">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Airburst Fragmentation Projector" hidden="false" id="7293-056f-1d31-d24b">
-                      <infoLinks>
-                        <infoLink name="Airbursting Fragmentation project" id="7a9c-94ec-3e9b-8278" hidden="false" type="profile" targetId="c285-839b-0609-77a4"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="d4c5-81bd-ff2d-e21b" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Burst Cannon" hidden="false" id="6571-9116-4d3b-177b">
-                      <infoLinks>
-                        <infoLink name="Burst Cannon" id="20c8-66b2-c1d0-df2c" hidden="false" type="profile" targetId="2f0f-5d9a-a9e7-7406"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="a816-b818-c2a6-39fd" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="de91-91af-3361-71f9">
-                      <infoLinks>
-                        <infoLink name="Flamer" id="0bb5-cdf5-7a0a-25e5" hidden="false" type="profile" targetId="7045-60bf-1b03-e7fd"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="da80-56d0-07ea-05a2" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Fusion Blaster" hidden="false" id="78fc-f807-205b-479c">
-                      <infoLinks>
-                        <infoLink name="Fusion blaster" id="7695-d9d7-6c7e-7b7f" hidden="false" type="profile" targetId="8789-a127-e467-fd5d"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="e216-9eb6-70e8-0de0" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Plasma Rifle" hidden="false" id="7599-f12f-5dd5-4f86">
-                      <infoLinks>
-                        <infoLink name="Plasma Rifle" id="e9dc-c442-6923-4ab5" hidden="false" type="profile" targetId="eebc-ebde-87f6-1891"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="02bb-bbc2-1499-8349" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Missile Pod" hidden="false" id="421e-0824-54b1-ad93">
-                      <infoLinks>
-                        <infoLink name="Missile Pod" id="ff05-fc59-642a-a508" hidden="false" type="profile" targetId="d9d1-eba8-8afb-e15e"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="c0e9-da79-8b7d-d08f" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Burst Cannon" hidden="false" id="7c89-a52d-5954-bdc2">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="d4af-ecc3-6397-b6d5">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="39d1-893a-39ec-cac8-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="39d1-893a-39ec-cac8-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <infoLinks>
-                        <infoLink name="Twin Burst Cannon" id="343c-a696-05d2-025b" hidden="false" type="profile" targetId="fbfe-ef54-00ce-6e64"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="97c3-667c-36b5-4475" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Flamer" hidden="false" id="0642-eeee-6c5e-fbd5">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="2739-21ef-b6d6-6199">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec5e-4f28-52fb-483b-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec5e-4f28-52fb-483b-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="ba8d-21ab-ff86-c333" includeChildSelections="false"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink name="Twin Flamer" id="5bfb-b8ca-ace8-3f15" hidden="false" type="profile" targetId="6673-5922-594e-de74"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="16"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Fusion Blaster" hidden="false" id="290a-39d3-36bd-c7c8">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="73c8-ca90-a142-d047">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="07ff-529f-0577-a4ca-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="07ff-529f-0577-a4ca-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <infoLinks>
-                        <infoLink name="Twin Fusion blaster" id="2155-902e-235e-98d6" hidden="false" type="profile" targetId="864a-873a-e7fb-6c8d"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="202e-e903-0596-3d4c" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="24"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Missile Pod" hidden="false" id="3a6f-b962-9652-7fc5">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="89a5-dc92-7fdc-774f">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="be1a-b084-baf7-6cd5-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be1a-b084-baf7-6cd5-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <infoLinks>
-                        <infoLink name="Twin Missile Pod" id="038f-0fb4-0957-0da1" hidden="false" type="profile" targetId="6d95-d807-4909-2d72"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="dfb1-0872-4eb9-f0bc" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Plasma Rifle" hidden="false" id="4e25-4ca9-7562-36c9">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="abaa-b1d4-ca8a-ded0">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="caa5-c0c8-769e-b127-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="caa5-c0c8-769e-b127-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <infoLinks>
-                        <infoLink name="Twin Plasma Rifle" id="6660-3a24-ee15-4a7b" hidden="false" type="profile" targetId="a391-e457-9f33-5b60"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7b8b-c428-591d-c8f7" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="18"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f4c1-830a-d67a-c192" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04f3-75fa-d186-cd23" includeChildSelections="false"/>
-                  </constraints>
-                </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Support Systems" hidden="false" id="4af1-6f0c-71ee-195a">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Advanced Targeting System" hidden="false" id="a8b1-b194-996d-da31">
@@ -2703,6 +2517,211 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="01bc-d00b-ab9d-54d0" includeChildSelections="false"/>
                   </constraints>
                 </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Ranged Weapons" hidden="false" id="7fa0-92c4-fbe2-57a1">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Airburst Fragmentation Projector" hidden="false" id="d532-920d-6460-ff3a">
+                      <infoLinks>
+                        <infoLink name="Airbursting Fragmentation project" id="3c6f-fec7-4730-9905" hidden="false" type="profile" targetId="c285-839b-0609-77a4"/>
+                        <infoLink name="Airbursting Fragmentation project (B)" id="7a10-d15c-e229-793f" hidden="false" type="profile" targetId="9fb5-94d0-5354-b174"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="08a6-36a4-209b-749f" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Burst Cannon" hidden="false" id="ccc4-82eb-5d2f-792e">
+                      <infoLinks>
+                        <infoLink name="Burst Cannon" id="5e1a-bf5e-9767-e1dc" hidden="false" type="profile" targetId="2f0f-5d9a-a9e7-7406"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="5aa1-58da-f73b-36ae" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Cyclic Ion Blaster" hidden="false" id="2f93-7674-8195-b229">
+                      <infoLinks>
+                        <infoLink name="Cyclic ion blaster" id="4ea9-2772-e8ea-9a0d" hidden="false" type="profile" targetId="8f86-de87-e74a-8aba"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="dac5-18df-ca23-ab45" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="16"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="73a5-02b5-92e6-c00c">
+                      <infoLinks>
+                        <infoLink name="Flamer" id="1adc-148a-8850-d475" hidden="false" type="profile" targetId="7045-60bf-1b03-e7fd"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="2126-614d-0230-b485" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Fusion Blaster" hidden="false" id="1fc1-90df-dd16-af58">
+                      <infoLinks>
+                        <infoLink name="Fusion blaster" id="e87d-1170-604e-2e19" hidden="false" type="profile" targetId="8789-a127-e467-fd5d"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="2c5e-f337-f07e-fe66" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Rifle" hidden="false" id="3e13-9493-b650-a02b">
+                      <infoLinks>
+                        <infoLink name="Plasma Rifle" id="cce9-9f70-52e1-692b" hidden="false" type="profile" targetId="eebc-ebde-87f6-1891"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="5405-ef22-9551-3b75" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Missile Pod" hidden="false" id="949f-fed1-9938-8b17">
+                      <infoLinks>
+                        <infoLink name="Missile Pod" id="85ae-95c6-2d72-f8c3" hidden="false" type="profile" targetId="d9d1-eba8-8afb-e15e"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="45ec-39a3-d7fb-4529" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Burst Cannon" hidden="false" id="a937-eade-b5a3-c26c">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="3603-699c-5193-ede7">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6c27-7993-2a7e-506d"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e774-8eb2-358d-43de"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <infoLinks>
+                        <infoLink name="Twin Burst Cannon" id="4279-c749-61c0-3c26" hidden="false" type="profile" targetId="fbfe-ef54-00ce-6e64"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8e09-b983-8fef-bad0" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Flamer" hidden="false" id="c584-66f2-73bb-5341">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="b2f0-38a6-222c-0389">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="be95-20f5-bd7e-48a8"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e741-95b9-a5dd-777d"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7557-46fc-cbb1-161c" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Twin Flamer" id="4c38-16eb-3486-c414" hidden="false" type="profile" targetId="6673-5922-594e-de74"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="16"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Fusion Blaster" hidden="false" id="d466-ae4f-d664-14db">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="25b6-db19-c6b5-a163">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="da3b-fc92-6183-327f"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f7f4-0104-afb6-8539"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <infoLinks>
+                        <infoLink name="Twin Fusion blaster" id="aeeb-6415-2daa-8fcc" hidden="false" type="profile" targetId="864a-873a-e7fb-6c8d"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2740-9ef1-38d7-17d4" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="24"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Missile Pod" hidden="false" id="70fc-e7e0-54a9-976a">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="45aa-6923-279c-fb62">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e22f-71b5-bbc8-bb07"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7999-12e6-c43d-f50b"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <infoLinks>
+                        <infoLink name="Twin Missile Pod" id="5a7f-a412-c4bd-e317" hidden="false" type="profile" targetId="6d95-d807-4909-2d72"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="73c4-b4dd-8171-587a" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Plasma Rifle" hidden="false" id="fa58-c15a-ebd9-6cc6">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="24ec-47db-1b19-8de8">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7ace-8226-353d-d0f2"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c230-989b-19af-fe37"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <infoLinks>
+                        <infoLink name="Twin Plasma Rifle" id="fda0-9145-8e54-dbc8" hidden="false" type="profile" targetId="a391-e457-9f33-5b60"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5db7-060f-ccfd-9b46" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="18"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="999e-b691-5cae-b728" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10a4-27c7-0708-b9e2" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
               </selectionEntries>
               <constraints>
                 <constraint type="max" value="6" field="selections" scope="self" shared="true" id="8f9b-9c58-6847-be0a" includeChildSelections="true"/>
@@ -2825,197 +2844,6 @@
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Wargear - Max 3" hidden="false" id="c435-1bf7-1928-9f5d">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Ranged Weapons" hidden="false" id="94c3-9fe3-feca-9ae2">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Airburst Fragmentation Projector" hidden="false" id="9a2c-b8c2-9666-d335">
-                      <infoLinks>
-                        <infoLink name="Airbursting Fragmentation project" id="ab6a-2f4f-7c4b-9181" hidden="false" type="profile" targetId="c285-839b-0609-77a4"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="7828-d865-e451-8424" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Burst Cannon" hidden="false" id="e6a2-455c-e970-17ae">
-                      <infoLinks>
-                        <infoLink name="Burst Cannon" id="eb06-ff57-adae-6c9e" hidden="false" type="profile" targetId="2f0f-5d9a-a9e7-7406"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="56b7-26b9-b655-b975" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="b4c8-20b4-5b16-1db8">
-                      <infoLinks>
-                        <infoLink name="Flamer" id="ee50-8ce3-d9f2-4c55" hidden="false" type="profile" targetId="7045-60bf-1b03-e7fd"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="00db-0001-69ce-36e2" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Fusion Blaster" hidden="false" id="ec21-d5b6-593c-b8c9">
-                      <infoLinks>
-                        <infoLink name="Fusion blaster" id="a4bf-2b86-7a08-c817" hidden="false" type="profile" targetId="8789-a127-e467-fd5d"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="8a3d-13ab-c411-b4c7" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Plasma Rifle" hidden="false" id="d8da-eeac-8894-8533">
-                      <infoLinks>
-                        <infoLink name="Plasma Rifle" id="0b0d-3a42-fc6b-b6b5" hidden="false" type="profile" targetId="eebc-ebde-87f6-1891"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="1ffa-ed01-8a67-b05c" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Missile Pod" hidden="false" id="f568-adad-28b5-c6c4">
-                      <infoLinks>
-                        <infoLink name="Missile Pod" id="ac58-267d-732d-31ba" hidden="false" type="profile" targetId="d9d1-eba8-8afb-e15e"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="a941-b0a1-1805-3eb0" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Burst Cannon" hidden="false" id="580a-c39f-7f15-d130">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="5b80-ac01-8de9-ba3b">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7ecf-7b3e-88da-4984-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ecf-7b3e-88da-4984-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <infoLinks>
-                        <infoLink name="Twin Burst Cannon" id="c9fa-d0ee-1aaf-c93d" hidden="false" type="profile" targetId="fbfe-ef54-00ce-6e64"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e727-4b77-1319-2f2c" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Flamer" hidden="false" id="43bd-5979-2873-9324">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="28da-b820-877f-21cf">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f132-46eb-9be0-8d37-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f132-46eb-9be0-8d37-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c93f-5db4-ca89-e48f" includeChildSelections="false"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink name="Twin Flamer" id="5cc4-3c15-ca76-019d" hidden="false" type="profile" targetId="6673-5922-594e-de74"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="16"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Fusion Blaster" hidden="false" id="1cb6-3195-b980-883c">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="6ad5-6954-f6c7-24b2">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a2a2-b34a-b132-0566-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a2a2-b34a-b132-0566-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <infoLinks>
-                        <infoLink name="Twin Fusion blaster" id="d2fc-9da1-479e-fe2e" hidden="false" type="profile" targetId="864a-873a-e7fb-6c8d"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9d8f-f0cf-0f02-0f21" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="24"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Missile Pod" hidden="false" id="4f4f-ec0d-1187-46a1">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="c4ff-0896-2a1e-4c33">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="60e1-8aa7-e337-3650-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="60e1-8aa7-e337-3650-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <infoLinks>
-                        <infoLink name="Twin Missile Pod" id="5d4b-64fd-48d1-bd19" hidden="false" type="profile" targetId="6d95-d807-4909-2d72"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4815-8123-be63-b4fa" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Plasma Rifle" hidden="false" id="6a8e-da18-dd3c-4819">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="a2c2-f43e-7308-e15b">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bb6d-8177-50ca-fa33-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb6d-8177-50ca-fa33-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <infoLinks>
-                        <infoLink name="Twin Plasma Rifle" id="8f34-2c39-7191-d00a" hidden="false" type="profile" targetId="a391-e457-9f33-5b60"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c30e-7964-e0e2-ede2" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="18"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f2ea-e305-d650-edae" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3308-0f95-0060-1b5d" includeChildSelections="false"/>
-                  </constraints>
-                </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Support Systems" hidden="false" id="6313-bc14-7cf8-e66a">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Advanced Targeting System" hidden="false" id="e3e5-6d4e-1d60-9a46">
@@ -3207,6 +3035,211 @@
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c23b-1d79-0c99-8389" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eda5-b51c-1d42-78e1" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Ranged Weapons" hidden="false" id="d475-750e-8d31-8733">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Airburst Fragmentation Projector" hidden="false" id="7645-23a5-464d-0340">
+                      <infoLinks>
+                        <infoLink name="Airbursting Fragmentation project" id="0404-42c4-f52f-58cb" hidden="false" type="profile" targetId="c285-839b-0609-77a4"/>
+                        <infoLink name="Airbursting Fragmentation project (B)" id="cbff-438d-35f0-3c90" hidden="false" type="profile" targetId="9fb5-94d0-5354-b174"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="dad6-722b-1413-1c1c" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Burst Cannon" hidden="false" id="afc8-3159-dcff-d2c0">
+                      <infoLinks>
+                        <infoLink name="Burst Cannon" id="17d0-f00a-5242-35df" hidden="false" type="profile" targetId="2f0f-5d9a-a9e7-7406"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="7fa0-9f0b-7c4b-3cf0" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Cyclic Ion Blaster" hidden="false" id="5503-5b37-a57e-0bb0">
+                      <infoLinks>
+                        <infoLink name="Cyclic ion blaster" id="bd2e-18c8-e1e5-fc9b" hidden="false" type="profile" targetId="8f86-de87-e74a-8aba"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8c92-b684-536c-8853" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="16"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="2639-d08b-f774-20d0">
+                      <infoLinks>
+                        <infoLink name="Flamer" id="cfef-8d12-9cfa-bcc3" hidden="false" type="profile" targetId="7045-60bf-1b03-e7fd"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="d7bb-864c-be7e-f6b8" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Fusion Blaster" hidden="false" id="5eb9-fba6-3b63-30e4">
+                      <infoLinks>
+                        <infoLink name="Fusion blaster" id="dd99-cf04-5c45-98fd" hidden="false" type="profile" targetId="8789-a127-e467-fd5d"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="9317-e633-5003-45d9" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Rifle" hidden="false" id="5ddf-3c98-9a62-cd53">
+                      <infoLinks>
+                        <infoLink name="Plasma Rifle" id="255e-789a-6619-9c4e" hidden="false" type="profile" targetId="eebc-ebde-87f6-1891"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="d90a-cada-b046-8166" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Missile Pod" hidden="false" id="8089-8dad-2cb9-aba3">
+                      <infoLinks>
+                        <infoLink name="Missile Pod" id="5db2-7446-36eb-6f30" hidden="false" type="profile" targetId="d9d1-eba8-8afb-e15e"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="9ac7-95e8-3065-7f9a" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Burst Cannon" hidden="false" id="5611-daaf-7518-c108">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="2fb9-d592-ae92-9a36">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d429-559e-bb1c-6adf"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e92-cc3b-4cca-19d0"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <infoLinks>
+                        <infoLink name="Twin Burst Cannon" id="b394-47f8-08c4-2a89" hidden="false" type="profile" targetId="fbfe-ef54-00ce-6e64"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="59d7-1ca9-c9c4-56a9" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Flamer" hidden="false" id="6cca-2732-0b13-e833">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="bc25-d663-1080-b9ad">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1fe0-f373-c1c2-121e"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b4f-6198-03b8-08c5"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="aa00-c63b-e986-94ce" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Twin Flamer" id="6d0a-fe52-8c0f-599e" hidden="false" type="profile" targetId="6673-5922-594e-de74"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="16"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Fusion Blaster" hidden="false" id="46c5-8317-7a61-27ac">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="9dfe-a268-90b2-be6d">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ba15-230b-53fa-4fd1"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce9f-a182-7536-85ed"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <infoLinks>
+                        <infoLink name="Twin Fusion blaster" id="e6eb-2378-1407-de02" hidden="false" type="profile" targetId="864a-873a-e7fb-6c8d"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3cfc-b316-4344-c909" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="24"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Missile Pod" hidden="false" id="b69b-8936-67b8-3bd1">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="1f67-6120-8f03-86fe">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e466-0ea4-d92b-76b6"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a505-6aee-3cd2-5c5b"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <infoLinks>
+                        <infoLink name="Twin Missile Pod" id="9bac-709f-9fa2-1a3a" hidden="false" type="profile" targetId="6d95-d807-4909-2d72"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="39be-1f88-9c1b-9285" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Plasma Rifle" hidden="false" id="c2f9-0da3-24ea-5283">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="ed3d-12a5-4d96-b648">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bddb-5068-6f8f-414f"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fc00-f14c-f742-435e"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <infoLinks>
+                        <infoLink name="Twin Plasma Rifle" id="d4eb-b2c5-42e4-38d7" hidden="false" type="profile" targetId="a391-e457-9f33-5b60"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3142-88a6-36ed-d7f9" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="18"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8c98-ff89-4a0e-7673" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe15-87c3-4086-58a6" includeChildSelections="false"/>
                   </constraints>
                 </selectionEntry>
               </selectionEntries>
@@ -3403,6 +3436,7 @@
                       </constraints>
                       <infoLinks>
                         <infoLink name="Pulse Submunitions rifle" id="ca86-1a86-1165-ab89" hidden="false" type="profile" targetId="6705-32f3-4ede-6764"/>
+                        <infoLink name="Pulse Submunitions rifle (B)" id="9923-0216-8458-8e50" hidden="false" type="profile" targetId="f53d-da25-758f-1828"/>
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Double Barreled Burst Cannon" hidden="false" id="600b-5c2f-83e1-40ef">
@@ -3830,6 +3864,7 @@
                       </constraints>
                       <infoLinks>
                         <infoLink name="Pulse Submunitions rifle" id="d95d-2468-5a75-132b" hidden="false" type="profile" targetId="6705-32f3-4ede-6764"/>
+                        <infoLink name="Pulse Submunitions rifle (B)" id="3eb6-2e64-1f76-8f88" hidden="false" type="profile" targetId="f53d-da25-758f-1828"/>
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Double Barreled Burst Cannon" hidden="false" id="8bf6-5005-61ed-787d">
@@ -4021,210 +4056,6 @@
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Wargear - Max 3" hidden="false" id="aaf4-f634-2193-ca89">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Ranged Weapons" hidden="false" id="bbc7-eaef-e945-701d">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Airburst Fragmentation Projector" hidden="false" id="2ee4-fbb6-a3f0-efcd">
-                      <infoLinks>
-                        <infoLink name="Airbursting Fragmentation project" id="f130-597e-fc14-3806" hidden="false" type="profile" targetId="c285-839b-0609-77a4"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="0e5b-afa0-01b1-cbed" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Burst Cannon" hidden="false" id="b289-33f1-38af-b93c">
-                      <infoLinks>
-                        <infoLink name="Burst Cannon" id="e0c4-c756-c244-90f5" hidden="false" type="profile" targetId="2f0f-5d9a-a9e7-7406"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="a72d-8fc2-7709-a858" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Cyclic Ion Blaster" hidden="false" id="c5a5-7c29-e02e-bd14">
-                      <infoLinks>
-                        <infoLink name="Cyclic ion blaster" id="2637-7055-e816-9c9b" hidden="false" type="profile" targetId="8f86-de87-e74a-8aba"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5353-f462-9106-50c9" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="16"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="e9c9-8f2f-b3be-c6eb">
-                      <infoLinks>
-                        <infoLink name="Flamer" id="fd04-bf13-6f30-4395" hidden="false" type="profile" targetId="7045-60bf-1b03-e7fd"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="1ea4-9fb6-4860-a540" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Fusion Blaster" hidden="false" id="bae5-17e0-38fa-820a">
-                      <infoLinks>
-                        <infoLink name="Fusion blaster" id="2326-7643-67d6-5688" hidden="false" type="profile" targetId="8789-a127-e467-fd5d"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="b565-35fb-162f-1eb0" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Plasma Rifle" hidden="false" id="4dc9-11fb-fae1-f02b">
-                      <infoLinks>
-                        <infoLink name="Plasma Rifle" id="2611-f074-ee73-2d76" hidden="false" type="profile" targetId="eebc-ebde-87f6-1891"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="a065-f747-642d-6865" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Missile Pod" hidden="false" id="7e61-97be-28aa-fc52">
-                      <infoLinks>
-                        <infoLink name="Missile Pod" id="8e03-7751-a870-75a3" hidden="false" type="profile" targetId="d9d1-eba8-8afb-e15e"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="104a-b155-bbca-3134" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Burst Cannon" hidden="false" id="99d5-389e-4654-8ebd">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="24e7-40d4-10dd-5372">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="55ef-c9e1-6dd9-9f76-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="55ef-c9e1-6dd9-9f76-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <infoLinks>
-                        <infoLink name="Twin Burst Cannon" id="9e12-0dcc-d4a5-b48c" hidden="false" type="profile" targetId="fbfe-ef54-00ce-6e64"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="729f-b340-d246-827d" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Flamer" hidden="false" id="038b-5ffa-02bc-5f2d">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="2143-d729-21e9-f551">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bfdb-f08e-7702-f4d8-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bfdb-f08e-7702-f4d8-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1270-956f-7d75-711b" includeChildSelections="false"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink name="Twin Flamer" id="4221-ef5b-9e69-1c3b" hidden="false" type="profile" targetId="6673-5922-594e-de74"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="16"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Fusion Blaster" hidden="false" id="ca1e-5b47-c816-17af">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="1107-b090-f73a-2ab6">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9ebb-b2e7-1b8b-f713-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ebb-b2e7-1b8b-f713-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <infoLinks>
-                        <infoLink name="Twin Fusion blaster" id="140f-66af-5ed8-ccb1" hidden="false" type="profile" targetId="864a-873a-e7fb-6c8d"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="573c-31dc-622f-69b9" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="24"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Missile Pod" hidden="false" id="2cfe-8c7e-d249-86cf">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="9443-8b10-ad85-0262">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7722-1261-4ace-8ce6-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7722-1261-4ace-8ce6-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <infoLinks>
-                        <infoLink name="Twin Missile Pod" id="370e-96e6-cdef-4ac6" hidden="false" type="profile" targetId="6d95-d807-4909-2d72"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3d3a-b0f7-aef5-dd79" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Plasma Rifle" hidden="false" id="0f4b-dcb9-b3f8-843a">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="961b-c6cb-fdb6-bfaa">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="37cc-69aa-b056-8e65-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="37cc-69aa-b056-8e65-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <infoLinks>
-                        <infoLink name="Twin Plasma Rifle" id="0464-b9e4-25e5-ff56" hidden="false" type="profile" targetId="a391-e457-9f33-5b60"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b363-c026-3d85-0259" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="18"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ae09-cad9-f2e1-6233" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b35b-d549-c857-0e5d" includeChildSelections="false"/>
-                  </constraints>
-                </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Support Systems" hidden="false" id="f552-44a7-6ed1-0c0c">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Advanced Targeting System" hidden="false" id="c990-824f-50cf-f272">
@@ -4418,6 +4249,211 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="649b-9797-ed7d-9693" includeChildSelections="false"/>
                   </constraints>
                 </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Ranged Weapons" hidden="false" id="b002-47ce-e980-a852">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Airburst Fragmentation Projector" hidden="false" id="2875-5abb-baf4-dc36">
+                      <infoLinks>
+                        <infoLink name="Airbursting Fragmentation project" id="dd85-2712-f968-b9d7" hidden="false" type="profile" targetId="c285-839b-0609-77a4"/>
+                        <infoLink name="Airbursting Fragmentation project (B)" id="ea23-3493-ef33-9906" hidden="false" type="profile" targetId="9fb5-94d0-5354-b174"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="e901-7a8b-f859-74c7" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Burst Cannon" hidden="false" id="7c61-f6d1-8995-41e8">
+                      <infoLinks>
+                        <infoLink name="Burst Cannon" id="0c28-1403-2eb7-fb5f" hidden="false" type="profile" targetId="2f0f-5d9a-a9e7-7406"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="2e43-8920-aed8-ae96" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Cyclic Ion Blaster" hidden="false" id="4ec2-ec74-29cf-7c89">
+                      <infoLinks>
+                        <infoLink name="Cyclic ion blaster" id="d3bf-c8f9-ba45-8497" hidden="false" type="profile" targetId="8f86-de87-e74a-8aba"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e609-c491-26fc-e8d6" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="16"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="7349-d612-46d3-4dca">
+                      <infoLinks>
+                        <infoLink name="Flamer" id="351d-3589-be78-c95d" hidden="false" type="profile" targetId="7045-60bf-1b03-e7fd"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="e37f-0883-cabc-c78b" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Fusion Blaster" hidden="false" id="84b9-277f-3754-2aa7">
+                      <infoLinks>
+                        <infoLink name="Fusion blaster" id="badb-b97c-9ab7-5d8b" hidden="false" type="profile" targetId="8789-a127-e467-fd5d"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="9078-8969-1b86-1e8d" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Rifle" hidden="false" id="a0c5-a39f-7e0d-53cf">
+                      <infoLinks>
+                        <infoLink name="Plasma Rifle" id="3cde-87bc-c03d-bee4" hidden="false" type="profile" targetId="eebc-ebde-87f6-1891"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="4270-644d-92e5-5c69" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Missile Pod" hidden="false" id="375b-96e8-ff58-9312">
+                      <infoLinks>
+                        <infoLink name="Missile Pod" id="b9d0-3153-14e4-7e41" hidden="false" type="profile" targetId="d9d1-eba8-8afb-e15e"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="eec4-73d2-e2d1-f2f9" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Burst Cannon" hidden="false" id="469f-fa91-9c33-113d">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="f5d5-fc7d-f5a6-b8f3">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7299-6f38-6d49-a8fc"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd4e-0e06-a09d-2827"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <infoLinks>
+                        <infoLink name="Twin Burst Cannon" id="9267-a6dc-6da2-9a5e" hidden="false" type="profile" targetId="fbfe-ef54-00ce-6e64"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1a07-7e0c-3160-8bf7" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Flamer" hidden="false" id="9b5b-1a76-0000-d9a9">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="8308-08a0-4b28-3979">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="586f-50b8-faf2-3b83"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8045-fae3-9feb-108a"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="cb57-8888-cd9f-610d" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Twin Flamer" id="753e-12cb-3c65-8d5c" hidden="false" type="profile" targetId="6673-5922-594e-de74"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="16"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Fusion Blaster" hidden="false" id="a69a-0e40-7976-f0e2">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="f7d7-8390-99bd-eff6">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d456-0515-abf8-d21e"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b7cd-0f98-a6c2-eee5"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <infoLinks>
+                        <infoLink name="Twin Fusion blaster" id="541b-6ed1-ce0b-8407" hidden="false" type="profile" targetId="864a-873a-e7fb-6c8d"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="12d1-72c8-6cfa-dc01" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="24"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Missile Pod" hidden="false" id="4f63-df9c-398e-d11a">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="c899-b068-81d9-144c">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4105-e799-2dc1-f578"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9398-5906-05f9-ff43"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <infoLinks>
+                        <infoLink name="Twin Missile Pod" id="9fd5-32b5-1a28-1f0a" hidden="false" type="profile" targetId="6d95-d807-4909-2d72"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="6be2-4b87-95de-ab8c" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Plasma Rifle" hidden="false" id="5ba6-9089-f849-a9a6">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="ec8b-939c-4cda-cc03">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3d8a-06ef-7041-9937"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="960f-c6de-602c-baf9"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <infoLinks>
+                        <infoLink name="Twin Plasma Rifle" id="5668-7a99-72fe-fbfc" hidden="false" type="profile" targetId="a391-e457-9f33-5b60"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="bc9a-f39b-0ef1-3a8d" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="18"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7c15-bfa6-cdb8-3496" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f5a-066b-1120-0f58" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
               </selectionEntries>
               <constraints>
                 <constraint type="max" value="6" field="selections" scope="self" shared="true" id="ea62-c2eb-f005-2f2a" includeChildSelections="true"/>
@@ -4540,184 +4576,6 @@
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Wargear - Max 3" hidden="false" id="3e37-c204-5b6f-de82">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Ranged Weapons" hidden="false" id="89d8-cd49-75fb-a3be">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="3015-02cd-5d4e-8217">
-                      <infoLinks>
-                        <infoLink name="Flamer" id="431a-156b-8b4a-77ee" hidden="false" type="profile" targetId="7045-60bf-1b03-e7fd"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="ad13-9db2-45b4-4fff" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Fusion Blaster" hidden="false" id="691a-dc86-2e98-09bc">
-                      <infoLinks>
-                        <infoLink name="Fusion blaster" id="3b60-90ed-8e7a-9039" hidden="false" type="profile" targetId="8789-a127-e467-fd5d"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="3d93-18b8-1194-da8d" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Plasma Rifle" hidden="false" id="a599-2c0c-f674-0c6d">
-                      <infoLinks>
-                        <infoLink name="Plasma Rifle" id="7ed8-30ae-944d-312a" hidden="false" type="profile" targetId="eebc-ebde-87f6-1891"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="fc18-cf17-f5af-c25f" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Missile Pod" hidden="false" id="22b7-4168-9bf2-835a">
-                      <infoLinks>
-                        <infoLink name="Missile Pod" id="bb57-5d82-e93e-5afc" hidden="false" type="profile" targetId="d9d1-eba8-8afb-e15e"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="231d-a8e7-4aea-8171" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Burst Cannon" hidden="false" id="2123-fc7a-387b-a1d4">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="b53a-6e0f-f16f-6e07">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b413-01f4-fcac-ac51-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b413-01f4-fcac-ac51-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <infoLinks>
-                        <infoLink name="Twin Burst Cannon" id="dc0f-39ce-3b06-1b95" hidden="false" type="profile" targetId="fbfe-ef54-00ce-6e64"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="58dd-8100-bc8c-1dee" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Flamer" hidden="false" id="2b41-ebd3-3c1b-9489">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="001e-49f4-38cd-d8e7">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d633-f34e-6b95-7d45-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d633-f34e-6b95-7d45-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="69e0-02d7-15bc-11c4" includeChildSelections="false"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink name="Twin Flamer" id="1bd8-44fc-ae1d-6563" hidden="false" type="profile" targetId="6673-5922-594e-de74"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="16"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Fusion Blaster" hidden="false" id="8265-a084-e7d1-5655">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="8934-5995-b738-c503">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a083-c875-c421-f77e-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a083-c875-c421-f77e-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <infoLinks>
-                        <infoLink name="Twin Fusion blaster" id="f5f6-e70f-0e68-dabd" hidden="false" type="profile" targetId="864a-873a-e7fb-6c8d"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5aa7-a924-471b-7e22" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="24"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Missile Pod" hidden="false" id="faa7-67ac-7af8-a9cf">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="3e2d-6d20-b94a-608d">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="52bf-284f-e22b-da1e-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52bf-284f-e22b-da1e-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <infoLinks>
-                        <infoLink name="Twin Missile Pod" id="d5ea-9dc3-ea32-1d0c" hidden="false" type="profile" targetId="6d95-d807-4909-2d72"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2412-3be9-1bd7-761f" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Twin Plasma Rifle" hidden="false" id="8330-0692-147b-f320">
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="79f2-e052-45e9-567d">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0f04-8ab5-f8a9-0bfd-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f04-8ab5-f8a9-0bfd-max"/>
-                          </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <infoLinks>
-                        <infoLink name="Twin Plasma Rifle" id="07da-8e32-ef7f-db40" hidden="false" type="profile" targetId="a391-e457-9f33-5b60"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e111-5201-17be-1193" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="18"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Burst Cannon" hidden="false" id="3384-6eea-715e-dd62">
-                      <infoLinks>
-                        <infoLink name="Burst Cannon" id="23b6-8302-c4f9-29fc" hidden="false" type="profile" targetId="2f0f-5d9a-a9e7-7406"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="7a7f-dd06-535a-88a6" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3bc2-2be7-ee2d-14c1" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29d4-7696-71c4-abc5" includeChildSelections="false"/>
-                  </constraints>
-                </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Support Systems" hidden="false" id="35bb-9cf4-12f4-cbe9">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Advanced Targeting System" hidden="false" id="be62-09c2-0947-afc4">
@@ -4909,6 +4767,211 @@
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cc45-6a9a-4d1d-3fe4" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="760c-7698-3de9-4e9d" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Ranged Weapons" hidden="false" id="c1b1-1f35-f6da-d86e">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Airburst Fragmentation Projector" hidden="false" id="ec8a-2b1c-27ec-3592">
+                      <infoLinks>
+                        <infoLink name="Airbursting Fragmentation project" id="b457-76e5-3e3b-cac9" hidden="false" type="profile" targetId="c285-839b-0609-77a4"/>
+                        <infoLink name="Airbursting Fragmentation project (B)" id="f184-bdc0-57a9-fd7f" hidden="false" type="profile" targetId="9fb5-94d0-5354-b174"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="0217-077b-8486-2ba0" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Burst Cannon" hidden="false" id="8ae8-4c90-2076-2433">
+                      <infoLinks>
+                        <infoLink name="Burst Cannon" id="c7f0-4f65-5537-d8e0" hidden="false" type="profile" targetId="2f0f-5d9a-a9e7-7406"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="7520-fa5c-d3f8-aba7" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Cyclic Ion Blaster" hidden="false" id="6cf3-68f2-6046-a26e">
+                      <infoLinks>
+                        <infoLink name="Cyclic ion blaster" id="ee1b-3495-dce0-bff9" hidden="false" type="profile" targetId="8f86-de87-e74a-8aba"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="32a6-23ee-d739-9bed" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="16"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="6412-2a80-e018-3011">
+                      <infoLinks>
+                        <infoLink name="Flamer" id="0444-df0d-1595-da9c" hidden="false" type="profile" targetId="7045-60bf-1b03-e7fd"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="8167-8a4a-0902-0979" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Fusion Blaster" hidden="false" id="5006-aff1-ea28-5401">
+                      <infoLinks>
+                        <infoLink name="Fusion blaster" id="5bec-90fb-c4fd-b495" hidden="false" type="profile" targetId="8789-a127-e467-fd5d"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="23d4-f137-2ff4-205e" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Rifle" hidden="false" id="a171-78aa-0121-64ed">
+                      <infoLinks>
+                        <infoLink name="Plasma Rifle" id="2086-1bd8-99ff-b9ff" hidden="false" type="profile" targetId="eebc-ebde-87f6-1891"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="5a73-87ae-b9fb-9801" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Missile Pod" hidden="false" id="411a-acd2-1095-7e11">
+                      <infoLinks>
+                        <infoLink name="Missile Pod" id="ce3d-96b2-9541-d25f" hidden="false" type="profile" targetId="d9d1-eba8-8afb-e15e"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="51c2-5ec9-cd68-47b6" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Burst Cannon" hidden="false" id="7e02-72ed-1c4f-e964">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="d7a4-152e-fea6-c290">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec67-1083-e758-f028"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9fbd-e15a-9218-1743"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <infoLinks>
+                        <infoLink name="Twin Burst Cannon" id="533c-d5c5-9168-bd12" hidden="false" type="profile" targetId="fbfe-ef54-00ce-6e64"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="fbff-c2c5-c445-7186" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Flamer" hidden="false" id="bc3d-0495-22d1-641b">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="fda9-935b-97c5-4500">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aee6-1b99-60ac-6f32"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29aa-9c32-1b82-028d"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2f1e-e4e0-06b1-d87c" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Twin Flamer" id="a7c1-2ce1-ed82-483d" hidden="false" type="profile" targetId="6673-5922-594e-de74"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="16"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Fusion Blaster" hidden="false" id="6033-5076-6438-f865">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="a473-56e6-9102-a49d">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1e4e-ca4d-e220-94cd"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4638-6a60-5f11-dfdf"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <infoLinks>
+                        <infoLink name="Twin Fusion blaster" id="a059-4b2f-7e22-badb" hidden="false" type="profile" targetId="864a-873a-e7fb-6c8d"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d912-ba6c-3b62-f082" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="24"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Missile Pod" hidden="false" id="1dcb-ad98-e6db-76b2">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="2d92-4cdc-5513-c068">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aa50-221f-1a7e-93ee"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e268-cd29-4b5d-a87e"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <infoLinks>
+                        <infoLink name="Twin Missile Pod" id="9a85-6ec9-625a-4215" hidden="false" type="profile" targetId="6d95-d807-4909-2d72"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="32f1-1aef-5d84-cddb" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Plasma Rifle" hidden="false" id="ff52-294c-9699-78ed">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="7dde-b61a-36f1-fea4">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="affb-4bb2-74d1-d17d"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="204c-b5ea-dd06-c9f9"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <infoLinks>
+                        <infoLink name="Twin Plasma Rifle" id="9865-e1b9-9433-e615" hidden="false" type="profile" targetId="a391-e457-9f33-5b60"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="bd99-1a5e-bd95-ca50" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="18"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7f57-4256-7c03-8384" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f84f-1a05-27a0-ae7d" includeChildSelections="false"/>
                   </constraints>
                 </selectionEntry>
               </selectionEntries>
@@ -5325,6 +5388,7 @@
             <selectionEntry type="upgrade" import="true" name="Ion Rifle" hidden="false" id="ccbf-0063-1256-5996">
               <infoLinks>
                 <infoLink name="Ion Rifle" id="f298-79e1-10eb-1d7c" hidden="false" type="profile" targetId="aaca-2519-d909-1f7f"/>
+                <infoLink name="Ion Rifle (B)" id="37ce-1bb0-37ea-b85d" hidden="false" type="profile" targetId="0f10-7346-98c2-71c5"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="7"/>
@@ -6157,6 +6221,7 @@
               </constraints>
               <infoLinks>
                 <infoLink name="Fusion Colider" id="cf3c-da98-a884-1385" hidden="false" type="profile" targetId="0c39-7e31-6ee8-3005"/>
+                <infoLink name="Fusion Colider (B)" id="248c-cdaf-d1f3-2f14" hidden="false" type="profile" targetId="4540-ca2a-c9d7-83fe"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
@@ -6415,6 +6480,7 @@
           <infoLinks>
             <infoLink name="Vespid Stingwing" id="1b09-4312-d34c-e78f" hidden="false" type="profile" targetId="f235-c84b-e802-ea66"/>
             <infoLink name="Neutron Grenade" id="1c66-ac0f-fb6a-7b8c" hidden="false" type="profile" targetId="eded-aa6a-5622-4585"/>
+            <infoLink name="Neutron Grenade (B)" id="8e46-040a-af11-0424" hidden="false" type="profile" targetId="9f01-2a58-3701-4a61"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Weapon Options" hidden="false" id="b18e-39c3-847a-d089">
@@ -6422,6 +6488,7 @@
                 <selectionEntry type="upgrade" import="true" name="Neutron Grenade Launcher" hidden="false" id="d488-9746-d2cb-a881">
                   <infoLinks>
                     <infoLink name="Neutron Grenade Launcher" id="9847-6a7b-98d5-c229" hidden="false" type="profile" targetId="fe62-7066-b71a-a1a5"/>
+                    <infoLink name="Neutron Grenade Launcher (B)" id="3ae1-bb29-2885-8305" hidden="false" type="profile" targetId="b4eb-50ae-371b-1656"/>
                   </infoLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2c4e-1dc3-7a12-a09d" includeChildSelections="false"/>
@@ -7211,6 +7278,7 @@ WARGEAR ABILITIES</characteristic>
               </costs>
               <infoLinks>
                 <infoLink name="Ion Accelerator" id="9559-10de-e24a-d866" hidden="false" type="profile" targetId="c7fa-887f-0177-f2aa"/>
+                <infoLink name="Ion Accelerator (B)" id="6df8-f5d9-94de-2252" hidden="false" type="profile" targetId="624b-e0c5-5b25-11c1"/>
               </infoLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="self" shared="true" id="53bc-c580-14ef-1c0d" includeChildSelections="false"/>
@@ -7831,6 +7899,7 @@ Overcharged Munitions: When firing the Pulse submunitions cannon, any dice rolle
               <infoLinks>
                 <infoLink name="Railgun (solid Shot)" id="8f86-ee7c-f2ad-3ef8" hidden="false" type="profile" targetId="717c-dd82-fcc8-769c"/>
                 <infoLink name="Railgun (submunitions)" id="e50e-c465-3af1-a131" hidden="false" type="profile" targetId="bd80-45ca-6cb6-8d29"/>
+                <infoLink name="Railgun (submunitions) (B)" id="be20-a039-6d21-23b3" hidden="false" type="profile" targetId="789d-19fe-c057-49ee"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Ion Cannon" hidden="false" id="4760-b79b-2ed8-05da">
@@ -8094,6 +8163,10 @@ Overcharged Munitions: When firing the Pulse submunitions cannon, any dice rolle
         <infoLink name="Ion Rifle" id="682c-6615-72a3-c1e2" hidden="false" type="profile" targetId="aaca-2519-d909-1f7f"/>
         <infoLink name="Ion Rifle" id="51ef-e4c7-e33a-8ffd" hidden="false" type="profile" targetId="aaca-2519-d909-1f7f"/>
         <infoLink name="AX39 Sun shark Bomber" id="4c24-7725-71fc-3f25" hidden="false" type="profile" targetId="c2aa-85e0-072b-4cc7"/>
+        <infoLink name="Ion Rifle (B)" id="0b58-1a48-5862-017c" hidden="false" type="profile" targetId="0f10-7346-98c2-71c5"/>
+        <infoLink name="Ion Rifle (B)" id="8346-c1ec-76e5-4dc4" hidden="false" type="profile" targetId="0f10-7346-98c2-71c5"/>
+        <infoLink name="Ion Rifle (B)" id="70d8-0136-3467-c46d" hidden="false" type="profile" targetId="0f10-7346-98c2-71c5"/>
+        <infoLink name="Ion Rifle (B)" id="2766-5089-11b9-287a" hidden="false" type="profile" targetId="0f10-7346-98c2-71c5"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="113"/>
@@ -8571,6 +8644,10 @@ Overcharged Munitions: When firing the Pulse submunitions cannon, any dice rolle
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="43be-08cf-d676-7a5f-min" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="43be-08cf-d676-7a5f-max" includeChildSelections="false"/>
                   </constraints>
+                  <infoLinks>
+                    <infoLink name="Cluster Rocket System" id="f91a-a209-164f-b8eb" hidden="false" type="profile" targetId="9d9b-cf39-1ed3-5c0f"/>
+                    <infoLink name="Cluster Rocket System (B)" id="aef0-fa01-15f9-3f33" hidden="false" type="profile" targetId="1c80-c0aa-f003-69ae"/>
+                  </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Smart Missile System" hidden="false" id="2a0b-8dcd-e264-b104">
                   <costs>
@@ -8582,6 +8659,9 @@ Overcharged Munitions: When firing the Pulse submunitions cannon, any dice rolle
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e42f-4e70-4fce-b778" includeChildSelections="false"/>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="adc0-9930-0790-e910" includeChildSelections="false"/>
                   </constraints>
+                  <infoLinks>
+                    <infoLink name="Smart Missile System" id="b3b2-18fb-1fc4-d3c5" hidden="false" type="profile" targetId="7df9-3d35-0be0-f9c0"/>
+                  </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Destroyer Missile" hidden="false" id="40fa-e6b1-94e3-3cbf">
                   <costs>
@@ -8593,6 +8673,9 @@ Overcharged Munitions: When firing the Pulse submunitions cannon, any dice rolle
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="328d-82cc-c18c-a7ee" includeChildSelections="false"/>
                     <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="b728-d451-dd85-befc" includeChildSelections="false"/>
                   </constraints>
+                  <infoLinks>
+                    <infoLink name="Destroyer Missile" id="7e2b-74fb-a3dd-7029" hidden="false" type="profile" targetId="885b-b3f9-824d-e7eb"/>
+                  </infoLinks>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -8649,12 +8732,36 @@ Overcharged Munitions: When firing the Pulse submunitions cannon, any dice rolle
                     <profile name="Pulse Driver cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="d00a-a73b-0ab8-e402">
                       <characteristics>
                         <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">72&quot;</characteristic>
-                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy D6</characteristic>
+                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Ordnance D6</characteristic>
                         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">10</characteristic>
                         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
                         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
                         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
                       </characteristics>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </profile>
+                    <profile name="Pulse Driver cannon (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="c262-0b8e-133f-b049">
+                      <characteristics>
+                        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">72&quot;</characteristic>
+                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Ordnance 1</characteristic>
+                        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">10</characteristic>
+                        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+                        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+                        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">5&quot; Blast</characteristic>
+                      </characteristics>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                     </profile>
                   </profiles>
                   <costs>
@@ -8816,6 +8923,8 @@ Overcharged Munitions: When firing the Pulse submunitions cannon, any dice rolle
                   <infoLinks>
                     <infoLink name="Airbursting Fragmentation project" id="3944-4dbe-ac5c-a70d" hidden="false" type="profile" targetId="c285-839b-0609-77a4"/>
                     <infoLink name="Airbursting Fragmentation project" id="21d5-078f-e066-a3e3" hidden="false" type="profile" targetId="c285-839b-0609-77a4"/>
+                    <infoLink name="Airbursting Fragmentation project (B)" id="adb1-1efb-4b40-5dd5" hidden="false" type="profile" targetId="9fb5-94d0-5354-b174"/>
+                    <infoLink name="Airbursting Fragmentation project (B)" id="55bd-134d-e9ae-b5a3" hidden="false" type="profile" targetId="9fb5-94d0-5354-b174"/>
                   </infoLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4ddc-0fe0-5ff9-2b6b" includeChildSelections="false"/>
@@ -8911,6 +9020,7 @@ Overcharged Munitions: When firing the Pulse submunitions cannon, any dice rolle
                         <selectionEntry type="upgrade" import="true" name="Airburst Fragmentation Projector" hidden="false" id="4a51-32a5-b488-0300">
                           <infoLinks>
                             <infoLink name="Airbursting Fragmentation project" id="0885-d1c0-8d8e-14c7" hidden="false" type="profile" targetId="c285-839b-0609-77a4"/>
+                            <infoLink name="Airbursting Fragmentation project (B)" id="38b7-15a3-46d2-df89" hidden="false" type="profile" targetId="9fb5-94d0-5354-b174"/>
                           </infoLinks>
                           <constraints>
                             <constraint type="max" value="3" field="selections" scope="self" shared="true" id="61ea-0f98-4610-b1d1" includeChildSelections="false"/>
@@ -9342,6 +9452,7 @@ Overcharged Munitions: When firing the Pulse submunitions cannon, any dice rolle
                         <selectionEntry type="upgrade" import="true" name="Airburst Fragmentation Projector" hidden="false" id="3c92-6675-1d38-9f0e">
                           <infoLinks>
                             <infoLink name="Airbursting Fragmentation project" id="c69f-809c-fc1e-793d" hidden="false" type="profile" targetId="c285-839b-0609-77a4"/>
+                            <infoLink name="Airbursting Fragmentation project (B)" id="920d-fa91-4019-d9db" hidden="false" type="profile" targetId="9fb5-94d0-5354-b174"/>
                           </infoLinks>
                           <constraints>
                             <constraint type="max" value="2" field="selections" scope="self" shared="true" id="30fc-ca31-a865-946a" includeChildSelections="false"/>
@@ -9778,6 +9889,7 @@ Overcharged Munitions: When firing the Pulse submunitions cannon, any dice rolle
                         <selectionEntry type="upgrade" import="true" name="Airburst Fragmentation Projector" hidden="false" id="909d-7c4b-136b-7562">
                           <infoLinks>
                             <infoLink name="Airbursting Fragmentation project" id="6b43-cb75-8e9e-5dc7" hidden="false" type="profile" targetId="c285-839b-0609-77a4"/>
+                            <infoLink name="Airbursting Fragmentation project (B)" id="8500-7566-4cff-f8b0" hidden="false" type="profile" targetId="9fb5-94d0-5354-b174"/>
                           </infoLinks>
                           <constraints>
                             <constraint type="max" value="3" field="selections" scope="self" shared="true" id="d1ef-ea59-036c-2368" includeChildSelections="false"/>
@@ -10378,6 +10490,7 @@ Overcharged Munitions: When firing the Pulse submunitions cannon, any dice rolle
                         <selectionEntry type="upgrade" import="true" name="Airburst Fragmentation Projector" hidden="false" id="805a-fc0d-0b1f-d69a">
                           <infoLinks>
                             <infoLink name="Airbursting Fragmentation project" id="5fac-107f-66ef-082e" hidden="false" type="profile" targetId="c285-839b-0609-77a4"/>
+                            <infoLink name="Airbursting Fragmentation project (B)" id="0fa9-2ba1-9e13-d709" hidden="false" type="profile" targetId="9fb5-94d0-5354-b174"/>
                           </infoLinks>
                           <constraints>
                             <constraint type="max" value="2" field="selections" scope="self" shared="true" id="cf4f-0f57-7b39-9975" includeChildSelections="false"/>
@@ -10823,6 +10936,7 @@ Overcharged Munitions: When firing the Pulse submunitions cannon, any dice rolle
                         <selectionEntry type="upgrade" import="true" name="Airburst Fragmentation Projector" hidden="false" id="2d0f-dfe9-a307-08d6">
                           <infoLinks>
                             <infoLink name="Airbursting Fragmentation project" id="de38-0f3c-ebe1-25c6" hidden="false" type="profile" targetId="c285-839b-0609-77a4"/>
+                            <infoLink name="Airbursting Fragmentation project (B)" id="1179-5ef1-7e3c-45f9" hidden="false" type="profile" targetId="9fb5-94d0-5354-b174"/>
                           </infoLinks>
                           <constraints>
                             <constraint type="max" value="2" field="selections" scope="self" shared="true" id="17a4-2c10-da96-85c1" includeChildSelections="false"/>
@@ -11031,6 +11145,7 @@ Overcharged Munitions: When firing the Pulse submunitions cannon, any dice rolle
                 <selectionEntry type="upgrade" import="true" name="Airburst Fragmentation Projector" hidden="false" id="3a57-0cda-b7db-5ad9">
                   <infoLinks>
                     <infoLink name="Airbursting Fragmentation project" id="9c2e-a32d-b218-853d" hidden="false" type="profile" targetId="c285-839b-0609-77a4"/>
+                    <infoLink name="Airbursting Fragmentation project (B)" id="6447-d9fd-09d6-9255" hidden="false" type="profile" targetId="9fb5-94d0-5354-b174"/>
                   </infoLinks>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e3de-b456-9b88-8c30-max-min" includeChildSelections="false"/>
@@ -11259,6 +11374,7 @@ Overcharged Munitions: When firing the Pulse submunitions cannon, any dice rolle
                         <selectionEntry type="upgrade" import="true" name="Airburst Fragmentation Projector" hidden="false" id="d603-83a8-5373-149c">
                           <infoLinks>
                             <infoLink name="Airbursting Fragmentation project" id="9e76-5bad-157d-8f68" hidden="false" type="profile" targetId="c285-839b-0609-77a4"/>
+                            <infoLink name="Airbursting Fragmentation project (B)" id="883b-bbdb-a38c-b06a" hidden="false" type="profile" targetId="9fb5-94d0-5354-b174"/>
                           </infoLinks>
                           <constraints>
                             <constraint type="max" value="2" field="selections" scope="self" shared="true" id="dc2e-3ee4-39dd-f7df" includeChildSelections="false"/>
@@ -13424,6 +13540,13 @@ T&apos;au Auxiliary Units within 12&quot; of a targeted Enemy Unit have +1 to AP
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">-</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Photon Stun</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Pulse Pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="d6b7-adc1-9f6d-e984">
       <characteristics>
@@ -13584,6 +13707,13 @@ T&apos;au Auxiliary Units within 12&quot; of a targeted Enemy Unit have +1 to AP
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Kroot Lone-Spear" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="1899-3377-a3fb-98ff">
       <characteristics>
@@ -13643,6 +13773,13 @@ T&apos;au Auxiliary Units within 12&quot; of a targeted Enemy Unit have +1 to AP
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Indirect Fire</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Cyclic ion blaster" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="8f86-de87-e74a-8aba">
       <characteristics>
@@ -14082,6 +14219,13 @@ T&apos;au Auxiliary Units within 12&quot; of a targeted Enemy Unit have +1 to AP
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Photon Casters" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="c26b-a497-d461-0670">
       <characteristics>
@@ -14171,6 +14315,13 @@ T&apos;au Auxiliary Units within 12&quot; of a targeted Enemy Unit have +1 to AP
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Rail RIfle" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="044c-b1a2-bd45-aac3">
       <characteristics>
@@ -14245,6 +14396,13 @@ T&apos;au Auxiliary Units within 12&quot; of a targeted Enemy Unit have +1 to AP
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Melta</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="MV5 Stealth Drone" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="9df8-a926-5f47-3d82">
       <characteristics>
@@ -14301,6 +14459,13 @@ T&apos;au Auxiliary Units within 12&quot; of a targeted Enemy Unit have +1 to AP
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Neurophase</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Neutron rail rifle" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="ca91-4811-2e6c-333e">
       <characteristics>
@@ -14321,6 +14486,13 @@ T&apos;au Auxiliary Units within 12&quot; of a targeted Enemy Unit have +1 to AP
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Neurophase</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Seeker Missile" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="79ea-923a-c830-b1d8">
       <characteristics>
@@ -14376,6 +14548,13 @@ T&apos;au Auxiliary Units within 12&quot; of a targeted Enemy Unit have +1 to AP
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Nova Reactor (Riptide)" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="ae5a-bd5a-db35-64ce">
       <characteristics>
@@ -14414,12 +14593,19 @@ Nova-charge: Choose for either of this model&apos;s Heavy burst cannon Type to c
     <profile name="Railgun (submunitions)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="bd80-45ca-6cb6-8d29">
       <characteristics>
         <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">72&quot;</characteristic>
-        <characteristic name="Type" typeId="b392-8288-2208-6ab2">D6 1</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy D6</characteristic>
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="Twin T&apos;au Plasma Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="ba5a-c8e4-8d17-a104">
       <characteristics>
@@ -14500,6 +14686,13 @@ Nova-charge: Choose for either of this model&apos;s Heavy burst cannon Type to c
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="XV8 Crisis Comander" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="3e50-c1b9-7821-db15">
       <characteristics>
@@ -14597,6 +14790,203 @@ Nova-charge: Choose for either of this model&apos;s Heavy burst cannon Type to c
         <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
         <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
       </characteristics>
+    </profile>
+    <profile name="Airbursting Fragmentation project (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="9fb5-94d0-5354-b174">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Indirect Fire, 5&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Cluster Rocket System (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="1c80-c0aa-f003-69ae">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 4</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">3&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Fusion Colider (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="4540-ca2a-c9d7-83fe">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Melta, 3&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Ion Accelerator (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="624b-e0c5-5b25-11c1">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">72&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">9</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot, 5&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Pulse Submunitions rifle (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="f53d-da25-758f-1828">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">30&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">5&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Railgun (submunitions) (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="789d-19fe-c057-49ee">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">72&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">5&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Tangle bomb Launcher (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="00a6-a452-f6fa-fb43">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">3&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Tangle cannon (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="7f9b-fa1f-144f-2992">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">5&quot; Blast</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Photon Grenade (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="7516-8b65-3378-db5d">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Grenade 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">-</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">-</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Photon Stun, 3&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Neutron Grenade (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="9f01-2a58-3701-4a61">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">6&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Grenade 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Neurophase, 3&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Neutron Grenade Launcher (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="b4eb-50ae-371b-1656">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Neurophase, 3&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Ion Rifle (B)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="0f10-7346-98c2-71c5">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">30&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot, 3&quot; Blast</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a708-62bf-064c-0ccd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
   </sharedProfiles>
   <entryLinks>
