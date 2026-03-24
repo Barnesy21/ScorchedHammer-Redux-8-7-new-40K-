@@ -5515,7 +5515,7 @@ At the Begining of Each turn. Flip the Card or read which Command protocol you h
     </profile>
     <profile name="Doomsday Cannon (High Power)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="8859-e089-c16b-e084">
       <characteristics>
-        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">$8&quot;</characteristic>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&quot;</characteristic>
         <characteristic name="Type" typeId="b392-8288-2208-6ab2">Ordanence D6</characteristic>
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">10</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-5</characteristic>

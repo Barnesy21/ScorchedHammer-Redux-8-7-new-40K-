@@ -3044,6 +3044,16 @@ In addition, when a Psychic test or Deny the Witch test is taken for a PSYKER mo
                 </rule>
               </rules>
             </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Crimson Fists" hidden="false" id="d9a5-52fb-9a6a-608b">
+              <rules>
+                <rule name="No Matter The Odds" id="4a81-f8a2-f75f-3cdb" hidden="false">
+                  <description>When resolving an attack made by a model with this tactic against a unit that contains at least 5 more models than that model’s unit, add 1 to the hit roll. For the purposes of this tactic, a VEHICLEmodel with this tactic counts as 5 models. In addition, when resolving an attack made with a bolt weapon (pg 166) by a model with this tactic, an unmodified hit roll of 6 scores 1 additional hit.</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c364-ea87-7465-a145" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Blood Angels" hidden="false" id="2464-5d2a-a5ad-7353">
@@ -22393,7 +22403,7 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
         <categoryLink name="Faction: Salamanders" hidden="false" id="263f-22b9-b285-9888" targetId="649e-1866-2617-040d" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="(Sal) Vulkan He&apos;stan" hidden="false" id="8527-958a-dba9-46d9">
+    <selectionEntry type="upgrade" import="true" name="(Sal) Vulkan He&apos;stan" hidden="true" id="8527-958a-dba9-46d9">
       <infoLinks>
         <infoLink name="Angels of Death" id="78c9-7272-fbed-6e69" hidden="false" type="rule" targetId="01a4-bec8-b573-fde7"/>
         <infoLink name="Krak Grenade" id="e205-48e8-fb06-ea1e" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
@@ -22461,6 +22471,11 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
         <categoryLink name="Faction: Salamanders" hidden="false" id="db4f-62b2-e674-ff87" targetId="649e-1866-2617-040d" primary="false"/>
         <categoryLink name="Tacticus" hidden="false" id="b2f8-f700-63dc-6124" targetId="8f99-7a84-6e4e-32fa" primary="false"/>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="120"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="(BT) The Emperors Champion" hidden="true" id="2036-398c-4670-3d4a">
       <infoLinks>
@@ -22778,7 +22793,7 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
     <selectionEntry type="upgrade" import="true" name="(BT) Execrator" hidden="false" id="76a0-aa6f-3eec-79f7"/>
     <selectionEntry type="upgrade" import="true" name="(BT) Carab Culln the Risen" hidden="false" id="02a6-a471-a279-1be4"/>
     <selectionEntry type="upgrade" import="true" name="(BT) Ferren Areios" hidden="false" id="6c72-5104-9685-7543"/>
-    <selectionEntry type="model" import="true" name="(BR) Chaplain Kastiel" hidden="false" id="2992-a992-53b4-9ab6">
+    <selectionEntry type="model" import="true" name="(BR) Chaplain Kastiel" hidden="true" id="2992-a992-53b4-9ab6">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditions>
@@ -22900,7 +22915,7 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
         <categoryLink targetId="8f99-7a84-6e4e-32fa" id="b8be-b4a6-497a-1331" primary="false" name="Tacticus"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="(BR) Judiciar Xacharus" hidden="false" id="9589-f124-ee05-c927">
+    <selectionEntry type="model" import="true" name="(BR) Judiciar Xacharus" hidden="true" id="9589-f124-ee05-c927">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditions>
@@ -22961,7 +22976,7 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="(BR) Captain Cyrus" hidden="false" id="d0f8-6b85-e7ae-ea9d">
+    <selectionEntry type="model" import="true" name="(BR) Captain Cyrus" hidden="true" id="d0f8-6b85-e7ae-ea9d">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditions>
@@ -23048,6 +23063,7 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
         <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="6b31-0c05-8048-d451" primary="false" name="Faction: Imperium"/>
         <categoryLink targetId="0ed8-ef39-46e7-3be8" id="26ce-afdf-081d-11e1" primary="false" name="Adeptus Astartes"/>
         <categoryLink targetId="c28d-9023-be22-0c3b" id="0c5a-4b34-3148-28d2" primary="false" name="Phobos"/>
+        <categoryLink targetId="a2f8-3f8a-6b0f-82d7" id="f1ff-03cc-eb3e-43e7" primary="false" name="Fast Attack"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="(BR) Chapter Master Gabriel Angelos" hidden="true" id="0e29-1129-d8be-54b7">
@@ -23137,7 +23153,7 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="(BR) Chief Librarian Jonah Orion" hidden="false" id="001a-ba4d-830c-ff52">
+    <selectionEntry type="model" import="true" name="(BR) Chief Librarian Jonah Orion" hidden="true" id="001a-ba4d-830c-ff52">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditions>
@@ -23504,6 +23520,408 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
           </constraints>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="(IH) Cannok Var" hidden="true" id="d72c-b20f-1c09-d3df">
+      <profiles>
+        <profile name="(IH) Cannok Var" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="e2a4-bd62-355a-7fbf">
+          <characteristics>
+            <characteristic name="M" typeId="f861-1936-95cc-e6d3">5&quot;</characteristic>
+            <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+            <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+            <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+            <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+            <characteristic name="W" typeId="f05f-2129-62a8-9a30">6</characteristic>
+            <characteristic name="A" typeId="d794-d261-842e-1ef8">5</characteristic>
+            <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+            <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bionic Augmentation" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="467e-8209-5af1-f82b">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This Model has a 5+ Feel no Pain</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Cold and Calculating" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="4be7-691f-60cc-2707">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Each time a model in this model’s unit makes an attack that targets a MONSTER or VEHICLE unit, that attack has the [LETHAL HITS] ability. Each time a model in this model’s unit makes an attack that targets any other unit, that attack has the [SUSTAINED HITS 1] ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Cerebrex Logic Engine" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="0643-0891-c195-16fc">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">&gt; At the start of the Declare Battle Formations step, you can select one ADEPTUS ASTARTES INFANTRY unit from your army. Until the end of the battle, that unit gains the Scouts 6&quot; ability.
+&gt; After both players have deployed their armies, you can select one ADEPTUS ASTARTES unit from your army and redeploy it. When doing so, you can set that unit up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Axiom - Strike" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="a64d-4aa5-4c13-43b1">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">x2</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Axiom - Sweep" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="0a83-f147-e7a0-ea1c">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+1</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Sweeping 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Iron Halo" id="7e02-05ec-59cf-4224" hidden="false" type="profile" targetId="d397-3f45-5d92-64dd"/>
+        <infoLink name="Deep Strike" id="6c1d-073b-77b5-4ee9" hidden="false" type="rule" targetId="70a9-a55c-0c70-9815"/>
+        <infoLink name="Storm Bolter" id="4547-5454-dd23-f840" hidden="false" type="profile" targetId="5347-18e6-69ec-ea9e"/>
+        <infoLink name="Angels of Death" id="c4c7-90de-baa0-b130" hidden="false" type="rule" targetId="01a4-bec8-b573-fde7"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="f879-e864-8e16-3389" primary="false" name="Infantry"/>
+        <categoryLink targetId="3275-df5e-2474-90ed" id="da3c-fd4a-7974-f083" primary="false" name="Character"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="533f-de25-2e1f-a2a1" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="d419-b07a-d287-f96c" id="ae0f-560a-806e-0ff0" primary="false" name="Faction: Adeptus Astartes"/>
+        <categoryLink targetId="0ed8-ef39-46e7-3be8" id="98ff-ca4b-d732-6dee" primary="false" name="Adeptus Astartes"/>
+        <categoryLink targetId="c1cc-f873-78bf-52a2" id="3898-c67b-e148-3c09" primary="false" name="Terminator"/>
+        <categoryLink targetId="8d95-92b7-43b1-4e5d" id="186f-e7a2-955d-2a64" primary="false" name="Faction: Iron Hands"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="3ed7-9952-cbaf-d307">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b646-f002-2878-2149" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="140"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="c5ec-5620-7eee-bc53" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="(IH) Iron Father Feirrors" hidden="true" id="18cf-126c-65eb-5d84">
+      <profiles>
+        <profile name="(IH) Iron Father Feirrors" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="085f-6413-45a4-fd64">
+          <characteristics>
+            <characteristic name="M" typeId="f861-1936-95cc-e6d3">5&quot;</characteristic>
+            <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+            <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+            <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+            <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+            <characteristic name="W" typeId="f05f-2129-62a8-9a30">6</characteristic>
+            <characteristic name="A" typeId="d794-d261-842e-1ef8">6</characteristic>
+            <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+            <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Rites of Tempering" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="8f3b-b1fd-0de9-fc02">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Gorgon&apos;s Wrath" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="d297-2857-3025-3dfc">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 3</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Sustained Hits 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Harrowhand" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="9111-b827-3ff3-d259">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+3</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Unwieldy</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Medusan Manipuli" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="6ef2-d936-5656-7d3f">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Bonus Attacks 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Inspiring Commnader" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="faa5-f025-fb47-3b47">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">If you include this model in your army, until the end of the battle, non-CHARACTER models in HEAVY INTERCESSOR SQUAD units from your army have an Objective Control characteristic of 4 while they are not Battle-shocked.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Iron Father" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="2157-b0f3-e77d-0f9a">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">While this model is within 3&quot; of one or more friendly ADEPTUS ASTARTES VEHICLE units, it has the Lone Operative ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Master of the Forge" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="2bad-d9d7-134c-7040">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">In your Command phase, select one friendly ADEPTUS ASTARTES VEHICLE model within 3&quot; of this model. That model regains up to 3 lost wounds and, until the start of your next Command phase, each time that VEHICLE model makes an attack, add 1 to the Hit roll. You cannot select a unit for this ability that has already been selected for the Blessing of the Omnissiah ability this phase, and vice versa.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Bolt Pistol" id="cdf8-f129-23da-0422" hidden="false" type="profile" targetId="1806-24b6-c877-b09c"/>
+        <infoLink name="Angels of Death" id="ab46-e29e-73b3-7570" hidden="false" type="rule" targetId="01a4-bec8-b573-fde7"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="58d1-ab29-81dc-1cf7" primary="false" name="Infantry"/>
+        <categoryLink targetId="3275-df5e-2474-90ed" id="77ad-3980-71c8-829d" primary="false" name="Character"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="f860-267c-606e-39b3" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="d419-b07a-d287-f96c" id="8c20-78da-2313-5888" primary="false" name="Faction: Adeptus Astartes"/>
+        <categoryLink targetId="0ed8-ef39-46e7-3be8" id="a781-cc2a-73cd-823b" primary="false" name="Adeptus Astartes"/>
+        <categoryLink targetId="8d95-92b7-43b1-4e5d" id="a8da-1a42-983b-6366" primary="false" name="Faction: Iron Hands"/>
+        <categoryLink targetId="af89-22a2-c4cd-0e85" id="d0fc-74e4-a688-4af7" primary="false" name="Gravis"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="4472-46aa-4ee9-7a0f">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6795-a9c5-a342-4c81" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="110"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="c5ec-5620-7eee-bc53" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="(IF) Darnath Lysander" hidden="true" id="d197-e14e-9a78-6acb">
+      <infoLinks>
+        <infoLink name="Iron Halo" id="8d02-c2c7-088f-4923" hidden="false" type="profile" targetId="d397-3f45-5d92-64dd"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="fcf7-82af-c5bb-5d05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="(IF) Darnath Lysander" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="2e82-fb36-2ea0-7ae2">
+          <characteristics>
+            <characteristic name="M" typeId="f861-1936-95cc-e6d3">5&quot;</characteristic>
+            <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+            <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+            <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+            <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+            <characteristic name="W" typeId="f05f-2129-62a8-9a30">7</characteristic>
+            <characteristic name="A" typeId="d794-d261-842e-1ef8">5</characteristic>
+            <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+            <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Inspiring Commander" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="fed1-ce8c-bf27-5e04">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">If you include this Model in your army, until the end of the battle, non-CHARACTER models in TERMINATOR ASSAULT SQUAD and TERMINATOR SQUAD units from your army have an Objective Control characteristic of 3 while they are not Battle-shocked.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Icon of Obstinacy" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="c7ae-d677-7bc3-9fdc">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Each time an attack targets this model’s unit, if the Strength characteristic of that attack is greater than or equal to the Toughness characteristic of that unit, subtract 1 from the Wound roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Rampart" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="20fb-eb18-fd29-2ae6">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 2+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="100"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="feb0-d129-9c5c-9ea2" primary="false" name="Infantry"/>
+        <categoryLink targetId="3275-df5e-2474-90ed" id="8b06-441b-bcfc-6f99" primary="false" name="Character"/>
+        <categoryLink targetId="3c1a-30db-b6b2-62d3" id="a5d4-d4f8-e924-1169" primary="false" name="Faction: &lt;Chapters&gt;"/>
+        <categoryLink targetId="0ed8-ef39-46e7-3be8" id="5b48-4d75-76b8-6cd1" primary="false" name="Adeptus Astartes"/>
+        <categoryLink targetId="c1cc-f873-78bf-52a2" id="56d0-48f9-c68e-f4bd" primary="false" name="Terminator"/>
+        <categoryLink targetId="3fa3-73a3-a66f-967f" id="195b-7971-3ab0-53fb" primary="false" name="Faction: Imperial Fists"/>
+        <categoryLink targetId="d419-b07a-d287-f96c" id="6c47-2427-eb61-80eb" primary="false" name="Faction: Adeptus Astartes"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="4f8d-5198-2ff9-a714" primary="false" name="Faction: Imperium"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="(CF) Petro Kantor" hidden="true" id="778c-f464-7f69-6250">
+      <infoLinks>
+        <infoLink name="Iron Halo" id="86c3-7309-4ecc-c9cc" hidden="false" type="profile" targetId="d397-3f45-5d92-64dd"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="d9a5-52fb-9a6a-608b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="(CF) Petro Kantor" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="4365-c6cf-4b39-6dff">
+          <characteristics>
+            <characteristic name="M" typeId="f861-1936-95cc-e6d3"> 6&quot;</characteristic>
+            <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+            <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+            <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+            <characteristic name="T" typeId="7dd6-7000-6498-6a92">4</characteristic>
+            <characteristic name="W" typeId="f05f-2129-62a8-9a30">6</characteristic>
+            <characteristic name="A" typeId="d794-d261-842e-1ef8">5</characteristic>
+            <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+            <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Inspiring Commander" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="9430-8a1d-70cd-a96c">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">if you include this model in your army, until the end of the battle, non-CHARACTER models in STERNGUARD VETERAN SQUAD units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Oath of Rynn" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="efd3-8b44-1273-5540">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Once per battle, at the start of either player’s Command phase, this model can use this ability. When it does, until the end of the turn, add 1 to the Attacks characteristic of weapons equipped by models in this model’s unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Endless Endurence" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="ace8-680e-86dc-5897">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This Model has a 6+ Feel no Pain</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="To the Last" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="a631-af85-2445-8336">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit is Below Half-strength.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dorn&apos;s Arrow" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="1b47-dd75-4e51-31c8">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&apos;</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Rapid Fire 2</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Sustained Hits 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fist of Retribution" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="3ef8-5a5d-193c-90d2">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">x2</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="0ed8-ef39-46e7-3be8" id="e823-6450-b53d-87a3" primary="false" name="Adeptus Astartes"/>
+        <categoryLink targetId="72bc-7843-1f7d-3da5" id="c3d0-5207-26cb-2402" primary="false" name="Faction: Crimson Fist"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="7e0a-482a-003d-2bbe" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="d419-b07a-d287-f96c" id="62d7-420b-3883-60b2" primary="false" name="Faction: Adeptus Astartes"/>
+        <categoryLink targetId="3275-df5e-2474-90ed" id="2565-6aa1-458c-da39" primary="false" name="Character"/>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="3ee8-2964-768c-6da2" primary="false" name="Infantry"/>
+        <categoryLink targetId="2eb6-e424-69d8-5b7c" id="8f53-a9d6-0e68-7f32" primary="false" name="Configuration"/>
+        <categoryLink targetId="8f99-7a84-6e4e-32fa" id="640a-f521-eba3-3294" primary="false" name="Tacticus"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="120"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="(IF) Tor Garadon" hidden="true" id="7995-cb0b-e979-8e0c">
+      <infoLinks>
+        <infoLink name="Iron Halo" id="ae1f-b28b-866c-8e1c" hidden="false" type="profile" targetId="d397-3f45-5d92-64dd"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="fcf7-82af-c5bb-5d05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="816a-4e69-95dc-7955" primary="false" name="Infantry"/>
+        <categoryLink targetId="3275-df5e-2474-90ed" id="2c52-3d6a-a49c-3e0f" primary="false" name="Character"/>
+        <categoryLink targetId="d419-b07a-d287-f96c" id="609f-7251-11ba-ca31" primary="false" name="Faction: Adeptus Astartes"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="9fef-8105-44ef-814d" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="0ed8-ef39-46e7-3be8" id="09d9-7d05-019d-0c22" primary="false" name="Adeptus Astartes"/>
+        <categoryLink targetId="af89-22a2-c4cd-0e85" id="38e8-325b-17e2-db06" primary="false" name="Gravis"/>
+        <categoryLink targetId="3fa3-73a3-a66f-967f" id="b53c-5b15-1749-79b0" primary="false" name="Faction: Imperial Fists"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="(IF) Tor Garadon" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="4fcb-6132-8324-aa29">
+          <characteristics>
+            <characteristic name="M" typeId="f861-1936-95cc-e6d3">5&quot;</characteristic>
+            <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+            <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+            <characteristic name="S" typeId="ffee-9c9b-6655-d843">6</characteristic>
+            <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+            <characteristic name="W" typeId="f05f-2129-62a8-9a30">6</characteristic>
+            <characteristic name="A" typeId="d794-d261-842e-1ef8">5</characteristic>
+            <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+            <characteristic name="Save" typeId="952f-14da-4484-d1ea">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Siege Captain" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="e441-f184-c798-b878">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Each time this model makes an attack that targets a MONSTER, VEHICLE, or FORTIFICATION unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 2.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Signum Array" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="d42c-e2fb-0f16-64f9">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">While this model is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Artificer Grav-gun" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="21d3-4173-94bb-6c39">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 1</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gravitation, Haywire</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hand of Defiance" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="1d61-0660-c669-03e4">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">x2</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="100"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
@@ -25813,6 +26231,31 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
         <categoryLink name="HQ" hidden="false" id="5f3d-d6ba-2692-aec9" targetId="df66-426b-8561-5154" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="(IH) Cannok Var" hidden="false" id="dd41-f710-4aeb-bebe" targetId="d72c-b20f-1c09-d3df" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="df66-426b-8561-5154" id="e1d9-ea76-f88a-844b" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="(IH) Iron Father Feirrors" hidden="false" id="03a1-513e-288a-a6df" targetId="18cf-126c-65eb-5d84" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="df66-426b-8561-5154" id="4ea4-ce13-c6a2-31e0" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="(IF) Darnath Lysander" hidden="false" id="eeff-2941-c662-fcdd" targetId="d197-e14e-9a78-6acb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="df66-426b-8561-5154" id="fb75-ae92-3b3b-c66d" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="(CF) Petro Kantor" hidden="false" id="d25d-d832-34c0-c99f" targetId="778c-f464-7f69-6250" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="df66-426b-8561-5154" id="f5bc-b299-f6c7-42fa" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="(IF) Tor Garadon" hidden="false" id="c25b-c341-6380-68c9" targetId="7995-cb0b-e979-8e0c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="df66-426b-8561-5154" id="bc03-8409-d22e-33fe" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <categoryEntries>
     <categoryEntry name="Adeptus Astartes" id="0ed8-ef39-46e7-3be8" hidden="false"/>
@@ -25826,6 +26269,10 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
     <categoryEntry name="Faction: Imperial Fists" id="3fa3-73a3-a66f-967f" hidden="false"/>
     <categoryEntry name="Faction: Raven guard" id="f268-2602-fbf8-1350" hidden="false"/>
     <categoryEntry name="Faction: Ultramarines" id="8044-774d-7a6e-8662" hidden="false"/>
+    <categoryEntry name="Faction: Iron Hands" id="8d95-92b7-43b1-4e5d" hidden="false"/>
+    <categoryEntry name="Faction: Blood Angels" id="710f-355f-cad9-46d2" hidden="false"/>
+    <categoryEntry name="Faction: Crimson Fist" id="72bc-7843-1f7d-3da5" hidden="false"/>
+    <categoryEntry name="Faction: Blood Ravens" id="a136-ce0e-7ba1-21d3" hidden="false"/>
   </categoryEntries>
   <sharedRules>
     <rule name="Defenders of Humanity" id="4013-fd05-a716-0435" hidden="false">

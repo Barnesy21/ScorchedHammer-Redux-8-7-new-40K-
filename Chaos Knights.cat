@@ -203,7 +203,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Sweeping 3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Sweeping 2</characteristic>
       </characteristics>
     </profile>
     <profile name="Warpstrike Claw - Strike" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="813f-9ab1-cd5a-a1f4">
@@ -223,7 +223,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">10</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Sweeping 2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Sweeping 1</characteristic>
       </characteristics>
     </profile>
     <profile name="Daemonbreath Meltagun" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="508f-dad1-edca-8d95">
@@ -350,7 +350,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Sweeping 2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Sweeping 1</characteristic>
       </characteristics>
     </profile>
     <profile name="Brimstone Volcano Lance" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="6da6-e036-a342-b169">
@@ -537,7 +537,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Sweeping 2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Sweeping 1</characteristic>
       </characteristics>
     </profile>
     <profile name="Slaughterclaw" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="f1b1-1471-2e23-8a98">

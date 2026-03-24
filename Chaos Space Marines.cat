@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="1b33-b498-2899-d61c" name="Chaos Space Marines" gameSystemId="sys-d1dc-a418-d2d6-9a0a" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Mauler Fiend" hidden="false" id="5b2d-b844-4d2d-036c">
+      <infoLinks>
+        <infoLink name="Explodes" id="d153-2bc6-0a6d-7241" hidden="false" type="rule" targetId="3541-94a7-a138-358b"/>
+        <infoLink name="Daemonic" id="6a71-9b18-0d39-53dd" hidden="false" type="profile" targetId="1f45-5b21-ff49-2884"/>
+        <infoLink name="Maulerfiend Fists" id="5631-2723-0fde-2340" hidden="false" type="profile" targetId="b63b-6398-fb66-d106"/>
+        <infoLink name="Hateful Assault" id="b9a3-45d0-b470-d99f" hidden="false" type="rule" targetId="73c3-c791-cd2f-6ad2"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Infernal Regeneration" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="25d2-1ed0-1775-e5a3">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This model has the It Will Not Die (3+) SR and Regains D3 Hull Points if it passes the test.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="110"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Auxillary Weapons" hidden="false" id="ce61-0d8e-820e-606c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="11da-c41e-fb18-5202" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d13c-6db0-637d-3c97" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="2x Magma Cutter" hidden="false" id="82bb-8adc-0d91-f59f">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9288-a3ac-6c5d-8e27" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Magma Cutter" id="7296-5295-0baa-621b" hidden="false" type="profile" targetId="0d57-884b-bc9e-1124"/>
+                <infoLink name="Magma Cutter" id="2d99-4721-90bf-9b1e" hidden="false" type="profile" targetId="0d57-884b-bc9e-1124"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lasher Tendrils" hidden="false" id="5e49-1e9b-cfef-0ee2">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a885-9e1d-66d8-e574" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lasher Tendrils" id="195a-5f43-3062-f6cc" hidden="false" type="profile" targetId="e3e7-1430-a1e5-6cab"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Forge Fiend" hidden="false" id="440a-a3c8-227d-7b76">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Arms Weapons" hidden="false" id="5ea0-8d36-7df7-c3b3">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="2x Hades Autocannons" hidden="false" id="297a-3338-eaf7-abe0">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f092-a9fa-66e9-0b24" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="40"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Heavy Hades Autocannons" id="8fe9-13c1-8bd8-5eff" hidden="false" type="profile" targetId="4f8c-e1cb-cc4c-7ff3"/>
+                <infoLink name="Heavy Hades Autocannons" id="d8a1-c17d-ec9d-cc8a" hidden="false" type="profile" targetId="4f8c-e1cb-cc4c-7ff3"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="2x Ectoplasma Cannons" hidden="false" id="540f-c487-3f3f-7065">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="592f-5942-c0d8-c18a" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="40"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Ectoplasma Cannon" id="10f7-d552-07e5-80c6" hidden="false" type="profile" targetId="8e62-cc80-f80a-6a05"/>
+                <infoLink name="Ectoplasma Cannon" id="b9f7-bc4e-4e6e-2085" hidden="false" type="profile" targetId="8e62-cc80-f80a-6a05"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7c4b-e516-1e33-0c3a" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2323-0288-a1e4-e1be" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Head Options" hidden="false" id="fe4a-c6eb-1e9b-ebb3">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Daemon Jaws" hidden="false" id="3740-63b9-c062-4913">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a7e-d5dc-1b6d-67e3" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Daemon Jaws" id="766e-f557-bab6-11eb" hidden="false" type="profile" targetId="aebc-f4db-51a5-b283"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ectoplasma Cannon" hidden="false" id="2d14-ebbe-2f4a-236d">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="02ad-538c-8da3-2f0c" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Ectoplasma Cannon" id="4362-e3a8-c9e8-f100" hidden="false" type="profile" targetId="8e62-cc80-f80a-6a05"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="98aa-3699-01f3-f3cd" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f05-fae2-1c2a-d5a0" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Forgefiend" id="6b2c-3fab-ad28-3312" hidden="false" type="profile" targetId="c061-6852-8957-754f"/>
+        <infoLink name="Daemonic" id="15e8-3fc9-c3c4-cd1e" hidden="false" type="profile" targetId="1f45-5b21-ff49-2884"/>
+        <infoLink name="Explodes" id="f4a1-0b66-ae46-ae1d" hidden="false" type="rule" targetId="3541-94a7-a138-358b"/>
+        <infoLink name="Hateful Assault" id="d257-7fcd-31c5-0c86" hidden="false" type="rule" targetId="73c3-c791-cd2f-6ad2"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="80"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Infernal Regeneration" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="1450-2097-f140-ef4a">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This model has the It Will Not Die (3+) SR and Regains D3 Hull Points if it passes the test.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Defiler" hidden="false" id="b22d-1255-693a-1fa9">
+      <infoLinks>
+        <infoLink name="Daemonic" id="eaaf-56a2-d3f4-bbcb" hidden="false" type="profile" targetId="1f45-5b21-ff49-2884"/>
+        <infoLink name="Hateful Assault" id="9276-085b-c3bd-fc16" hidden="false" type="rule" targetId="73c3-c791-cd2f-6ad2"/>
+        <infoLink name="Smoke Launchers" id="f41a-467e-fa47-0cc3" hidden="false" type="rule" targetId="51af-0fb9-3ca5-d307"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Option 1" hidden="false" id="fac6-4283-d565-7e72">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Autocannon" hidden="false" id="d6c6-7d4a-5267-aa80">
+              <profiles>
+                <profile name="Blightrain Autocannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="158f-41fd-1c29-d273">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&quot;</characteristic>
+                    <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 2</characteristic>
+                    <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
+                    <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+                    <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+                    <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Plague Weapon</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0394-f9b9-137a-775d" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin Heavy Bolter" hidden="false" id="4877-165d-2668-8b6c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="19ff-c94d-f1bb-6070" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="18"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Twin Heavy Bolter" id="62ac-b45f-0f3b-7d74" hidden="false" type="profile" targetId="0c2e-a0d3-25c9-1e0c"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin Lascannon" hidden="false" id="4254-ccd3-748b-3b1c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1010-7375-c7b7-895c" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="40"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Twin Lascannon" id="a66f-874a-2c75-d051" hidden="false" type="profile" targetId="4f38-639f-4b9f-c4e7"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5c93-e467-2c05-6d37" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d74c-3788-a8fb-ac3a" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Option 2" hidden="false" id="6dde-6258-ae26-10e4">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d413-a5ac-280a-fdaf" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bda8-fdc6-17a5-bdaf" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Defiler Scourge" hidden="false" id="240e-77c1-be13-a78c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="617c-49ea-44fc-298e" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Defiler scourge" id="de24-7d40-dd75-3acd" hidden="false" type="profile" targetId="23a3-7b0d-a1b5-8650"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Havoc Launcher" hidden="false" id="cba0-869d-1c0a-9679">
+              <infoLinks>
+                <infoLink name="Havoc Launcher" id="f62e-1afe-52df-2863" hidden="false" type="profile" targetId="17a9-db7c-f2e4-2b31"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="44fd-46f5-4ce6-eaed" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin Heavy Flamer" hidden="false" id="d1a6-5643-d83b-ce45">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b7b2-f7bd-8b36-20a9" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="28"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Twin Heavy Flamer" id="1892-0cd8-5594-2e8a" hidden="false" type="profile" targetId="e06f-d346-691a-dd95"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Combi Weapon" hidden="false" id="6ba3-1a00-0bf5-0c4b">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Combi-bolter" hidden="false" id="9510-08c3-bb28-f223">
+              <infoLinks>
+                <infoLink name="Combi-Bolter (C)" id="c0b3-9648-82ef-e255" hidden="false" type="profile" targetId="bc91-cd2c-c664-4d7d"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="093c-d605-b5d3-e0f3" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Combi-flamer" hidden="false" id="0977-3f93-8fb8-df3a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e69f-f639-96ae-0e5e" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Combi-bolter" id="52a5-0b9f-ca33-d349" hidden="false" type="profile" targetId="c754-cb28-b571-7f0b"/>
+                <infoLink name="Combi-Flamer" id="7a2f-c22b-c2eb-1597" hidden="false" type="profile" targetId="1465-2037-99f8-eef1"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Combi-melta" hidden="false" id="17a4-bfd2-f263-b389">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cadc-95e7-8e03-785c" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Combi-bolter" id="5083-43cf-8f5b-a9d7" hidden="false" type="profile" targetId="c754-cb28-b571-7f0b"/>
+                <infoLink name="Combi-Melta" id="4b52-9e86-6e1a-6141" hidden="false" type="profile" targetId="9662-e512-e376-b5ac"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Combi-plasma" hidden="false" id="dd45-f539-af77-365f">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cbb7-7166-5b5a-27f9" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Combi-bolter" id="0653-fcae-5d92-c1cb" hidden="false" type="profile" targetId="c754-cb28-b571-7f0b"/>
+                <infoLink name="Combi-Plasma" id="3e0c-a6ca-03e7-1b48" hidden="false" type="profile" targetId="7dff-6cb7-ec1a-7e90"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="11"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="29b1-3b7f-c6bc-3101" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f379-8f76-24bb-8e0f" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="150"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Plague Defiler Claws" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="2d17-43f7-dde0-ea30">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">14</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Plague Weapon</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Battle Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="d9e9-0af7-232a-cc97">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">72&quot;</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy D6</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Infernal Regeneration" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="e43a-f9a2-825a-662a">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This model has the It Will Not Die (3+) SR and Regains D3 Hull Points if it passes the test.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="a8ef-1dd9-8845-482e" targetId="a7a3-131f-c2e8-667f" primary="false"/>
+        <categoryLink name="Faction: Chaos" hidden="false" id="4ff8-9b17-4c2e-b950" targetId="fe3b-618d-1e31-f4db" primary="false"/>
+        <categoryLink name="Faction: Heretic Astartes" hidden="false" id="9382-253c-070b-4a2d" targetId="0349-c0bf-197c-9f69" primary="false"/>
+        <categoryLink name="Daemon Engine" hidden="false" id="db9a-e8e1-c92b-e9f2" targetId="99ca-3b7e-4b57-d1cb" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile name="Maulerfiend" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="ef46-09d9-0a5f-2514">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">10&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">4+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">4+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">12</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">12</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">10</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">6</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">12</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Forgefiend" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="c061-6852-8957-754f">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">8&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">4+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">4+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">12</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">12</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">10</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">2</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">12</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Defiler" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="ae5e-80c9-fb70-f2b9">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">8&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">4+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">4+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">12</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">12</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">10</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">4</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">16</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

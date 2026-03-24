@@ -526,6 +526,9 @@
         <categoryLink name="T&apos;au Primary" hidden="false" id="067c-c4a7-b6e3-a1be" targetId="150f-036b-985c-ca5d" primary="false"/>
         <categoryLink name="Faction: T&apos;au Empire" hidden="false" id="667b-09f1-8450-c7fe" targetId="8a3c-d7a4-a657-a013" primary="false"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Supporting Fire" id="6151-867f-c43b-9ec7" hidden="false" type="rule" targetId="d5d2-cd82-9636-57a0"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Kroot Carnivores" hidden="false" id="0470-9a6d-cc7c-171d">
       <selectionEntries>
@@ -11049,6 +11052,639 @@ Overcharged Munitions: When firing the Pulse submunitions cannon, any dice rolle
                 <infoLink name="XV81 Crisis Battlesuit" id="aa14-92b8-906e-a2b5" hidden="false" type="profile" targetId="d574-405d-02a5-8dde"/>
               </infoLinks>
             </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="XV45 Stealth Battlesuit Commander" hidden="false" id="1ae9-8fcf-035d-0ce3">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="50"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Support Systems" hidden="false" id="efe1-b8be-7390-bc4c">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Advanced Targeting System" hidden="false" id="5f6e-f800-34a4-996b">
+                      <infoLinks>
+                        <infoLink name="Advanced Targeting System" id="7714-502b-ee25-7629" hidden="false" type="profile" targetId="1895-6730-62a2-00df"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="59e9-38f4-ddf3-8953" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Counterfire Defence System" hidden="false" id="0395-16c1-9a64-39a4">
+                      <infoLinks>
+                        <infoLink name="Counter Defence System" id="49c8-eeaa-707c-68d9" hidden="false" type="profile" targetId="5fc5-442d-9986-7878"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8580-1ae5-3b2f-2c07" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Drone Controler" hidden="false" id="81a3-37e4-ca4c-f22c">
+                      <infoLinks>
+                        <infoLink name="Drone Controller" id="3c0e-8def-4137-7ec0" hidden="false" type="profile" targetId="9aef-d0b8-a7fa-8628"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1732-c626-36d0-dc8b" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Early Warning Override" hidden="false" id="d568-4c6a-15de-1fb7">
+                      <infoLinks>
+                        <infoLink name="Early warning override" id="caad-9db1-3b1c-7124" hidden="false" type="profile" targetId="3b0c-93f4-f080-fda3"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="dad4-1174-1fa7-18ae" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Shield Generator" hidden="false" id="af27-9a5d-12ba-6842">
+                      <infoLinks>
+                        <infoLink name="Shield Generator" id="fcf0-025e-87b5-df79" hidden="false" type="profile" targetId="e39a-6f0f-285b-d6e2"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="da91-555b-c61f-1f50" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Stimulant Injector" hidden="false" id="35c2-3c03-b642-11a7">
+                      <infoLinks>
+                        <infoLink name="Stimulant Injector" id="959b-21aa-59f2-0045" hidden="false" type="profile" targetId="224a-2a85-106b-3121"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0031-ac46-55e3-2ced" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Target Lock" hidden="false" id="760c-3bd2-8779-3764">
+                      <infoLinks>
+                        <infoLink name="Target lock" id="d53a-713b-4979-df04" hidden="false" type="profile" targetId="36ca-bbd2-4307-c629"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3f66-9937-f396-eb16" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Velocity Tracker" hidden="false" id="7c88-e58b-ae83-1704">
+                      <infoLinks>
+                        <infoLink name="Velocity tracker" id="816f-7ce3-a61d-a621" hidden="false" type="profile" targetId="3b8a-4bd2-3d3e-5f50"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e937-e481-9b20-17f7" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Iridium Shield" hidden="false" id="baa1-aea8-bd4f-1691">
+                      <infoLinks>
+                        <infoLink name="Iridium Shield" id="ef61-db6b-8028-c4b8" hidden="false" type="profile" targetId="c36a-d4f1-7d48-7012"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="488b-c989-633d-7a2e" includeChildSelections="false"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Enhanced Power System" hidden="false" id="4a9f-027d-33fd-ef24">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4a6c-68ee-d6f4-9214" includeChildSelections="false"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c6f2-8161-f577-02b3" includeChildSelections="false"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="30"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a419-6314-6ee7-ac01" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d38-530d-0e41-d994" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Wargear - Max 2" hidden="false" id="8742-afd2-988e-f8ab">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Melee Weapons" hidden="false" id="679d-1517-7caa-9356">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Fusion Blade" hidden="false" id="763d-94fd-c025-a3fd">
+                          <constraints>
+                            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="6c61-3a08-760c-7feb" includeChildSelections="false"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink name="Fusion Blade" id="601e-8e61-7ada-6da2" hidden="false" type="profile" targetId="6886-940d-9cf0-a0cc"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Fusion Glave" hidden="false" id="cec3-1196-7023-57d9">
+                          <constraints>
+                            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="33ee-f5d9-81fc-28b6" includeChildSelections="false"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink name="Fusion Glave" id="80f9-edf1-76c8-c07c" hidden="false" type="profile" targetId="f3c0-0987-7a20-04b1"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="17"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Bonding Blade" hidden="false" id="d1f3-b2b7-704e-3772">
+                          <constraints>
+                            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="3eb4-55fa-28c1-5f43" includeChildSelections="false"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink name="Bonding Blade" id="0f0d-c273-95af-c98b" hidden="false" type="profile" targetId="aae4-6adf-5f09-30a4"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Bonding Glave" hidden="false" id="b0ff-c705-216c-f03e">
+                          <constraints>
+                            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="f09a-d5ce-6786-3d6b" includeChildSelections="false"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink name="Bonding Glave" id="f90e-de7a-5630-a81f" hidden="false" type="profile" targetId="1eeb-c6d2-2d9e-1815"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="65bf-f636-3c47-dc7f" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="675b-37b8-44e5-ec6c" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Ranged Weapons" hidden="false" id="c28d-164c-8b44-67c6">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Airburst Fragmentation Projector" hidden="false" id="d603-83a8-5373-149c">
+                          <infoLinks>
+                            <infoLink name="Airbursting Fragmentation project" id="9e76-5bad-157d-8f68" hidden="false" type="profile" targetId="c285-839b-0609-77a4"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="dc2e-3ee4-39dd-f7df" includeChildSelections="false"/>
+                          </constraints>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Burst Cannon" hidden="false" id="8749-7a42-59db-55fc">
+                          <infoLinks>
+                            <infoLink name="Burst Cannon" id="87cd-3267-d4b4-45c0" hidden="false" type="profile" targetId="2f0f-5d9a-a9e7-7406"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="54bb-92a3-37fa-48d9" includeChildSelections="false"/>
+                          </constraints>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Cyclic Ion Blaster" hidden="false" id="ceae-6623-4086-a792">
+                          <infoLinks>
+                            <infoLink name="Cyclic ion blaster" id="72a8-1ae9-fc2b-0bad" hidden="false" type="profile" targetId="8f86-de87-e74a-8aba"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3ffa-7673-b04e-c358" includeChildSelections="false"/>
+                          </constraints>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="16"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="40df-0257-2e02-faee">
+                          <infoLinks>
+                            <infoLink name="Flamer" id="d5f3-c0e9-76d7-5f19" hidden="false" type="profile" targetId="7045-60bf-1b03-e7fd"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="a791-a706-1d4b-9f52" includeChildSelections="false"/>
+                          </constraints>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Fusion Blaster" hidden="false" id="2ade-2063-8f36-9686">
+                          <infoLinks>
+                            <infoLink name="Fusion blaster" id="24bf-fa70-87f5-10b2" hidden="false" type="profile" targetId="8789-a127-e467-fd5d"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="3400-3c6a-065b-f8f2" includeChildSelections="false"/>
+                          </constraints>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Plasma Rifle" hidden="false" id="0d07-0413-d8e7-0329">
+                          <infoLinks>
+                            <infoLink name="Plasma Rifle" id="bf39-76c9-2411-cf35" hidden="false" type="profile" targetId="eebc-ebde-87f6-1891"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="22c4-2023-30e1-c617" includeChildSelections="false"/>
+                          </constraints>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Missile Pod" hidden="false" id="f2e1-7312-40f2-ae8d">
+                          <infoLinks>
+                            <infoLink name="Missile Pod" id="1d51-c4f2-f1dd-59e8" hidden="false" type="profile" targetId="d9d1-eba8-8afb-e15e"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="9307-1b0a-653c-cc41" includeChildSelections="false"/>
+                          </constraints>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Twin Burst Cannon" hidden="false" id="1b28-d085-b577-3c93">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="9a13-a332-63fe-cfe9">
+                              <constraints>
+                                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="36ab-f6fe-21ff-2b4c"/>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="449f-1139-bcad-896b"/>
+                              </constraints>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <infoLinks>
+                            <infoLink name="Twin Burst Cannon" id="bdcd-f988-0894-4498" hidden="false" type="profile" targetId="fbfe-ef54-00ce-6e64"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="19f6-eb4d-53b2-1b92" includeChildSelections="false"/>
+                          </constraints>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Twin Flamer" hidden="false" id="d9ce-383d-c2ee-c30f">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="8dce-03f0-b20d-0483">
+                              <constraints>
+                                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3f81-8197-b0ac-4c99"/>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="19b1-e4ee-1443-089e"/>
+                              </constraints>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="239e-c6c9-13bd-8342" includeChildSelections="false"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink name="Twin Flamer" id="80fb-81e9-77aa-51e9" hidden="false" type="profile" targetId="6673-5922-594e-de74"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="16"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Twin Fusion Blaster" hidden="false" id="7d29-6b9b-91e5-a3ab">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="15ca-9157-ac51-f6a3">
+                              <constraints>
+                                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="630c-2551-96dc-994b"/>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="33bd-64b6-6fda-96fa"/>
+                              </constraints>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <infoLinks>
+                            <infoLink name="Twin Fusion blaster" id="15d1-12b1-17a7-0871" hidden="false" type="profile" targetId="864a-873a-e7fb-6c8d"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0c0e-0906-2aec-7834" includeChildSelections="false"/>
+                          </constraints>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="24"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Twin Missile Pod" hidden="false" id="18f9-cb69-8dd8-e564">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="2d02-7f80-61e1-4556">
+                              <constraints>
+                                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3a23-3603-e066-159c"/>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="baef-23b9-ccaa-2242"/>
+                              </constraints>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <infoLinks>
+                            <infoLink name="Twin Missile Pod" id="2d53-afc5-bf38-6997" hidden="false" type="profile" targetId="6d95-d807-4909-2d72"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3dee-976f-513a-9c70" includeChildSelections="false"/>
+                          </constraints>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Twin Plasma Rifle" hidden="false" id="89b4-2666-2459-9a19">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Twin Linked" hidden="false" id="aecf-a9a5-9dc4-7a32">
+                              <constraints>
+                                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="11a7-4195-7efe-b386"/>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6542-bc07-d2f3-ddc9"/>
+                              </constraints>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <infoLinks>
+                            <infoLink name="Twin Plasma Rifle" id="1483-4aa6-34b5-9a2f" hidden="false" type="profile" targetId="a391-e457-9f33-5b60"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="6750-a95f-ca4f-d82c" includeChildSelections="false"/>
+                          </constraints>
+                          <costs>
+                            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="18"/>
+                            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5e33-4609-72e4-26d7" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="baa4-ebc4-d2d5-4221" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="4" field="selections" scope="self" shared="true" id="182f-9db8-a147-7b96" includeChildSelections="true"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="05b4-0ebb-4c91-4b86" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <infoLinks>
+                <infoLink name="XV45 Stealth Suit Commander" id="69ca-867d-2e05-272a" hidden="false" type="profile" targetId="8963-2bc2-b171-7114"/>
+                <infoLink name="Infiltrator" id="619a-a7c2-3f7a-efb5" hidden="false" type="rule" targetId="74b3-2e30-9d76-a958"/>
+                <infoLink name="Shroud" id="62bb-2605-4879-9aee" hidden="false" type="rule" targetId="198a-a9e9-7418-2459"/>
+                <infoLink name="Stealth" id="eb2f-0034-dc6e-886d" hidden="false" type="rule" targetId="24e0-4273-1fac-40cd"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="22bb-4630-4087-6d35" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="XV88 Broadside Commander" hidden="false" id="fee9-2b85-2c04-c374">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Main Weapon" hidden="false" id="8013-dac0-2b71-ef19">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="2x High-yield missile pod" hidden="false" id="1a0f-979b-6b78-d469">
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="50"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="High-yield Missile pod" id="1a88-e33e-9029-5b62" hidden="false" type="profile" targetId="5600-f3ec-1736-d2e8"/>
+                        <infoLink name="High-yield Missile pod" id="2d23-8d0a-06fb-633c" hidden="false" type="profile" targetId="5600-f3ec-1736-d2e8"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e079-b2e8-61b0-c8d8" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Heavy Rail rifle" hidden="false" id="4938-9a15-487e-ebac">
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Heavy Rail rifle" id="3cd6-e5b7-7458-43c0" hidden="false" type="profile" targetId="78b9-e6ac-ec30-096a"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8071-5044-aa95-cee1" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="cb5c-42f2-331a-f001" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Secondary Weapons" hidden="false" id="e806-8dc0-58dc-d220">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="2x Plasma rifle" hidden="false" id="5280-c408-6fcf-0330">
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="16"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="bd40-2938-666f-10ea" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Plasma Rifle" id="1655-8ccc-bd01-80b3" hidden="false" type="profile" targetId="eebc-ebde-87f6-1891"/>
+                        <infoLink name="Plasma Rifle" id="27a1-07ea-5cc0-5def" hidden="false" type="profile" targetId="eebc-ebde-87f6-1891"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="2x Smart Missile system" hidden="false" id="d2a5-caef-8bfe-60a3">
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="30"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="fd8e-db58-dcfc-2edc" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Smart Missile System" id="6537-36a2-5d15-5b28" hidden="false" type="profile" targetId="7df9-3d35-0be0-f9c0"/>
+                        <infoLink name="Smart Missile System" id="48f9-2c99-00ab-a234" hidden="false" type="profile" targetId="7df9-3d35-0be0-f9c0"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="29a4-da11-535a-4d57" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Seeker Missile" hidden="false" id="a24e-850f-e012-8bbe">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="504e-7634-cdf4-4115" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Seeker Missile" id="cb29-e329-b1d2-d804" hidden="false" type="profile" targetId="79ea-923a-c830-b1d8"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Support Systems" hidden="false" id="f943-5421-de8b-72b5">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Advanced Targeting System" hidden="false" id="a893-9d01-02f6-6a03">
+                      <infoLinks>
+                        <infoLink name="Advanced Targeting System" id="74af-24dc-e006-8cfc" hidden="false" type="profile" targetId="1895-6730-62a2-00df"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e525-0baf-2193-2b56" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Counterfire Defence System" hidden="false" id="a3e3-f928-b292-9174">
+                      <infoLinks>
+                        <infoLink name="Counter Defence System" id="e14d-a1d5-d14c-6633" hidden="false" type="profile" targetId="5fc5-442d-9986-7878"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8526-3cce-b751-78a9" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Drone Controler" hidden="false" id="5491-6774-c645-df69">
+                      <infoLinks>
+                        <infoLink name="Drone Controller" id="8ebd-3119-c5fa-4936" hidden="false" type="profile" targetId="9aef-d0b8-a7fa-8628"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="445d-a406-a21d-b61c" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Early Warning Override" hidden="false" id="a572-8500-2246-1301">
+                      <infoLinks>
+                        <infoLink name="Early warning override" id="4ff2-cf64-1b65-afa1" hidden="false" type="profile" targetId="3b0c-93f4-f080-fda3"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="755c-2054-2cc0-e309" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Shield Generator" hidden="false" id="6ffb-1934-2e9d-0e30">
+                      <infoLinks>
+                        <infoLink name="Shield Generator" id="b8d6-4c10-461d-38eb" hidden="false" type="profile" targetId="e39a-6f0f-285b-d6e2"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="f3d9-e796-3779-7cc2" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Stimulant Injector" hidden="false" id="440c-9ff9-2a1c-1bc2">
+                      <infoLinks>
+                        <infoLink name="Stimulant Injector" id="faed-b04c-d439-3b3b" hidden="false" type="profile" targetId="224a-2a85-106b-3121"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="fa7a-e06f-bdf2-44c6" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Target Lock" hidden="false" id="7fa1-75fc-5358-e4cc">
+                      <infoLinks>
+                        <infoLink name="Target lock" id="807c-3d67-271c-4041" hidden="false" type="profile" targetId="36ca-bbd2-4307-c629"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7af7-85f4-c615-4282" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Velocity Tracker" hidden="false" id="e3bd-45e2-10a1-4c4e">
+                      <infoLinks>
+                        <infoLink name="Velocity tracker" id="c89b-3c1f-79a7-1728" hidden="false" type="profile" targetId="3b8a-4bd2-3d3e-5f50"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="bdbb-4b2c-e6ea-b755" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ca71-c962-9809-ec8d" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c7fb-edf2-776f-3412" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="71f9-0083-09ac-5a66" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <infoLinks>
+                <infoLink name="XV88 Broadside Commander Battlesuit" id="edb9-2a94-9a2d-209d" hidden="false" type="profile" targetId="318e-d0e3-b2b4-8da3"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="50"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee8e-8aa0-ff27-d7ec" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9887-ea2f-1d3a-101b" includeChildSelections="false"/>
@@ -11468,6 +12104,725 @@ Zephyr&apos;s Grace: You can re-roll the dice for affected units when they Advan
         <categoryLink name="Commander" hidden="false" id="189d-840c-c7a3-d336" targetId="33eb-8d30-4ef3-8145" primary="false"/>
         <categoryLink name="T&apos;au Primary" hidden="false" id="b7b2-7c90-c6fc-8410" targetId="150f-036b-985c-ca5d" primary="false"/>
       </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="War Philosophies" hidden="false" id="9424-371a-66e5-e19e">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Mont&apos;Ka" hidden="false" id="814d-7312-9deb-74df">
+          <constraints>
+            <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="a1e8-decb-cfea-da3f" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="1" field="a1e8-decb-cfea-da3f">
+              <comment>XV8</comment>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="f623-a2b2-c5e6-04c7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="a1e8-decb-cfea-da3f">
+              <comment>XV81</comment>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f32-3316-fd4f-54e7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="a1e8-decb-cfea-da3f">
+              <comment>XV85</comment>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="bf69-5cc9-76b6-0092" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="a1e8-decb-cfea-da3f">
+              <comment>XV86</comment>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="babf-d0d7-38f7-7a19" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="a1e8-decb-cfea-da3f">
+              <comment>XV84</comment>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="19aa-aefe-57ed-2d6b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule name="Mont&apos;Ka" id="b091-7c9a-d6d2-3d0e" hidden="false">
+              <description>T&apos;au Empire Models treat All Rapid Fire and Heavy Weapons as Assault Weapons.
+T&apos;au Empire Models within 12&quot; of a Targeted Enemy unit have the Lethal Hits Special Rule.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Kauyon" hidden="false" id="1e02-e334-939c-6895">
+          <constraints>
+            <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="64a9-a94b-873d-171b" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="1" field="64a9-a94b-873d-171b">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="f623-a2b2-c5e6-04c7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+              <comment>XV8</comment>
+            </modifier>
+            <modifier type="set" value="1" field="64a9-a94b-873d-171b">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="bf69-5cc9-76b6-0092" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+              <comment>XV85</comment>
+            </modifier>
+            <modifier type="set" value="1" field="64a9-a94b-873d-171b">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="babf-d0d7-38f7-7a19" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+              <comment>XV86</comment>
+            </modifier>
+            <modifier type="set" value="1" field="64a9-a94b-873d-171b">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="1ae9-8fcf-035d-0ce3" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+              <comment>XV45</comment>
+            </modifier>
+            <modifier type="set" value="1" field="64a9-a94b-873d-171b">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f32-3316-fd4f-54e7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+              <comment>XV81</comment>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule name="Kauyon" id="f4ea-1f34-30b1-70de" hidden="false">
+              <description>T’AU EMPIRE models from your army have the [SUSTAINED HITS 1] ability.
+Each time a ranged attack is made by a model in that unit that targets a Spotted unit, you can ignore any or all modifiers to that attack’s Ballistic skill characteristics and/or all modifiers to the Hit roll.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Recl&apos;main" hidden="false" id="fa87-4c31-23e0-001a">
+          <constraints>
+            <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="8e61-5098-da6e-68bc" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="1" field="8e61-5098-da6e-68bc">
+              <comment>XV45</comment>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="1ae9-8fcf-035d-0ce3" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="8e61-5098-da6e-68bc">
+              <comment>XV86</comment>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="babf-d0d7-38f7-7a19" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="8e61-5098-da6e-68bc">
+              <comment>XV84</comment>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="19aa-aefe-57ed-2d6b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="8e61-5098-da6e-68bc">
+              <comment>XV8</comment>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="f623-a2b2-c5e6-04c7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule name="Recl&apos;main" id="a810-5e66-cb4f-0c2f" hidden="false">
+              <description>T&apos;au Empire Battlesuit&apos;s that are within 12&quot; of Targeted Enemy Models have +1 to S, When the Target Unit is Within 9&quot; Increase the AP by +1</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Dor&apos;yon" hidden="false" id="bbf0-a733-99e3-c9a4">
+          <constraints>
+            <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="1d5b-f47b-14bf-5c74" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="1" field="1d5b-f47b-14bf-5c74">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="f623-a2b2-c5e6-04c7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+              <comment>XV8</comment>
+            </modifier>
+            <modifier type="set" value="1" field="1d5b-f47b-14bf-5c74">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="fee9-2b85-2c04-c374" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+              <comment>XV88</comment>
+            </modifier>
+            <modifier type="set" value="1" field="1d5b-f47b-14bf-5c74">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="19aa-aefe-57ed-2d6b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+              <comment>XV84</comment>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule name="Dor&apos;yon" id="4d9d-3d0a-f2b0-ac22" hidden="false">
+              <description>Friendly Broadside Battlesuits, Riptide Battlesuits and Hammerhead Gunships, Gain the Supporting Fire Special Rule, In Addition Add 6&quot; to the Range of All Heavy and Rapid Fire Weapons</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Shan&apos;Rak" hidden="false" id="c859-7e3a-85a2-35bc">
+          <rules>
+            <rule name="Shan&apos;Rak" id="3e62-6dbe-5390-1bf2" hidden="false">
+              <description>Fire Warriors change their Weapon Profiles to Assault 2 during the Shooting Phase, When Performing Overwatch Fire warriors weapons Are Rapid Fire 2. (This Includes Fire Support Special Rule Interactions)</description>
+            </rule>
+          </rules>
+          <constraints>
+            <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="ffac-2ee4-573c-39d4" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="1" field="ffac-2ee4-573c-39d4">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="feb1-ecb5-eb91-2fc1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+              <comment>Ethereal</comment>
+            </modifier>
+            <modifier type="set" value="1" field="ffac-2ee4-573c-39d4">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="225e-cf88-113f-36bf" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+              <comment>Cardre Fireblade</comment>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Levalscar" hidden="false" id="77bc-7129-7b9f-66e4">
+          <modifiers>
+            <modifier type="set" value="0" field="2f24-4454-41e6-f96f">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="feb1-ecb5-eb91-2fc1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="2f24-4454-41e6-f96f" includeChildSelections="true"/>
+          </constraints>
+          <rules>
+            <rule name="Levalscar" id="ab66-1388-d203-45cc" hidden="false">
+              <description>Friendly Models Within 12&quot; of an Ethereal have their AP increased by 1 for Ranged and Close Combat attacks.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Mon&apos;Rah" hidden="false" id="8ed2-2c26-47da-a0fb">
+          <constraints>
+            <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="6e93-9941-9ea9-553e" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <rules>
+            <rule name="Mon&apos;Rah" id="d9f0-b41c-527d-9c05" hidden="false">
+              <description>T&apos;au Auxiliary Units from your army Treat all weapons as Assault when Moving.
+T&apos;au Auxiliary Units within 12&quot; of a targeted Enemy Unit have +1 to AP.</description>
+            </rule>
+          </rules>
+          <modifiers>
+            <modifier type="set" value="1" field="6e93-9941-9ea9-553e">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="c237-9108-a466-c851" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="6e93-9941-9ea9-553e">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="feb1-ecb5-eb91-2fc1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="031f-88de-dcf2-c0e2" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f7ac-724e-10ec-0212" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="War Philosophies Selections" hidden="false" id="4730-539e-8a2b-431a">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="selection 1" hidden="false" id="74f4-f198-699f-d6fc">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Turn 1" hidden="false" id="a5d3-4c77-65ad-48ed">
+              <rules>
+                <rule name="Turn 1" id="cea3-ef41-d1be-eb72" hidden="false"/>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="48d1-546f-8512-94d7" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="863b-c756-3417-3661" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <entryLinks>
+                <entryLink import="true" name="War Philosophies" hidden="false" id="244c-a5e1-79cc-38dd" type="selectionEntry" targetId="9424-371a-66e5-e19e"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Turn 1 &amp; Turn 2" hidden="false" id="863b-c756-3417-3661">
+              <rules>
+                <rule name="Turn 1 &amp; Turn 2" id="7c0c-9844-1b31-7b83" hidden="false"/>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ec3-96e7-445e-005f" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="a5d3-4c77-65ad-48ed" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <entryLinks>
+                <entryLink import="true" name="War Philosophies" hidden="false" id="81e5-3ac9-0823-1b90" type="selectionEntry" targetId="9424-371a-66e5-e19e"/>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a7da-e6cf-1861-35be" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8c31-454c-11c6-4a3a" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="selection 2" hidden="false" id="3080-01e1-ae8b-4428">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Turn 2" hidden="false" id="0e1f-2be6-28ed-2407">
+              <rules>
+                <rule name="Turn 2" id="0523-630f-1293-dab1" hidden="false"/>
+              </rules>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="863b-c756-3417-3661" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="cdfe-791e-2c00-3d93" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="131a-b636-685b-463e" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="War Philosophies" hidden="false" id="899e-0281-f9e1-6174" type="selectionEntry" targetId="9424-371a-66e5-e19e"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Turn 2 &amp; Turn 3" hidden="false" id="cdfe-791e-2c00-3d93">
+              <rules>
+                <rule name="Turn 2 &amp; Turn 3" id="e293-31c8-9187-e8ee" hidden="false"/>
+              </rules>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="863b-c756-3417-3661" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="0e1f-2be6-28ed-2407" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5bee-8018-1e87-fbaf" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="War Philosophies" hidden="false" id="6db3-8a23-8316-cf0e" type="selectionEntry" targetId="9424-371a-66e5-e19e"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Turn 3" hidden="false" id="9127-841d-2ca0-02c0">
+              <rules>
+                <rule name="Turn 3" id="6ec7-4838-30fb-baec" hidden="false"/>
+              </rules>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="a5d3-4c77-65ad-48ed" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c20d-e34b-570d-396e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba0d-5aa6-fe14-f52e" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="War Philosophies" hidden="false" id="5c3f-b4a8-2be7-b225" type="selectionEntry" targetId="9424-371a-66e5-e19e"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Turn 3 &amp; Turn 4" hidden="false" id="c20d-e34b-570d-396e">
+              <rules>
+                <rule name="Turn 3 &amp; Turn 4" id="028a-7ebc-7a1f-44e8" hidden="false"/>
+              </rules>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="a5d3-4c77-65ad-48ed" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="9127-841d-2ca0-02c0" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2219-85b8-dcf7-891f" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="War Philosophies" hidden="false" id="1ce7-26eb-9b1c-c3bd" type="selectionEntry" targetId="9424-371a-66e5-e19e"/>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c730-3bf3-f233-c22f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="35e5-1120-b395-fe07" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="selection 3" hidden="false" id="e9fa-d3c1-0681-01b8">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Turn 3 to 5" hidden="false" id="3703-165e-2d02-8c0e">
+              <rules>
+                <rule name="Turn 3 to 5" id="5321-2b61-af26-9086" hidden="false"/>
+              </rules>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="cdfe-791e-2c00-3d93" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c20d-e34b-570d-396e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="9127-841d-2ca0-02c0" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="404b-c6e1-79d4-2625" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="ca0a-3477-c223-d1bd" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f0af-a3d0-842c-356a" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="War Philosophies" hidden="false" id="eadb-1cd2-b14d-72a3" type="selectionEntry" targetId="9424-371a-66e5-e19e"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Turn 4 to 5" hidden="false" id="3bf5-f5d1-5803-768e">
+              <rules>
+                <rule name="Turn 4 to 5" id="aa50-b84e-35f4-ffcd" hidden="false"/>
+              </rules>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c20d-e34b-570d-396e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="0e1f-2be6-28ed-2407" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="1952-63ec-5bf0-4221" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cfa3-116b-e36c-3f12" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="War Philosophies" hidden="false" id="7264-9734-c229-a1ed" type="selectionEntry" targetId="9424-371a-66e5-e19e"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Turn 5" hidden="false" id="1efd-52fc-b175-bfb6">
+              <rules>
+                <rule name="Turn 5" id="232e-895c-439c-d627" hidden="false"/>
+              </rules>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="0e1f-2be6-28ed-2407" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="cdfe-791e-2c00-3d93" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="9127-841d-2ca0-02c0" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9349-7e3a-32f1-3ba6" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="War Philosophies" hidden="false" id="def7-2dbd-8c12-71f1" type="selectionEntry" targetId="9424-371a-66e5-e19e"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Turn 3" hidden="false" id="404b-c6e1-79d4-2625">
+              <rules>
+                <rule name="Turn 3" id="a0fd-f5bf-2a3e-32f0" hidden="false"/>
+              </rules>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="cdfe-791e-2c00-3d93" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="9127-841d-2ca0-02c0" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c20d-e34b-570d-396e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="ca0a-3477-c223-d1bd" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae0f-ec97-03ae-50e9" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="War Philosophies" hidden="false" id="ca66-00d8-a1d7-11d6" type="selectionEntry" targetId="9424-371a-66e5-e19e"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Turn 3 &amp; Turn 4" hidden="false" id="ca0a-3477-c223-d1bd">
+              <rules>
+                <rule name="Turn 3 &amp; Turn 4" id="5286-4091-78c2-9212" hidden="false"/>
+              </rules>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c20d-e34b-570d-396e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="9127-841d-2ca0-02c0" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="404b-c6e1-79d4-2625" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eff1-19af-65f2-e774" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="War Philosophies" hidden="false" id="1744-c4cb-4c0c-98d5" type="selectionEntry" targetId="9424-371a-66e5-e19e"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Turn 4" hidden="false" id="1952-63ec-5bf0-4221">
+              <entryLinks>
+                <entryLink import="true" name="War Philosophies" hidden="false" id="9e21-608b-1a7f-d34c" type="selectionEntry" targetId="9424-371a-66e5-e19e"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5fe1-2324-6fae-889d" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="0e1f-2be6-28ed-2407" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c20d-e34b-570d-396e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="3bf5-f5d1-5803-768e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6cd8-af5e-64b9-a265" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d1db-c9f6-b61a-a284" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Selection 4" hidden="true" id="cfe9-3c9c-6c56-a710">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="23f1-b773-bd5e-a416" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c20a-caef-4b0b-766e" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Turn 4 to 5" hidden="false" id="0e2b-e790-cbca-bfc1">
+              <rules>
+                <rule name="Turn 4 to 5" id="7176-ba31-25d0-7bc2" hidden="false"/>
+              </rules>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="ca0a-3477-c223-d1bd" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="3703-165e-2d02-8c0e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="1952-63ec-5bf0-4221" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="ca0a-3477-c223-d1bd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="9179-4c1e-403a-a6d0" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b7a-e9da-5c35-84a1" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="War Philosophies" hidden="false" id="4ecd-1b8e-1614-3eaa" type="selectionEntry" targetId="9424-371a-66e5-e19e"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Turn 4" hidden="false" id="9179-4c1e-403a-a6d0">
+              <rules>
+                <rule name="Turn 4" id="7d30-3eff-936a-3747" hidden="false"/>
+              </rules>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="ca0a-3477-c223-d1bd" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="3703-165e-2d02-8c0e" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="1952-63ec-5bf0-4221" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="ca0a-3477-c223-d1bd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="0e2b-e790-cbca-bfc1" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <entryLinks>
+                <entryLink import="true" name="War Philosophies" hidden="false" id="9859-5236-b458-9c0d" type="selectionEntry" targetId="9424-371a-66e5-e19e"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="102b-3f1e-511c-7f38" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Turn 5" hidden="false" id="62f8-b118-f7a2-8923">
+              <rules>
+                <rule name="Turn 5" id="e3aa-fb00-de28-6c2f" hidden="false"/>
+              </rules>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="0e2b-e790-cbca-bfc1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="404b-c6e1-79d4-2625" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="0e2b-e790-cbca-bfc1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f426-b4ae-c74e-d070" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="War Philosophies" hidden="false" id="8932-a519-f738-86dd" type="selectionEntry" targetId="9424-371a-66e5-e19e"/>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="404b-c6e1-79d4-2625" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="ca0a-3477-c223-d1bd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="1952-63ec-5bf0-4221" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Selection 5" hidden="true" id="9c24-62c4-5c8e-175f">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="108b-3001-b7ef-e1f1" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ed0-b646-c438-338a" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Turn 5" hidden="false" id="5f97-30c2-2308-3895">
+              <rules>
+                <rule name="Turn 5" id="4051-73a2-ab03-2bb2" hidden="false"/>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9002-7e4b-8359-d24e" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="War Philosophies" hidden="false" id="10ca-0977-4111-221e" type="selectionEntry" targetId="9424-371a-66e5-e19e"/>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="9179-4c1e-403a-a6d0" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7609-7e54-4e64-841c-min" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7609-7e54-4e64-841c-max" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
@@ -13217,6 +14572,32 @@ Nova-charge: Choose for either of this model&apos;s Heavy burst cannon Type to c
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Extra Attack</characteristic>
       </characteristics>
     </profile>
+    <profile name="XV45 Stealth Suit Commander" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="8963-2bc2-b171-7114">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">8&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">5+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">4+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">4</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">4</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="XV88 Broadside Commander Battlesuit" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="318e-d0e3-b2b4-8da3">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">5&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">5+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">3+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">6</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">8</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <entryLinks>
     <entryLink import="true" name="Sept Choice" hidden="false" id="322f-7a4e-228e-a81c" targetId="b2dc-acb2-a357-cbfe" type="selectionEntry">
@@ -13417,6 +14798,11 @@ Nova-charge: Choose for either of this model&apos;s Heavy burst cannon Type to c
     <entryLink import="true" name="Cadre Fireblade" hidden="false" id="3526-0167-2b54-7504" targetId="225e-cf88-113f-36bf" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="HQ" hidden="false" id="52be-0cf8-d7a6-e340" targetId="df66-426b-8561-5154" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="War Philosophies Selections" hidden="false" id="2131-861f-73a5-78b1" targetId="4730-539e-8a2b-431a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Configuration" hidden="false" id="f62d-1ee2-7dc2-b3c7" targetId="2eb6-e424-69d8-5b7c" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

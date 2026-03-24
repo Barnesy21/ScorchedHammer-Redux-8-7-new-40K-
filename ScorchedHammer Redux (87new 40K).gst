@@ -2109,6 +2109,16 @@ Matched Play: This model and any units embarked aboard it are exempt from the Ta
         <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This model has a 4+ invulnerable save.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Chainaxe" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="c116-d775-562d-466b">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+1</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Extra Attack, Shred</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Enable Blast Weapons" hidden="false" id="a708-62bf-064c-0ccd">
