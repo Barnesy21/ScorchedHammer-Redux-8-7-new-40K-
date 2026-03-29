@@ -1033,7 +1033,7 @@ Each time you make a Blessings of Khorne roll, roll an additional D6 for each bl
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Berserkers Shampion" hidden="false" id="1344-dcf2-bf93-0752">
+        <selectionEntry type="model" import="true" name="Berserkers Champion" hidden="false" id="1344-dcf2-bf93-0752">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="57fe-c591-1e2b-2b95-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="57fe-c591-1e2b-2b95-max" includeChildSelections="false"/>
