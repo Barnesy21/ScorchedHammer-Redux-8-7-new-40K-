@@ -697,7 +697,7 @@
       <description>Each time this model moves, first pivot it on the spot up to 90° (this does not contribute to how far the model moves), and then move the model straight forwards. Note that it cannot pivot again after the initial pivot. When this model Advances, increase its Move characteristic by 20&quot; until the end of the phase - do not roll a dice.</description>
     </rule>
     <rule name="Scout" id="d9f4-7d62-442c-e50f" hidden="false">
-      <description>At the Start of the First Turn During your Command Phase Move this model the Value of there Base M value in any Direction.</description>
+      <description>At the Start of the First Turn During your Command Phase Move this model the Value of their Base M value in any Direction.</description>
     </rule>
     <rule name="One Shot" id="03f3-0c8a-e081-88d1" hidden="false">
       <description>This weapon can only be used once per game.</description>
@@ -735,8 +735,8 @@
     <rule name="Blinding" id="7abc-6411-f9ab-2ff4" hidden="false">
       <description>A model Hit by a weapon with this special Rule is -1 to Hit rolls until the following turn.</description>
     </rule>
-    <rule name="Hatred (Psyker)" id="445a-9deb-277f-6fdf" hidden="false">
-      <description>If this model is targeting a Model with the Psyker Keyword you may Re-roll Failed hit rolls</description>
+    <rule name="Hatred" id="445a-9deb-277f-6fdf" hidden="false">
+      <description>If this model is targeting a Model with the Keyword in the brackets you may Re-roll Failed hit rolls when targeting that unit</description>
     </rule>
     <rule name="Regeneration" id="4043-2477-c227-5925" hidden="false">
       <description>A weapon with this special Rule regains Lost wound equal to the number specified if a enemy model is slain by it.</description>
@@ -769,6 +769,9 @@
 &gt; If a model or its base is under the template, Regardless of the how much of the model is hit the model is still hit by the weapon.
 &gt; If the blast template hits a separate Unit, Roll for it after the main unit has resolved all its saves.
 &gt; Blast Weapons do not Ignore cover, that&apos;s is what ignores cover SR is for.</description>
+    </rule>
+    <rule name="Volatile" id="d69d-e1a5-3823-e9ac" hidden="false">
+      <description>after the bearer of this weapon has made a successful hit with this weapon the bearer is destroyed.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
