@@ -1,0 +1,2369 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="f5fa-8624-6295-a163" name="Orks" gameSystemId="sys-d1dc-a418-d2d6-9a0a" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedRules>
+    <rule name="Dakka Dakka Dakka" id="feb4-9b03-3a5c-0f74" hidden="false">
+      <description>Each time you roll an unmodified hit roll of 6 for an attack with a ranged weapon by a model in this unit, that hit roll succeeds regardless of modifiers.
+In addition, immediately make an additional hit roll against the same target using the same weapon. These additional hit rolls cannot themselves generate extra hit rolls. When firing a weapon with randomly determined characteristics (ie. Bubblechukka), any additional hit rolls use the same characteristics as the hit roll that generated the additional hit roll. This ability does not affect weapons that automatically hit their target.</description>
+    </rule>
+    <rule name="&apos;Ere We Go!" id="a095-edc1-6ea8-2e6d" hidden="false">
+      <description>You can re-roll charge rolls for this unit. When doing so, you can re-roll all or any of the dice.</description>
+    </rule>
+    <rule name="Mob Rule" id="65d2-d249-0c9f-97d2" hidden="false">
+      <description>When using the Leadership characteristic of this unit, you can use either its own Leadership characteristic, or you can choose for the characteristic to be equal to either the number of models in the unit, or the number of models in another friendly unit within 6&quot; that has this ability.</description>
+    </rule>
+    <rule name="Grots" id="aa9e-5849-4e6d-175d" hidden="false">
+      <description>Units comprised entirely of GRETCHIN cannot benefit from any Clan Kultur. In addition, Ork Stratagems can only be used on these units if the Stratagem explicitly states so (e.g. the &apos;Grot Shields&apos; Stratagem)</description>
+    </rule>
+    <rule name="Dakka" id="3ef8-eb9d-4e7c-eb80" hidden="false">
+      <description>Dakka Weapons Work the same as rapid fire weapons but when within half range the weapon Uses the second value instead of the First, This weapon also functions as a assault weapon when advancing</description>
+    </rule>
+    <rule name="Ramshackle" id="cf89-9e1c-355d-eee4" hidden="false">
+      <description>Reduce the Incoming damage of incoming attacks by -1, When a vehicle with this special Rule suffers a penetrating hit, roll a D6 on a 6 the vehicle only suffers a glancing hit.</description>
+    </rule>
+    <rule name="Burna Boyz" id="e3e3-3b25-bd5a-434e" hidden="false">
+      <description>Before a unit fires its burnas, roll once for the number of attacks and use this for all burnas fired by the unit in this phase</description>
+    </rule>
+  </sharedRules>
+  <categoryEntries>
+    <categoryEntry name="Boyz" id="7c64-691b-53da-307a" hidden="false"/>
+    <categoryEntry name="Beast Snaggers" id="e614-ca45-f29e-9ea9" hidden="false"/>
+    <categoryEntry name="Nobz" id="98ff-c62a-8313-a451" hidden="false"/>
+    <categoryEntry name="Grentchin" id="e825-ae59-a7af-72c7" hidden="false"/>
+    <categoryEntry name="SpeedFreaks" id="3286-7468-2ab1-3c60" hidden="false"/>
+    <categoryEntry name="Sneaky Gitz" id="236f-8c74-cae5-4525" hidden="false"/>
+    <categoryEntry name="Faction: &lt;Clan&gt;" id="820e-9090-439a-e7d1" hidden="false"/>
+    <categoryEntry name="Warboss" id="3785-6608-b6ce-3733" hidden="false"/>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Clan Kultur" hidden="false" id="c66c-359a-b363-6a96">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5976-03b2-9547-1685" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c28-65dc-21b8-8c02" includeChildSelections="false"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="No Clan" hidden="false" id="7251-6ad7-9c61-e98e">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb28-065a-488b-2fb2" includeChildSelections="false"/>
+          </constraints>
+          <rules>
+            <rule name="No Clan" id="d04b-29e4-e6da-3e89" hidden="false">
+              <description>You can take units from multiple Clans and Mobs, but you lose access to particular Clan Kultures and Subkulturs</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bad Moons" hidden="false" id="bd21-2877-0263-90e8">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d0ec-514b-303b-ef06" includeChildSelections="false"/>
+          </constraints>
+          <rules>
+            <rule name="Bad Moons" id="9a59-edd4-d74e-791c" hidden="false">
+              <description>Re-roll hit rolls of 1 for attacks made by models with this kultur in the Shooting phase.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Blood Axes" hidden="false" id="a97b-1b71-dcda-26c7">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce3e-c450-c736-3f55" includeChildSelections="false"/>
+          </constraints>
+          <rules>
+            <rule name="Blood Axes" id="fca3-6cdf-cbf3-ff35" hidden="false">
+              <description>A unit with this kultur gains the benefit of cover, even while they are not entirely on or in a terrain feature, if the enemy model making the attack is at least 18&quot; away. In addition, units with this kultur can shoot or charge (but not both) even if they Fell Back in the same turn – if such a unit is embarked, it can only do so if the Transport that Fell Back also has this kultur.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Boomboyz" hidden="false" id="31ba-c4b9-3016-2dee">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="63b1-02fb-2967-b4d0" includeChildSelections="false"/>
+          </constraints>
+          <rules>
+            <rule name="Boomboyz" id="a131-71b0-a40f-72ca" hidden="false">
+              <description>Blow It UP! Improve the Strength and Armour Penetration characteristics of rokkit and Stikkbomb weapons (these are weapons that have the name ‘rokkit’ or ‘Stikkbomb’ in their profile e.g. Rokkit Launcha, Stikkbomb chukka), as well as Tankbusta bombs, Wing Missiles, kannons, killkannons, deffkannons, Da Boomer and lobbas
+equipped on models in a unit with this Subkultur by 1 (e.g. AP -2 becomes AP -3). Note that for combiweapons, this bonus only applies to attacks made with the Rokkit Launcha profile.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="DeathSkulls" hidden="false" id="1f93-82d1-72df-cace">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="51ef-1678-530f-06de" includeChildSelections="false"/>
+          </constraints>
+          <rules>
+            <rule name="Deathskulls" id="f658-013c-eaae-f526" hidden="false">
+              <description>Models with this Kultur have a 6+ invulnerable save. In addition, you can re-roll a single hit roll, a single wound roll, and a single damage roll for each unit with this kultur each time it shoots or fights. In addition, INFANTRY units with this kultur gain the &apos;Dis is Ours! Zogg Off!&apos; ability, even if they do not have the Troops battlefield role.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Evil Sunz" hidden="false" id="c5b4-656a-82a5-f2d7">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f457-df7d-4f27-ab85" includeChildSelections="false"/>
+          </constraints>
+          <rules>
+            <rule name="Evil Sunz" id="095d-2bd2-cce9-e330" hidden="false">
+              <description>Add 1 to the Move characteristic of models with this kultur (adding 2 instead if that model is a SPEED FREEK), and add 1 to Advance and charge rolls made for them. In addition, models with this kultur do not suffer the penalty to their hit rolls for Advancing and firing Assault weapons.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Feral Orks" hidden="false" id="0329-ae66-a5c2-4ec9">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bfac-cab3-7e94-43e3" includeChildSelections="false"/>
+          </constraints>
+          <rules>
+            <rule name="Feral Orks" id="d8ff-7fba-ca85-d789" hidden="false">
+              <description>Wildboyz: WARBOSS, WEIRDBOY, NOBZ and BOYZ only (excluding BIKER and MEGA ARMOUR). Models in a unit with this Subkultur can pile in up to 6&quot;. When making an Advance roll for a unit with this Subkultur, roll two additional dice and discard two of the results.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Flyboyz" hidden="false" id="d60c-462e-8d72-3af6">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5234-618f-ca0f-0826" includeChildSelections="false"/>
+          </constraints>
+          <rules>
+            <rule name="Flyboyz" id="4c57-4552-bb01-05fc" hidden="false">
+              <description>Crucial Velocity: FLY models only. When resolving an attack made with a ranged weapon against a unit with this Subkultur by a model that is more than 1&quot; away, that unit is treated as having the benefit of cover to its saving throw. When resolving an attack made with a melee weapon against a unit with this Subkultur in a turn in which it was more than 1&quot; away from any enemy units at the start of the preceding Charge phase, subtract 1 from the hit roll</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Freebooterz" hidden="false" id="fdfd-30cd-58ed-9c24">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e96-29e6-0797-22a6" includeChildSelections="false"/>
+          </constraints>
+          <rules>
+            <rule name="Freebooterz" id="f04d-bfe5-5725-c2c5" hidden="false">
+              <description>Add 1 to hit rolls for attacks made by models with this kultur if any other friendly unit with this kultur within 24&quot; has destroyed an enemy unit this phase.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Goffs" hidden="false" id="3232-c6df-4919-2a93">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="45e5-9b33-990b-24d5" includeChildSelections="false"/>
+          </constraints>
+          <rules>
+            <rule name="Goffs" id="c150-d6bc-88f6-ba61" hidden="false">
+              <description>Each time you roll an unmodified hit roll of 6 for an attack with a melee weapon made by a model with this kultur, immediately make an additional hit roll against the same target using the same weapon. These additional hit rolls cannot themselves generate any further hit rolls.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Grot Mobs" hidden="false" id="5b54-778d-6045-ad2d">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d88d-905f-b547-9db8" includeChildSelections="false"/>
+          </constraints>
+          <rules>
+            <rule name="Grot Mobs" id="2512-33fb-f08f-6fe1" hidden="false">
+              <description>Cheeky Zoggers: GRETCHIN models only. Models in a unit with this Subkultur gain a 6+ invulnerable save. When resolving an attack by a VEHICLE model in a unit with this Subkultur, re-roll a hit roll of 1</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Huntas" hidden="false" id="6f89-7b55-5d27-9201">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a9b-a814-67ac-4722" includeChildSelections="false"/>
+          </constraints>
+          <rules>
+            <rule name="Huntas" id="9578-a16c-bac1-8b65" hidden="false">
+              <description>Sneaky Devils: INFANTRY models only (excluding GRETCHIN). Whilst a model in a unit with this Subkultur is on or within a terrain feature, it gains a 5+ invulnerable save. When resolving an attack made with a melee
+weapon by a model in a unit with this Subkultur, while that model or any model in the target unit is on or within a terrain feature, improve the weapon’s Armour Penetration characteristic by 1 for that attack (e.g. AP -2 becomes AP -3).</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Madboyz" hidden="false" id="0ced-b147-9c41-b1af">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="390e-15b6-5b4e-e07f" includeChildSelections="false"/>
+          </constraints>
+          <rules>
+            <rule name="Madboyz: Frantic" id="fefb-326f-cc6b-8e76" hidden="false">
+              <description>INFANTRY and BIKER units only (excluding GRETCHIN). At the start of each battle round, roll one D3 and consult the table below to establish what effect applies to units with this Subkultur until the end of the battle round. This roll cannot be re-rolled.
+
+
+1. Moroniks : When resolving an attack that targets a unit with this Subkultur, add 1 to the saving throw       (invulnerable saving throws are unaffected).
+
+
+2. Nuttaz : Units with this Subkultur automatically pass Morale tests.
+
+
+3. Frenzies: Add 1 to the Strength characteristic of models in a unit with this Subkultur</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Pyromaniacs" hidden="false" id="9862-af9a-054d-a53a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="928e-1aae-ac8b-477d" includeChildSelections="false"/>
+          </constraints>
+          <rules>
+            <rule name="Pyromaniacs: Arsonists" id="3c9c-7be9-47e0-6f6e" hidden="false">
+              <description>You can re-roll any and all of the dice when determining the number of shots made for burnas, skorchas, Burna Bottles, burna exhausts, killa jets and Skorcha Missiles equipped on models in a unit with this Subkultur. When resolving an attack made with the melee profile of a burna equipped on a model with this Subkultur, you can re-roll the wound roll. When resolving the burna bombs ability for a unit with this Subkultur, add 1 to each roll.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Snakebites" hidden="false" id="d257-069f-e3e7-4bbe">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a46-faa2-3291-6e2d" includeChildSelections="false"/>
+          </constraints>
+          <rules>
+            <rule name="Snakebites" id="70ad-1388-8b89-91cf" hidden="false">
+              <description>Roll a dice each time a model with this Kultur loses a wound. On a 6, the wound is not lost. If a model has a similar ability (e.g. the Supa-Cybork Shiny Gubbinz or Ramshackle ability) you can choose which ability to use when a model loses a wound, but you cannot use both.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Tin &apos;Eads" hidden="false" id="71df-0d9f-e385-98dd">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="efb5-ef3b-40cb-be6c" includeChildSelections="false"/>
+          </constraints>
+          <rules>
+            <rule name="Tin &apos;Eads" id="ecdb-d1ed-c1ca-7c09" hidden="false">
+              <description>Krush &apos;n&apos; Krump!: KILLA KANS, DEFFDREADS, MEGA ARMOUR, MORKANAUTS, GORKANAUTS and STOMPAS only. When resolving an attack made with a melee weapon by a model in a unit with this Subkultur, add 1 to the hit roll.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Boyz" hidden="false" id="5431-7068-a23a-1daf">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Ork Boyz" hidden="false" id="8532-5740-4543-6364">
+          <constraints>
+            <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="db0f-c4f0-8945-eea8" includeChildSelections="false"/>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="5a71-1c40-b869-90bb" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="5a71-1c40-b869-90bb">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="a05d-8dff-522a-9d75" shared="true"/>
+              </conditions>
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="a05d-8dff-522a-9d75" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="db0f-c4f0-8945-eea8">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="a05d-8dff-522a-9d75" shared="true"/>
+              </conditions>
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="a05d-8dff-522a-9d75" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="5a71-1c40-b869-90bb">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="7e50-c9a3-1987-9c8e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Ork Boyz" id="0309-0309-8042-f4ca" hidden="false" type="profile" targetId="4611-9f5b-f663-b4b1"/>
+            <infoLink name="Stikkbomb" id="bc4d-ab93-86cc-48a7" hidden="false" type="profile" targetId="1bec-a1d4-a769-b786"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Weaponz" hidden="false" id="c1a2-193a-10ca-a44c">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Shoota" hidden="false" id="2a87-a02b-0bae-e2a0">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e57a-d28a-e6ec-346f" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Shoota" id="38d0-0dfa-7960-53bb" hidden="false" type="profile" targetId="9369-dfe9-b17f-1476"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Choppa &amp; Slugga" hidden="false" id="8e46-7986-9e38-6e9a">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3603-a7c4-4d4c-1495" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Choppa" id="41e3-6787-d73b-f2c0" hidden="false" type="profile" targetId="9640-74f1-8976-4724"/>
+                    <infoLink name="Slugga" id="c4e6-edee-a912-ff3b" hidden="false" type="profile" targetId="4e49-8a76-a880-374c"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f093-948a-08ec-bf08" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Nobz" hidden="false" id="7e50-c9a3-1987-9c8e">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="41b7-1cfd-eee7-6925" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Boss Nob" id="8f5a-3de1-04ee-844a" hidden="false" type="profile" targetId="9644-c6c4-db59-adf6"/>
+            <infoLink name="Stikkbomb" id="acb2-0e89-8ebf-e840" hidden="false" type="profile" targetId="1bec-a1d4-a769-b786"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Weaponz" hidden="false" id="d3b4-32ba-a505-9927">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Big Choppa" hidden="false" id="c075-9317-4042-f859">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3fce-ecba-d9e3-a13b" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Big Choppa" id="5bd6-2b42-31ac-3cac" hidden="false" type="profile" targetId="f1a2-3730-6c8d-e3e9"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Choppa" hidden="false" id="10fd-bd24-13f7-230f">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="2cea-32cc-a8e8-da41" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Choppa" id="3536-0292-0e6c-9a75" hidden="false" type="profile" targetId="9640-74f1-8976-4724"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Killsaw" hidden="false" id="3a8a-69eb-959b-7b9c">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f790-fd07-cc8b-2f36" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Killsaw" id="95d9-527b-aa81-9de4" hidden="false" type="profile" targetId="7bc6-9c25-bc92-d95a"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Power Stabba" hidden="false" id="389b-f121-a12e-5093">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="80af-d866-0190-cc0b" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Power Stabba" id="7e6b-8b00-e6c5-18c5" hidden="false" type="profile" targetId="0b73-4f66-9ff8-b2a6"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="9330-0922-72d5-7857">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="214b-54d8-eb51-2124" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Power Klaw" id="47c8-4bbb-6d5b-710f" hidden="false" type="profile" targetId="716b-5f84-aece-f6f4"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="13"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Kombi-Rokkit" hidden="false" id="9afd-f7bd-b99f-ad3b">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae32-dc72-ece0-6451" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Kombi-Shoota" id="2973-487a-b212-af1d" hidden="false" type="profile" targetId="cc35-b9cd-b753-2d77"/>
+                    <infoLink name="Kombi-Rokkit" id="afbe-3a10-a26f-1174" hidden="false" type="profile" targetId="8e0a-bb2b-3caa-b9a6"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Kombi-Shoota" hidden="false" id="855f-d810-7388-34f9">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e576-92e2-00de-9e64" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Kombi-Shoota" id="d13f-727e-c440-cb5a" hidden="false" type="profile" targetId="cc35-b9cd-b753-2d77"/>
+                    <infoLink name="Kombi-Shoota" id="9929-8ff2-ac52-274b" hidden="false" type="profile" targetId="cc35-b9cd-b753-2d77"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Kombi-Skorcha" hidden="false" id="5678-4840-40c1-7228">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fea2-fca4-df9d-9358" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Kombi-Skorcha" id="d4ab-94f0-0b7c-6eb3" hidden="false" type="profile" targetId="2988-4f7d-a026-5fdb"/>
+                    <infoLink name="Kombi-Shoota" id="a7e2-515e-b86f-5d5c" hidden="false" type="profile" targetId="cc35-b9cd-b753-2d77"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="17"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Slugga" hidden="false" id="74e6-3416-5673-f793">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a553-40f2-4c3d-c793" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Slugga" id="ff9a-d02b-6231-3978" hidden="false" type="profile" targetId="4e49-8a76-a880-374c"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="self" shared="true" id="281d-a8b0-25c7-b05b" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c62-2bd5-7df6-10b9" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shoota" hidden="false" id="5a17-e068-70f9-c9d2">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cd6d-6200-4d09-72c8" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Shoota" id="d528-0c0a-66e4-243a" hidden="false" type="profile" targetId="9369-dfe9-b17f-1476"/>
+              </infoLinks>
+              <costs>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <categoryLinks>
+            <categoryLink name="Nobz" hidden="false" id="9303-5c44-b679-e0d8" targetId="98ff-c62a-8313-a451" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Ork Boyz /Wf Special Weapon" hidden="false" id="a05d-8dff-522a-9d75">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4b46-a66b-d321-2934" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ork Boyz" id="d927-6dc6-08ea-ed64" hidden="false" type="profile" targetId="4611-9f5b-f663-b4b1"/>
+            <infoLink name="Stikkbomb" id="a423-c20f-8d39-273b" hidden="false" type="profile" targetId="1bec-a1d4-a769-b786"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Weaponz" hidden="false" id="eb7f-15d1-469b-60ab">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="3c6b-ce1d-fe33-6985">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b000-19af-f7ee-2379" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Big Shoota" id="4adf-0ed8-3876-aa03" hidden="false" type="profile" targetId="5ad7-d00a-5fec-489d"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="973d-9d4f-0ddb-956e">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70e3-34bc-ef10-cd7f" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Rokkit Launcha" id="1f55-f317-5a81-d9d0" hidden="false" type="profile" targetId="3a85-97e3-468a-68c5"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Burna" hidden="false" id="3cab-c07f-38ce-a6b8">
+                  <infoLinks>
+                    <infoLink name="Burna (shooting)" id="6456-a30e-82c9-b623" hidden="false" type="profile" targetId="a689-76c1-e4fe-37fb"/>
+                    <infoLink name="Burna (Melee)" id="1992-6b58-af42-4a79" hidden="false" type="profile" targetId="40c5-3bb9-b398-eca4"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d219-3699-eeeb-d323" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="4"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7a8a-8bfb-f2e6-c859" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d5c4-0003-7d7f-7808" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="b915-c0a3-3e5a-44d2" targetId="2853-e9f2-7a9e-0e91" primary="false"/>
+        <categoryLink name="Faction: Ork" hidden="false" id="bb56-4d37-82f5-dd2e" targetId="363c-d816-cf96-15a3" primary="false"/>
+        <categoryLink name="Boyz" hidden="false" id="3bab-bce3-f58e-5291" targetId="7c64-691b-53da-307a" primary="false"/>
+        <categoryLink name="Faction: &lt;Clan&gt;" hidden="false" id="7efd-ddae-9999-8eba" targetId="820e-9090-439a-e7d1" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="&apos;Ere We Go!" id="efce-f82d-26bb-3a04" hidden="false" type="rule" targetId="a095-edc1-6ea8-2e6d"/>
+        <infoLink name="Dakka Dakka Dakka" id="92ed-6ef2-3bd6-74f7" hidden="false" type="rule" targetId="feb4-9b03-3a5c-0f74"/>
+        <infoLink name="Mob Rule" id="ade8-867b-8ca3-507b" hidden="false" type="rule" targetId="65d2-d249-0c9f-97d2"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Gretchin Mob" hidden="false" id="fad0-39cb-cf8f-57a9">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Gretchin" hidden="false" id="235d-8a74-f116-19cf">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="1a40-8b8b-f512-e315" includeChildSelections="false"/>
+            <constraint type="max" value="30" field="selections" scope="parent" shared="true" id="2e4d-cba1-c624-e754" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Gretchin" id="b3e2-05c9-dc80-c7bd" hidden="false" type="profile" targetId="0da2-b568-501e-12d3"/>
+            <infoLink name="Grot Blaster" id="ae65-e3a7-125f-4d86" hidden="false" type="profile" targetId="a3e9-e357-bf42-264f"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Runtherd" hidden="false" id="ec83-16f8-3d4f-94ce">
+          <categoryLinks>
+            <categoryLink name="Nobz" hidden="false" id="4ccb-8388-5714-16af" targetId="98ff-c62a-8313-a451" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Melee Weapon" hidden="false" id="df59-9f70-e219-3bd7">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Grot-Prod" hidden="false" id="ef8f-b5cd-54ea-4b37">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc43-16d7-ced3-3c4c" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Grot-Prod" id="0064-7702-dda1-644a" hidden="false" type="profile" targetId="9413-f011-70d7-384f"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Grabba Stikk" hidden="false" id="c502-4c2c-27b4-714d">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="45d3-fc89-53a7-a864" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Grabba Stikk" id="d3a4-f71b-fab0-6766" hidden="false" type="profile" targetId="3c14-aa26-216c-13f5"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="f861-fb16-afc1-f9a0" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="50ed-e3d1-96b4-7ecc" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Herding Gear" hidden="false" id="d7c7-fffe-70bc-0577">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Grot Lash" hidden="false" id="7ae2-657a-629e-5ef4">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5aa4-377e-5d63-e287" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Grot Lash" id="6698-1d88-38a0-4b7a" hidden="false" type="profile" targetId="3fe3-fc6a-6dca-6f4d"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Squig Hound" hidden="false" id="e360-d20e-6d60-38aa">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b268-0760-7ef9-e509" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Squig Hound" id="d2b3-6cc3-e397-943b" hidden="false" type="profile" targetId="964e-61cb-4d31-9dc9"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4ae9-419c-1640-53b0" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7824-a3cf-5285-37a5" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <infoLinks>
+            <infoLink name="Runtherd" id="b3c3-0f96-dccf-8399" hidden="false" type="profile" targetId="047f-84b1-4d2b-26c2"/>
+            <infoLink name="Slugga" id="32ae-09bf-44ad-8f4f" hidden="false" type="profile" targetId="4e49-8a76-a880-374c"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="956e-1a80-0e39-540b" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1ad0-1d4f-5188-f806" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="4619-e18a-60ed-1821" targetId="2853-e9f2-7a9e-0e91" primary="false"/>
+        <categoryLink name="Faction: Ork" hidden="false" id="cb15-39e7-36f4-21fe" targetId="363c-d816-cf96-15a3" primary="false"/>
+        <categoryLink name="Grentchin" hidden="false" id="7e7f-9b9f-6c13-035b" targetId="e825-ae59-a7af-72c7" primary="false"/>
+        <categoryLink name="Faction: &lt;Clan&gt;" hidden="false" id="7f00-8a53-a571-1af2" targetId="820e-9090-439a-e7d1" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="&apos;Ere We Go!" id="5eb4-305a-46ba-2378" hidden="false" type="rule" targetId="a095-edc1-6ea8-2e6d"/>
+        <infoLink name="Dakka Dakka Dakka" id="c3bb-16a0-eae7-d459" hidden="false" type="rule" targetId="feb4-9b03-3a5c-0f74"/>
+        <infoLink name="Mob Rule" id="57a9-3ddc-7a39-ca47" hidden="false" type="rule" targetId="65d2-d249-0c9f-97d2"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Warboss" hidden="false" id="fae8-b226-f1bc-aff2">
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="6cc9-ee4b-9c96-3dad" targetId="2853-e9f2-7a9e-0e91" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="7f9a-74f6-e295-02ff" targetId="3275-df5e-2474-90ed" primary="false"/>
+        <categoryLink name="Faction: &lt;Clan&gt;" hidden="false" id="cf31-0b31-6c05-7018" targetId="820e-9090-439a-e7d1" primary="false"/>
+        <categoryLink name="Warboss" hidden="false" id="8407-a6dc-4338-972d" targetId="3785-6608-b6ce-3733" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Shooty Arm" hidden="false" id="d1e8-08b4-04d0-9bc2">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7987-7d76-dbb7-3df0" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5f46-abd3-9623-9a36" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Kombi-Rokkit" hidden="false" id="b9aa-1742-4aec-b70c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="08b2-f921-c41f-5f57" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Kombi-Rokkit" id="586d-133c-151a-6eef" hidden="false" type="profile" targetId="8e0a-bb2b-3caa-b9a6"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Kombi-Skorcha" hidden="false" id="08e8-df7b-1c0b-9522">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2a7-8855-a02c-bd50" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Kombi-Skorcha" id="32c2-17ef-601b-b23e" hidden="false" type="profile" targetId="2988-4f7d-a026-5fdb"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="17"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Kustom Shoota" hidden="false" id="85a0-a845-ee19-9189">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="371e-705a-ffe0-e82b" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Kombi-Shoota" id="9a8a-d855-f67e-7782" hidden="false" type="profile" targetId="cc35-b9cd-b753-2d77"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Stabby Arm" hidden="false" id="d687-08fe-00dc-dbc3">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c7b0-e453-4660-9231" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b071-935b-3129-d275" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Big Choppa" hidden="false" id="15e2-6ace-d01b-1f2c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8587-03ee-3f08-23ae" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Big Choppa" id="30cf-53f7-c665-3741" hidden="false" type="profile" targetId="f1a2-3730-6c8d-e3e9"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="3496-a107-7ae9-e2aa">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65b9-a40d-ceb5-02d9" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Power Klaw" id="e33f-707c-aedb-0073" hidden="false" type="profile" targetId="716b-5f84-aece-f6f4"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="13"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Attack Squig" hidden="false" id="929c-a48e-d5e2-585d">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36e8-2d4e-e731-901c" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Attack Squig" id="ecc3-fdec-a8a8-8857" hidden="false" type="profile" targetId="5d4b-1947-e91a-ce08"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="cf43-b000-9b73-1ad3">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="dffd-6ae3-088d-57f3" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Warboss" id="3017-ee02-14a7-ec97" hidden="false" type="profile" targetId="8d9c-b72b-af62-a91d"/>
+        <infoLink name="Breakin&apos; Heads" id="da49-1445-05be-3e46" hidden="false" type="profile" targetId="cc2c-d34d-1e26-9c28"/>
+        <infoLink name="Waaaagh!" id="d121-5b15-0fdb-5275" hidden="false" type="profile" targetId="dd89-99dc-fe29-f2c7"/>
+        <infoLink name="Dead Tough" id="07c5-4f2c-8b19-5c1a" hidden="false" type="profile" targetId="ef6e-237c-ba6b-8cd1"/>
+        <infoLink name="Dakka Dakka Dakka" id="b6f3-aa0e-7e06-5b40" hidden="false" type="rule" targetId="feb4-9b03-3a5c-0f74"/>
+        <infoLink name="&apos;Ere We Go!" id="c91c-a4b2-59e6-901f" hidden="false" type="rule" targetId="a095-edc1-6ea8-2e6d"/>
+        <infoLink name="Mob Rule" id="d842-cfd5-ef8c-0cb3" hidden="false" type="rule" targetId="65d2-d249-0c9f-97d2"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="70"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Nobz" hidden="false" id="938d-f429-486a-7c94">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Nobz" hidden="false" id="3015-2c99-e98f-0ca5">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Weaponz" hidden="false" id="8adf-d93a-1824-0297">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Big Choppa" hidden="false" id="3dcb-b24d-8894-fce6">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8feb-a62f-6c9d-ab30" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Big Choppa" id="4c5c-6e84-6744-385b" hidden="false" type="profile" targetId="f1a2-3730-6c8d-e3e9"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Choppa" hidden="false" id="4c37-33ac-a72b-3444">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3dcc-4fce-0bda-2f6b" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Choppa" id="0058-9e3e-5135-069d" hidden="false" type="profile" targetId="9640-74f1-8976-4724"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Killsaw" hidden="false" id="e95e-1a79-d5d8-0e93">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="ad1c-9b5e-1015-3da6" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Killsaw" id="e07f-bd47-df79-8683" hidden="false" type="profile" targetId="7bc6-9c25-bc92-d95a"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Power Stabba" hidden="false" id="1580-2278-470f-b31e">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="91cf-d7bd-aa00-8a2a" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Power Stabba" id="6873-09d9-7bae-e75a" hidden="false" type="profile" targetId="0b73-4f66-9ff8-b2a6"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="8451-f1f6-255a-75c0">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="71bd-fbd8-cad8-b5b8" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Power Klaw" id="5d5a-b3cf-622a-13cb" hidden="false" type="profile" targetId="716b-5f84-aece-f6f4"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="13"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Kombi-Rokkit" hidden="false" id="28bf-3849-5981-65d8">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d7f-5262-dd8d-9d7f" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Kombi-Shoota" id="6b83-a7fb-9228-5424" hidden="false" type="profile" targetId="cc35-b9cd-b753-2d77"/>
+                    <infoLink name="Kombi-Rokkit" id="c2c3-bf9c-ac27-86f9" hidden="false" type="profile" targetId="8e0a-bb2b-3caa-b9a6"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Kombi-Shoota" hidden="false" id="b2a2-2258-dca4-c1dd">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f2c-85ec-c6a6-1471" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Kombi-Shoota" id="b8b7-fe79-da06-2ff0" hidden="false" type="profile" targetId="cc35-b9cd-b753-2d77"/>
+                    <infoLink name="Kombi-Shoota" id="621a-02b7-ab8b-971f" hidden="false" type="profile" targetId="cc35-b9cd-b753-2d77"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Kombi-Skorcha" hidden="false" id="d1b5-0723-106a-a675">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="55dc-6fdb-7a77-1390" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Kombi-Skorcha" id="d66c-a8bc-41a2-b463" hidden="false" type="profile" targetId="2988-4f7d-a026-5fdb"/>
+                    <infoLink name="Kombi-Shoota" id="bc6e-a3cc-5434-94fb" hidden="false" type="profile" targetId="cc35-b9cd-b753-2d77"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="17"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Slugga" hidden="false" id="bf69-2298-b800-6a2a">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c147-5571-d274-75e9" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Slugga" id="c6a1-ff7f-e612-345c" hidden="false" type="profile" targetId="4e49-8a76-a880-374c"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="self" shared="true" id="4a8b-77a2-0c0e-7586" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0abf-550a-ea6e-3358" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shoota" hidden="false" id="035d-8518-d750-cac0">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a1e5-5de2-d791-b2b1" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Shoota" id="e1e9-26cd-0dc9-ebd5" hidden="false" type="profile" targetId="9369-dfe9-b17f-1476"/>
+              </infoLinks>
+              <costs>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="4855-2afc-9da7-3ee4" includeChildSelections="false"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="1301-1783-ebbb-feca" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Nobz" id="064c-e30e-550f-ea36" hidden="false" type="profile" targetId="8f1b-82a6-965a-df93"/>
+            <infoLink name="Stikkbomb" id="8763-e764-f080-a82a" hidden="false" type="profile" targetId="1bec-a1d4-a769-b786"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Boss Nobz" hidden="false" id="840d-d0cc-b186-1c47">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac4a-921f-1b73-142f" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Boss Nob" id="f37f-dff4-bc5a-cf8a" hidden="false" type="profile" targetId="9644-c6c4-db59-adf6"/>
+            <infoLink name="Stikkbomb" id="cc49-8431-05b0-41f3" hidden="false" type="profile" targetId="1bec-a1d4-a769-b786"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Weaponz" hidden="false" id="55f3-4932-44b2-27ac">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Big Choppa" hidden="false" id="f20f-65a0-1d13-9be4">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="55ad-23f3-ce2f-0140" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Big Choppa" id="b0ef-8f69-5cd5-d69e" hidden="false" type="profile" targetId="f1a2-3730-6c8d-e3e9"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Choppa" hidden="false" id="d6d0-1248-7e00-77b9">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a7fe-90a9-4647-770a" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Choppa" id="3dab-1f07-0c9c-51ac" hidden="false" type="profile" targetId="9640-74f1-8976-4724"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Killsaw" hidden="false" id="ec4d-d5fd-cfd6-6d6e">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="69f5-ecf0-1638-857a" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Killsaw" id="2822-7d97-0e4c-b685" hidden="false" type="profile" targetId="7bc6-9c25-bc92-d95a"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Power Stabba" hidden="false" id="c20c-f5eb-f848-9f97">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="bfba-e165-1b9c-9fbc" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Power Stabba" id="750e-2039-92d0-99a0" hidden="false" type="profile" targetId="0b73-4f66-9ff8-b2a6"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="c2f4-89bc-5012-663a">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c59e-e699-ff38-5677" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Power Klaw" id="bce6-2659-42f8-9cff" hidden="false" type="profile" targetId="716b-5f84-aece-f6f4"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="13"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Kombi-Rokkit" hidden="false" id="e56c-e5fd-966b-7e42">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1bd8-84ea-aa5f-0695" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Kombi-Shoota" id="e111-6122-713b-608d" hidden="false" type="profile" targetId="cc35-b9cd-b753-2d77"/>
+                    <infoLink name="Kombi-Rokkit" id="0997-9ff8-f85d-4184" hidden="false" type="profile" targetId="8e0a-bb2b-3caa-b9a6"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Kombi-Shoota" hidden="false" id="4e61-1a1a-fb44-a11a">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84b6-6687-3529-f1a8" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Kombi-Shoota" id="778c-2d0f-60b5-4be7" hidden="false" type="profile" targetId="cc35-b9cd-b753-2d77"/>
+                    <infoLink name="Kombi-Shoota" id="689b-2a1a-999c-6d2c" hidden="false" type="profile" targetId="cc35-b9cd-b753-2d77"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Kombi-Skorcha" hidden="false" id="439e-774d-2f71-9066">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a411-79c1-0603-3d1d" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Kombi-Skorcha" id="6cf7-cc3b-6af8-5e60" hidden="false" type="profile" targetId="2988-4f7d-a026-5fdb"/>
+                    <infoLink name="Kombi-Shoota" id="a7a0-a307-71e2-8979" hidden="false" type="profile" targetId="cc35-b9cd-b753-2d77"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="17"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Slugga" hidden="false" id="d698-5601-a9fb-6dfc">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72eb-7281-de67-c18f" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Slugga" id="733d-8d20-3512-b4b1" hidden="false" type="profile" targetId="4e49-8a76-a880-374c"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="self" shared="true" id="0523-d37c-43b3-2002" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="053e-2152-9cd1-437e" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shoota" hidden="false" id="a0c1-05a7-7f21-679c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="22ec-76f9-4456-5df4" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Shoota" id="ceac-131e-6c30-da44" hidden="false" type="profile" targetId="9369-dfe9-b17f-1476"/>
+              </infoLinks>
+              <costs>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <categoryLinks>
+            <categoryLink name="Nobz" hidden="false" id="15d3-6dbf-c476-4f53" targetId="98ff-c62a-8313-a451" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Ammo Runt" hidden="false" id="6eef-5189-b1a9-9b8b">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4688-8866-d814-4968" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="2" field="4688-8866-d814-4968">
+              <conditions>
+                <condition type="greaterThan" value="8" field="selections" scope="parent" childId="3015-2c99-e98f-0ca5" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Ammo Runt" id="0f4c-4290-39bd-2dc1" hidden="false" type="profile" targetId="2bf6-c819-27ea-ecf2"/>
+            <infoLink name="Ammo Runt" id="d942-462c-3939-7591" hidden="false" type="profile" targetId="67a0-f55d-cd37-b199"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="4"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="8a21-09fa-30d2-a15c" targetId="2853-e9f2-7a9e-0e91" primary="false"/>
+        <categoryLink name="Faction: Ork" hidden="false" id="0e0c-769f-68bd-4248" targetId="363c-d816-cf96-15a3" primary="false"/>
+        <categoryLink name="Nobz" hidden="false" id="66b3-9c8a-e9db-968b" targetId="98ff-c62a-8313-a451" primary="false"/>
+        <categoryLink name="Faction: &lt;Clan&gt;" hidden="false" id="4484-7aef-495a-b00a" targetId="820e-9090-439a-e7d1" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="&apos;Ere We Go!" id="c43c-c89d-84ab-3d5d" hidden="false" type="rule" targetId="a095-edc1-6ea8-2e6d"/>
+        <infoLink name="Dakka Dakka Dakka" id="fc5c-b1a2-c946-76e0" hidden="false" type="rule" targetId="feb4-9b03-3a5c-0f74"/>
+        <infoLink name="Mob Rule" id="8866-a2d3-9e16-d59c" hidden="false" type="rule" targetId="65d2-d249-0c9f-97d2"/>
+        <infoLink name="Keepin&apos; Order" id="dc9b-fd1a-b56d-724a" hidden="false" type="profile" targetId="098f-ecf2-3c7a-c221"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Burna Boyz" hidden="false" id="e9e3-3d5e-f4a0-aa7e">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="MOB" hidden="false" id="0b44-bd96-bd55-4b47">
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="dc43-2c30-16c1-102c" includeChildSelections="false"/>
+            <constraint type="max" value="15" field="selections" scope="self" shared="true" id="46ea-16a0-2535-dd02" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="65cf-402f-6964-7fea-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65cf-402f-6964-7fea-max" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Spanner" hidden="false" id="a090-b2ac-101d-ff07">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e261-ead9-cdf9-9ee1" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Stikkbomb" id="7d6b-6b89-2b47-295d" hidden="false" type="profile" targetId="1bec-a1d4-a769-b786"/>
+                <infoLink name="Mekaniak" id="68a5-5a71-31fb-dafd" hidden="false" type="profile" targetId="c435-373b-8013-16b8"/>
+                <infoLink name="Spanner" id="b730-0642-fb7f-0e04" hidden="false" type="profile" targetId="0ffa-2634-dcdb-96eb"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Weaponz" hidden="false" id="3d13-94ad-0f05-7b4c">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Choppa" hidden="false" id="71c3-36d7-38a7-fb83">
+                      <constraints>
+                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a78c-a2e8-beab-a77f" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Choppa" id="f5d3-3d04-b774-794f" hidden="false" type="profile" targetId="9640-74f1-8976-4724"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Killsaw" hidden="false" id="3610-b4dc-a8b0-cbb1">
+                      <constraints>
+                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="ff93-ccb5-5390-e305" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Killsaw" id="c3a2-c1f9-58f2-0fa1" hidden="false" type="profile" targetId="7bc6-9c25-bc92-d95a"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Kombi-Rokkit" hidden="false" id="795d-fd31-2a0b-209f">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e3c-5862-6a40-fcdc" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Kombi-Shoota" id="a51f-c8ee-d1a3-3ed0" hidden="false" type="profile" targetId="cc35-b9cd-b753-2d77"/>
+                        <infoLink name="Kombi-Rokkit" id="f330-97ea-9290-b5f1" hidden="false" type="profile" targetId="8e0a-bb2b-3caa-b9a6"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Kombi-Shoota" hidden="false" id="050d-ff94-c13c-5429">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72ca-d093-10cb-4d30" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Kombi-Shoota" id="cdcf-56d4-50f0-7a23" hidden="false" type="profile" targetId="cc35-b9cd-b753-2d77"/>
+                        <infoLink name="Kombi-Shoota" id="b4cb-804d-1c18-398a" hidden="false" type="profile" targetId="cc35-b9cd-b753-2d77"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Kombi-Skorcha" hidden="false" id="a2f7-7466-8b7b-bcc3">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3815-5081-4c08-37b1" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Kombi-Skorcha" id="1dbc-06ba-e788-7b68" hidden="false" type="profile" targetId="2988-4f7d-a026-5fdb"/>
+                        <infoLink name="Kombi-Shoota" id="8cb8-a3ea-1f49-a896" hidden="false" type="profile" targetId="cc35-b9cd-b753-2d77"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="17"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Kustom Mega-blaster" hidden="false" id="9ab6-596b-2441-99fc">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a4c-3ef3-0065-ae49" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Kustom Mega-blasta" id="eb8b-1244-6be2-c9d5" hidden="false" type="profile" targetId="d34b-eb4a-a266-7e08"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="3996-08bb-c9e9-ac7a">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7973-4cac-e7e5-4197" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Big Shoota" id="9556-5e09-f1e6-b67c" hidden="false" type="profile" targetId="5ad7-d00a-5fec-489d"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="d93f-4aba-aa98-ad4d">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="23dd-f5ab-73db-1783" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Rokkit Launcha" id="5008-90a6-f7a0-c31c" hidden="false" type="profile" targetId="3a85-97e3-468a-68c5"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="self" shared="true" id="a2fb-61a5-f4f9-fe84" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f08-2471-ec22-5030" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Burna Boy" hidden="false" id="54b6-b9ea-9282-85e2">
+              <infoLinks>
+                <infoLink name="Ork Boyz" id="88c4-811c-2bf4-4a02" hidden="false" type="profile" targetId="4611-9f5b-f663-b4b1"/>
+                <infoLink name="Burna (shooting)" id="0795-e82e-e695-84fb" hidden="false" type="profile" targetId="a689-76c1-e4fe-37fb"/>
+                <infoLink name="Burna (Melee)" id="f731-7684-225d-0a79" hidden="false" type="profile" targetId="40c5-3bb9-b398-eca4"/>
+                <infoLink name="Stikkbomb" id="1435-1fec-d41e-8ff7" hidden="false" type="profile" targetId="1bec-a1d4-a769-b786"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="d11d-7d8e-b5b2-4839" includeChildSelections="false"/>
+                <constraint type="max" value="15" field="selections" scope="parent" shared="true" id="e554-55b2-af82-2620" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="13"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <profiles>
+            <profile name="Pyromaniaks" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="5ab3-3477-41ad-93d2">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">If this unit destroys an enemy unit in the Shooting phase, it automatically passes Morale tests until the start of your next turn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="40e5-503b-3ae5-0a0e" targetId="2853-e9f2-7a9e-0e91" primary="false"/>
+        <categoryLink name="Faction: Ork" hidden="false" id="5962-5a19-a4f3-90d8" targetId="363c-d816-cf96-15a3" primary="false"/>
+        <categoryLink name="Boyz" hidden="false" id="36f8-aba4-df33-27af" targetId="7c64-691b-53da-307a" primary="false"/>
+        <categoryLink name="Faction: &lt;Clan&gt;" hidden="false" id="87f7-8bdc-a618-08de" targetId="820e-9090-439a-e7d1" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Tankbusters" hidden="false" id="3b02-c7c8-3aee-2678">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="MOB" hidden="false" id="86d4-900c-311a-2cc4">
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="208f-06ad-3e87-018b" includeChildSelections="false"/>
+            <constraint type="max" value="15" field="selections" scope="self" shared="true" id="489c-fee6-6b29-2800" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1254-8b45-b954-7f82-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1254-8b45-b954-7f82-max" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Spanner" hidden="false" id="ed96-e5bf-52bd-a317">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e95-a365-7d08-179d" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Stikkbomb" id="74e8-f106-5ed7-3a7d" hidden="false" type="profile" targetId="1bec-a1d4-a769-b786"/>
+                <infoLink name="Mekaniak" id="55bc-8ab0-c05d-9aa9" hidden="false" type="profile" targetId="c435-373b-8013-16b8"/>
+                <infoLink name="Spanner" id="aa2a-5825-4d52-8dfc" hidden="false" type="profile" targetId="0ffa-2634-dcdb-96eb"/>
+                <infoLink name="Tankbusta Bomb&apos;s" id="9189-764c-7939-698a" hidden="false" type="profile" targetId="95f1-9ccb-00c3-db8b"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Weaponz" hidden="false" id="fe12-07b8-d8f2-68e0">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Choppa" hidden="false" id="d956-389f-dfe5-dcba">
+                      <constraints>
+                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="caf8-694c-a23b-ec00" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Choppa" id="cec3-c814-5eb2-acc8" hidden="false" type="profile" targetId="9640-74f1-8976-4724"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Killsaw" hidden="false" id="c234-73a1-ea2b-f41e">
+                      <constraints>
+                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a62a-3c6e-76cf-31b2" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Killsaw" id="5c7f-81c3-c060-5a30" hidden="false" type="profile" targetId="7bc6-9c25-bc92-d95a"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Kombi-Rokkit" hidden="false" id="562b-73b6-e41b-3af4">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a81-6004-eeb4-e9d4" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Kombi-Shoota" id="b337-c108-4b8d-2d17" hidden="false" type="profile" targetId="cc35-b9cd-b753-2d77"/>
+                        <infoLink name="Kombi-Rokkit" id="3839-c9dd-7661-ecb3" hidden="false" type="profile" targetId="8e0a-bb2b-3caa-b9a6"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Kombi-Shoota" hidden="false" id="a413-7839-3baa-9e11">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3331-6aa2-302d-0904" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Kombi-Shoota" id="0124-c8ae-e38a-0358" hidden="false" type="profile" targetId="cc35-b9cd-b753-2d77"/>
+                        <infoLink name="Kombi-Shoota" id="7041-8ac6-5fc9-cc84" hidden="false" type="profile" targetId="cc35-b9cd-b753-2d77"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Kombi-Skorcha" hidden="false" id="e28e-0e65-ddcb-8bfd">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a50b-5fce-c7e4-7709" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Kombi-Skorcha" id="4f9a-ac82-f3fe-fdf2" hidden="false" type="profile" targetId="2988-4f7d-a026-5fdb"/>
+                        <infoLink name="Kombi-Shoota" id="2805-65a0-5cd4-cddb" hidden="false" type="profile" targetId="cc35-b9cd-b753-2d77"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="17"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Kustom Mega-blaster" hidden="false" id="56e3-71b4-280c-6930">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f82-9ac8-f9ef-2602" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Kustom Mega-blasta" id="290e-0ad4-1f7c-4a24" hidden="false" type="profile" targetId="d34b-eb4a-a266-7e08"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="3dd8-27c4-4212-7726">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de0c-efd4-9c92-a792" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Big Shoota" id="9e02-fb51-c722-48b2" hidden="false" type="profile" targetId="5ad7-d00a-5fec-489d"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="c34d-474e-f0d6-be3f">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d617-db29-be73-af7d" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Rokkit Launcha" id="4471-9287-c3dc-30f3" hidden="false" type="profile" targetId="3a85-97e3-468a-68c5"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="self" shared="true" id="b04a-c323-088c-e043" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7df0-fde8-32e9-df84" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Tunkbusters" hidden="false" id="6d94-ade6-5932-9a69">
+              <infoLinks>
+                <infoLink name="Ork Boyz" id="c645-1b7e-9ec6-3ba6" hidden="false" type="profile" targetId="4611-9f5b-f663-b4b1"/>
+                <infoLink name="Stikkbomb" id="6b36-1cdf-f01d-b088" hidden="false" type="profile" targetId="1bec-a1d4-a769-b786"/>
+                <infoLink name="Rokkit Launcha" id="01a8-6c18-0f02-6c9d" hidden="false" type="profile" targetId="3a85-97e3-468a-68c5"/>
+                <infoLink name="Tankbusta Bomb&apos;s" id="54bd-36c3-7ff1-03b7" hidden="false" type="profile" targetId="95f1-9ccb-00c3-db8b"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="9000-a3c9-30e8-898e" includeChildSelections="false"/>
+                <constraint type="max" value="15" field="selections" scope="parent" shared="true" id="61f9-f46e-a076-cd97" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="17"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Tunkbusters /Wf Hammer" hidden="false" id="8b20-7582-15a4-a57c">
+              <infoLinks>
+                <infoLink name="Ork Boyz" id="0098-4103-a7a7-89bc" hidden="false" type="profile" targetId="4611-9f5b-f663-b4b1"/>
+                <infoLink name="Stikkbomb" id="fca3-b3d9-077e-88c6" hidden="false" type="profile" targetId="1bec-a1d4-a769-b786"/>
+                <infoLink name="Tankhammer" id="2952-8d88-a2b6-3743" hidden="false" type="profile" targetId="fae9-cbfa-8e84-1de8"/>
+                <infoLink name="Tankbusta Bomb&apos;s" id="8745-d738-73d5-cd71" hidden="false" type="profile" targetId="95f1-9ccb-00c3-db8b"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a4ef-8240-ec9a-9523" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="1" field="a4ef-8240-ec9a-9523">
+                  <conditions>
+                    <condition type="greaterThan" value="5" field="selections" scope="parent" childId="any" shared="true"/>
+                  </conditions>
+                  <repeats>
+                    <repeat value="6" repeats="1" field="selections" scope="parent" childId="any" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Tunkbusters /Wf Pistols" hidden="false" id="7463-23eb-6749-cc4d">
+              <infoLinks>
+                <infoLink name="Ork Boyz" id="6075-cff6-3252-1d38" hidden="false" type="profile" targetId="4611-9f5b-f663-b4b1"/>
+                <infoLink name="Stikkbomb" id="73fb-6d40-a77f-bf87" hidden="false" type="profile" targetId="1bec-a1d4-a769-b786"/>
+                <infoLink name="Pair of Rokkit Pistols" id="78ea-661c-acc4-5c07" hidden="false" type="profile" targetId="66b5-5e57-ba16-1e41"/>
+                <infoLink name="Tankbusta Bomb&apos;s" id="d41e-fce3-630c-69b4" hidden="false" type="profile" targetId="95f1-9ccb-00c3-db8b"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6378-de7f-632b-e104" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="17"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="1" field="6378-de7f-632b-e104">
+                  <conditions>
+                    <condition type="greaterThan" value="5" field="selections" scope="parent" childId="any" shared="true"/>
+                  </conditions>
+                  <repeats>
+                    <repeat value="6" repeats="1" field="selections" scope="parent" childId="any" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bomb Squig" hidden="false" id="a361-d89e-21b4-2d19">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0e16-8582-55a9-7f6d" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Bomb Squig" id="66ef-08f7-96e7-7314" hidden="false" type="profile" targetId="099f-2df2-326b-6fa3"/>
+            <infoLink name="Squig Bomb" id="b11f-e0a7-d357-7717" hidden="false" type="profile" targetId="9a70-4497-c0f1-edca"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="0725-1c70-f1ef-39a8" targetId="2853-e9f2-7a9e-0e91" primary="false"/>
+        <categoryLink name="Faction: Ork" hidden="false" id="7ffe-dacc-db45-e31d" targetId="363c-d816-cf96-15a3" primary="false"/>
+        <categoryLink name="Boyz" hidden="false" id="0b0a-e00d-7fcd-13c1" targetId="7c64-691b-53da-307a" primary="false"/>
+        <categoryLink name="Faction: &lt;Clan&gt;" hidden="false" id="e10f-29c3-832f-8651" targetId="820e-9090-439a-e7d1" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Tank Hunters" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="960a-e47c-adfc-e295">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">You can re-roll hit rolls for attacks made by this unit that target VEHICLES</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Clan Kultur" hidden="false" id="20d9-52a6-008b-5a7c" targetId="c66c-359a-b363-6a96" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="2eb6-e424-69d8-5b7c" id="aa23-8e86-8040-032a" primary="true" name="Configuration"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Boyz" hidden="false" id="410a-a918-145d-5887" targetId="5431-7068-a23a-1daf" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Troop" hidden="false" id="69e6-536a-0b72-c598" targetId="168f-b2da-4fd7-90d7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Gretchin Mob" hidden="false" id="6b1e-d17d-fec3-6c90" targetId="fad0-39cb-cf8f-57a9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Troop" hidden="false" id="1178-6c47-4baf-cfe8" targetId="168f-b2da-4fd7-90d7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Warboss" hidden="false" id="8501-cf09-561b-6715" targetId="fae8-b226-f1bc-aff2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="HQ" hidden="false" id="c12e-6d79-f2c5-3673" targetId="df66-426b-8561-5154" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Nobz" hidden="false" id="ee49-11c1-81f0-3eca" targetId="938d-f429-486a-7c94" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Elite" hidden="false" id="d7ce-0b1d-07df-5117" targetId="f4bc-7f06-10ba-80a3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Burna Boyz" hidden="false" id="651c-2daa-e81d-b579" targetId="e9e3-3d5e-f4a0-aa7e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Elite" hidden="false" id="51ff-e0d3-75de-08fe" targetId="f4bc-7f06-10ba-80a3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tunkbusters" hidden="false" id="ba2c-daeb-996d-500e" targetId="3b02-c7c8-3aee-2678" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Elite" hidden="false" id="6e93-6f32-8a74-6dab" targetId="f4bc-7f06-10ba-80a3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedProfiles>
+    <profile name="Ork Boyz" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="4611-9f5b-f663-b4b1">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">1</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">6</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Boss Nob" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="9644-c6c4-db59-adf6">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">2</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">3</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Choppa" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="9640-74f1-8976-4724">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Extra Attack</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Slugga" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="4e49-8a76-a880-374c">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Pistol 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Stikkbomb" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="1bec-a1d4-a769-b786">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">6&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Grenade D6</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">3</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Big Choppa" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="f1a2-3730-6c8d-e3e9">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+1</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Power Klaw" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="716b-5f84-aece-f6f4">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Strained Striker</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shoota" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="9369-dfe9-b17f-1476">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Dakka 2/3</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Big Shoota" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="5ad7-d00a-5fec-489d">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Dakka 3/5</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Kombi-Shoota" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="cc35-b9cd-b753-2d77">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Dakka 2/3</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Combi Weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Kombi-Rokkit" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="8e0a-bb2b-3caa-b9a6">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Combi Weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Kombi-Skorcha" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="2988-4f7d-a026-5fdb">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">8&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault D6</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Combi Weapon, Torrant</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Killsaw" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="7bc6-9c25-bc92-d95a">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">x2</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Unwieldy, Armourbane(Melee)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Power Stabba" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="0b73-4f66-9ff8-b2a6">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rokkit Launcha" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="3a85-97e3-468a-68c5">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Gretchin" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="0da2-b568-501e-12d3">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">5+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">4+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">2</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">2</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">1</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">1</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">4</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Runtherd" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="047f-84b1-4d2b-26c2">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">3</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">3</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Spanner" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="0ffa-2634-dcdb-96eb">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">1</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">6</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Nobz" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="8f1b-82a6-965a-df93">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">2</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">3</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">6</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Beastboss" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="0d79-b66e-c2e2-03eb">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">6</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">6</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">6</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">5</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Beastboss on Squigosaur" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="3249-eb78-84be-758d">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">10&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">6</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">7</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">9</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">5</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Big Mek In Mega Armour" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="c4ec-bce3-dba9-3f36">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">5&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">4+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">6</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">3</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Big Mek" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="4b73-d02b-d67b-67e9">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">4+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">5</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">3</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Deffkilla Wartrike" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="198b-baca-fba6-10d6">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">14&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">7</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">8</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">5</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Warboss" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="8d9c-b72b-af62-a91d">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">6</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">6</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">6</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">5</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Painboss" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="6ac5-187a-b22e-68fa">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">5</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">4</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Warboss In Mega Armour" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="0fe4-8400-1c8a-de73">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">5&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">6</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">6</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">7</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">5</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Warboss on Warbike" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="9d35-f5fb-f659-4a27">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">14&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">6</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">6</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">8</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">5</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Weirdboy" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="6484-0595-04e0-dc02">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">4</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">3</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wurrboy" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="797c-9e55-ec3f-0a42">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">5</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">3</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Boss MegaNobz" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="e655-049f-7258-2f69">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">5&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">3</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">3</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="MegaNobz" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="d606-7f28-3f7d-bb49">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">5&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">3</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">3</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">6</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mek" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="e71e-9c48-918a-20d1">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">3</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">6</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Breaka Boyz" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="c9ca-d848-57a2-0b17">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">2</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">6</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Breaka Boss" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="b3f1-9a86-7870-bac7">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">2</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Nobz on Warbikes" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="4405-c38b-55a7-2197">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">14&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">3</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">3</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">6</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blitza-Bommer" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="4215-d0be-79eb-51c5">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">20-50&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">5+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">5+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">10</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">10</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">10</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">3</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">12</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Burna-Bommer" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="e825-4a61-ef81-acc8">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">20-50&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">5+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">5+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">10</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">10</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">10</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">3</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">12</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dakkajet" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="44df-041f-4658-ab86">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">20-60&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">5+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">5+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">10</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">10</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">10</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">3</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">12</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wazbom Blastajet" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="e561-38fd-4f0c-3cec">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">20-60&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">5+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">5+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">10</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">10</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">10</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">3</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">12</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Boomdakka Snazzwagon" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="bb26-54e8-74b0-f7ff">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">12&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">4+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">5+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">11</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">10</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">10</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">4</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Kustom Boosta Blasta" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="e7f0-d6e9-874d-4203">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">12&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">4+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">5+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">11</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">10</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">10</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">4</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Megatrakk Scrapjet" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="ec22-52a1-2993-edf5">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">10&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">4+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">5+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">11</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">10</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">10</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">4</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="RukkaTrukk Squigbuggy" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="2cd7-dea4-3408-941e">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">10&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">4+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">5+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">11</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">10</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">10</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">4</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shokkjump Dragsta" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="b844-e008-ed9c-ac71">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">14&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">4+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">5+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">11</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">10</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">10</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">4</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Battlewagon" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="03bb-e215-b54c-265d">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">12&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">5+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">5+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">14</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">12</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">10</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">6</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">16</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Big Trakk" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="8a57-a164-bfdf-02c0">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">14&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">5+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">5+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">12</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">11</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">10</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">5</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">15</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Deff Dread" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="e958-8c58-8fab-959c">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">7</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">12</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">3</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Gorkanaut" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="c2de-638c-231a-08fb">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">8&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">3+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">5+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">13</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">13</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">12</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">6</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">18</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Morkanaut" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="c0a1-e888-fde4-e887">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">8&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">3+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">5+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">13</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">13</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">12</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">6</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">18</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bonebreaka" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="112f-8bfd-0e05-ee6b">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">12&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">4+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">5+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">14</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">12</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">10</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">6</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">16</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lifta Wagon" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="ed39-7e95-b29b-e800">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">12&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">5+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">5+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">14</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">12</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">10</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">6</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">16</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mega-Dread" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="899d-66af-ac22-abaf">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">8&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">3+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">5+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">13</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">13</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">11</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">5</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">16</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Trukk" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="0d38-d86e-e1f5-7d30">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">12&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">5+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">5+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">11</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">11</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">10</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">3</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Warkopta" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="b5f5-0a75-8597-71ce">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">16&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">3+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">5+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">10</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">10</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">10</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">4</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rig" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="8330-fe29-14fe-3232">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">12&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">3+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">5+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">14</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">13</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">12</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">6</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">16</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grot Blaster" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="a3e9-e357-bf42-264f">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Pistol 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">3</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grabba Stikk" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="3c14-aa26-216c-13f5">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+1</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Extra Attack</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grot-Prod" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="9413-f011-70d7-384f">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+2</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grot Lash" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="3fe3-fc6a-6dca-6f4d">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Grot Lash: Re-roll hit rolls of 1 in the fight phase for units comprised entirely of GRETCHIN INFANTRY while within 3&quot; of a friendly Runtherd with a Grot Lash.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Squig Hound" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="964e-61cb-4d31-9dc9">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">If a unit comprised entirely of GRETCHIN Infantry fails a Morale test and is within 3&quot; of any friendly Runtherds with a squig hound, ignore the result. D3 models from the unit are slain instead.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Attack Squig" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="5d4b-1947-e91a-ce08">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Bonus attacks 2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Waaaagh!" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="dd89-99dc-fe29-f2c7">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Once Per Game You may call a Waaagh! when you do your army has the following Rules.
+Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.
+Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.
+Models from your army with this ability have a 5+ invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Breakin&apos; Heads" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="cc2c-d34d-1e26-9c28">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">If a unit fails a Morale test within 3&quot; of a friendly WARBOSS, they can restore order with a brutal display of violence. If they do, the unit suffers D3 mortal wounds, but the Morale test is then considered to have been passed.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dead Tough" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="ef6e-237c-ba6b-8cd1">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This Model has a 5+ Invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Keepin&apos; Order" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="098f-ecf2-3c7a-c221">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Roll a D6 for each model that flees from a unit that is within 3&quot; of any friendly unit with this ability. On a 6, that model doesn&apos;t flee.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ammo Runt" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="2bf6-c819-27ea-ecf2">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">5+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">4+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">2</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">2</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">1</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">1</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">4</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ammo Runt" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="67a0-f55d-cd37-b199">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Each time this unit shoots, when making to hit rolls, you can re-roll one dice for each ammo runt accompanying it. When rolling to wound this unit, always use the Unit&apos;s Toughness (While it is on the battlefield). The death of a Ammo Runt is ignored for the purposes of morale. If the unit has CHARACTER, then the Ammo Runt is considered to have the CHARACTER keyword for the purposes of shooting attacks.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Burna (shooting)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="a689-76c1-e4fe-37fb">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">8&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault D3</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Torrant, Burna Boyz</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Burna (Melee)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="40c5-3bb9-b398-eca4">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mekaniak" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="c435-373b-8013-16b8">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">At the end of your Movement phase, this model can repair a single friendly VEHICLE within 1&quot;. That model regains 1 wound lost earlier in the battle. A vehicle can only be repaired once each turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Kustom Mega-blasta" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="d34b-eb4a-a266-7e08">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tankbusta Bomb&apos;s" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="95f1-9ccb-00c3-db8b">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">6&apos;&apos;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Grenade D3</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Pair of Rokkit Pistols" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="66b5-5e57-ba16-1e41">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Pistol 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rokkit Pistols" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="45af-0ce7-f01d-30a4">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Pistol 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tankhammer" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="fae9-cbfa-8e84-1de8">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">x2</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-5</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Armourbane(Melee), Volatile</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bomb Squig" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="099f-2df2-326b-6fa3">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">3</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">4</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">1</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">1</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">4</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Squig Bomb" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="9a70-4497-c0f1-edca">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">The weapon cannot target units that can FLY. Volatile</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
