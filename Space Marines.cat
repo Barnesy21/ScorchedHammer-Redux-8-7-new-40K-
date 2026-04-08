@@ -6856,6 +6856,9 @@ In addition, when a Psychic test or Deny the Witch test is taken for a PSYKER mo
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0daf-7649-7bd6-abb8"/>
               </constraints>
+              <infoLinks>
+                <infoLink name="Servo Arm" id="f80e-02ed-836b-d16d" hidden="false" type="profile" targetId="4280-ae50-b61c-5f82"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Servo-Harness" hidden="false" id="6d63-11e4-1700-0172">
               <constraints>
@@ -6922,6 +6925,7 @@ In addition, when a Psychic test or Deny the Witch test is taken for a PSYKER mo
           </selectionEntries>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="35af-e922-920a-3c2b"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b4e-fa8a-80a8-d828" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Bike" hidden="false" id="b487-6d63-71f4-2d0d">
@@ -22402,6 +22406,23 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
         <categoryLink name="Adeptus Astartes" hidden="false" id="2e1f-7a89-6a65-6874" targetId="0ed8-ef39-46e7-3be8" primary="false"/>
         <categoryLink name="Faction: Salamanders" hidden="false" id="263f-22b9-b285-9888" targetId="649e-1866-2617-040d" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="0ba7-8198-9c57-57cd">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a954-8701-6c89-b0e6" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+          <profiles>
+            <profile name="Lord of Fire" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="ff32-5c8e-6acb-b143">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">There are no secrets of flame and fire unknown to this Salamander, and he uses them in battle like no other.You can re-roll the dice to determine the number of attacks made with flame weapons (see Codex: Space Marines) by friendly SALAMANDERS models whilst their unit is within 6&quot; of this Warlord.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="(Sal) Vulkan He&apos;stan" hidden="true" id="8527-958a-dba9-46d9">
       <infoLinks>
@@ -22476,6 +22497,23 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
         <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="7833-ec5a-a7fc-3979">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ddf1-969a-7e41-0bb6" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+          <profiles>
+            <profile name="Lord of Fire" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="7444-89c5-72d9-7d60">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">There are no secrets of flame and fire unknown to this Salamander, and he uses them in battle like no other.You can re-roll the dice to determine the number of attacks made with flame weapons (see Codex: Space Marines) by friendly SALAMANDERS models whilst their unit is within 6&quot; of this Warlord.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="(BT) The Emperors Champion" hidden="true" id="2036-398c-4670-3d4a">
       <infoLinks>
@@ -23784,7 +23822,7 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
       <profiles>
         <profile name="(CF) Petro Kantor" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="4365-c6cf-4b39-6dff">
           <characteristics>
-            <characteristic name="M" typeId="f861-1936-95cc-e6d3"> 6&quot;</characteristic>
+            <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
             <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
             <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
             <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
@@ -23922,6 +23960,84 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
         <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Emperors Champion" hidden="true" id="5d9f-d8fb-5068-3ca8">
+      <infoLinks>
+        <infoLink name="Angels of Death" id="7148-e202-f312-4c64" hidden="false" type="rule" targetId="01a4-bec8-b573-fde7"/>
+        <infoLink name="Bolt Pistol" id="34d5-f5a3-5a11-3b63" hidden="false" type="profile" targetId="1806-24b6-c877-b09c"/>
+        <infoLink name="Iron Halo" id="7ddd-f7dd-a4ef-a7b8" hidden="false" type="profile" targetId="d397-3f45-5d92-64dd"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Jump Pack" hidden="false" id="8825-10f0-ac7c-1dfb">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4350-32a8-3386-9213"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="19"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Jump Pack" id="3a42-7d38-528a-3db2" hidden="false" type="profile" targetId="651b-fae9-c194-530e"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="add" value="c2c7-dbd8-014b-2228" field="category"/>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Adeptus Astartes" hidden="false" id="217d-e2ec-5983-1a30" targetId="0ed8-ef39-46e7-3be8" primary="false"/>
+        <categoryLink name="Faction: Adeptus Astartes" hidden="false" id="930d-5c94-be52-f010" targetId="d419-b07a-d287-f96c" primary="false"/>
+        <categoryLink name="Faction: Imperium" hidden="false" id="e58a-b744-5319-e3d0" targetId="fb8f-9c9a-4f7c-d364" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="8629-3281-5ca9-4f05" targetId="2853-e9f2-7a9e-0e91" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="82ff-525f-44be-dc13" targetId="3275-df5e-2474-90ed" primary="false"/>
+        <categoryLink name="Tacticus" hidden="false" id="094c-f38b-0a34-bbeb" targetId="8f99-7a84-6e4e-32fa" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="90"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Black Sword (Strike)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="d0cb-4545-3322-73d3">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">x2</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Precision</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Black Sword (Sweep)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="171e-2bf0-94ab-3704">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+1</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Extra Attacks 4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Armour of Faith" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="54a6-20c6-f462-e6e6">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Once per Game when this model has completed saving throws for attacks alocated to this model, You may change the Damage of those attacks two 0</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Emperors Champion" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="06da-2f05-fa1f-d901">
+          <characteristics>
+            <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+            <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+            <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">3+</characteristic>
+            <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+            <characteristic name="T" typeId="7dd6-7000-6498-6a92">4</characteristic>
+            <characteristic name="W" typeId="f05f-2129-62a8-9a30">4</characteristic>
+            <characteristic name="A" typeId="d794-d261-842e-1ef8">3</characteristic>
+            <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+            <characteristic name="Save" typeId="952f-14da-4484-d1ea">3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
@@ -26254,6 +26370,11 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
     <entryLink import="true" name="(IF) Tor Garadon" hidden="false" id="c25b-c341-6380-68c9" targetId="7995-cb0b-e979-8e0c" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="df66-426b-8561-5154" id="bc03-8409-d22e-33fe" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Emperors Champion" hidden="false" id="047a-7be5-a36d-c65e" targetId="5d9f-d8fb-5068-3ca8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="HQ" hidden="false" id="17e8-1d37-f7a9-9c53" targetId="df66-426b-8561-5154" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
