@@ -3009,6 +3009,7 @@
                   <infoLinks>
                     <infoLink name="Missile Launcher - Frag" id="1a66-2176-3e4d-f740" hidden="false" type="profile" targetId="b4ec-c011-5a6b-94b9"/>
                     <infoLink name="Missile Launcher - Krak" id="f255-f233-2c9f-3d7b" hidden="false" type="profile" targetId="bd39-d1ed-e0fe-0a02"/>
+                    <infoLink name="Missile Launcher - Frag (B)" id="0632-7658-846b-a697" hidden="false" type="profile" targetId="883e-f833-830b-49d5"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
@@ -11190,6 +11191,16 @@ Models in those units count as having made a Normal Move this phase they cannon 
     <entryLink import="true" name="Baneblade" hidden="false" id="fd98-5c5f-45a9-dd32" targetId="ebf8-3e32-6fad-4cf1" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="2891-0302-74c6-87b5" id="0364-108c-a4aa-8078" primary="true" name="Lord of War"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Infantry Squad" hidden="false" id="7d27-2ff9-ea67-ed40" targetId="b9b3-2392-1f5d-2a8b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Troop" hidden="false" id="308c-942d-4cdf-8557" targetId="168f-b2da-4fd7-90d7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Conscripts" hidden="false" id="124e-5515-0af1-f733" targetId="10f6-f2a5-229d-4f7e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Troop" hidden="false" id="c415-9aba-e360-2379" targetId="168f-b2da-4fd7-90d7" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
