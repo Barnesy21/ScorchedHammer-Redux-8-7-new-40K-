@@ -6962,6 +6962,11 @@ In addition, when a Psychic test or Deny the Witch test is taken for a PSYKER mo
             <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This Model has the Battlesmith (4+) Special Rule</characteristic>
           </characteristics>
         </profile>
+        <profile name="Techmarine" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="b97c-4bc0-c49e-343e">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This model has the look out sir ability when within 3&quot; of an Adeptus Astarties Vehicle model.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Ancient" hidden="false" id="cb31-8d55-0f28-430a">
