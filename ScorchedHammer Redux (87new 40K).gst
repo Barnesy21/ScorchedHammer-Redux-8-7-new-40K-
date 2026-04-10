@@ -773,6 +773,9 @@
     <rule name="Volatile" id="d69d-e1a5-3823-e9ac" hidden="false">
       <description>after the bearer of this weapon has made a successful hit with this weapon the bearer is destroyed.</description>
     </rule>
+    <rule name="Battlesmith" id="ba1a-e37c-358b-7523" hidden="false">
+      <description>A model with this Special rule may Repair a Vehicle or Titanic Walker Unit on the on the roll required by the value in the Brackets, When Successful, the Targeted Unit Regains D3 Lost HP and may remove 1 negative effect applied to the unit from the Vehicle Damage Table.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile name="Smite" typeId="e57e-15c3-e702-5811" typeName="Psychic Power Weapon" hidden="false" id="d933-af1d-85f4-05df">
@@ -1523,7 +1526,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Makes 1 Free attack, Unwieldy</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Bonus Attack 1, Unwieldy</characteristic>
       </characteristics>
     </profile>
     <profile name="Servitor" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="7193-a124-c4a4-a577">

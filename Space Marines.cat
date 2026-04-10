@@ -6661,6 +6661,7 @@ In addition, when a Psychic test or Deny the Witch test is taken for a PSYKER mo
           </modifiers>
         </infoLink>
         <infoLink name="Angels of Death" id="f57f-2523-ac74-505d" hidden="false" type="rule" targetId="01a4-bec8-b573-fde7"/>
+        <infoLink name="Battlesmith" id="3a49-77f2-35bb-9b37" hidden="false" type="rule" targetId="ba1a-e37c-358b-7523"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Ranged Weapon" hidden="false" id="c977-66ec-14bb-bebb">
@@ -6955,6 +6956,13 @@ In addition, when a Psychic test or Deny the Witch test is taken for a PSYKER mo
         <categoryLink name="Adeptus Astartes" hidden="false" id="9741-e4c0-72bf-06e6" targetId="0ed8-ef39-46e7-3be8" primary="false"/>
         <categoryLink name="Faction: Imperium" hidden="false" id="75f3-c1a5-70cd-5225" targetId="fb8f-9c9a-4f7c-d364" primary="false"/>
       </categoryLinks>
+      <profiles>
+        <profile name="Veteran Combat Smith" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="29f3-cab1-eefd-27d5">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This Model has the Battlesmith (4+) Special Rule</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Ancient" hidden="false" id="cb31-8d55-0f28-430a">
       <infoLinks>
@@ -7381,6 +7389,13 @@ In addition, when a Psychic test or Deny the Witch test is taken for a PSYKER mo
             <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
+          <profiles>
+            <profile name="Programed Technicians" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="4b25-a5a3-7f7c-a284">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Models in this Unit may perform 1 Battlesmith (5+) roll for every 3 servitors are in this unit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
       <profiles>
@@ -22454,7 +22469,7 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
         </profile>
         <profile name="Kesare&apos;s Mantle" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="6a26-5920-8b7c-e73f">
           <characteristics>
-            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Vulkan He&apos;stan has a 3+ invulnerable save.</characteristic>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Vulkan He&apos;stan has a 4+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
         <profile name="Forgefather" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="d3ae-49b7-a5e4-d7ce">
@@ -22506,12 +22521,17 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
             <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
           </modifiers>
           <profiles>
-            <profile name="Lord of Fire" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="7444-89c5-72d9-7d60">
+            <profile name="Seekers of the Unfound" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="7444-89c5-72d9-7d60">
               <characteristics>
-                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">There are no secrets of flame and fire unknown to this Salamander, and he uses them in battle like no other.You can re-roll the dice to determine the number of attacks made with flame weapons (see Codex: Space Marines) by friendly SALAMANDERS models whilst their unit is within 6&quot; of this Warlord.</characteristic>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This model when it is first placed on the Battlefield and While this model in on the Battlefield, he may select one objective to be his chosen objective, while this model is in capture range of the objective, He is always considered to have control of the objective marker, and this model has a 4+ Feel no Pain.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <rules>
+            <rule name="Inspiring commander" id="d308-5c1f-1ef2-cc9c" hidden="false">
+              <description>Space Marines in this army equipped with Pyre Blasters, Pyre Cannons, Flamers and Heavy Flamers are +1 to the Objective control of each marine in the unit</description>
+            </rule>
+          </rules>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
