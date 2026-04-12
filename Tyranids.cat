@@ -4713,7 +4713,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
         <categoryLink name="Faction: Tyranids" hidden="false" id="c959-700f-e47d-fefd" targetId="e52c-b741-deee-a791" primary="false"/>
         <categoryLink name="Faction: Hive Fleet" hidden="false" id="8f21-cb4d-8b04-66f8" targetId="c60d-766f-a98b-b80e" primary="false"/>
         <categoryLink name="Synapse" hidden="false" id="5abd-207e-718f-cae0" targetId="3a77-3ecc-02f1-f96b" primary="false"/>
-        <categoryLink name="Vanguard Invader" hidden="false" id="0833-cbd4-c72d-93e6" targetId="e101-24cf-4ff1-83c8" primary="false"/>
+        <categoryLink name="Harvister" hidden="false" id="56d9-18ee-1158-f1e6" targetId="4ae5-5464-817e-cb2b" primary="false"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Maleceptor" hidden="false" id="d19a-a682-3ab5-fc84">
