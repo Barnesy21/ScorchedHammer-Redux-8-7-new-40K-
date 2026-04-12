@@ -2038,7 +2038,7 @@ Each time a friendly TYRANIDS model makes an attack that targets that unit, add 
       </costs>
       <infoLinks>
         <infoLink name="Psychophage" id="d288-32e2-d73e-d055" hidden="false" type="profile" targetId="f281-890e-ea49-a847"/>
-        <infoLink name="Hatred (Psyker)" id="df3a-146c-588e-0fdb" hidden="false" type="rule" targetId="445a-9deb-277f-6fdf"/>
+        <infoLink name="Hatred" id="df3a-146c-588e-0fdb" hidden="false" type="rule" targetId="445a-9deb-277f-6fdf"/>
       </infoLinks>
       <profiles>
         <profile name="Psychoclastic Torrent" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="485b-5619-efb5-f67a">
@@ -4566,6 +4566,8 @@ Select one objective marker. Until the end of the battle, while this model is wi
       <infoLinks>
         <infoLink name="Exocrine" id="cc3a-0071-054d-1f38" hidden="false" type="profile" targetId="6da8-07c9-6db9-f47a"/>
         <infoLink name="Instincitve Behaviour" id="c324-8361-1310-2dec" hidden="false" type="rule" targetId="82a5-7292-5e79-ef8e"/>
+        <infoLink name="Powerful Limbs " id="6052-992e-9ff0-03da" hidden="false" type="profile" targetId="11b8-31e6-306b-d65c"/>
+        <infoLink name="Bio-Plasmic Cannon" id="2865-ed17-b29f-472b" hidden="false" type="profile" targetId="a311-3f22-95c8-9e7e"/>
       </infoLinks>
       <profiles>
         <profile name="Symbiotic Targeting" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="28a5-40bf-86f9-db3d">
@@ -7878,6 +7880,16 @@ At the end of your Shooting phase, select one enemy unit that had one or more mo
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Poison 3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bio-Plasmic Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="a311-3f22-95c8-9e7e">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy D6</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">9</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Rending (4+)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
