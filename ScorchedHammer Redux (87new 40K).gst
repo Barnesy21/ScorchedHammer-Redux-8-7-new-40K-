@@ -62,6 +62,7 @@
     <categoryEntry name="Squadron" id="32c7-bd0c-be24-947e" hidden="false"/>
     <categoryEntry name="Daemon Engine" id="99ca-3b7e-4b57-d1cb" hidden="false"/>
     <categoryEntry name="Daemon" id="eaba-5458-ed6b-b752" hidden="false"/>
+    <categoryEntry name="Titanic Walker" id="14fa-253f-b47c-2534" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Unrestricted" id="f60d-e135-0f6e-16f2" hidden="false">
@@ -469,6 +470,40 @@
         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="5"/>
       </costs>
     </forceEntry>
+    <forceEntry name="Supreme command Detachment +5CP" id="0321-14b2-7329-87c1" hidden="false">
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="5"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="HQ" hidden="false" id="2412-846f-ab07-615c" targetId="df66-426b-8561-5154">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cbe3-f3c9-e42b-60b3"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="31e3-67bd-94d9-966f"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="0" field="cbe3-f3c9-e42b-60b3">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="f155-f5fb-8a74-0926" shared="true" childName="Primarch" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Primarch" hidden="false" id="8210-9f46-b81d-7dfe" targetId="f155-f5fb-8a74-0926">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="43ec-43d7-bb83-0468"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="0" field="43ec-43d7-bb83-0468">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="df66-426b-8561-5154" shared="true" includeChildSelections="true" childName="HQ"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
   </forceEntries>
   <costTypes>
     <costType name="pts" id="cc70-4a02-fa6e-e0b2" defaultCostLimit="-1"/>
@@ -775,6 +810,9 @@
     </rule>
     <rule name="Battlesmith" id="ba1a-e37c-358b-7523" hidden="false">
       <description>A model with this Special rule may Repair a Vehicle or Titanic Walker Unit on the on the roll required by the value in the Brackets, When Successful, the Targeted Unit Regains D3 Lost HP and may remove 1 negative effect applied to the unit from the Vehicle Damage Table.</description>
+    </rule>
+    <rule name="fire Line" id="24a5-05da-0a2a-d887" hidden="false">
+      <description>All Models that are within 1&quot; of a straight line between the caster and the target Are also hit by this weapon</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -2123,6 +2161,26 @@ Matched Play: This model and any units embarked aboard it are exempt from the Ta
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Extra Attack, Shred</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Force Stave" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="86a0-a213-8387-198f">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+2</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Force Sword" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="8d16-4846-5186-9762">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
