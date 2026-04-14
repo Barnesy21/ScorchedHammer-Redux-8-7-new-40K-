@@ -3116,7 +3116,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Carnifex&apos;s" hidden="false" id="86dc-d995-a66f-cb54">
+    <selectionEntry type="unit" import="true" name="Carnifex Brood" hidden="false" id="86dc-d995-a66f-cb54">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Carnifex" hidden="false" id="44d7-efc2-57c1-7957">
           <costs>
@@ -3417,333 +3417,6 @@ Select one objective marker. Until the end of the battle, while this model is wi
             <profile name="Death Throes" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="f24c-d5eb-c154-8f9f">
               <characteristics>
                 <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">If this model is reduced to 0 wounds, roll a dice before removing it from the battlefield; on a 6, it lashes out in its death throes, and each unit within 3&quot; suffers D3 mortal wounds.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="StoneCrusher" hidden="false" id="1f95-0ced-64de-e326">
-          <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="17f8-6fb9-f858-d723" includeChildSelections="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3710-aa76-31f6-7303" includeChildSelections="false"/>
-          </constraints>
-          <infoLinks>
-            <infoLink name="Carnifex" id="c128-a8bf-08f5-b9ef" hidden="false" type="profile" targetId="aaff-9089-d7cf-5a6e"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Arm Weapons" hidden="false" id="d5a3-25cb-654d-a4ee">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="2x Wrecker Claws" hidden="false" id="4f51-1c0a-f191-d0c5">
-                  <infoLinks>
-                    <infoLink name="Wrecker Claws" id="686c-869a-4dd7-0261" hidden="false" type="profile" targetId="8265-0094-f889-f653"/>
-                    <infoLink name="Wrecker Claws" id="6001-faeb-7deb-65c4" hidden="false" type="profile" targetId="8265-0094-f889-f653"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f6f-25a5-22eb-71cd" includeChildSelections="false"/>
-                  </constraints>
-                  <costs>
-                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="18"/>
-                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Wrecker Claw &amp; Bio-flail" hidden="false" id="fc0d-afee-0471-5dff">
-                  <infoLinks>
-                    <infoLink name="Wrecker Claws" id="06e1-d77b-afaf-12f4" hidden="false" type="profile" targetId="8265-0094-f889-f653"/>
-                    <infoLink name="Bio-Flail" id="65b4-4b3a-a076-2004" hidden="false" type="profile" targetId="56db-0025-3231-64d4"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="550e-1ce6-f395-9410" includeChildSelections="false"/>
-                  </constraints>
-                  <costs>
-                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
-                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1575-bfaf-48db-061e" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d97a-d8c9-25dd-d5d4" includeChildSelections="false"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Tail Weapon" hidden="false" id="a3b5-f368-c518-c397">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Bone Mace" hidden="false" id="713c-1f19-b667-d548">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5886-6d31-aedd-89f0" includeChildSelections="false"/>
-                  </constraints>
-                  <costs>
-                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
-                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Bone Mace" id="817f-67ae-3646-9d6c" hidden="false" type="profile" targetId="5887-b6ee-bd9a-fccf"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Thresher Scythe" hidden="false" id="8c0a-f4b1-9dd1-6b04">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="63ab-380e-ec61-4136" includeChildSelections="false"/>
-                  </constraints>
-                  <costs>
-                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="7"/>
-                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Thresher Scythe" id="01e7-be9b-8f29-127e" hidden="false" type="profile" targetId="69f9-85a8-11e0-99a6"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b56f-08c8-371d-5e89" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d3c6-cf2b-d8fc-5e29" includeChildSelections="false"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Bio-plasma" hidden="false" id="c178-07c5-08e8-056e">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f2cc-353d-4a5c-8fc4" includeChildSelections="false"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="9"/>
-                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Bio-plasma" id="7d08-59af-70a4-0036" hidden="false" type="profile" targetId="fa81-bacb-38a5-9cb0"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-          <profiles>
-            <profile name="Carapace Chitin Rams" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="85e0-ecf8-fc59-d6db">
-              <characteristics>
-                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">When a Stone Crusher Carnifex finishes a charge move, roll a dice; on a 4+, one enemy unit of your choice within 1&quot; suffers a mortal wound. If this unit is a a VEHICLE or BUILDING, instead it suffers D3 mortal wounds.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="80"/>
-            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Thornbacks" hidden="false" id="2939-24da-1d87-9900">
-          <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="e5ad-f988-e87b-cd09" includeChildSelections="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b29d-56e7-0cdd-ca98" includeChildSelections="false"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Secondary Weapons" hidden="false" id="5cae-ebec-dfdc-a853">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Two Deathspitters With Slimer Maggots" hidden="false" id="85d7-020c-0344-3eef">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a04-d396-7adb-9f64" includeChildSelections="false"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink name="Deathspiiter with Brainleech Worms" id="812f-0e1e-f7d9-488d" hidden="false" type="profile" targetId="5365-3af4-f8b9-c1c0"/>
-                    <infoLink name="Deathspiiter with Brainleech Worms" id="d98f-ccb8-107e-0c0b" hidden="false" type="profile" targetId="5365-3af4-f8b9-c1c0"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
-                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Two Deathspitters with Brainleech Worms" hidden="false" id="8e3f-cfee-7287-a2fc">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f7e-06a9-cc13-6a0d" includeChildSelections="false"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink name="Deathspiiter with Slimer Maggots" id="374f-14e1-4b93-162e" hidden="false" type="profile" targetId="f6d7-6453-8537-9755"/>
-                    <infoLink name="Deathspiiter with Slimer Maggots" id="7125-d8bd-72fd-3b29" hidden="false" type="profile" targetId="f6d7-6453-8537-9755"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
-                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Main Weapon" hidden="false" id="143e-a8df-d6ad-c085">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Stranglethorn Cannon" hidden="false" id="689d-9c3d-91e4-5231">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9aea-bff2-e351-32cb" includeChildSelections="false"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink name="Stranglethorn Cannon" id="f26d-9614-98f0-0dd8" hidden="false" type="profile" targetId="7833-e366-8b2e-d4a3"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
-                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Monstrous Scything Talons" hidden="false" id="9b6c-d100-cce4-6e0f">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c975-4ddd-e6e8-522d" includeChildSelections="false"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink name="Monstrous Scything Talons" id="8415-e6f8-816a-9476" hidden="false" type="profile" targetId="8045-76ad-03e0-6fdb"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
-                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Thresher Scythe" hidden="false" id="2af1-2633-6c7a-bbec">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b9f3-120e-77d3-ef28" includeChildSelections="false"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="7"/>
-                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Thresher Scythe" id="de03-ac77-c74a-3a5b" hidden="false" type="profile" targetId="69f9-85a8-11e0-99a6"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Spine Banks" hidden="false" id="5264-4f9d-422f-5e48">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ba7-4fad-0f8b-314f" includeChildSelections="false"/>
-              </constraints>
-              <infoLinks>
-                <infoLink name="Spine Banks" id="283c-ff99-ebbe-8284" hidden="false" type="profile" targetId="a3af-7aca-27ca-a131"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
-                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="ff5c-d981-09e0-3b79">
-              <infoLinks>
-                <infoLink name="Adrenal Glands" id="0204-f0ed-49cd-ccb3" hidden="false" type="profile" targetId="281b-6846-cb70-5033"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f866-f6cd-c525-ab6b" includeChildSelections="false"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
-                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="6208-c5b7-a375-6d9c">
-              <infoLinks>
-                <infoLink name="Toxin Sacs" id="3faa-d748-7e99-1e4b" hidden="false" type="profile" targetId="906c-75c9-f17f-ea06"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70da-ce6e-8cc6-16d5" includeChildSelections="false"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
-                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Enhanced Senses" hidden="false" id="3629-e811-9e9b-b27f">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7eae-acdb-29f7-f0c0" includeChildSelections="false"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
-                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Enhanced Senses" id="5dd4-ad54-9101-9946" hidden="false" type="profile" targetId="7b23-712b-fbab-300e"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-          <infoLinks>
-            <infoLink name="Carnifex" id="7d9b-e072-49ac-c76c" hidden="false" type="profile" targetId="aaff-9089-d7cf-5a6e"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="75"/>
-            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Screamer-Killer" hidden="false" id="07e5-2efe-af60-d85f">
-          <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="ae96-cbd9-11f8-7ba5" includeChildSelections="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eed6-91bd-37a3-67c6" includeChildSelections="false"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="2b15-fc15-7905-5dac">
-              <infoLinks>
-                <infoLink name="Adrenal Glands" id="56a9-9f5a-8704-349f" hidden="false" type="profile" targetId="281b-6846-cb70-5033"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a4b6-90bb-7068-c235" includeChildSelections="false"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
-                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="7fb5-18a2-9f31-5787">
-              <infoLinks>
-                <infoLink name="Toxin Sacs" id="5afc-3bab-e614-ed75" hidden="false" type="profile" targetId="906c-75c9-f17f-ea06"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca13-be9b-acfd-bc9e" includeChildSelections="false"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
-                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Spore Cysts" hidden="false" id="fe53-91de-1988-72fb">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b9d-c43a-29ca-e98b" includeChildSelections="false"/>
-              </constraints>
-              <profiles>
-                <profile name="Spore Cysts" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="a543-cfc7-86a4-b11b">
-                  <characteristics>
-                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Your opponent must subtract 1 from thier hit rolls for all ranged attacks that target a model with spore cysts. This is not cumulative with the penalties to hit rolls incurred from the Shrouding Spores ability.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
-                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <infoLinks>
-            <infoLink name="Screamer-killer" id="37f2-b177-d40d-3604" hidden="false" type="profile" targetId="8c19-553f-58aa-5397"/>
-            <infoLink name="Monstrous Scything Talons" id="a474-1bb1-ab80-d7d5" hidden="false" type="profile" targetId="8045-76ad-03e0-6fdb"/>
-            <infoLink name="Monstrous Scything Talons" id="d712-f04f-f2d6-bd5a" hidden="false" type="profile" targetId="8045-76ad-03e0-6fdb"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="110"/>
-            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-          </costs>
-          <profiles>
-            <profile name="Terrifying" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="5182-fbc4-a6d7-7ac0">
-              <characteristics>
-                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">You opponent must add 1 to any Morale tests for enemy units within 8&quot; of one or more Screamer-Killers.</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Bio-plasmic Scream" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="04a4-c709-a87a-2fdc">
-              <characteristics>
-                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
-                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault D6+3</characteristic>
-                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
-                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
-                <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
-                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6514,6 +6187,521 @@ Select one objective marker. Until the end of the battle, while this model is wi
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Screamer-killer Brood" hidden="false" id="8642-18d9-1f96-63aa">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Screamer-Killer" hidden="false" id="10b9-b6a5-a313-15b4">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a043-9b9a-811e-58c5" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e223-582b-5e28-fc3c" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="8e83-d8b5-aa1e-d47c">
+              <infoLinks>
+                <infoLink name="Adrenal Glands" id="6be5-aed5-ae68-6fb4" hidden="false" type="profile" targetId="281b-6846-cb70-5033"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cafb-dd96-0ddf-45b4" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="d302-3122-453f-e733">
+              <infoLinks>
+                <infoLink name="Toxin Sacs" id="ef52-ab69-d8ed-ee15" hidden="false" type="profile" targetId="906c-75c9-f17f-ea06"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c895-8446-5916-f4d5" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Spore Cysts" hidden="false" id="988f-d407-f5a0-6815">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf4d-c2ee-de42-8ee6" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Spore Cysts" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="7fbb-e071-e207-5f43">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Your opponent must subtract 1 from thier hit rolls for all ranged attacks that target a model with spore cysts. This is not cumulative with the penalties to hit rolls incurred from the Shrouding Spores ability.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <infoLinks>
+            <infoLink name="Screamer-killer" id="d4e4-5610-f74d-079c" hidden="false" type="profile" targetId="8c19-553f-58aa-5397"/>
+            <infoLink name="Monstrous Scything Talons" id="12af-1a13-13dd-7c50" hidden="false" type="profile" targetId="8045-76ad-03e0-6fdb"/>
+            <infoLink name="Monstrous Scything Talons" id="1a64-388b-31cf-10f9" hidden="false" type="profile" targetId="8045-76ad-03e0-6fdb"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="110"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Terrifying" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="5438-8615-f08d-0b18">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">You opponent must add 1 to any Morale tests for enemy units within 8&quot; of one or more Screamer-Killers.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Bio-plasmic Scream" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="bda8-fd28-8a1a-ebd7">
+              <characteristics>
+                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault D6+3</characteristic>
+                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
+                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+                <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="ba49-f4b5-60df-6b8f" id="1c44-bca0-77b2-c673" primary="false" name="Monster"/>
+        <categoryLink targetId="e52c-b741-deee-a791" id="4ab3-7ea4-5915-aa53" primary="false" name="Faction: Tyranids"/>
+        <categoryLink targetId="c60d-766f-a98b-b80e" id="c14d-b248-0009-444d" primary="false" name="Faction: Hive Fleet"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Monsters Adaptive Physiology" hidden="false" id="b74c-3731-32c1-8f86" type="selectionEntry" targetId="8fa3-dc21-98bb-cfb1"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Living Battering Ram" id="7e9e-0a77-019c-2f7e" hidden="false" type="profile" targetId="2173-9642-ebb7-8b8d"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="StoneCrusher Brood" hidden="false" id="08d1-6236-3de8-eb69">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="StoneCrusher" hidden="false" id="0292-3ee3-3d1d-fbc8">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5109-de14-be35-2450" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a089-aaf9-8fc9-f633" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Carnifex" id="8b23-054f-ff40-6a55" hidden="false" type="profile" targetId="aaff-9089-d7cf-5a6e"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Arm Weapons" hidden="false" id="53b3-f439-211c-637f">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="2x Wrecker Claws" hidden="false" id="101f-50be-6f2c-0873">
+                  <infoLinks>
+                    <infoLink name="Wrecker Claws" id="7f3c-7919-126a-6505" hidden="false" type="profile" targetId="8265-0094-f889-f653"/>
+                    <infoLink name="Wrecker Claws" id="56a6-ff0e-d413-51aa" hidden="false" type="profile" targetId="8265-0094-f889-f653"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b20-c630-4dd6-bc12" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="18"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Wrecker Claw &amp; Bio-flail" hidden="false" id="16c7-a002-cbd1-049a">
+                  <infoLinks>
+                    <infoLink name="Wrecker Claws" id="b36c-b485-d3b9-2ae3" hidden="false" type="profile" targetId="8265-0094-f889-f653"/>
+                    <infoLink name="Bio-Flail" id="e201-1b55-5cdc-81d9" hidden="false" type="profile" targetId="56db-0025-3231-64d4"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4899-824f-154a-5c96" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5bff-f64c-b383-e2bc" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7d83-f8c3-04be-bee1" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Tail Weapon" hidden="false" id="2435-966b-610f-c5a6">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Bone Mace" hidden="false" id="b3f8-2e92-2652-747e">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0255-9334-712e-6245" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Bone Mace" id="f289-2c10-7032-f792" hidden="false" type="profile" targetId="5887-b6ee-bd9a-fccf"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Thresher Scythe" hidden="false" id="b9cf-0d89-f440-475b">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c13-40bf-0393-767a" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="7"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Thresher Scythe" id="f4bf-d4be-2eac-cd6c" hidden="false" type="profile" targetId="69f9-85a8-11e0-99a6"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f9a7-ab1a-da54-fce6" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="75af-5912-8ea2-86f2" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bio-plasma" hidden="false" id="829c-21f3-c3d5-1d0d">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="23e1-40dd-b3f7-226e" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="9"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Bio-plasma" id="e495-b7c6-7992-dff5" hidden="false" type="profile" targetId="fa81-bacb-38a5-9cb0"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <profiles>
+            <profile name="Carapace Chitin Rams" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="6a9b-bed3-119b-fa90">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">When a Stone Crusher Carnifex finishes a charge move, roll a dice; on a 4+, one enemy unit of your choice within 1&quot; suffers a mortal wound. If this unit is a a VEHICLE or BUILDING, instead it suffers D3 mortal wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="80"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Thornbacks" hidden="false" id="2bb6-7916-ec5f-18d4">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="cdae-0285-b030-eec9" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fe64-faef-17fa-44d6" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Secondary Weapons" hidden="false" id="678e-7b61-a8f7-a0c4">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Two Deathspitters With Slimer Maggots" hidden="false" id="7bf2-6c3b-b891-8a11">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5552-ff92-41ff-edea" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Deathspiiter with Brainleech Worms" id="2019-8699-fc63-9fd4" hidden="false" type="profile" targetId="5365-3af4-f8b9-c1c0"/>
+                    <infoLink name="Deathspiiter with Brainleech Worms" id="36af-384a-fa65-4285" hidden="false" type="profile" targetId="5365-3af4-f8b9-c1c0"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Two Deathspitters with Brainleech Worms" hidden="false" id="3635-3d64-8454-c7d4">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4eb0-25dc-d85f-5991" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Deathspiiter with Slimer Maggots" id="6a83-1010-d687-db16" hidden="false" type="profile" targetId="f6d7-6453-8537-9755"/>
+                    <infoLink name="Deathspiiter with Slimer Maggots" id="e92e-f3ea-3c62-4e3e" hidden="false" type="profile" targetId="f6d7-6453-8537-9755"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Main Weapon" hidden="false" id="3bfb-2b83-4486-97fb">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Stranglethorn Cannon" hidden="false" id="3e73-f8c8-3b90-5593">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="35b2-6588-6f35-71e5" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Stranglethorn Cannon" id="b2b1-b25b-76ba-5abf" hidden="false" type="profile" targetId="7833-e366-8b2e-d4a3"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Monstrous Scything Talons" hidden="false" id="1547-6fb4-f92e-bf58">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c709-59bc-7061-b72c" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Monstrous Scything Talons" id="13a5-e2a1-27cd-d47e" hidden="false" type="profile" targetId="8045-76ad-03e0-6fdb"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Thresher Scythe" hidden="false" id="4e96-6380-4986-c321">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="22ea-79e8-9e10-3513" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="7"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Thresher Scythe" id="832a-05fe-712b-1ffe" hidden="false" type="profile" targetId="69f9-85a8-11e0-99a6"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Spine Banks" hidden="false" id="3719-f0f2-cecb-f723">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36f8-4d1a-e04b-327a" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Spine Banks" id="0592-fb95-27b4-b70b" hidden="false" type="profile" targetId="a3af-7aca-27ca-a131"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="d846-58d0-ecf2-9549">
+              <infoLinks>
+                <infoLink name="Adrenal Glands" id="b43b-4a51-9c35-f964" hidden="false" type="profile" targetId="281b-6846-cb70-5033"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c0f0-c29d-26b8-67b1" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="d428-2e47-0775-5d0b">
+              <infoLinks>
+                <infoLink name="Toxin Sacs" id="6ae8-cddf-65f6-ca84" hidden="false" type="profile" targetId="906c-75c9-f17f-ea06"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10a2-9ad5-2af4-12c3" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Enhanced Senses" hidden="false" id="6227-3859-0771-8bde">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f44a-4360-9fd5-d20f" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Enhanced Senses" id="db6c-09aa-7ddd-72cc" hidden="false" type="profile" targetId="7b23-712b-fbab-300e"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <infoLinks>
+            <infoLink name="Carnifex" id="2445-eb5d-19d0-1c4f" hidden="false" type="profile" targetId="aaff-9089-d7cf-5a6e"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="75"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="ba49-f4b5-60df-6b8f" id="4cb8-e69d-e73c-163b" primary="false" name="Monster"/>
+        <categoryLink targetId="e52c-b741-deee-a791" id="e52d-0c10-3e86-678a" primary="false" name="Faction: Tyranids"/>
+        <categoryLink targetId="c60d-766f-a98b-b80e" id="4619-6b84-f017-904a" primary="false" name="Faction: Hive Fleet"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Monsters Adaptive Physiology" hidden="false" id="ab62-e3db-b0be-292f" type="selectionEntry" targetId="8fa3-dc21-98bb-cfb1"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Living Battering Ram" id="9820-ad9a-8a84-c695" hidden="false" type="profile" targetId="2173-9642-ebb7-8b8d"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Thronback Brood" hidden="false" id="f866-8e6b-7295-676c">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Thornbacks" hidden="false" id="e994-80e4-37f0-1236">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="8c7c-f5bc-8bc5-2b86" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c4bf-8b27-91c7-3cf3" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Secondary Weapons" hidden="false" id="c887-2811-2746-b1c9">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Two Deathspitters With Slimer Maggots" hidden="false" id="9757-8564-4577-5f44">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="19e5-7b30-5a86-49f0" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Deathspiiter with Brainleech Worms" id="fe86-6eca-5620-ec0f" hidden="false" type="profile" targetId="5365-3af4-f8b9-c1c0"/>
+                    <infoLink name="Deathspiiter with Brainleech Worms" id="bdcc-ebab-9cfd-062e" hidden="false" type="profile" targetId="5365-3af4-f8b9-c1c0"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Two Deathspitters with Brainleech Worms" hidden="false" id="e568-5997-2e11-5a24">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b99e-beaa-b0ac-f799" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Deathspiiter with Slimer Maggots" id="5b2c-f1d3-2cf2-7d83" hidden="false" type="profile" targetId="f6d7-6453-8537-9755"/>
+                    <infoLink name="Deathspiiter with Slimer Maggots" id="5898-42a6-943a-fc87" hidden="false" type="profile" targetId="f6d7-6453-8537-9755"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Main Weapon" hidden="false" id="187b-d961-f4ce-155a">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Stranglethorn Cannon" hidden="false" id="3a48-c462-846c-ee51">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee7d-15a8-4029-dbac" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Stranglethorn Cannon" id="6dbb-43ae-adbd-b79e" hidden="false" type="profile" targetId="7833-e366-8b2e-d4a3"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Monstrous Scything Talons" hidden="false" id="cede-3f34-ec6b-693e">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6323-b261-a2f9-ce8b" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Monstrous Scything Talons" id="6b66-0b39-cb64-17e4" hidden="false" type="profile" targetId="8045-76ad-03e0-6fdb"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Thresher Scythe" hidden="false" id="c796-935d-ae4b-b3ac">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a71-77d9-f7ad-d3d8" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="7"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Thresher Scythe" id="48a3-384c-d6e7-6473" hidden="false" type="profile" targetId="69f9-85a8-11e0-99a6"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Spine Banks" hidden="false" id="060a-1210-8d26-a0ab">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a2cf-544a-ff58-0a29" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Spine Banks" id="01dd-6be7-eaa4-31bf" hidden="false" type="profile" targetId="a3af-7aca-27ca-a131"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="405b-5b15-4e54-6a28">
+              <infoLinks>
+                <infoLink name="Adrenal Glands" id="ce43-c07f-24a9-1a9c" hidden="false" type="profile" targetId="281b-6846-cb70-5033"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7cfb-e928-fbdc-7089" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="b757-b7f1-539a-afae">
+              <infoLinks>
+                <infoLink name="Toxin Sacs" id="0fae-2f7b-d357-2ecb" hidden="false" type="profile" targetId="906c-75c9-f17f-ea06"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b59-44ba-6462-c668" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Enhanced Senses" hidden="false" id="9e64-628a-9ba9-d458">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aaa3-bf8c-a728-4da5" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Enhanced Senses" id="c9a9-24d2-56ea-332b" hidden="false" type="profile" targetId="7b23-712b-fbab-300e"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <infoLinks>
+            <infoLink name="Carnifex" id="0a32-1b86-e166-95be" hidden="false" type="profile" targetId="aaff-9089-d7cf-5a6e"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="75"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="ba49-f4b5-60df-6b8f" id="3005-9d61-b8ef-7efb" primary="false" name="Monster"/>
+        <categoryLink targetId="e52c-b741-deee-a791" id="6b61-0cce-c366-461d" primary="false" name="Faction: Tyranids"/>
+        <categoryLink targetId="c60d-766f-a98b-b80e" id="5f0d-dbbe-4026-8efe" primary="false" name="Faction: Hive Fleet"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Monsters Adaptive Physiology" hidden="false" id="b0f6-768f-da92-4c3b" type="selectionEntry" targetId="8fa3-dc21-98bb-cfb1"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Living Battering Ram" id="11af-fe66-ce7e-24c5" hidden="false" type="profile" targetId="2173-9642-ebb7-8b8d"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Neurogaunt" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="bd0a-6fde-cdd5-fb78">
@@ -8508,6 +8696,21 @@ At the end of your Shooting phase, select one enemy unit that had one or more mo
     <entryLink import="true" name="Tyranid infantry Swarm" hidden="false" id="32b0-9ca4-9235-1b5d" targetId="356b-654c-8d3a-59cd" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="168f-b2da-4fd7-90d7" id="eae8-3669-bcdf-4f2a" primary="true" name="Troop"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Screamer-killer Brood" hidden="false" id="6778-0bdb-9c4a-cbe7" targetId="8642-18d9-1f96-63aa" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="4597-ff43-1b4c-478d" id="2cef-e73b-9864-b0c1" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="StoneCrusher Brood" hidden="false" id="1466-197e-532b-cc4a" targetId="08d1-6236-3de8-eb69" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="4597-ff43-1b4c-478d" id="31ba-689a-d2d9-9fa3" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Thronback Brood" hidden="false" id="9a49-dd9e-d7ef-9f43" targetId="f866-8e6b-7295-676c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="4597-ff43-1b4c-478d" id="752e-3150-97f5-b7a4" primary="true" name="Heavy Support"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
