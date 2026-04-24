@@ -695,7 +695,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+1</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Sweeping 2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Sweeping 1</characteristic>
       </characteristics>
     </profile>
     <profile name="Eightbound Chainfist" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="395a-1e03-1773-be6a">
@@ -3034,6 +3034,7 @@ Each time you make a Blessings of Khorne roll, roll an additional D6 for each bl
         <infoLink name="Krak Grenade" id="50d0-d1ae-c408-b35c" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
         <infoLink name="Sigil of Corruption" id="b8f8-0856-01bd-f896" hidden="false" type="profile" targetId="9ca5-041a-ec6a-fe8d"/>
         <infoLink name="Bolt Pistol" id="83b7-479f-b3b2-1535" hidden="false" type="profile" targetId="1806-24b6-c877-b09c"/>
+        <infoLink name="Juggernaut&apos;s Bladed horn" id="d5a9-382f-3a3a-360d" hidden="false" type="profile" targetId="a90c-5794-476e-392c"/>
       </infoLinks>
       <profiles>
         <profile name="Leading the Charge (Aura)" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="677f-f594-ceb3-b385">

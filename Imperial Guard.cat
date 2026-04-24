@@ -695,12 +695,18 @@
     </profile>
     <profile name="Move! Move! Move!" typeId="1b09-2146-ec48-394d" typeName="Voice of Command Orders" hidden="false" id="6e14-1f1c-52a2-fada">
       <characteristics>
-        <characteristic name="Effect" typeId="7b5b-a998-c03d-a3d7">Instead of shooting this phase the ordered unit immediately moves as if it were the Movement phase. It must Advance as part of this move, and cannot declare a charge during this turn.</characteristic>
+        <characteristic name="Effect" typeId="7b5b-a998-c03d-a3d7">Models in the Affected Unit have +3&quot; to their Movement, Advance, and charge moves for this turn.</characteristic>
       </characteristics>
     </profile>
     <profile name="Voice Of Command" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="014c-945a-d0be-e73d">
       <characteristics>
-        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This unit may issue one order per turn to the soldiers under their command at the start of their Shooting phase. Orders may only be issued to INFANTRY units within 6&quot; of this unit that have the same keyword as this unit. To issue an order, pick a target unit and choose which order you wish to issue from the table below. A unit may only be affected by one order per turn.</characteristic>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Each OFFICER’s datasheet will specify how many Orders it can issue in a battle round and which units are eligible to receive those Orders. Each time an Officer model issues an Order, select one of the Orders below, then select one eligible friendly unit within 6&quot; of that Officer model to issue it to.
+
+
+OFFICER models can issue Orders in your Command phase and at the end of a phase in which they disembarked from a TRANSPORT or were set up on the battlefield.
+
+
+Until the start of your next Command phase, the unit you selected is affected by the Order/s. Unless otherwise stated.</characteristic>
       </characteristics>
     </profile>
     <profile name="First Rank, Fire! Second Rank, Fire!" typeId="1b09-2146-ec48-394d" typeName="Voice of Command Orders" hidden="false" id="ae93-89df-2bfd-8342">
@@ -2890,6 +2896,7 @@
               </constraints>
               <infoLinks>
                 <infoLink name="Platoon Commander" id="01e7-05cf-0950-0480" hidden="false" type="profile" targetId="8dae-0e51-3d83-9c24"/>
+                <infoLink name="Voice Of Command" id="3079-c852-a75c-1ba3" hidden="false" type="profile" targetId="014c-945a-d0be-e73d"/>
               </infoLinks>
               <categoryLinks>
                 <categoryLink name="Character" hidden="false" id="4fb0-81ba-97f1-3c8d" targetId="3275-df5e-2474-90ed" primary="false"/>
@@ -4686,7 +4693,6 @@
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Psykana Disipline" hidden="false" id="6e00-99e0-54a9-683c"/>
       </selectionEntries>
       <categoryLinks>
         <categoryLink targetId="2853-e9f2-7a9e-0e91" id="6702-89e0-a1f5-d5a7" primary="false" name="Infantry"/>
@@ -4695,6 +4701,28 @@
         <categoryLink targetId="6466-1173-0f9f-9c6c" id="08aa-e045-1122-60ec" primary="false" name="Faction: &lt;REGIMENT&gt;"/>
         <categoryLink targetId="4109-22ee-8500-a629" id="75c8-e56d-56f7-946e" primary="false" name="Squad"/>
       </categoryLinks>
+      <profiles>
+        <profile name="Wyrdvane Psykers" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="eab8-6279-8bcc-7b52">
+          <characteristics>
+            <characteristic name="Cast" typeId="ab6d-5995-d985-b192">1</characteristic>
+            <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
+            <characteristic name="Powers Known" typeId="7e89-4bd8-8f12-0cf7">2 Powers From the Psykana Disipline</characteristic>
+            <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="It&apos;s For Your Own Good" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="d24d-ba0c-e162-ba1b">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">If this model is slain as a result of Perils of the Warp whilst within 6&quot; of a friendly COMMISSAR they are executed before anything untoward can happen -- the power they were attempting still fails, but units within 6&quot; of them do not suffer D3 mortal wounds as normal.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Psykana Disipline" hidden="false" id="72d9-ad2d-5b31-4de9" type="selectionEntry" targetId="f9b6-df53-232e-d378">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="0233-7459-2b08-db89" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Tech-priest Enginseer" hidden="false" id="ab02-731f-2ff7-85d9">
       <costs>
@@ -4744,6 +4772,7 @@
         <infoLink name="Summary Execution" id="14b1-ffb4-b4a4-cbaa" hidden="false" type="profile" targetId="2d1a-0c27-b311-9915"/>
         <infoLink name="Refractor Field" id="493b-3dde-6f3b-0ac5" hidden="false" type="profile" targetId="7869-2ab4-1ad3-9962"/>
         <infoLink name="Aura of Discipline" id="bd11-cdd6-6332-1513" hidden="false" type="profile" targetId="d287-bdd0-cacb-92e1"/>
+        <infoLink name="Voice Of Command" id="75a8-f125-d143-f71d" hidden="false" type="profile" targetId="014c-945a-d0be-e73d"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Melee Weapon" hidden="false" id="38a9-2284-8a4c-97ce">
@@ -4900,6 +4929,13 @@
           </characteristics>
         </profile>
       </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Display Infantry Orders" hidden="false" id="da9a-4afd-ab38-b8b2" type="selectionEntry" targetId="b866-473b-41e7-3b71">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e93-6df4-fa4e-e5bf" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Sentinel Squad" hidden="false" id="69eb-7f84-b161-51e4">
       <selectionEntries>
@@ -7773,6 +7809,7 @@ Models in those units count as having made a Normal Move this phase they cannon 
       <infoLinks>
         <infoLink name="Lord Castellan" id="41ee-1d10-f654-0646" hidden="false" type="profile" targetId="5d2f-9426-9b60-0227"/>
         <infoLink name="Refractor Field" id="7f1e-5e24-2ec1-f4fa" hidden="false" type="profile" targetId="7869-2ab4-1ad3-9962"/>
+        <infoLink name="Voice Of Command" id="98d4-acb8-4efe-304a" hidden="false" type="profile" targetId="014c-945a-d0be-e73d"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Melee Weapon" hidden="false" id="ab5e-d1f4-b0a3-8111">
@@ -7934,6 +7971,13 @@ Models in those units count as having made a Normal Move this phase they cannon 
           </characteristics>
         </profile>
       </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Display Infantry Orders" hidden="false" id="e47b-7224-9ade-5b1f" type="selectionEntry" targetId="b866-473b-41e7-3b71">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="355d-fd1d-c9b8-9dea" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Tank Commander" hidden="false" id="c077-efc0-86a4-6e37">
       <categoryLinks>
@@ -8500,6 +8544,7 @@ Models in those units count as having made a Normal Move this phase they cannon 
       <infoLinks>
         <infoLink name="Smoke Launchers" id="c514-dc20-fdb2-d03d" hidden="false" type="rule" targetId="51af-0fb9-3ca5-d307"/>
         <infoLink name="Explodes" id="9a41-645d-6e1a-1796" hidden="false" type="rule" targetId="3541-94a7-a138-358b"/>
+        <infoLink name="Voice Of Command" id="5ceb-a4de-d5e9-bbcf" hidden="false" type="profile" targetId="014c-945a-d0be-e73d"/>
       </infoLinks>
       <profiles>
         <profile name="Grinding Advance" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="7495-dea2-d68b-9cf5">
@@ -9218,6 +9263,7 @@ Models in those units count as having made a Normal Move this phase they cannon 
       <infoLinks>
         <infoLink name="Smoke Launchers" id="5a8e-7f69-183e-3066" hidden="false" type="rule" targetId="51af-0fb9-3ca5-d307"/>
         <infoLink name="Explodes" id="685c-b0ae-4df7-f72a" hidden="false" type="rule" targetId="3541-94a7-a138-358b"/>
+        <infoLink name="Voice Of Command" id="7e36-f655-c336-cc57" hidden="false" type="profile" targetId="014c-945a-d0be-e73d"/>
       </infoLinks>
       <profiles>
         <profile name="Grinding Advance" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="4a52-f923-bde0-03a7">
@@ -10006,6 +10052,7 @@ Models in those units count as having made a Normal Move this phase they cannon 
               <infoLinks>
                 <infoLink name="Platoon Comander Rough Rider" id="56e9-b31c-d21f-b58f" hidden="false" type="profile" targetId="b262-90e5-7c84-a3fc"/>
                 <infoLink name="Refractor Field" id="a7db-de37-ea5a-cdec" hidden="false" type="profile" targetId="7869-2ab4-1ad3-9962"/>
+                <infoLink name="Voice Of Command" id="e1fb-bbb0-ee3a-828e" hidden="false" type="profile" targetId="014c-945a-d0be-e73d"/>
               </infoLinks>
               <categoryLinks>
                 <categoryLink name="Character" hidden="false" id="4f94-2677-7b1c-8df7" targetId="3275-df5e-2474-90ed" primary="false"/>
@@ -10172,6 +10219,7 @@ Models in those units count as having made a Normal Move this phase they cannon 
               <infoLinks>
                 <infoLink name="Commissar Rough Rider" id="ef2b-583d-539a-6d65" hidden="false" type="profile" targetId="4135-e351-d38b-70ec"/>
                 <infoLink name="Refractor Field" id="5cb6-0cb5-7e4a-a8f5" hidden="false" type="profile" targetId="7869-2ab4-1ad3-9962"/>
+                <infoLink name="Voice Of Command" id="941c-36a2-1d12-c093" hidden="false" type="profile" targetId="014c-945a-d0be-e73d"/>
               </infoLinks>
               <categoryLinks>
                 <categoryLink name="Character" hidden="false" id="775c-0f8a-042a-e4b0" targetId="3275-df5e-2474-90ed" primary="false"/>
@@ -10192,7 +10240,7 @@ Models in those units count as having made a Normal Move this phase they cannon 
               <profiles>
                 <profile name="Platoon Comander" typeId="abf5-f04d-4fc0-84e9" typeName="Officer Orders" hidden="false" id="8c91-a149-bc1d-1b10">
                   <characteristics>
-                    <characteristic name="Number of Orders" typeId="a973-b1f8-b5d4-d045">2</characteristic>
+                    <characteristic name="Number of Orders" typeId="a973-b1f8-b5d4-d045">1</characteristic>
                     <characteristic name="Order Targets" typeId="3fa9-81d9-a5f8-c210">Infantry and Calvary</characteristic>
                   </characteristics>
                 </profile>
@@ -10544,6 +10592,7 @@ Models in those units count as having made a Normal Move this phase they cannon 
               <infoLinks>
                 <infoLink name="Platoon Comander Rough Rider" id="7ef2-bc0e-2f8b-241f" hidden="false" type="profile" targetId="b262-90e5-7c84-a3fc"/>
                 <infoLink name="Refractor Field" id="482d-f25c-3109-a5e7" hidden="false" type="profile" targetId="7869-2ab4-1ad3-9962"/>
+                <infoLink name="Voice Of Command" id="eb70-ee2e-1cb1-b64a" hidden="false" type="profile" targetId="014c-945a-d0be-e73d"/>
               </infoLinks>
               <categoryLinks>
                 <categoryLink name="Character" hidden="false" id="a88e-2a8d-00de-d876" targetId="3275-df5e-2474-90ed" primary="false"/>
@@ -10710,6 +10759,7 @@ Models in those units count as having made a Normal Move this phase they cannon 
               <infoLinks>
                 <infoLink name="Commissar Rough Rider" id="fe4c-f140-584e-71be" hidden="false" type="profile" targetId="4135-e351-d38b-70ec"/>
                 <infoLink name="Refractor Field" id="4e99-1dea-50b4-33e0" hidden="false" type="profile" targetId="7869-2ab4-1ad3-9962"/>
+                <infoLink name="Voice Of Command" id="2b35-88af-9efc-6410" hidden="false" type="profile" targetId="014c-945a-d0be-e73d"/>
               </infoLinks>
               <categoryLinks>
                 <categoryLink name="Character" hidden="false" id="28a3-a8b4-12be-5d43" targetId="3275-df5e-2474-90ed" primary="false"/>
@@ -10730,7 +10780,7 @@ Models in those units count as having made a Normal Move this phase they cannon 
               <profiles>
                 <profile name="Platoon Comander" typeId="abf5-f04d-4fc0-84e9" typeName="Officer Orders" hidden="false" id="b2a3-25a0-0913-a1c9">
                   <characteristics>
-                    <characteristic name="Number of Orders" typeId="a973-b1f8-b5d4-d045">2</characteristic>
+                    <characteristic name="Number of Orders" typeId="a973-b1f8-b5d4-d045">1</characteristic>
                     <characteristic name="Order Targets" typeId="3fa9-81d9-a5f8-c210">Infantry and Calvary</characteristic>
                   </characteristics>
                 </profile>
@@ -11015,6 +11065,223 @@ Models in those units count as having made a Normal Move this phase they cannon 
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0024-cb6b-bf1e-bc1f" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Psykana Disipline" hidden="false" id="f9b6-df53-232e-d378">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Psychic Maelstrom" hidden="false" id="b99d-8008-9901-8bb5">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a09-fff7-db19-db80" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Psychic Maelstrom" typeId="e57e-15c3-e702-5811" typeName="Psychic Power Weapon" hidden="false" id="70af-23cd-440d-c66d">
+              <characteristics>
+                <characteristic name="Cast" typeId="b070-88f4-6531-deb7">5</characteristic>
+                <characteristic name="Range" typeId="257a-022c-bfc5-a51f">18&quot;</characteristic>
+                <characteristic name="Type" typeId="6bc2-4191-d0d9-71d5">Heavy D6+1</characteristic>
+                <characteristic name="S" typeId="a4b2-ce42-4524-4475">6</characteristic>
+                <characteristic name="AP" typeId="ad1a-ecf9-b29f-0f6a">-2</characteristic>
+                <characteristic name="D" typeId="4249-543a-3dc5-4143">2</characteristic>
+                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Devastating wounds, Psychic Power</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Malign Wardings" hidden="false" id="6968-9ffe-aa2c-8ba7">
+          <profiles>
+            <profile name="Malign Wardings" typeId="f7ae-1618-90a8-558c" typeName="Psychic Power (Augment/HEX)" hidden="false" id="8e3e-1bd6-43ab-aa79">
+              <characteristics>
+                <characteristic name="Warp Charge" typeId="073a-3360-beab-6247">8</characteristic>
+                <characteristic name="Range" typeId="59ce-10fb-8689-2d17">9&quot;</characteristic>
+                <characteristic name="Details" typeId="f78e-01c6-7e67-f2db">And Unit wholly within 9&quot; of this model have a 4+ Feel no pain Save</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="87f2-d1d3-e4dc-b69d" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psychic Barrier" hidden="false" id="ac35-860b-975a-9f4f">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c3a0-9728-376e-f681" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Psychic Barrier" typeId="f7ae-1618-90a8-558c" typeName="Psychic Power (Augment/HEX)" hidden="false" id="965f-e16a-4adb-1753">
+              <characteristics>
+                <characteristic name="Warp Charge" typeId="073a-3360-beab-6247">7</characteristic>
+                <characteristic name="Range" typeId="59ce-10fb-8689-2d17">12&quot;</characteristic>
+                <characteristic name="Details" typeId="f78e-01c6-7e67-f2db">Select 1 Friendly Imperial Guard unit within 12&quot;, that unit gains a 4+ Invulnerable save Until the Next Turn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Gaze of the Emperor" hidden="false" id="095c-f13d-3127-f136">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="853a-af23-68fa-0b55" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Gaze of the Emperor" typeId="e57e-15c3-e702-5811" typeName="Psychic Power Weapon" hidden="false" id="9b9c-bf7f-b9f0-6c12">
+              <characteristics>
+                <characteristic name="Cast" typeId="b070-88f4-6531-deb7">6</characteristic>
+                <characteristic name="Range" typeId="257a-022c-bfc5-a51f">2D6&quot;</characteristic>
+                <characteristic name="Type" typeId="6bc2-4191-d0d9-71d5">Pistol D6</characteristic>
+                <characteristic name="S" typeId="a4b2-ce42-4524-4475">5</characteristic>
+                <characteristic name="AP" typeId="ad1a-ecf9-b29f-0f6a">-3</characteristic>
+                <characteristic name="D" typeId="4249-543a-3dc5-4143">1</characteristic>
+                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Weapon, fire Line</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Mental Fortitude" hidden="false" id="0b63-6739-a13b-399f">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="06e1-9113-84f6-59ec" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Mental Fortitude" typeId="f7ae-1618-90a8-558c" typeName="Psychic Power (Augment/HEX)" hidden="false" id="f7ad-2b5f-20b4-f407">
+              <characteristics>
+                <characteristic name="Warp Charge" typeId="073a-3360-beab-6247">4</characteristic>
+                <characteristic name="Range" typeId="59ce-10fb-8689-2d17">12&quot;</characteristic>
+                <characteristic name="Details" typeId="f78e-01c6-7e67-f2db">Select a friendly Imperial Guard unit within 12&quot; of the Psyker. Until the start of your next Psychic phase, that unit automatically passes Morale tests.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Nightshroud" hidden="false" id="9d5d-782c-ffce-b23a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c2c2-3590-fed8-1b98" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Nightshroud" typeId="f7ae-1618-90a8-558c" typeName="Psychic Power (Augment/HEX)" hidden="false" id="8d1a-c09e-8bb5-8394">
+              <characteristics>
+                <characteristic name="Warp Charge" typeId="073a-3360-beab-6247">6</characteristic>
+                <characteristic name="Range" typeId="59ce-10fb-8689-2d17">12&quot;</characteristic>
+                <characteristic name="Details" typeId="f78e-01c6-7e67-f2db">Choose a Friendly Imperial Guard Unit within 12&quot; that unit gains the Shroud Special Rule</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Terrifying Visions" hidden="false" id="c68e-0be2-10f0-b256">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="550c-0d4a-75f8-38e0" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Terrifying Visions" typeId="f7ae-1618-90a8-558c" typeName="Psychic Power (Augment/HEX)" hidden="false" id="9978-bea2-bd3f-b53e">
+              <characteristics>
+                <characteristic name="Warp Charge" typeId="073a-3360-beab-6247">7</characteristic>
+                <characteristic name="Range" typeId="59ce-10fb-8689-2d17">18&quot;</characteristic>
+                <characteristic name="Details" typeId="f78e-01c6-7e67-f2db">Choose an enemy unit within 18&quot; of the Psyker. That unit subtracts 2 from its Leadership until the start of your next turn. In addition the unit must make a leadership test at the end of the turn during the moral Phase.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="99f4-9c87-2155-913a" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Primus Psyker" hidden="false" id="b514-3a85-5c0a-e564">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Psychic Instrument" hidden="false" id="3b8f-f51b-2736-a976">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b60e-5418-7d27-9815" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0607-2cb3-b34f-33c2" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Force Stave" hidden="false" id="5dba-bce5-7683-5e15">
+              <infoLinks>
+                <infoLink name="Force Stave" id="452b-6e4b-8b45-10c8" hidden="false" type="profile" targetId="86a0-a213-8387-198f"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="67e8-fb76-553d-93d9" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Force Sword" hidden="false" id="9ef0-e6a2-90ef-ef02">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b36-be10-41f5-a4fe" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Force Sword" id="76b7-ab51-c7b0-a020" hidden="false" type="profile" targetId="8d16-4846-5186-9762"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Pistol" hidden="false" id="5e6e-95da-3ad5-ea02">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Laspistol" hidden="false" id="c4dc-b973-7472-015a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9496-a0bc-e0b0-f6d4" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Laspistol" id="e99a-ae9d-4de8-efcc" hidden="false" type="profile" targetId="1911-a700-cd50-763d"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bolt pistol" hidden="false" id="d3ca-00b1-dd58-f134">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="1"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d36-dcbd-8882-6ae7" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Bolt Pistol" id="9458-1a24-ba4f-6539" hidden="false" type="profile" targetId="1806-24b6-c877-b09c"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8405-987d-b585-1a2a" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cbb1-c1a0-74c5-27eb" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="38"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Primaris Psyker" id="4f18-603c-8679-2345" hidden="false" type="profile" targetId="98b0-f403-1235-d946"/>
+      </infoLinks>
+      <profiles>
+        <profile name="It&apos;s For Your Own Good" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="33d3-6483-9a09-874d">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">If this model is slain as a result of Perils of the Warp whilst within 6&quot; of a friendly COMMISSAR they are executed before anything untoward can happen -- the power they were attempting still fails, but units within 6&quot; of them do not suffer D3 mortal wounds as normal.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Primus Psyker" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="7949-3d1e-1f45-addd">
+          <characteristics>
+            <characteristic name="Cast" typeId="ab6d-5995-d985-b192">1</characteristic>
+            <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
+            <characteristic name="Powers Known" typeId="7e89-4bd8-8f12-0cf7">Smite &amp; 2 from Psykana Disipline</characteristic>
+            <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Psykana Disipline" hidden="false" id="645b-0721-025f-86af" type="selectionEntry" targetId="f9b6-df53-232e-d378">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4740-fe41-6443-d0dc" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="63f7-ef67-d9db-610d" primary="false" name="Infantry"/>
+        <categoryLink targetId="ee96-9320-87e8-2474" id="64c0-5b8c-6994-56bf" primary="false" name="Psyker"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="0ce5-0846-b7af-0bda" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="d600-490e-cd19-6402" id="fbf1-8111-8ce3-0e60" primary="false" name="Faction: Imperial Guard"/>
+        <categoryLink targetId="6466-1173-0f9f-9c6c" id="6bb8-f4c0-85ab-98b5" primary="false" name="Faction: &lt;REGIMENT&gt;"/>
+      </categoryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <profileTypes>
     <profileType name="Voice of Command Orders" id="1b09-2146-ec48-394d" hidden="false">
@@ -11233,6 +11500,11 @@ Models in those units count as having made a Normal Move this phase they cannon 
     <entryLink import="true" name="Conscripts" hidden="false" id="124e-5515-0af1-f733" targetId="10f6-f2a5-229d-4f7e" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Troop" hidden="false" id="c415-9aba-e360-2379" targetId="168f-b2da-4fd7-90d7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Primus Psyker" hidden="false" id="5b11-c31f-ae92-810a" targetId="b514-3a85-5c0a-e564" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="df66-426b-8561-5154" id="c41b-90d0-3b3a-2866" primary="true" name="HQ"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
