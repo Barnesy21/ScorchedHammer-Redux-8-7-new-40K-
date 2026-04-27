@@ -3340,8 +3340,7 @@ In addition, when a Psychic test or Deny the Witch test is taken for a PSYKER mo
                     <rule name="Pack&apos;s Quarry" id="0458-5d34-5365-d42e" hidden="false">
                       <description>Each time a model in a SPACE WOLVES unit from your army makes a melee attack that targets an enemy unit, if that enemy unit is within Engagement Range of one or more other ADEPTUS ASTARTES units from your army, or if the attacking unit contains more models than that enemy unit:
 Add 1 to the Hit roll.
-If your Saga is completed (see below), add 1 to the Wound roll as well.
-</description>
+If your Saga is completed (see below), add 1 to the Wound roll as well.</description>
                     </rule>
                     <rule name="Saga of the Hunter" id="2565-125e-7afa-4805" hidden="false">
                       <description>At the start of the first battle round, your Quarry tally is 0. Each time an ADEPTUS ASTARTES unit from your army fights, after all of those attacks have been resolved, add 1 to your Quarry tally for each enemy unit destroyed by those attacks.
@@ -30342,6 +30341,16 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
         <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="dc61-220d-24fe-cfe4">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ef84-d9ed-cdbd-a43e" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="(SW) Wulfen Dreadnought" hidden="true" id="16b2-624d-e738-dab3">
       <modifiers>
@@ -33775,6 +33784,16 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
         <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="7906-09a0-2262-4d77">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="26f5-2429-d1c4-599e" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="(SW)Harald Deathwolf" hidden="true" id="a17d-3066-52ef-4ffb">
       <modifiers>
@@ -33850,6 +33869,16 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
         <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="52f9-d93a-1826-f7ca">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1c73-8e3c-c44e-fb46" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="(SW) Arjac Rockfist" hidden="true" id="33f5-2d41-ae30-6f91">
       <modifiers>
@@ -33924,6 +33953,16 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
         <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="02d6-9727-ef84-e14c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="41ba-ae86-77c2-71cb" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="(SW)Canis Wolfborn" hidden="true" id="7acc-4bef-5910-bf94">
       <modifiers>
@@ -33987,6 +34026,16 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
         <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="62ec-d568-e734-9dc6">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="63a8-64a6-8bf4-046d" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
@@ -36752,7 +36801,7 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
   </categoryEntries>
   <sharedRules>
     <rule name="Defenders of Humanity" id="4013-fd05-a716-0435" hidden="false">
-      <description>A unit with this ability that is within range of an objective marker (as specified in the mission) controls the objective marker even if there are more enemy models within range of that objective marker. If an enemy unit within range of the same objective marker has a similar ability, then the objective marker is controlled by the player who has the most models within range of it as normal.</description>
+      <description>A unit with this ability that is within range of an objective marker (as specified in the mission) controls the objective marker even if they are no longer on the objective marker. For calculating who has control of an objective marker, a unit must have more Objective control then the unit that has this ability. </description>
     </rule>
     <rule name="Hunters Unleashed" id="d6a6-8630-3a95-e8fc" hidden="false">
       <description>In any turn in which a unit with this ability made a charge move, was charged or performed a Heroic Intervention, you can add 1 to its hit rolls in the Fight phase. In addition, CHARACTERS with this ability can perform a Heroic Intervention if, after the enemy has completed all of their charge moves, there are any enemy units within 6&quot; of them. They can move up to 6&quot; when performing a Heroic Intervention, so long as they end the move closer to the nearest enemy model.</description>

@@ -1645,7 +1645,7 @@
     <selectionEntry type="model" import="true" name="Lictor" hidden="false" id="d8e7-7733-5e7c-1e39">
       <infoLinks>
         <infoLink name="Lictor" id="b90a-eacb-c0cd-fb92" hidden="false" type="profile" targetId="2f45-89e0-f8ca-76dc"/>
-        <infoLink name="Rending Claws" id="30b4-4732-f4f6-f6d4" hidden="false" type="profile" targetId="c0ff-dd84-6604-f4ec"/>
+        <infoLink name="Lictor Talons" id="30b4-4732-f4f6-f6d4" hidden="false" type="profile" targetId="284a-757c-2d6b-c1ba"/>
         <infoLink name="Flesh hooks" id="d63b-d286-208b-eff7" hidden="false" type="profile" targetId="5f2b-a9af-3f7f-2dcf"/>
         <infoLink name="Flesh Hooks" id="df3d-08cb-9b51-ab6d" hidden="false" type="profile" targetId="085b-c758-00a6-cd86"/>
         <infoLink name="Grasping Talons" id="d212-9124-ceb5-c192" hidden="false" type="profile" targetId="6fed-b998-bba6-a6f5"/>
@@ -1654,6 +1654,7 @@
         <infoLink name="Stealth" id="9d9b-a888-4c8a-4a34" hidden="false" type="rule" targetId="24e0-4273-1fac-40cd"/>
         <infoLink name="Feeder Tendrils" id="749a-4a12-f31a-811c" hidden="false" type="profile" targetId="c5b3-4472-2fb6-b3ba"/>
         <infoLink name="Lightning reflexes (Lictor)" id="2fd8-7509-489b-a525" hidden="false" type="profile" targetId="da2d-79c1-80c6-cd19"/>
+        <infoLink name="Rending Claws" id="788a-97af-34da-44b7" hidden="false" type="profile" targetId="c0ff-dd84-6604-f4ec"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Infantry Adaptive Physiology" hidden="false" id="ab9b-0588-04ed-37cb" type="selectionEntry" targetId="0f1c-94cd-371c-fb92"/>
@@ -1685,6 +1686,7 @@
         <infoLink name="Synapse" id="0806-3662-b66c-cb30" hidden="false" type="rule" targetId="a415-8e5d-69aa-02f4"/>
         <infoLink name="Synaptic Backlash Lessor" id="4e36-1710-8495-b8a6" hidden="false" type="rule" targetId="c22c-ce89-e752-35d8"/>
         <infoLink name="Shadow in the Warp" id="ba27-9d7a-b910-3ede" hidden="false" type="rule" targetId="9016-82fe-c277-2be5"/>
+        <infoLink name="Lictor Talons" id="87a6-0697-acde-d5cb" hidden="false" type="profile" targetId="284a-757c-2d6b-c1ba"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Infantry Adaptive Physiology" hidden="false" id="0b63-196e-3d7f-9648" type="selectionEntry" targetId="0f1c-94cd-371c-fb92"/>
@@ -5464,6 +5466,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
         <infoLink name="Grasping Talons" id="d405-5c9f-3b9c-a16a" hidden="false" type="profile" targetId="6fed-b998-bba6-a6f5"/>
         <infoLink name="Rending Claws" id="60b9-6b24-3f67-d308" hidden="false" type="profile" targetId="c0ff-dd84-6604-f4ec"/>
         <infoLink name="Lightning reflexes (Lictor)" id="e581-202a-5f24-3c48" hidden="false" type="profile" targetId="da2d-79c1-80c6-cd19"/>
+        <infoLink name="Lictor Talons" id="c344-397b-1efb-d2ff" hidden="false" type="profile" targetId="284a-757c-2d6b-c1ba"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5685-7409-93d1-e42c" includeChildSelections="true"/>
@@ -8438,6 +8441,16 @@ At the end of your Shooting phase, select one enemy unit that had one or more mo
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Each time the bearer fights, one (and only one) of its attacks can be made with this weapon. When the bearer fights with this weapon, make a number of hit rolls against one target unit equal to the number of models that the target unit has within 2&quot; of the bearer.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Lictor Talons" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="284a-757c-2d6b-c1ba">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Precision</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <categoryEntries>
     <categoryEntry name="Synapse" id="3a77-3ecc-02f1-f96b" hidden="false"/>
@@ -8568,7 +8581,7 @@ At the end of your Shooting phase, select one enemy unit that had one or more mo
         <categoryLink targetId="a2f8-3f8a-6b0f-82d7" id="cf5f-36f2-709a-e8d0" primary="true" name="Fast Attack"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Carnifex&apos;s" hidden="false" id="e84c-f2d9-030b-f035" targetId="86dc-d995-a66f-cb54" type="selectionEntry">
+    <entryLink import="true" name="Carnifex Brood" hidden="false" id="e84c-f2d9-030b-f035" targetId="86dc-d995-a66f-cb54" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="4597-ff43-1b4c-478d" id="7aa2-e52e-4dbf-1217" primary="true" name="Heavy Support"/>
       </categoryLinks>
