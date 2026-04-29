@@ -5212,6 +5212,112 @@ Note: You are not Limited to 1 Act of Faith Per Turn However you are Limited to 
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Castigator" hidden="false" id="5292-d84c-58ea-7691">
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="100"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Exorcist" id="1fe4-47a7-2ddd-f120" hidden="false" type="profile" targetId="6a5d-7eb8-08ec-8cef"/>
+        <infoLink name="Shield of Faith" id="3676-a1a9-0ad8-f540" hidden="false" type="profile" targetId="07ae-d6ca-2b7d-7bf6"/>
+        <infoLink name="Smoke Launchers" id="3c84-3386-73b0-2574" hidden="false" type="rule" targetId="51af-0fb9-3ca5-d307"/>
+        <infoLink name="Explodes" id="da0f-13b9-7dff-83ef" hidden="false" type="rule" targetId="3541-94a7-a138-358b"/>
+        <infoLink name="Heavy Bolter" id="a589-2d61-d88e-5c87" hidden="false" type="profile" targetId="e784-37b9-e7a7-5298"/>
+        <infoLink name="Rites of Castigation" id="1d06-abe3-4375-64f1" hidden="false" type="profile" targetId="31ce-6e8a-3e39-bdf9"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Hunter Killer Missile" hidden="false" id="63e5-e1ab-1e2b-17c2">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d2ac-ffd6-e61a-5005" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Hunter-Killer Missile" id="0ce5-0337-a516-cf0f" hidden="false" type="profile" targetId="efc9-6206-b4da-c6db"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Sponson Weapons" hidden="false" id="154e-3bf4-b259-71e9">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8068-8587-40bf-702f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b45a-d13f-0188-2802" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="2 Heavy Bolters" hidden="false" id="c445-c1a7-6d1f-a5a9">
+              <infoLinks>
+                <infoLink name="Heavy Bolter" id="bac8-92ea-6c0d-0c50" hidden="false" type="profile" targetId="e784-37b9-e7a7-5298"/>
+                <infoLink name="Heavy Bolter" id="46b5-8a70-ea83-7291" hidden="false" type="profile" targetId="e784-37b9-e7a7-5298"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3035-fc83-ea1e-4dde" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Main Weapon" hidden="false" id="bc97-64b9-a1e8-db04">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b072-b147-52f5-9f4c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f32-a16b-f50a-b7aa" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Castigator Battle cannon" hidden="false" id="0ca9-247e-4ec1-7f05">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2388-91ce-af33-ae69" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="65"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Castigator battle Cannon" id="115c-d5a8-8833-5b5a" hidden="false" type="profile" targetId="7fbe-3c03-3741-5b6c"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Castigator Autocannons" hidden="false" id="2512-43d8-21b6-c178">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="38fe-05ff-e8d2-2cb0" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="50"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Castigator Autocanons" id="3ca9-df85-c2e1-0fc1" hidden="false" type="profile" targetId="a1b1-9da2-2d38-7320"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Storm Bolter Pintal" hidden="false" id="358f-745b-2332-c328">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8316-0a30-1393-e981" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Storm Bolter" id="58f9-88d1-ac2b-e437" hidden="false" type="profile" targetId="5347-18e6-69ec-ea9e"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="a7a3-131f-c2e8-667f" id="0efd-35c0-9231-cf9b" primary="false" name="Vehicle"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="9b4c-f472-0e55-8973" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="48d9-a083-ab48-9c4e" id="58a2-f3dd-90b0-3206" primary="false" name="Faction: Adeptus Sororitas"/>
+        <categoryLink targetId="85d9-2da0-20da-0dc2" id="5a43-ecb9-b7fe-e22c" primary="false" name="Faction: Order"/>
+        <categoryLink targetId="3482-0a57-41c1-3aa9" id="d938-4814-bd09-0399" primary="false" name="Adeptus Sororitas"/>
+      </categoryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Faction: Order" id="85d9-2da0-20da-0dc2" hidden="false"/>
@@ -5321,6 +5427,11 @@ Note: You are not Limited to 1 Act of Faith Per Turn However you are Limited to 
     <entryLink import="true" name="Celestian Sacresants" hidden="false" id="ce76-c3e3-057e-daf3" targetId="b0cc-940a-146c-0623" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elite" hidden="false" id="6268-c586-c3ed-ec5b" targetId="f4bc-7f06-10ba-80a3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Castigator" hidden="false" id="e384-b144-28bd-6bd3" targetId="5292-d84c-58ea-7691" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Heavy Support" hidden="false" id="672e-618e-d416-1a51" targetId="4597-ff43-1b4c-478d" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
