@@ -1095,9 +1095,24 @@ D3 Effect
             <infoLink name="Scarab Occult Terminators" id="b62f-0498-affe-0118" hidden="false" type="profile" targetId="78e8-894a-48f7-71b7"/>
           </infoLinks>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="911b-a795-e9d0-88cc" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b017-2d90-51b6-4289" includeChildSelections="false"/>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="911b-a795-e9d0-88cc" includeChildSelections="false"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="b017-2d90-51b6-4289" includeChildSelections="false"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="3" field="911b-a795-e9d0-88cc">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="b858-8f27-8e0a-b001" shared="true" childName="Terminator /WF Heavy Weapon"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="b017-2d90-51b6-4289">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="b858-8f27-8e0a-b001" shared="true" childName="Terminator /WF Heavy Weapon"/>
+              </conditions>
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="b858-8f27-8e0a-b001" shared="true" roundUp="false" childName="Terminator /WF Heavy Weapon"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Scarab Occult Sorcerer" hidden="false" id="8cf2-84ee-f4eb-72a6">
           <selectionEntries>
@@ -1170,6 +1185,35 @@ D3 Effect
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae6b-60c1-2e63-9144" includeChildSelections="false"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="2" field="ae6b-60c1-2e63-9144">
+              <conditions>
+                <condition type="greaterThan" value="5" field="selections" scope="parent" childId="44b6-f2ad-3cc9-5c59" shared="true" childName="Terminator"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Hellfyre Missile Rack" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="55cb-a4ce-db38-c2ec">
+              <characteristics>
+                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 2</characteristic>
+                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+                <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Supporting Fire</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Supporting Fire" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="a03d-f3d3-45cc-5d34">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This Weapon when used by this unit may be fired in addition to other weapons equipped by this model.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Terminator /WF Heavy Weapon" hidden="false" id="b858-8f27-8e0a-b001">
           <costs>
@@ -1188,11 +1232,27 @@ D3 Effect
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ddb-053e-1977-4f51" includeChildSelections="false"/>
                   </constraints>
+                  <infoLinks>
+                    <infoLink targetId="434c-534a-0228-45e9" id="63d7-669a-157b-eef9" type="profile" name="Heavy Warpflamer" hidden="false"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="17"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Soulreaper Cannon" hidden="false" id="4a9c-8f77-b270-abda">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c79-0f9f-949c-394e" includeChildSelections="false"/>
                   </constraints>
+                  <infoLinks>
+                    <infoLink name="Soulreaper Cannon" id="7687-9b25-d452-f894" hidden="false" type="profile" targetId="474c-2ed3-6aa3-b651"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -1204,8 +1264,26 @@ D3 Effect
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6447-a4a4-cee8-12a7" includeChildSelections="false"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="2" field="6447-a4a4-cee8-12a7">
+              <conditions>
+                <condition type="greaterThan" value="5" field="selections" scope="parent" childId="any" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
+      <profiles>
+        <profile name="Terminator Armour" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="6487-ab3d-ba74-b6b5">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This model has a 5+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Favoured of Tzeentch" id="5c41-a052-195c-cfa5" hidden="false" type="rule" targetId="f1a2-945b-8e33-34cc"/>
+        <infoLink name="All is Dust" id="0c6b-4b41-cc46-1810" hidden="false" type="rule" targetId="e97c-c79b-d60f-7256"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Exaulted Sorcerer" hidden="false" id="f5f1-9cb0-fd25-a4f1">
       <costs>
@@ -1238,7 +1316,7 @@ D3 Effect
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed6b-6261-d98e-0e2d" includeChildSelections="false"/>
               </constraints>
               <infoLinks>
-                <infoLink name="Force Stave" id="9a6c-0153-9857-00f3" hidden="false" type="profile" targetId="86a0-a213-8387-198f"/>
+                <infoLink name="Prosperine Stuff" id="9a6c-0153-9857-00f3" hidden="false" type="profile" targetId="b0f5-7854-e27d-c2b3"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
@@ -1489,7 +1567,7 @@ D3 Effect
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Psychic Force, Psychic Focus, If this model is equipped with 2 Prosperine blades, Gain the Extra attack Special rule</characteristic>
       </characteristics>
     </profile>
-    <profile name="Prosperine Stuff" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="b0f5-7854-e27d-c2b3">
+    <profile name="Prosperine Stave" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="b0f5-7854-e27d-c2b3">
       <characteristics>
         <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
         <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
@@ -1611,6 +1689,16 @@ D3 Effect
         <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">You can re-roll hit rolls of 1 made for friendly THOUSAND SONS units within 6&quot; of this model.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Heavy Warpflamer" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="434c-534a-0228-45e9">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy D6</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Torrant, Ignores cover</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Favoured of Tzeentch" id="f1a2-945b-8e33-34cc" hidden="false">
@@ -1651,6 +1739,11 @@ In your Command phase, if your opponent has one or more Flux tokens, you gain on
     <entryLink import="true" name="Exaulted Sorcerer" hidden="false" id="d1b6-39d1-c98f-ed98" targetId="f5f1-9cb0-fd25-a4f1" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="HQ" hidden="false" id="5133-fdaa-561e-1104" targetId="df66-426b-8561-5154" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Scarab Occult Terminators" hidden="false" id="1b89-652b-4d12-b068" targetId="5137-8718-5fca-bb48" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Elite" hidden="false" id="f0e5-68db-53ba-c9d7" targetId="f4bc-7f06-10ba-80a3" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
