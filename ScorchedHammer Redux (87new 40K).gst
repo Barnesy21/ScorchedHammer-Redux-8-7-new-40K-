@@ -1266,7 +1266,7 @@
         <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&quot;</characteristic>
         <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 1</characteristic>
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">9</characteristic>
-        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
