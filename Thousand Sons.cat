@@ -1333,6 +1333,14 @@ D3 Effect
             <entryLink import="true" name="Disciple of Tzeentch" hidden="false" id="413d-7c19-ad84-fb69" type="selectionEntry" targetId="2c7f-4749-0514-97c0"/>
           </entryLinks>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="aba9-4120-66c4-ef00">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d2ab-f741-e3c3-684f" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
       <profiles>
         <profile name="Exaulted Sorcerer" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="f62b-c91e-cf3f-2ffd">
@@ -1638,6 +1646,11 @@ In your Command phase, if your opponent has one or more Flux tokens, you gain on
     <entryLink import="true" name="Tzaangors" hidden="false" id="8789-c897-1105-c64b" targetId="07e5-a0f6-974a-61b8" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Troop" hidden="false" id="b09a-8bdc-f8a8-cd75" targetId="168f-b2da-4fd7-90d7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Exaulted Sorcerer" hidden="false" id="d1b6-39d1-c98f-ed98" targetId="f5f1-9cb0-fd25-a4f1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="HQ" hidden="false" id="5133-fdaa-561e-1104" targetId="df66-426b-8561-5154" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
