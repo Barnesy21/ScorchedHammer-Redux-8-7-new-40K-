@@ -30247,6 +30247,13 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
           </conditions>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile name="Fire Discipline" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="2d60-a945-f340-fa2e">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">At the Start of the Shooting phase pick one enemy unit. This unit may Re-roll hit roles of 1 for ranged attacks targeting that unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="(SW) Fenrisien Wolf" hidden="true" id="c4d2-c4a2-a384-848b">
       <modifiers>
@@ -34195,6 +34202,9 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
         <infoLink name="Angels of Death" id="fd63-a0f4-644f-05ae" hidden="false" type="rule" targetId="01a4-bec8-b573-fde7"/>
         <infoLink name="Savage Fury" id="f53b-e8f8-353e-56b2" hidden="false" type="rule" targetId="074c-60fd-2407-bfa2"/>
         <infoLink name="Bolt Pistol" id="2a37-52f5-73b5-c5df" hidden="false" type="profile" targetId="1806-24b6-c877-b09c"/>
+        <infoLink name="Rites of battle" id="b35e-587f-0fba-3e46" hidden="false" type="profile" targetId="e8c1-0912-32e1-607e"/>
+        <infoLink name="Wolf Claw" id="54a3-29c6-7dab-9646" hidden="false" type="profile" targetId="98d7-5837-ec2f-bdd4"/>
+        <infoLink name="Wolf Claw" id="4274-eb7e-3b8c-4f3c" hidden="false" type="profile" targetId="98d7-5837-ec2f-bdd4"/>
       </infoLinks>
       <profiles>
         <profile name="Crushing Teeth and Claws" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="08fb-15e8-3c38-b19e">
@@ -34228,6 +34238,11 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
         <profile name="Martial Superiority" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="eb7c-cf05-1e8d-0564">
           <characteristics>
             <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">At the start of the fight phase if this model is within engagement range of an enemy character model this model has the fights first special rule.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Born of Wolves" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="7e20-0ce5-261e-9206">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Add 1 to the Attacks of Teeth and Claws or Crushing Teeth and claws attacks in the fight phase for friendly Thunderwolf, Fenrisian Wolves, or Cyber wolves Units</characteristic>
           </characteristics>
         </profile>
       </profiles>

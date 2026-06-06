@@ -4431,6 +4431,11 @@ weapon by a model in a unit with this Subkultur, while that model or any model i
           <infoLinks>
             <infoLink name="Deff Dread" id="9d3b-152d-3bec-af91" hidden="false" type="profile" targetId="e958-8c58-8fab-959c"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="85"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <profiles>
@@ -5689,6 +5694,402 @@ weapon by a model in a unit with this Subkultur, while that model or any model i
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Meka Dread" hidden="false" id="0a31-45ef-710d-74f8">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Arms" hidden="false" id="9037-f4cd-23e7-cc49">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Rippa Klaw" hidden="false" id="a4a8-74a3-caca-1e94">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="def1-28f4-9529-7931" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Rippa Klaw" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="bbf0-d6e9-0fb3-dd34">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+                    <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+                    <characteristic name="S" typeId="b6e6-61d9-0a48-2696">12</characteristic>
+                    <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+                    <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+                    <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">If this model is equipped with 2 Rippa Klaws this model gains extra attacks 2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="21"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Big Zzappa" hidden="false" id="91f0-a2be-37c1-8aba">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="967c-fcf5-9252-e99e" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Big Zzappa" id="eb64-6162-4299-d848" hidden="false" type="profile" targetId="45d5-30af-2d7b-ddd8"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="21"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="KillKannon" hidden="false" id="59f5-6ed3-c21a-67e2">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7976-5c29-c897-cd03" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Killkannon" id="2ac4-0e16-a162-1e60" hidden="false" type="profile" targetId="c038-2a9a-3c98-4fed"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="19"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Rattler Kannon" hidden="false" id="f82c-f812-dbb2-6a49">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c49f-b9d8-81ad-d8c5" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Rattler Kannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="c29b-1c06-9f89-6425">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 2D6</characteristic>
+                    <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+                    <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+                    <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+                    <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shunta Kannon" hidden="false" id="abfc-18d2-bebc-b210">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="094c-13f4-04ee-7158" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Shunta Kannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="8de1-35ce-8520-34ca">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 1</characteristic>
+                    <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+                    <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+                    <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+                    <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">VEHICLES that suffer a wound from this weapon may not Advance in the following turn.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="23"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="self" shared="true" id="c2c3-256a-aaf9-5d77-min" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="c2c3-256a-aaf9-5d77-max" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c539-6414-924b-3871" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Special Abillity" hidden="false" id="d96c-d2fa-46ab-8778">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ab9-a7ad-ffb2-851d" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="2b99-2315-7f49-f3e8-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2b99-2315-7f49-f3e8-max" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="2 Big Shootas" hidden="false" id="a811-ef4c-3da5-196f">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ccaa-611f-fcbf-debf" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Big Shoota" id="9353-4f02-54eb-3e7d" hidden="false" type="profile" targetId="5ad7-d00a-5fec-489d"/>
+                <infoLink name="Big Shoota" id="9647-b5de-c72e-075d" hidden="false" type="profile" targetId="5ad7-d00a-5fec-489d"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Kustom Force Field" hidden="false" id="c584-3865-41b4-0559">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4667-a371-928f-9e3c" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Kustom Force Field" id="b1ef-2909-fdc6-5319" hidden="false" type="profile" targetId="9758-6b58-136b-4dc1"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mega Charga" hidden="false" id="9975-ab2a-bea5-410c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f1d9-721c-ff7c-d88d" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Mega Charga" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="2250-ac98-0710-a22d">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Once per battle, this model may move up to an additional 8&quot; in its Movement phase. However, before this happens, roll a D6. On a 1, the Meka-Dread cannot Advance or charge until the beginning of your next player turn and suffers 1 mortal wound. It may Advance as per the normal rules after this ability has been used.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Rokkit Bomms" hidden="false" id="c037-34b0-da9d-c854">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7207-b330-ff55-62a6" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Rokkit Bomms" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="2a8b-e40c-c236-1012">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&quot;</characteristic>
+                    <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy D6</characteristic>
+                    <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+                    <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+                    <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                    <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Indirect Fire</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="13"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="14fa-253f-b47c-2534" id="a64f-3780-ae2a-4e8c" primary="false" name="Titanic Walker"/>
+        <categoryLink targetId="820e-9090-439a-e7d1" id="056b-3153-68e3-6de6" primary="false" name="Faction: &lt;Clan&gt;"/>
+        <categoryLink targetId="98ff-c62a-8313-a451" id="bce0-634a-a76a-e7ea" primary="false" name="Nobz"/>
+        <categoryLink targetId="363c-d816-cf96-15a3" id="4a98-f70b-bdfb-48a9" primary="false" name="Faction: Ork"/>
+        <categoryLink targetId="a7a3-131f-c2e8-667f" id="40c3-0225-82fb-b4dc" primary="false" name="Vehicle"/>
+        <categoryLink targetId="a87c-ffdd-175d-cbcb" id="8e27-475a-2e18-f078" primary="false" name="Walker"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Ramshackle Monster" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="2ae7-6ee6-0f26-b7b2">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Each time a Meka-Dread loses a wound from any weapon, roll a D6 - on a roll of 4+, the wound is ignored. The 1st time this roll is failed, the result needed is reduced to a 5+, and so on unti the roll fails on a 6+ and this ability may no longer be used.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink targetId="287d-18be-de5f-0030" id="ca93-0c63-0405-0ed5" type="profile" name="Big n&apos; Stompy" hidden="false"/>
+        <infoLink name="&apos;Ere We Go!" id="2fce-9965-f2af-4235" hidden="false" type="rule" targetId="a095-edc1-6ea8-2e6d"/>
+        <infoLink name="Explodes" id="e355-4b18-c427-3382" hidden="false" type="rule" targetId="3541-94a7-a138-358b"/>
+        <infoLink name="Mega-Dread" id="0815-b9ca-8ea8-862d" hidden="false" type="profile" targetId="899d-66af-ac22-abaf"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="230"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Gorkanaunt" hidden="false" id="e85a-5a6b-0310-473d">
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="315"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Gorkanaut" id="c013-60cd-96f1-7e40" hidden="false" type="profile" targetId="c2de-638c-231a-08fb"/>
+        <infoLink name="Deffstorm Mega-Shoota" id="487b-74e5-ae27-b315" hidden="false" type="profile" targetId="dcaf-47ed-90aa-9311"/>
+        <infoLink name="Klaw of Gork (Or Possibly Mork)(Crush)" id="4615-79f0-f63a-41dc" hidden="false" type="profile" targetId="f117-305d-c45a-8781"/>
+        <infoLink name="Klaw of Gork (Or Possibly Mork)(Smash)" id="fbd7-edd1-d0c8-1e69" hidden="false" type="profile" targetId="1c7c-4a34-e312-33c0"/>
+        <infoLink name="Rokkit Launcha" id="1845-752c-cad9-8958" hidden="false" type="profile" targetId="3a85-97e3-468a-68c5"/>
+        <infoLink name="Rokkit Launcha" id="919a-94ed-e195-3228" hidden="false" type="profile" targetId="3a85-97e3-468a-68c5"/>
+        <infoLink name="Big Shoota" id="4227-b23d-241c-d941" hidden="false" type="profile" targetId="5ad7-d00a-5fec-489d"/>
+        <infoLink name="Big Shoota" id="d52f-e46b-4046-0983" hidden="false" type="profile" targetId="5ad7-d00a-5fec-489d"/>
+        <infoLink name="Big n&apos; Stompy" id="6096-bb79-4ef5-9e6e" hidden="false" targetId="287d-18be-de5f-0030" type="profile"/>
+        <infoLink name="&apos;Ere We Go!" id="ceb6-13b7-50b7-c0da" hidden="false" type="rule" targetId="a095-edc1-6ea8-2e6d"/>
+        <infoLink name="Explodes" id="7fbc-9782-40a2-c89a" hidden="false" type="rule" targetId="3541-94a7-a138-358b"/>
+        <infoLink name="Dakka Dakka Dakka" id="faab-c213-b163-1992" hidden="false" type="rule" targetId="feb4-9b03-3a5c-0f74"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="14fa-253f-b47c-2534" id="590a-fb93-e680-42c7" primary="false" name="Titanic Walker"/>
+        <categoryLink targetId="363c-d816-cf96-15a3" id="6eca-6e01-4e1f-73da" primary="false" name="Faction: Ork"/>
+        <categoryLink targetId="820e-9090-439a-e7d1" id="ccc1-cbc1-f553-6452" primary="false" name="Faction: &lt;Clan&gt;"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Morkanaunt" hidden="false" id="7e03-47a2-cd36-26da">
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="300"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Morkanaut" id="26e1-d515-3239-c897" hidden="false" type="profile" targetId="c0a1-e888-fde4-e887"/>
+        <infoLink name="Klaw of Gork (Or Possibly Mork)(Crush)" id="8c61-856a-2d82-83e5" hidden="false" type="profile" targetId="f117-305d-c45a-8781"/>
+        <infoLink name="Klaw of Gork (Or Possibly Mork)(Smash)" id="4fa1-ccfb-da06-17ad" hidden="false" type="profile" targetId="1c7c-4a34-e312-33c0"/>
+        <infoLink name="Rokkit Launcha" id="8f86-29a5-419d-0f8a" hidden="false" type="profile" targetId="3a85-97e3-468a-68c5"/>
+        <infoLink name="Rokkit Launcha" id="a799-09b9-1f36-fd6f" hidden="false" type="profile" targetId="3a85-97e3-468a-68c5"/>
+        <infoLink name="Big Shoota" id="7038-cdec-36b9-5879" hidden="false" type="profile" targetId="5ad7-d00a-5fec-489d"/>
+        <infoLink name="Big Shoota" id="1526-7bba-64d0-d7f6" hidden="false" type="profile" targetId="5ad7-d00a-5fec-489d"/>
+        <infoLink name="Big n&apos; Stompy" id="620e-c021-ad49-7955" hidden="false" targetId="287d-18be-de5f-0030" type="profile"/>
+        <infoLink name="&apos;Ere We Go!" id="3a06-430f-7332-1143" hidden="false" type="rule" targetId="a095-edc1-6ea8-2e6d"/>
+        <infoLink name="Explodes" id="2415-7678-facc-6e60" hidden="false" type="rule" targetId="3541-94a7-a138-358b"/>
+        <infoLink name="Dakka Dakka Dakka" id="5c51-e7d3-fb71-fdd6" hidden="false" type="rule" targetId="feb4-9b03-3a5c-0f74"/>
+        <infoLink name="Kustom Mega-blasta" id="4515-c533-8c6a-0d0b" hidden="false" type="profile" targetId="d34b-eb4a-a266-7e08"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="14fa-253f-b47c-2534" id="f995-2947-feac-e631" primary="false" name="Titanic Walker"/>
+        <categoryLink targetId="363c-d816-cf96-15a3" id="6741-91d1-edd8-3b14" primary="false" name="Faction: Ork"/>
+        <categoryLink targetId="820e-9090-439a-e7d1" id="1078-7db8-fa69-c87c" primary="false" name="Faction: &lt;Clan&gt;"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Kustom Mega-Zzappa" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="1a78-284a-0610-e2fa">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">heavy 3D3</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Kustom Force Field" hidden="false" id="2e3f-8676-684f-f316">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5cc3-95d9-2525-9562" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Kustom Force Field" id="09c4-4750-8cdf-243b" hidden="false" type="profile" targetId="9758-6b58-136b-4dc1"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Stompa" hidden="false" id="84a9-89e9-6086-cdb3">
+      <categoryLinks>
+        <categoryLink targetId="363c-d816-cf96-15a3" id="34f8-e062-b220-578e" primary="false" name="Faction: Ork"/>
+        <categoryLink targetId="14fa-253f-b47c-2534" id="f5b3-d2b8-4179-1c6d" primary="false" name="Titanic Walker"/>
+        <categoryLink targetId="820e-9090-439a-e7d1" id="cd49-1aa7-d606-ced1" primary="false" name="Faction: &lt;Clan&gt;"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Big Shoota" id="0328-708f-59b9-0d43" hidden="false" type="profile" targetId="5ad7-d00a-5fec-489d"/>
+        <infoLink name="Big Shoota" id="0f80-f8d5-f05f-1017" hidden="false" type="profile" targetId="5ad7-d00a-5fec-489d"/>
+        <infoLink name="Big Shoota" id="6bdc-f9f7-917f-a910" hidden="false" type="profile" targetId="5ad7-d00a-5fec-489d"/>
+        <infoLink name="Skorcha" id="2e44-dfe2-0817-0dfe" hidden="false" type="profile" targetId="3e2a-960c-a03d-867b"/>
+        <infoLink name="Twin Big Shoota&apos;s" id="080e-a406-2820-8ee7" hidden="false" type="profile" targetId="3071-3d6a-499f-62e3"/>
+        <infoLink name="Dakka Dakka Dakka" id="8e75-df46-9df2-c103" hidden="false" type="rule" targetId="feb4-9b03-3a5c-0f74"/>
+        <infoLink name="&apos;Ere We Go!" id="1be0-1fd2-d4a3-edb2" hidden="false" type="rule" targetId="a095-edc1-6ea8-2e6d"/>
+        <infoLink name="Explodes" id="fb37-9f53-8d55-adb0" hidden="false" type="rule" targetId="3541-94a7-a138-358b"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Stompa" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="ffc7-9d6e-2338-e6fb">
+          <characteristics>
+            <characteristic name="M" typeId="0df1-75ce-6b80-72bf">12&quot;</characteristic>
+            <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">3+</characteristic>
+            <characteristic name="BS" typeId="87f1-2980-9859-0543">5+</characteristic>
+            <characteristic name="Front" typeId="d514-9580-34ec-9228">13</characteristic>
+            <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">13</characteristic>
+            <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">12</characteristic>
+            <characteristic name="A" typeId="1d7f-46f3-6b93-222d">6</characteristic>
+            <characteristic name="HP" typeId="0766-41aa-1542-dddd">40</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bigger &apos;n&apos; Stompier" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="9e4a-62f1-7674-729b">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This model can Fall Back in your Movement phase and still shoot and/or charge during its turn. When a Stompa Falls Back, it can move over enemy INFANTRY and SWARM models, though at the end of its move it must be more than 1&quot; from any enemy models. A Stompa doesn&apos;t suffer the penalty for moving and firing Heavy weapons. This model only gains a bonus to its saving throws for being in cover if at least half of the model is obscured from the firer.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Effigy Ork" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="310a-af04-acf3-1239">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Units within 6&quot; of a friendly Stompa can re-roll failed Morale tests.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Stompa Rigger Crew" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="30dc-cb59-9851-86ea">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This model&apos;s Grot Riggers can attempt repairs at the end of your Movement phase. If they do so, roll a D6; on a 2+ this model regains D3 lost wounds. A model can only be repaired once each turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Psycho-Dakka-Blast!" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="c729-474b-2f09-769a">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">In your Shooting phase, after firing this model&apos;s Supa-Gatler for the first time that phase, you can attempt to fire it a second time by rolling a D6; on a 1 the weapon&apos;s ammo has been expended, and it cannot be used for the rest of the battle. On a 2+ you can fire the Supa-Gatler a second time that phase, and after resolving those attacks, you can then attempt to fire the weapon a third time by rolling a D6; on a 4 or less the weapon&apos;s ammo has been expended, and it cannot be used for the rest of the battle. On a 5+ you can fire the Supa-Gatler a third time that phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="DeffKannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="1638-f1b5-d9f3-c007">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">72&quot;</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 3D6</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">10</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Mega-Choppa (Sweep)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="8fdc-bae5-3e9d-eb1b">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">10</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Sweep 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Mega-Choppa (Smash)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="5d33-2c68-52eb-6f4f">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">20</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-5</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">6</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Unwieldy</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Supa-Gatler" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="db16-ce0b-5082-e1c2">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&quot;</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 3D6</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Psycho-Dakka-Blast!</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Supa-Rokkit" hidden="false" id="5eaf-1d76-b18b-19f3">
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="da49-6405-5d5c-aba2" includeChildSelections="false"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="1d45-cc24-785f-6eb2" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Supa-Rokkit" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="9085-0ef4-57f0-c746">
+              <characteristics>
+                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">100&quot;</characteristic>
+                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy D6</characteristic>
+                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+                <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">One Shot</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="870"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Clan Kultur" hidden="false" id="20d9-52a6-008b-5a7c" targetId="c66c-359a-b363-6a96" type="selectionEntry">
@@ -5699,6 +6100,11 @@ weapon by a model in a unit with this Subkultur, while that model or any model i
     <entryLink import="true" name="Boyz" hidden="false" id="410a-a918-145d-5887" targetId="5431-7068-a23a-1daf" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Troop" hidden="false" id="69e6-536a-0b72-c598" targetId="168f-b2da-4fd7-90d7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink targetId="e85a-5a6b-0310-473d" id="8868-8b38-ef04-a8f7" type="selectionEntry" name="Gorkanaunt" hidden="false">
+      <categoryLinks>
+        <categoryLink targetId="4597-ff43-1b4c-478d" id="325e-a45d-0d85-8fa3" primary="true" name="Heavy Support"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Gretchin Mob" hidden="false" id="6b1e-d17d-fec3-6c90" targetId="fad0-39cb-cf8f-57a9" type="selectionEntry">
@@ -5869,6 +6275,21 @@ weapon by a model in a unit with this Subkultur, while that model or any model i
     <entryLink import="true" name="Dakkajet" hidden="false" id="f817-c40f-e37f-938d" targetId="56a0-97ab-dd84-672c" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="5227-ca6a-0424-8c0c" id="5da2-a636-4ea0-df55" primary="true" name="Flyer"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Meka Dread" hidden="false" id="8f98-8d86-3cda-519b" targetId="0a31-45ef-710d-74f8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="4597-ff43-1b4c-478d" id="5782-d250-e25d-ec21" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Morkanaunt" hidden="false" id="28fc-d148-379d-762d" targetId="7e03-47a2-cd36-26da" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="4597-ff43-1b4c-478d" id="7766-3bbd-a1a6-7276" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stompa" hidden="false" id="3d86-68f8-9622-cd5e" targetId="84a9-89e9-6086-cdb3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="2891-0302-74c6-87b5" id="cc74-8cb3-c619-2099" primary="true" name="Lord of War"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -6495,7 +6916,7 @@ weapon by a model in a unit with this Subkultur, while that model or any model i
         <characteristic name="HP" typeId="0766-41aa-1542-dddd">16</characteristic>
       </characteristics>
     </profile>
-    <profile name="Mega-Dread" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="899d-66af-ac22-abaf">
+    <profile name="Meka-Dread" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="899d-66af-ac22-abaf">
       <characteristics>
         <characteristic name="M" typeId="0df1-75ce-6b80-72bf">8&quot;</characteristic>
         <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">3+</characteristic>
@@ -7516,5 +7937,302 @@ When rolling to wound this unit, use the Big Mek’s Toughness while it is on th
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
       </characteristics>
     </profile>
+    <profile name="Big n&apos; Stompy" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="287d-18be-de5f-0030">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This model can Fall Back in your Movement phase and still shoot and/or charge during its turn. In addition, it can move and fire Heavy Weapons without suffering the penalty to its hit rolls. This model only gains a bonus to its saving throws for being in cover if at least 1/2 of the model is obscured from the bearer.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Ghazghkull Thraka" hidden="false" id="5088-c61d-f0fc-7e4c">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f02e-d90b-8c31-9482" includeChildSelections="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Ghazghkull Thraka" hidden="false" id="c0c4-b6b1-ac05-2672">
+          <profiles>
+            <profile name="Ghazghkull Thraka" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="8a7a-86a4-f6b3-e8e8">
+              <characteristics>
+                <characteristic name="M" typeId="f861-1936-95cc-e6d3">5&quot;</characteristic>
+                <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+                <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+                <characteristic name="S" typeId="ffee-9c9b-6655-d843">7</characteristic>
+                <characteristic name="T" typeId="7dd6-7000-6498-6a92">6</characteristic>
+                <characteristic name="W" typeId="f05f-2129-62a8-9a30">10</characteristic>
+                <characteristic name="A" typeId="d794-d261-842e-1ef8">6</characteristic>
+                <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">10</characteristic>
+                <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Prophet of Da Great Waaagh!" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="6eb6-4807-caab-098a">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">While a Friendly Ork Unit is within 6&quot; of this model, each time a model in that unit makes a melee attack, add 1 to the Hit roll and add 1 to the Wound roll and if the Waaagh! is active for your army, a Critical Hit is scored on a successful unmodified Hit roll of 5+.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Prophet of Da Waaagh!" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="b8c2-6043-cde8-706f">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This model has a 4+ Invulnerable Save</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Mork&apos;s Roar" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="13f7-1cb0-cc38-6b62">
+              <characteristics>
+                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Dakka 12/16</characteristic>
+                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+                <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Gork&apos;s Klaw (Sweep)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="72c0-f33f-4dd7-3cdf">
+              <characteristics>
+                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+                <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Sweep 1</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Gork&apos;s Klaw (Strike)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="ff68-1054-1e00-c14a">
+              <characteristics>
+                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">x2</characteristic>
+                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+                <characteristic name="D" typeId="805f-6ece-e727-1ac1">4</characteristic>
+                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="885d-dc20-b0f9-84d7-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="885d-dc20-b0f9-84d7-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="&apos;Ere We Go!" id="d14d-9f91-7587-4418" hidden="false" type="rule" targetId="a095-edc1-6ea8-2e6d"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="MAKARI" hidden="false" id="c3fe-1fae-48f1-5834">
+          <profiles>
+            <profile name="MAKARI" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="41fa-d9af-ddd0-f2f4">
+              <characteristics>
+                <characteristic name="M" typeId="f861-1936-95cc-e6d3">5&quot;</characteristic>
+                <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+                <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">4+</characteristic>
+                <characteristic name="S" typeId="ffee-9c9b-6655-d843">3</characteristic>
+                <characteristic name="T" typeId="7dd6-7000-6498-6a92">6</characteristic>
+                <characteristic name="W" typeId="f05f-2129-62a8-9a30">1</characteristic>
+                <characteristic name="A" typeId="d794-d261-842e-1ef8">1</characteristic>
+                <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+                <characteristic name="Save" typeId="952f-14da-4484-d1ea">7+</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Luckiist Git" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="fab9-2f20-051b-2b22">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This Model has a 2+ Invulnerable save, However this model cannot re-roll these saves by any means</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="MAKARI&apos;s Stabba" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="140b-5c75-ae81-f65b">
+              <characteristics>
+                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">user</characteristic>
+                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+                <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Devastating wounds</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Ghazghkull’s Waaagh! Banner" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="d840-19c6-51d3-e9a2">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">While a friendly ORKS unit is within 12&quot; of Makari, if the Waaagh! is active for your army, melee weapons equipped by models in that unit have the [LETHAL HITS] ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e829-3ba5-f329-21df-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e829-3ba5-f329-21df-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="139b-6153-b44f-12bc">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a4c4-8734-99f6-bb80" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="250"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Dakka Dakka Dakka" id="9ddf-b883-d3b7-f06a" hidden="false" type="rule" targetId="feb4-9b03-3a5c-0f74"/>
+        <infoLink name="Mob Rule" id="5549-06cd-5a01-ffc4" hidden="false" type="rule" targetId="65d2-d249-0c9f-97d2"/>
+        <infoLink name="Waaaagh!" id="ab99-4a87-2d9f-2977" hidden="false" type="profile" targetId="dd89-99dc-fe29-f2c7"/>
+        <infoLink name="Breakin&apos; Heads" id="b462-7abd-d580-7ece" hidden="false" type="profile" targetId="cc2c-d34d-1e26-9c28"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="c407-009c-5de3-d6ce" primary="false" name="Infantry"/>
+        <categoryLink targetId="3275-df5e-2474-90ed" id="6a5a-eb17-5c57-4afc" primary="false" name="Character"/>
+        <categoryLink targetId="363c-d816-cf96-15a3" id="cd2b-4987-d69d-ac7f" primary="false" name="Faction: Ork"/>
+        <categoryLink targetId="3785-6608-b6ce-3733" id="409a-c63a-662f-fe5c" primary="false" name="Warboss"/>
+        <categoryLink targetId="820e-9090-439a-e7d1" id="e5e8-cde9-7d68-dfe2" primary="false" name="Faction: &lt;Clan&gt;"/>
+        <categoryLink targetId="f155-f5fb-8a74-0926" id="7bdc-afe7-d0c9-7c50" primary="true" name="Primarch"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Mek Gunz" hidden="false" id="1044-95f3-2cbe-8363">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Mek gun" hidden="false" id="2cc5-e7e1-60d8-3d04">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d51e-7f2d-7d59-1c09" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="5c89-d6d1-17ae-1753" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Gun" hidden="false" id="6cc6-43f9-724b-8f88">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a2e5-9598-03e1-4f2a-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a2e5-9598-03e1-4f2a-max" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="bubblechukka" hidden="false" id="6302-cb39-56ea-032a">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5b67-6af3-c5d1-761e" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="bubblechukka" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="d42e-4b44-640a-54ab">
+                      <characteristics>
+                        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&quot;</characteristic>
+                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy D6</characteristic>
+                        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">D6</characteristic>
+                        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-D6</characteristic>
+                        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+                        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="30"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Kustom Mega Kannon" hidden="false" id="188d-d5c5-41c1-df69">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea34-fc89-a3f0-20e2" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Kustom Mega Kannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="0424-785c-659e-0bd8">
+                      <characteristics>
+                        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy D6</characteristic>
+                        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+                        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+                        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+                        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="45"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Smasha Gun" hidden="false" id="58e0-e678-9326-c775">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29f9-7b09-07c7-3041" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="18"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Smasha Gun" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="c37e-327e-0bd7-f037">
+                      <characteristics>
+                        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&quot;</characteristic>
+                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy D3</characteristic>
+                        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">*</characteristic>
+                        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
+                        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+                        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Instead of making a wound roll for this weapon, roll 2D6. If the result is equal to or greater than the target&apos;s Toughness, the attack successfully wounds.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Traktor Kannon" hidden="false" id="8c70-6be5-f937-9235">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c57-4e1f-63c0-563d" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="30"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Traktor Kannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="7d46-1973-8159-b45b">
+                      <characteristics>
+                        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&quot;</characteristic>
+                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">heavy 1</characteristic>
+                        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+                        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+                        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+                        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">This Weapon automatically hits its target. If the Target is a VEHICLE that can FLY, you roll 2D6 for damage and discard the lowest. If a VEHICLE unit that FLYS is destroyed, it automatically crashes and burns.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Mek gun" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="12a2-e832-e72c-71d2">
+              <characteristics>
+                <characteristic name="M" typeId="f861-1936-95cc-e6d3">3&quot;</characteristic>
+                <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">5+</characteristic>
+                <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">4+</characteristic>
+                <characteristic name="S" typeId="ffee-9c9b-6655-d843">2</characteristic>
+                <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+                <characteristic name="W" typeId="f05f-2129-62a8-9a30">6</characteristic>
+                <characteristic name="A" typeId="d794-d261-842e-1ef8">6</characteristic>
+                <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">4</characteristic>
+                <characteristic name="Save" typeId="952f-14da-4484-d1ea">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Mek Gunz" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="a80b-ff9d-587c-10a7">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">The 1st time this unit is set up on the battlefield, each Mek Gun must be placed within 6&quot; of at least one other Mek Gun, with each Grot Krew within 1&quot; of their Mek Gun. From that point onwards, each Mek Gun operates independently and is treated as a separate unit for all rules purposes.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Grot Krew" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="92bf-65a4-7b76-1106">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Each Mek Gun and its grot krew are treated as a single model for all rules purposes. the Krew must remain within 1&quot; of their Mek Gun and cannot be targeted or attacked separately. The range and visibility of all attacks made by a Mek Gun are measured from the Mek Gun, not the krew.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Dakka Dakka Dakka" id="9c85-4759-668b-7006" hidden="false" type="rule" targetId="feb4-9b03-3a5c-0f74"/>
+        <infoLink name="Grots" id="cdf1-3b5e-82fd-a909" hidden="false" type="rule" targetId="aa9e-5849-4e6d-175d"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="0170-40e2-562e-0ccc" id="2607-a90f-2d6e-be98" primary="false" name="Artillery"/>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="dddb-a2a4-0ba8-c503" primary="false" name="Infantry"/>
+        <categoryLink targetId="363c-d816-cf96-15a3" id="2063-4df6-8c10-7aca" primary="false" name="Faction: Ork"/>
+        <categoryLink targetId="820e-9090-439a-e7d1" id="f661-e944-95c8-b4d1" primary="false" name="Faction: &lt;Clan&gt;"/>
+        <categoryLink targetId="e825-ae59-a7af-72c7" id="9f98-900b-2dd8-7261" primary="false" name="Grentchin"/>
+      </categoryLinks>
+    </selectionEntry>
+  </selectionEntries>
 </catalogue>
