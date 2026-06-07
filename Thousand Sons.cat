@@ -4524,6 +4524,275 @@ D3 Effect
         <categoryLink targetId="c65a-496e-0db2-a585" id="6f6f-c95d-36ca-437f" primary="false" name="Faction: Thousand Sons"/>
       </categoryLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Horrors" hidden="false" id="bdaf-3237-ce8e-4ed1">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Pink Horros" hidden="false" id="4260-d017-1c77-a634">
+          <constraints>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="7a5e-6585-eeca-aa4b" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Pink Horros" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="9c3a-e198-fb76-c509">
+              <characteristics>
+                <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+                <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+                <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">4+</characteristic>
+                <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+                <characteristic name="T" typeId="7dd6-7000-6498-6a92">3</characteristic>
+                <characteristic name="W" typeId="f05f-2129-62a8-9a30">1</characteristic>
+                <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+                <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+                <characteristic name="Save" typeId="952f-14da-4484-d1ea">7+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink targetId="41c3-9b9f-b88d-cacd" id="a163-b4a3-bef8-0785" type="profile" name="Coruscating flames" hidden="false"/>
+            <infoLink targetId="75a1-afda-0908-8b71" id="9803-7854-474a-e2cd" type="profile" name="Horror Claws" hidden="false"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Pair of Brimstone Horrors" hidden="false" id="f6ee-e6ab-8ca4-7d36">
+          <constraints>
+            <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="55c6-5045-84ea-b2f9" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Pair of Brimstone Horrors" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="1a31-0694-1e00-0e65">
+              <characteristics>
+                <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+                <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">5+</characteristic>
+                <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+                <characteristic name="S" typeId="ffee-9c9b-6655-d843">2</characteristic>
+                <characteristic name="T" typeId="7dd6-7000-6498-6a92">3</characteristic>
+                <characteristic name="W" typeId="f05f-2129-62a8-9a30">1</characteristic>
+                <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+                <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+                <characteristic name="Save" typeId="952f-14da-4484-d1ea">7+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Horror Claws" id="0a70-e5aa-e29a-0104" hidden="false" targetId="75a1-afda-0908-8b71" type="profile"/>
+            <infoLink name="Coruscating flames" id="d2fb-c10a-b313-2036" hidden="false" targetId="41c3-9b9f-b88d-cacd" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Blue Horros" hidden="false" id="3469-3843-54ba-fac4">
+          <constraints>
+            <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="fae8-80ae-1772-3938" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Blue Horros" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="5ec7-6a21-0221-fed3">
+              <characteristics>
+                <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+                <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">4+</characteristic>
+                <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">4+</characteristic>
+                <characteristic name="S" typeId="ffee-9c9b-6655-d843">3</characteristic>
+                <characteristic name="T" typeId="7dd6-7000-6498-6a92">3</characteristic>
+                <characteristic name="W" typeId="f05f-2129-62a8-9a30">1</characteristic>
+                <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+                <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+                <characteristic name="Save" typeId="952f-14da-4484-d1ea">7+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Horror Claws" id="3469-956a-af6e-68c9" hidden="false" targetId="75a1-afda-0908-8b71" type="profile"/>
+            <infoLink name="Coruscating flames" id="2021-7ceb-9b7d-904c" hidden="false" targetId="41c3-9b9f-b88d-cacd" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Brayhorn" hidden="false" id="e517-abf2-4a3b-84e3">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Brayhorn" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="19f7-ee6c-e83d-17a9">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Add one to Advance and charge rolls for a unit that includes a Brayhorn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7956-5247-7d25-639c" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Icon of Flame" hidden="false" id="c77c-756f-d1fe-38db">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="599d-0d6d-eefe-95dc" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Icon of Flame" id="4bd4-9706-50ee-fe5f" hidden="false" type="profile" targetId="06d0-3e6b-0236-fd5b"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Split Blue Horros" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="ffbf-9033-9e00-d1f1">
+          <characteristics>
+            <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+            <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">4+</characteristic>
+            <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">4+</characteristic>
+            <characteristic name="S" typeId="ffee-9c9b-6655-d843">3</characteristic>
+            <characteristic name="T" typeId="7dd6-7000-6498-6a92">3</characteristic>
+            <characteristic name="W" typeId="f05f-2129-62a8-9a30">1</characteristic>
+            <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+            <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+            <characteristic name="Save" typeId="952f-14da-4484-d1ea">7+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Split Pair of Brimstone Horrors" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="ea87-4220-cf3f-104e">
+          <characteristics>
+            <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+            <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">5+</characteristic>
+            <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">5+</characteristic>
+            <characteristic name="S" typeId="ffee-9c9b-6655-d843">2</characteristic>
+            <characteristic name="T" typeId="7dd6-7000-6498-6a92">3</characteristic>
+            <characteristic name="W" typeId="f05f-2129-62a8-9a30">1</characteristic>
+            <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+            <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+            <characteristic name="Save" typeId="952f-14da-4484-d1ea">7+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Split" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="0a92-b4a8-a38c-c6b7">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">When a Pink Horror in this unit is destroyed in any phase other than the Morale phase, you can add up to 2 Blue Horrors to this unit before removing that Pink Horror from play. When a Blue Horror in this unit is destroyed in any phase other than the Morale phase, you can add 1 Pair of Brimstone Horrors to this unit before removing that Blue Horror from play. When adding a model to this unit using this ability, it must be placed in unit coherency and more than 1&quot; away from any enemy models (if a model cannot be placed in this way, it is not added to the unit).</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Favour of Tzeentch" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="c896-28db-122f-0445">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This model has a 4+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="2115-bbcb-da80-2e7b" hidden="false" type="rule" targetId="70a9-a55c-0c70-9815"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="1f58-4646-951d-6972" primary="false" name="Infantry"/>
+        <categoryLink targetId="c367-74ae-0cd6-3433" id="70c4-dc2a-b2e5-9dac" primary="false" name="Faction: Tzeentch"/>
+        <categoryLink targetId="fe3b-618d-1e31-f4db" id="4f81-9625-4b66-5fb5" primary="false" name="Faction: Chaos"/>
+        <categoryLink targetId="ac3d-1a22-5a52-78d7" id="f24d-b224-8243-9357" primary="false" name="Faction: Daemon"/>
+        <categoryLink targetId="eaba-5458-ed6b-b752" id="f6d9-9ed8-a360-3cdd" primary="false" name="Daemon"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Flamers" hidden="false" id="121b-0a3e-d6be-8247">
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="434a-66dd-b2bf-a676" primary="false" name="Infantry"/>
+        <categoryLink targetId="fe3b-618d-1e31-f4db" id="98d8-229e-c3b9-b7d5" primary="false" name="Faction: Chaos"/>
+        <categoryLink targetId="ac3d-1a22-5a52-78d7" id="92df-122d-d4de-8ae2" primary="false" name="Faction: Daemon"/>
+        <categoryLink targetId="c367-74ae-0cd6-3433" id="c04c-41ac-be8c-2336" primary="false" name="Faction: Tzeentch"/>
+        <categoryLink targetId="eaba-5458-ed6b-b752" id="ecf4-95a0-c57d-d133" primary="false" name="Daemon"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Flamer" hidden="false" id="6b68-5348-5a34-3113">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="22"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="9a96-ae54-30f0-ba7a" includeChildSelections="false"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="1452-a8cc-3850-0a17" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Flamer" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="a6ab-9a6a-f8b6-f414">
+              <characteristics>
+                <characteristic name="M" typeId="f861-1936-95cc-e6d3">9&quot;</characteristic>
+                <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">4+</characteristic>
+                <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">4+</characteristic>
+                <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+                <characteristic name="T" typeId="7dd6-7000-6498-6a92">4</characteristic>
+                <characteristic name="W" typeId="f05f-2129-62a8-9a30">3</characteristic>
+                <characteristic name="A" typeId="d794-d261-842e-1ef8">1</characteristic>
+                <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+                <characteristic name="Save" typeId="952f-14da-4484-d1ea">7+</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Flickering Flames" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="0922-448f-4420-fa3d">
+              <characteristics>
+                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault D6</characteristic>
+                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+                <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Torrant</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Close Combat Weapons" id="9b81-52b7-89c1-ff54" hidden="false" type="profile" targetId="f340-ead0-6af8-0728"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Pyrocaster" hidden="false" id="9ec2-cb61-dbd9-081a">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="23"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bc29-166e-5818-9b1e-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc29-166e-5818-9b1e-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Pyrocaster" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="8817-c13d-4496-d31a">
+              <characteristics>
+                <characteristic name="M" typeId="f861-1936-95cc-e6d3">9&quot;</characteristic>
+                <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">4+</characteristic>
+                <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">4+</characteristic>
+                <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+                <characteristic name="T" typeId="7dd6-7000-6498-6a92">4</characteristic>
+                <characteristic name="W" typeId="f05f-2129-62a8-9a30">3</characteristic>
+                <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+                <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+                <characteristic name="Save" typeId="952f-14da-4484-d1ea">7+</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Flickering Flames" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="6fdb-a6c3-17e1-bc76">
+              <characteristics>
+                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault D6</characteristic>
+                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+                <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Torrant</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Close Combat Weapons" id="bb51-6bf3-acd5-840b" hidden="false" type="profile" targetId="f340-ead0-6af8-0728"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Bounding Leaps" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="4322-120e-75c9-a4fb">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This unit is eligible to shoot in a turn in which it Fell Back.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Favour of Tzeentch" id="bbd0-85ce-655b-b801" hidden="false" type="profile" targetId="5ee7-ada4-e817-e688"/>
+        <infoLink name="Deep Strike" id="e268-62e9-9ccc-7590" hidden="false" type="rule" targetId="70a9-a55c-0c70-9815"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Rubric Marine" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="bf0c-4afc-9413-46e5">
@@ -4905,6 +5174,26 @@ D3 Effect
         <characteristic name="Characteristic 3" typeId="761a-8ad0-7003-6d85">4+</characteristic>
       </characteristics>
     </profile>
+    <profile name="Coruscating flames" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="41c3-9b9f-b88d-cacd">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Horror Claws" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="75a1-afda-0908-8b71">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Favoured of Tzeentch" id="f1a2-945b-8e33-34cc" hidden="false">
@@ -5017,6 +5306,16 @@ In your Command phase, if your opponent has one or more Flux tokens, you gain on
         <categoryLink targetId="a2f8-3f8a-6b0f-82d7" id="4bfa-62ce-b3fe-705d" primary="true" name="Fast Attack"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Horrors" hidden="false" id="346a-0005-cf04-701f" targetId="bdaf-3237-ce8e-4ed1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="168f-b2da-4fd7-90d7" id="df5e-b824-b7fa-7eb8" primary="true" name="Troop"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Flamers" hidden="false" id="6022-eec8-0f71-6bfd" targetId="121b-0a3e-d6be-8247" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="a2f8-3f8a-6b0f-82d7" id="ee58-b56c-f615-d422" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <categoryEntries>
     <categoryEntry name="Faction: Thousand Sons" id="c65a-496e-0db2-a585" hidden="false"/>
@@ -5024,4 +5323,63 @@ In your Command phase, if your opponent has one or more Flux tokens, you gain on
     <categoryEntry name="Mortals" id="b505-07f3-a9f3-4e89" hidden="false"/>
     <categoryEntry name="Cult" id="279a-a2ee-6851-496f" hidden="false"/>
   </categoryEntries>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Screamers" hidden="false" id="e06e-1ce6-1bad-54b2">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Screamer" hidden="false" id="de14-59c8-e60e-0f95">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="30"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="cd2e-ee40-fe0f-8921" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="b9be-232f-9002-d518" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Screamer" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="2e6d-7134-957e-9c25">
+              <characteristics>
+                <characteristic name="M" typeId="f861-1936-95cc-e6d3">14&quot;</characteristic>
+                <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+                <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">6+</characteristic>
+                <characteristic name="S" typeId="ffee-9c9b-6655-d843">6</characteristic>
+                <characteristic name="T" typeId="7dd6-7000-6498-6a92">4</characteristic>
+                <characteristic name="W" typeId="f05f-2129-62a8-9a30">3</characteristic>
+                <characteristic name="A" typeId="d794-d261-842e-1ef8">3</characteristic>
+                <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+                <characteristic name="Save" typeId="952f-14da-4484-d1ea">6+</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Lamprey bite" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="e433-453f-e1dc-8cb1">
+              <characteristics>
+                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+                <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">(Anti-Monster 5+), (Anti-Vehicle 4+)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Slashing Dive" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="724c-292c-6692-813e">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">In your Movement phase, after this unit ends a Normal move, you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="bd14-139f-f0c7-2f12" hidden="false" type="rule" targetId="70a9-a55c-0c70-9815"/>
+        <infoLink name="Favour of Tzeentch" id="de01-53bf-da01-656b" hidden="false" type="profile" targetId="5ee7-ada4-e817-e688"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="c2c7-dbd8-014b-2228" id="5bfd-d926-5197-609a" primary="false" name="Fly"/>
+        <categoryLink targetId="eaba-5458-ed6b-b752" id="82f1-2d64-ecaa-4d92" primary="false" name="Daemon"/>
+        <categoryLink targetId="ddd7-ce95-9e13-430b" id="c87f-d0ae-5ed3-8adc" primary="false" name="Beast"/>
+        <categoryLink targetId="a2f8-3f8a-6b0f-82d7" id="deee-a759-2b61-2215" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </selectionEntry>
+  </selectionEntries>
 </catalogue>
