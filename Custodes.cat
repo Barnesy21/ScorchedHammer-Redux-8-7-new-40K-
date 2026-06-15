@@ -1,0 +1,2686 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="faaf-0b2c-7741-ff56" name="Custodes" gameSystemId="sys-d1dc-a418-d2d6-9a0a" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Vexillus Praetor" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="f5ec-510c-9628-280b">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">7&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">5</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">4</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sagittarum Custodian" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="e434-4ace-294f-9bf1">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">3</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Aquilon Custodian" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="f77b-df94-87cc-80b2">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">6</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">4</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">4</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Allarus Custodian" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="363a-72bb-3bb6-3c3a">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">6</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">4</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">4</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Venatari Custodian" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="7d15-d899-6311-affd">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">12&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">3</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">3</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Agamatus Custodian" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="6abe-7692-4fb5-90bd">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">14&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">6</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">3</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">4</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Custodian Warden" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="a94f-37f5-459e-bd7c">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">7&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">3</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">4</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Allarus Vexillus Praetor" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="719d-7374-78da-fc3d">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">6</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">6</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">4</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Custodian" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="3b3c-2266-f880-9bb7">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">7&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">3</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">3</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Vertus Praetor" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="6c8b-f518-7761-b6de">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">14&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">6</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">4</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">4</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Allarus Shield Captain" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="fdc6-5e35-447b-5a97">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">6</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">7</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">5</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shield Captain" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="3603-023e-9c64-a217">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">7&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">6</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">5</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shield Captain on Dawneagle Jetbike" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="fd2b-cdb3-d9b9-5b15">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">14&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">6</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">6</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">5</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Contemptor Achillus Dreadnought" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="1fff-5d44-517a-6f63">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">9&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">*</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">*</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">7</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">7</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">12</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">*</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Contemptor Achillus Dreadnought 1" typeId="8ad6-25e8-ab32-0154" typeName="Wound Track" hidden="false" id="a215-0ca0-7464-f7f0">
+      <characteristics>
+        <characteristic name="Remaining W" typeId="b769-51c6-78d5-808f">7+</characteristic>
+        <characteristic name="Characteristic 1" typeId="7c82-83ad-ae83-6c9c">2+</characteristic>
+        <characteristic name="Characteristic 2" typeId="e536-5322-b3be-015b">2+</characteristic>
+        <characteristic name="Characteristic 3" typeId="761a-8ad0-7003-6d85">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Contemptor Galatus Dreadnought 2" typeId="8ad6-25e8-ab32-0154" typeName="Wound Track" hidden="false" id="1946-c5bf-03ae-edce">
+      <characteristics>
+        <characteristic name="Remaining W" typeId="b769-51c6-78d5-808f">6-</characteristic>
+        <characteristic name="Characteristic 1" typeId="7c82-83ad-ae83-6c9c">3+</characteristic>
+        <characteristic name="Characteristic 2" typeId="e536-5322-b3be-015b">3+</characteristic>
+        <characteristic name="Characteristic 3" typeId="761a-8ad0-7003-6d85">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Contemptor Galatus Dreadnought" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="1cad-12b0-8ab0-c173">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">9&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">*</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">*</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">7</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">7</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">12</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">*</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Contemptor Galatus Dreadnought 1" typeId="8ad6-25e8-ab32-0154" typeName="Wound Track" hidden="false" id="9a68-dbfc-d710-80ef">
+      <characteristics>
+        <characteristic name="Remaining W" typeId="b769-51c6-78d5-808f">7+</characteristic>
+        <characteristic name="Characteristic 1" typeId="7c82-83ad-ae83-6c9c">2+</characteristic>
+        <characteristic name="Characteristic 2" typeId="e536-5322-b3be-015b">2+</characteristic>
+        <characteristic name="Characteristic 3" typeId="761a-8ad0-7003-6d85">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Contemptor Achillus Dreadnought 2" typeId="8ad6-25e8-ab32-0154" typeName="Wound Track" hidden="false" id="2afc-1b4c-ca37-7f31">
+      <characteristics>
+        <characteristic name="Remaining W" typeId="b769-51c6-78d5-808f">6-</characteristic>
+        <characteristic name="Characteristic 1" typeId="7c82-83ad-ae83-6c9c">3+</characteristic>
+        <characteristic name="Characteristic 2" typeId="e536-5322-b3be-015b">3+</characteristic>
+        <characteristic name="Characteristic 3" typeId="761a-8ad0-7003-6d85">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Telemon Heavy Dreadnought" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="ce9a-ccd4-cdaa-0a8d">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">8&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">*</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">*</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">8</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">8</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">16</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">*</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Telemon Heavy Dreadnought 1" typeId="8ad6-25e8-ab32-0154" typeName="Wound Track" hidden="false" id="b5a6-613b-43cc-baa7">
+      <characteristics>
+        <characteristic name="Remaining W" typeId="b769-51c6-78d5-808f">8+</characteristic>
+        <characteristic name="Characteristic 1" typeId="7c82-83ad-ae83-6c9c">2+</characteristic>
+        <characteristic name="Characteristic 2" typeId="e536-5322-b3be-015b">2+</characteristic>
+        <characteristic name="Characteristic 3" typeId="761a-8ad0-7003-6d85">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Telemon Heavy Dreadnought 2" typeId="8ad6-25e8-ab32-0154" typeName="Wound Track" hidden="false" id="e966-6999-cad1-a3f4">
+      <characteristics>
+        <characteristic name="Remaining W" typeId="b769-51c6-78d5-808f">7-</characteristic>
+        <characteristic name="Characteristic 1" typeId="7c82-83ad-ae83-6c9c">3+</characteristic>
+        <characteristic name="Characteristic 2" typeId="e536-5322-b3be-015b">3+</characteristic>
+        <characteristic name="Characteristic 3" typeId="761a-8ad0-7003-6d85">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blade Champion" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="14ee-9465-9143-6d08">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">7&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">6</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">5</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Coronus Grav Carrier" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="3e5f-d403-3173-b40a">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">14&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">5+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">2+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">13</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">13</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">11</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">3</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">14</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Caladius Grav Tank" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="bde5-b519-e7d0-bbbd">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">14&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">5+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">2+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">13</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">13</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">11</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">3</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">14</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Captain-General Trajann Valoris" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="49a2-3cf5-64c5-3951">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">7&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">7</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">5</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">10</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Valerian" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="7d67-57af-e561-c870">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">7&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">6</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">5</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">10</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Venerable Land Raider" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="0a0b-ac4e-0533-f7f6">
+      <characteristics>
+        <characteristic name="M" typeId="0df1-75ce-6b80-72bf">12&quot;</characteristic>
+        <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">6+</characteristic>
+        <characteristic name="BS" typeId="87f1-2980-9859-0543">2+</characteristic>
+        <characteristic name="Front" typeId="d514-9580-34ec-9228">14</characteristic>
+        <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">14</characteristic>
+        <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">14</characteristic>
+        <characteristic name="A" typeId="1d7f-46f3-6b93-222d">3</characteristic>
+        <characteristic name="HP" typeId="0766-41aa-1542-dddd">16</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sentinel Blade (Ranged)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="bc72-629f-642b-5064">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Pistol 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Guardian Spear (Melee)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="95e3-83fd-ca88-c43f">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+1</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Guardian Spear (Ranged)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="992f-3c7b-a027-7a9e">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sentinel Blade (Melee)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="0ab5-fc3f-dc8c-f3d8">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Parry Weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Misericordia" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="272d-53bf-d333-c161">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Unless this model is equipped with a Storm Shield This model has the Bonus Attacks 1 SR</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Adrasite Spear (Melee)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="4215-f131-9263-87ba">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+1</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Pyrithite Spear (Shooting)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="537f-603c-91ca-33a5">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Pyrithite Spear (Melee)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="575d-49ac-6de3-99fd">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+1</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Adrasite Spear (Shooting)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="50b6-cde9-1625-885b">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Adrasite Bolt Caliver (Bolt Volly)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="6c67-ed2c-66e5-d101">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 3</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Adrasite Bolt Caliver (Disintegration Beam)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="4c5e-a570-bdbb-9547">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Castellan Axe (Ranged)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="3cd4-823b-cbb1-35b7">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Castellan Axe (Melee)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="ae82-94d6-2140-c153">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+3</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Solarite Power Talon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="be29-98cc-107f-cceb">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+1</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Extra attack, Shred</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Solarite Power Gauntlet" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="8a7f-b8c6-4294-5253">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">X2</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lastrum Storm Bolter" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="21c3-2841-c2fb-09ad">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Rapid Fire 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Infernus Firepike" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="19a3-4692-254a-3017">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy D6</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Torrant</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin Adrathic Destructor" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="c79f-16d5-30c9-9028">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ballistus Grenade Launcher" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="ba0f-1129-aab1-3ce1">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault D3</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Interceptor Lance" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="0b0a-0242-55d5-686c">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+1</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">This model has the Shred SR in a tern in which it charged.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin Adrathic Devastator" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="fd64-e555-9cc2-3c66">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin Lastrum Bolt Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="29f0-dfb4-bd9a-5b21">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 6</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin Las-Pulsar" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="52bd-537b-f810-2c14">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 4</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Kinetic Destroyer" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="21c2-c8d3-1654-6c36">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Pistol 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Sustained Hits 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tarsus Buckler" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="bd47-fc45-680e-0f2f">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">When resolving an attack made with a weapon that has an Armour Penetration characteristic of -1 against a model equipped with a tarsus buckler, that weapon has an Armour Penetration characteristic of 0 for that attack.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tarsus Buckler" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="a7d4-ef79-f746-7938">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+1</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Venatari Lance (Shooting)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="ea1e-5e32-0311-da10">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Venatari Lance (Melee)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="f220-3da9-f9ba-5878">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+1</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hurricane Bolter" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="c27c-1a04-2ab5-611d">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Rapid Fire 6</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Salvo Launcher (Flakkburst)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="2328-87e1-90cd-f882">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy D3</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Skyfire</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Salvo Launcher (Melta)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="68c0-6357-3922-73df">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Melta</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Achillus Dreadspear (Shooting)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="5fa5-f194-1149-be04">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Achillus Dreadspear (Melee)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="9775-2717-b6ad-1194">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">X2</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3+3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Adrathic Devastator" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="a8b1-6b4f-7199-2006">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Infernus Incinerator" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="f3b4-fdb1-e6be-4e20">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy D6</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Torrant</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Galatus Warblade (Shooting)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="26ad-4d40-a082-5988">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 2D6</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Torrant</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Galatus Warblade (Melee)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="a479-b3c0-92bd-9b54">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Extra Attacks D3, Parry Weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Galatus Shield" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="4dba-4d90-0e02-6c9a">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This model has a 4+ invulnerable save. When resolving an attack made with a melee weapon against this model, subtract 1 from the hit roll.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lastrum Bolt Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="11a9-5e01-35bb-0b5d">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 3</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Arachnus Blaze Cannon (Burst)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="b339-3d4c-b7da-c9f2">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 6</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin Illiastus Accelerator Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="2372-6372-839c-b441">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">60&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 8</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Arachnus Blaze Cannon (Beam)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="195d-b3c4-b17a-d5d4">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Sunder</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin Arachnus Heavy Blaze Cannon (Beam)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="d1ba-8ec4-6016-4f18">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">9</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3+3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Sunder</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin Arachnus Heavy Blaze Cannon (Burst)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="351f-eb34-a4c0-9d4c">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 8</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Illiastus Accelerator Culverin" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="d4df-9023-8173-30b3">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&apos;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 4</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Telemon Caestus" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="1d27-fa3c-35cf-7ba1">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">x2</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">4</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Extra attack 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin Plasma Projector" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="ee03-fc00-509a-494d">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">8&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 2D3</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Torrant</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Watcher&apos;s Axe (Shooting)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="e2b6-10dc-7975-d42e">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Rapid Fire 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Watcher&apos;s Axe (Melee)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="4b05-ea64-3227-8ef0">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">X2</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Aegis of The Emperor" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="b102-9930-151f-c83e">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Models with the Aegis of the Emperor special rule have a 5+ invulnerable save. In Addition, roll a D6 each time a model with this ability suffers a mortal wound On a 6 that mortal wound is ignored.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Airborne Hunters" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="b816-55c6-e624-76fe">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">During deployment, you can set up this unit high in the skies instead of setting it up on the battlefield. If you do, at the end of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="From Golden Light" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="dfe0-4c89-df93-7dad">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">During deployment, you can set up this model in a Godstrike-pattern teleportarium array instead of placing it on the battlefield. At the end of any of your movement phases this model can teleport into battle - set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Impaling Lunge" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="c15b-720f-658d-e59c">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">After this model finishes a charge move, you can select one enemy unit within 1&quot; of it and roll one D6; on a 4+ that enemy unit suffers D3 mortal wounds.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Slayers of Tyrants" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="cba5-2b8b-2c48-7810">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">When models in this unit pile in and consolidate, they can move up to 3&quot; towards the nearest enemy CHARACTER even if it is not the nearest enemy model, so long as they finish this move within 1&quot; of an enemy unit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Inspirational Fighter" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="2fb8-d514-0572-f3a9">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">You can re-roll hit rolls of 1 made for friendly ADEPTUS CUSTODES units within 6&quot; of this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Martial Inspiration" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="ea03-41f1-8cc6-994e">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Once per battle, in your Charge phase, this model’s unit is eligible to declare a charge in a turn which it Advanced.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Swift Onslaught" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="24f0-3cef-d27d-ffac">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">While this model is leading a unit, you can re-roll Charge rolls made for that unit</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Vaultswords" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="76f2-885a-08b0-a038">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+1</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Sustained Hits, Precision, Extra Attacks 2, Parry Weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Master of the Stances" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="3550-0fb2-6286-62f4">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Once Per battle you may select one friendly unit within 12&quot; you may change the Martial Ka&apos;tah that unit is using.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Flare Shield" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="c223-a1c6-30e4-9ccb">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This model has a 5+ Invulnerable Save</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Gravitic Backwash" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="6625-b0e1-76c1-497b">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">If any units with this ability are chosen as targets of a charge, subtract 2 from the charge roll.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedRules>
+    <rule name="Martial Ka&apos;tah" id="0aa6-8bbc-d60c-cbb7" hidden="false">
+      <description>During your Command Phase each Unit with this special rule may choose which Fighting style they would like to use for this phase, Once chosen the unit may not change it&apos;s Style until the following turn. Each Style is Listed Below (If you are just reading this rule or did not remmeber until just know use the Rendax stance as it is the Default)
+
+
+1. Dacatarai, While this Style is active Custodian models with this Special rule Gain the Lance Charge and Against the Odds SR. However models cannot use the Parry Special Rule
+
+
+2. Rendax, While this Style is active, Custodian Models Gains +1 Attack and Must use one attack to Parry an incoming attack. if a Character model is within look out sir range this unit the unit gains a 6+ Feel no Pain and +1 to Look out sir Tests.
+
+
+3. Soliari, While this Style is Active, Custodian Models weapons must be Used to Parry incoming attacks to protect Themselves, only one attack per model may be used to Make a normal Attack. all Parry attacks made by this unit may re-roll hit roles of 1, if a character model is within look out sir range this unit gains a 4+ Feel no pain and Automatically pass look out sir test for that character</description>
+    </rule>
+    <rule name="Parry" id="548b-c6b2-8283-1969" hidden="false">
+      <description>At the start of the Close Combat Phase A Model with this special rule may choose to parry instead of Attacking. When doing so After a enemy model has made attacks targeting a model in this unit this model rolls hit roles as normal for it&apos;s weapon for each successful hit you may remove one successful hit roll from your opponents attacks. you can only parry equal to the number of attacks your model has. If you weapon has the Extra attacks or sweeping Special rules may still Allocate these attacks to Parrying but must use all there attacks to do so</description>
+    </rule>
+    <rule name="Parry Weapon" id="b277-5b4b-5409-dbc3" hidden="false">
+      <description>A Weapon with this special Rule may parry attacks and still deal damage with this weapon, Parry weapons role to wound as well and if successful Deal half damage instead of normal.</description>
+    </rule>
+    <rule name="Against The Odds" id="db5b-2c16-5e58-b7aa" hidden="false">
+      <description>While a Model with this special Rule is in close combat with 5 or more enemy models gain an extra attack for every 5 models in that unit.</description>
+    </rule>
+    <rule name="Sunder" id="bc7f-77df-7cdf-deab" hidden="false">
+      <description>A weapon with this special rule may re-roll the Armour Penetration roll for its ranged weapons</description>
+    </rule>
+  </sharedRules>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Shield Captain in Allarus Terminator Armour" hidden="false" id="520e-139c-44ab-98d1">
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="140"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Primary Weapon" hidden="false" id="af29-b11b-9a32-af86">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Castellan Axe" hidden="false" id="30a1-a371-8907-2738">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b6d0-7d5b-bcc8-d686" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Castellan Axe (Melee)" id="1d39-45aa-7780-b911" hidden="false" type="profile" targetId="ae82-94d6-2140-c153"/>
+                <infoLink name="Castellan Axe (Ranged)" id="ea5f-631b-ff46-c0cb" hidden="false" type="profile" targetId="3cd4-823b-cbb1-35b7"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Guardian Spear" hidden="false" id="ac3c-a730-547f-5ec9">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="21d0-abd6-667b-a96c" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Guardian Spear (Ranged)" id="0fe3-445f-db70-53cc" hidden="false" type="profile" targetId="992f-3c7b-a027-7a9e"/>
+                <infoLink name="Guardian Spear (Melee)" id="5429-74d8-235d-c2ab" hidden="false" type="profile" targetId="95e3-83fd-ca88-c43f"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="0c42-fba4-666e-d4ed-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0c42-fba4-666e-d4ed-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4b92-f474-830c-6ea2-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b92-f474-830c-6ea2-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="c2b4-58ac-348b-2a4c">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Misericordia" id="f23e-3548-991c-be6e" hidden="false" type="profile" targetId="272d-53bf-d333-c161"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a06e-e479-6d16-019b" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="7c8f-13d0-a656-16cf">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="115a-6d8b-5fc4-f305" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Allarus Shield Captain" id="1661-488d-bb6f-3afd" hidden="false" type="profile" targetId="fdc6-5e35-447b-5a97"/>
+        <infoLink name="Inspiring Leader" id="b4ff-a1f9-0207-5ffe" hidden="false" type="profile" targetId="3094-bd7d-c3ab-6026"/>
+        <infoLink name="Master of the Stances" id="bce0-20f5-5aa8-e4ed" hidden="false" type="profile" targetId="3550-0fb2-6286-62f4"/>
+        <infoLink name="Aegis of The Emperor" id="4d62-0253-366d-ba25" hidden="false" type="profile" targetId="b102-9930-151f-c83e"/>
+        <infoLink name="Ballistus Grenade Launcher" id="504b-2bd3-b9ca-229b" hidden="false" type="profile" targetId="ba0f-1129-aab1-3ce1"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="a64b-cc97-d7ab-5a4f" primary="false" name="Infantry"/>
+        <categoryLink targetId="3275-df5e-2474-90ed" id="1386-716c-9dd3-b15d" primary="false" name="Character"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="94f3-32c0-4042-9d1e" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="f058-9cc3-bea8-e544" id="107b-daf4-72ea-d50e" primary="false" name="Faction: Adeptus Custodes"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Custodian Guard Squad" hidden="false" id="076e-7a83-dca3-75ef">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Custodian" hidden="false" id="a342-a6e8-9b1b-4cd2">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="50"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="537d-fc87-418b-ecfc">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Misericordia" id="7599-bae0-9c6f-9855" hidden="false" type="profile" targetId="272d-53bf-d333-c161"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cd8d-25a2-7730-e028" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Primary Weapon" hidden="false" id="52ae-2d12-1159-e114">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Guardian Spear" hidden="false" id="0599-a656-baad-84a3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="06f0-0c7f-d16f-5447" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Guardian Spear (Ranged)" id="1949-5767-be1e-7a91" hidden="false" type="profile" targetId="992f-3c7b-a027-7a9e"/>
+                    <infoLink name="Guardian Spear (Melee)" id="787d-6e90-8387-1b43" hidden="false" type="profile" targetId="95e3-83fd-ca88-c43f"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Sentinel Blade" hidden="false" id="b065-94ec-94e2-2507">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="429b-c250-e322-30fc" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Sentinel Blade (Ranged)" id="2561-87a8-69fa-d87b" hidden="false" type="profile" targetId="bc72-629f-642b-5064"/>
+                    <infoLink name="Sentinel Blade (Melee)" id="5a94-0f4d-1ebb-ab6e" hidden="false" type="profile" targetId="0ab5-fc3f-dc8c-f3d8"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Storm Shield" hidden="false" id="535d-5ded-a290-8356">
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="78df-c509-9eeb-71e2" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Storm Shield" id="085f-533c-d460-f509" hidden="false" type="profile" targetId="c4c0-3c0d-006d-e5f2"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Adrastie Spear" hidden="false" id="7193-e4c6-ceb6-bb30">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e7e7-1519-cf21-1ed1" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Adrasite Spear (Melee)" id="2160-d0cd-5465-d168" hidden="false" type="profile" targetId="4215-f131-9263-87ba"/>
+                    <infoLink name="Adrasite Spear (Shooting)" id="25f2-886c-11e3-b906" hidden="false" type="profile" targetId="50b6-cde9-1625-885b"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Pyrithite Spear" hidden="false" id="4d6a-db56-840b-d065">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4bae-2c13-d68f-0e68" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Pyrithite Spear (Shooting)" id="3d7e-e18f-132c-a561" hidden="false" type="profile" targetId="537f-603c-91ca-33a5"/>
+                    <infoLink name="Pyrithite Spear (Melee)" id="bb4f-d2fb-222b-e1cc" hidden="false" type="profile" targetId="575d-49ac-6de3-99fd"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="16"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="2ed0-8efa-46ba-c764-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2ed0-8efa-46ba-c764-max" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b356-b444-77c8-31e8-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b356-b444-77c8-31e8-max" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="732b-d85b-3704-48b1" includeChildSelections="false"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="dc5a-f26d-55af-0cbe" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Custodian" id="2839-d094-a575-f8f6" hidden="false" type="profile" targetId="3b3c-2266-f880-9bb7"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Aegis of The Emperor" id="096a-0397-a17a-22a1" hidden="false" type="profile" targetId="b102-9930-151f-c83e"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="667e-c764-a9ff-2e64" primary="false" name="Infantry"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="bf62-1f11-4023-f484" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="f058-9cc3-bea8-e544" id="e762-eb1e-2ddf-e564" primary="false" name="Faction: Adeptus Custodes"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Sagittarum Squad" hidden="false" id="24e1-328f-d788-d238">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Sagittarum" hidden="false" id="ca04-d79c-6990-b1da">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="50"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="0b3d-4417-9f48-c9da">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Misericordia" id="7d65-eaea-b8d0-1a46" hidden="false" type="profile" targetId="272d-53bf-d333-c161"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d7d3-aa3e-01a0-040c" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="3c93-4af2-5b15-a193" includeChildSelections="false"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="e036-4b5a-fbf1-f46b" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Sagittarum Custodian" id="4cd5-3cf9-087e-9145" hidden="false" type="profile" targetId="e434-4ace-294f-9bf1"/>
+            <infoLink name="Adrasite Bolt Caliver (Disintegration Beam)" id="0500-e656-ebdd-3248" hidden="false" type="profile" targetId="4c5e-a570-bdbb-9547"/>
+            <infoLink name="Adrasite Bolt Caliver (Bolt Volly)" id="5c73-66a6-c84c-8526" hidden="false" type="profile" targetId="6c67-ed2c-66e5-d101"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Aegis of The Emperor" id="1ddf-cea6-ec23-852c" hidden="false" type="profile" targetId="b102-9930-151f-c83e"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="7431-677f-0099-bba7" primary="false" name="Infantry"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="6e59-b1d9-8aac-e0eb" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="f058-9cc3-bea8-e544" id="61c5-ee77-7bf3-bdcb" primary="false" name="Faction: Adeptus Custodes"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Shield Captain" hidden="false" id="db41-2be8-015a-48b0">
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="100"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Primary Weapon" hidden="false" id="01d1-9097-306a-7183">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Castellan Axe" hidden="false" id="22b7-4b6a-3a59-5aaa">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e87b-dc69-e66b-560a" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Castellan Axe (Melee)" id="87db-64de-dbe4-e3a7" hidden="false" type="profile" targetId="ae82-94d6-2140-c153"/>
+                <infoLink name="Castellan Axe (Ranged)" id="f577-7108-6e6a-325a" hidden="false" type="profile" targetId="3cd4-823b-cbb1-35b7"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Guardian Spear" hidden="false" id="dcc4-2d42-f192-6e55">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8803-8288-86ba-ca0b" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Guardian Spear (Ranged)" id="5a2d-47b8-8acc-e78d" hidden="false" type="profile" targetId="992f-3c7b-a027-7a9e"/>
+                <infoLink name="Guardian Spear (Melee)" id="9ac3-7711-7353-be34" hidden="false" type="profile" targetId="95e3-83fd-ca88-c43f"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Sentinel Blade" hidden="false" id="9cb0-01ba-efda-e6f8">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d1df-1a82-bc79-d06c" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Sentinel Blade (Ranged)" id="481a-5604-aa76-2412" hidden="false" type="profile" targetId="bc72-629f-642b-5064"/>
+                <infoLink name="Sentinel Blade (Melee)" id="deb7-79c4-6a38-024f" hidden="false" type="profile" targetId="0ab5-fc3f-dc8c-f3d8"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="e2a7-5dc8-40a4-b118-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e2a7-5dc8-40a4-b118-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0125-8ec2-7f36-b8cb-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0125-8ec2-7f36-b8cb-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Storm Shield" hidden="false" id="fd61-5565-2db8-8729">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e0f-8794-f76d-b821" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Storm Shield" id="9387-fa44-e94e-205c" hidden="false" type="profile" targetId="c4c0-3c0d-006d-e5f2"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="f4a6-7766-2cd4-708d">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Misericordia" id="3789-2074-fee7-dd4e" hidden="false" type="profile" targetId="272d-53bf-d333-c161"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a295-367d-e308-4d58" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="8d70-7561-c50b-c7b5">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0222-6301-01f5-46e4" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Shield Captain" id="6922-5dc7-d0ec-8812" hidden="false" type="profile" targetId="3603-023e-9c64-a217"/>
+        <infoLink name="Inspiring Leader" id="9d62-c094-916e-8a7a" hidden="false" type="profile" targetId="3094-bd7d-c3ab-6026"/>
+        <infoLink name="Master of the Stances" id="3e1d-b7e2-27ad-3da2" hidden="false" type="profile" targetId="3550-0fb2-6286-62f4"/>
+        <infoLink name="Aegis of The Emperor" id="28c0-9188-c963-4d29" hidden="false" type="profile" targetId="b102-9930-151f-c83e"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="62a1-0ad2-8173-4735" primary="false" name="Infantry"/>
+        <categoryLink targetId="3275-df5e-2474-90ed" id="6c13-c09d-a8f1-70fb" primary="false" name="Character"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="9565-061c-8eb0-8cf6" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="f058-9cc3-bea8-e544" id="1545-4779-209b-1c8a" primary="false" name="Faction: Adeptus Custodes"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Shield Captain on Dawneagle Jetbike" hidden="false" id="74f9-f454-e670-d60d">
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="160"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="ae28-0121-948f-e1cc">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Misericordia" id="ac06-1b0c-5652-55d4" hidden="false" type="profile" targetId="272d-53bf-d333-c161"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de07-b548-2975-1097" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="0152-3b60-2925-95c2">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f7e6-4b38-54b5-8fa1" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bike Weapon" hidden="false" id="6737-5ea8-bc02-4024">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="be98-6245-b613-7539-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="be98-6245-b613-7539-max" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3830-77f6-6ac8-1141" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Salvo Launcher" hidden="false" id="f422-d61e-5942-1a25">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a12-bd18-ba1e-6926" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Salvo Launcher (Melta)" id="aa89-bef4-310c-a232" hidden="false" type="profile" targetId="68c0-6357-3922-73df"/>
+                <infoLink name="Salvo Launcher (Flakkburst)" id="347a-0730-aba1-c361" hidden="false" type="profile" targetId="2328-87e1-90cd-f882"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Hurricane Bolter" hidden="false" id="b9c9-cb2c-338f-23c0">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7926-c020-b89b-9876" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Hurricane Bolter" id="636c-5b80-1e24-d6e7" hidden="false" type="profile" targetId="c27c-1a04-2ab5-611d"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Shield Captain on Dawneagle Jetbike" id="b995-09b6-1e62-65aa" hidden="false" type="profile" targetId="fd2b-cdb3-d9b9-5b15"/>
+        <infoLink name="Inspiring Leader" id="145f-a035-370d-1a72" hidden="false" type="profile" targetId="3094-bd7d-c3ab-6026"/>
+        <infoLink name="Master of the Stances" id="6fd7-47d6-dcdb-f4f8" hidden="false" type="profile" targetId="3550-0fb2-6286-62f4"/>
+        <infoLink name="Aegis of The Emperor" id="504e-8b48-9358-cdcd" hidden="false" type="profile" targetId="b102-9930-151f-c83e"/>
+        <infoLink name="Interceptor Lance" id="86e8-ee47-4867-b5d0" hidden="false" type="profile" targetId="0b0a-0242-55d5-686c"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="3275-df5e-2474-90ed" id="afed-f4cd-294e-0b1c" primary="false" name="Character"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="f7c0-4ad8-49ff-800f" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="f058-9cc3-bea8-e544" id="37a3-889e-2f14-e629" primary="false" name="Faction: Adeptus Custodes"/>
+        <categoryLink targetId="b6f9-cd66-5fbf-a0cd" id="b304-3205-2298-88f4" primary="false" name="Calvary"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Allarus Custodians" hidden="false" id="ca83-a09f-629a-61a3">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Allarus Custodian" hidden="false" id="5dca-0efa-5fc0-073e">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="51f7-2e41-939f-9434">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Misericordia" id="e8c4-3c1e-398d-449a" hidden="false" type="profile" targetId="272d-53bf-d333-c161"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e437-335c-a61e-c146" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Primary Weapon" hidden="false" id="8b4c-f5bb-fa28-9c3f">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Castellan Axe" hidden="false" id="704b-6c49-3786-3a07">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="321e-e079-95aa-4571" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Castellan Axe (Melee)" id="f116-6b8b-269c-cdaf" hidden="false" type="profile" targetId="ae82-94d6-2140-c153"/>
+                    <infoLink name="Castellan Axe (Ranged)" id="d300-8d53-da0e-bf71" hidden="false" type="profile" targetId="3cd4-823b-cbb1-35b7"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Guardian Spear" hidden="false" id="2799-ea3a-36cc-a5a0">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5637-ee8b-a2e4-1aa8" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Guardian Spear (Ranged)" id="933d-8607-5467-f33c" hidden="false" type="profile" targetId="992f-3c7b-a027-7a9e"/>
+                    <infoLink name="Guardian Spear (Melee)" id="871c-e7a4-44a6-1867" hidden="false" type="profile" targetId="95e3-83fd-ca88-c43f"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="a8a7-d4c7-6598-4864-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a8a7-d4c7-6598-4864-max" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f691-affd-8f9e-2799-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f691-affd-8f9e-2799-max" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="70"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Allarus Custodian" id="63e9-8727-f566-2679" hidden="false" type="profile" targetId="363a-72bb-3bb6-3c3a"/>
+            <infoLink name="Aegis of The Emperor" id="a73b-2724-cd71-a2ba" hidden="false" type="profile" targetId="b102-9930-151f-c83e"/>
+            <infoLink name="Ballistus Grenade Launcher" id="2f52-bb20-75ba-6707" hidden="false" type="profile" targetId="ba0f-1129-aab1-3ce1"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="cadd-6be8-f829-8127" includeChildSelections="false"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="d65d-fb01-ee9f-5218" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Slayers of Tyrants" id="2c69-c256-72a4-e6b9" hidden="false" type="profile" targetId="cba5-2b8b-2c48-7810"/>
+        <infoLink name="From Golden Light" id="c4f8-4373-9a43-3fea" hidden="false" type="profile" targetId="dfe0-4c89-df93-7dad"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="84dd-721a-2adf-66be" primary="false" name="Infantry"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="37f1-588c-d8ce-56cd" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="f058-9cc3-bea8-e544" id="1da7-a777-85d6-4f20" primary="false" name="Faction: Adeptus Custodes"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Aquilon Custodians" hidden="false" id="ca3d-7c5e-40e3-cef4">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Aquilon Custodian" hidden="false" id="046e-6d7c-f30d-d04e">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="dd88-ee07-d874-0402">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Misericordia" id="d1af-bcff-9ee0-e885" hidden="false" type="profile" targetId="272d-53bf-d333-c161"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aba8-0e91-5e40-bd36" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee Weapon" hidden="false" id="ba1e-d944-44de-bd9b">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Solarite Power Gauntlet" hidden="false" id="7355-a9a5-6600-884c">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="301c-41a2-20a0-e4cb" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Solarite Power Gauntlet" id="68a6-4c98-ddca-724d" hidden="false" type="profile" targetId="8a7f-b8c6-4294-5253"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="13"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Solarite Power Talon" hidden="false" id="ac7c-7082-02a1-6c34">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eff4-9770-7e8a-5016" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Solarite Power Talon" id="7946-e04b-f80c-ad8a" hidden="false" type="profile" targetId="be29-98cc-107f-cceb"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="9"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="1ac8-4fe4-b531-55a9-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1ac8-4fe4-b531-55a9-max" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6b55-ab53-7311-613d-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b55-ab53-7311-613d-max" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged Weapon" hidden="false" id="ce6f-85d4-31b3-73c8">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="3900-6df3-2a9e-d7f1-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3900-6df3-2a9e-d7f1-max" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8d83-50ce-534a-03e8-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d83-50ce-534a-03e8-max" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Infernus Firepike" hidden="false" id="52b8-3606-5644-2042">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d2b1-3e28-6945-dedd" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Infernus Firepike" id="1bca-a907-c968-8b84" hidden="false" type="profile" targetId="19a3-4692-254a-3017"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Lastrum Storm Bolter" hidden="false" id="e6fd-b21c-4197-4b6c">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="569b-f817-3446-7891" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Lastrum Storm Bolter" id="1417-57e8-ca7e-2ec6" hidden="false" type="profile" targetId="21c3-2841-c2fb-09ad"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Twin Adrathic Destructor" hidden="false" id="273c-5fa7-402a-64cf">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="69ea-dc22-3aa9-524d" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Twin Adrathic Destructor" id="ff49-2c0c-23ed-57b2" hidden="false" type="profile" targetId="c79f-16d5-30c9-9028"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="9"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="80"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Aquilon Custodian" id="baba-62d6-d457-3531" hidden="false" type="profile" targetId="f77b-df94-87cc-80b2"/>
+            <infoLink name="Aegis of The Emperor" id="546b-f8b2-ba8b-42a5" hidden="false" type="profile" targetId="b102-9930-151f-c83e"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="897f-2ef5-63a5-9626" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="1964-0ee2-2a9d-a189" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="From Golden Light" id="b484-925c-6bcc-535c" hidden="false" type="profile" targetId="dfe0-4c89-df93-7dad"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="cdc6-fb9f-a820-8c34" primary="false" name="Infantry"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="2d83-f886-2650-f82d" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="f058-9cc3-bea8-e544" id="0ede-72f7-60b5-87b5" primary="false" name="Faction: Adeptus Custodes"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Custodian Wardens" hidden="false" id="6da0-a542-61c4-10e1">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Warden" hidden="false" id="91ac-f05c-f365-67dc">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="65"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="f469-26c0-f45f-5289">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Misericordia" id="664e-2b20-e0a6-d077" hidden="false" type="profile" targetId="272d-53bf-d333-c161"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be36-be30-f2c6-3126" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Primary Weapon" hidden="false" id="e7c8-7967-32ee-aeeb">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Guardian Spear" hidden="false" id="f514-8ef9-cf36-17ad">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="08a2-17cf-d7ef-98e4" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Guardian Spear (Ranged)" id="680b-a99e-b35a-b380" hidden="false" type="profile" targetId="992f-3c7b-a027-7a9e"/>
+                    <infoLink name="Guardian Spear (Melee)" id="c4dd-9042-31a5-aab8" hidden="false" type="profile" targetId="95e3-83fd-ca88-c43f"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Castellan Axe" hidden="false" id="a181-4a86-9443-2adc">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="88ad-8375-a0a2-201e" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Castellan Axe (Melee)" id="6822-2ad7-2841-a26f" hidden="false" type="profile" targetId="ae82-94d6-2140-c153"/>
+                    <infoLink name="Castellan Axe (Ranged)" id="7b40-7621-8718-5982" hidden="false" type="profile" targetId="3cd4-823b-cbb1-35b7"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="073e-9e89-5655-8599-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="073e-9e89-5655-8599-max" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="24a4-ae7d-285d-343d-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="24a4-ae7d-285d-343d-max" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="ef9d-bb8f-37e8-cb3b" includeChildSelections="false"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="f5d0-17dd-2aa8-abe6" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Custodian Warden" id="9bb4-feff-f7d5-c935" hidden="false" type="profile" targetId="a94f-37f5-459e-bd7c"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Aegis of The Emperor" id="a2c4-5831-9033-8a56" hidden="false" type="profile" targetId="b102-9930-151f-c83e"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="845f-e5a0-5186-2086" primary="false" name="Infantry"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="fb01-da97-ae97-d6c1" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="f058-9cc3-bea8-e544" id="2485-c7a3-1014-266d" primary="false" name="Faction: Adeptus Custodes"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Binding Oaths" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="af4f-0baf-7ce7-a448">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Roll a D6 each time a model in this unit loses a wound; on a 6 the damage is ignored and the wound is not lost</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Vexillus Praetor" hidden="false" id="30fd-914b-8d93-9ee0">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Primary Weapon" hidden="false" id="1252-7d2b-0d6b-1931">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Castellan Axe" hidden="false" id="4897-3a3d-fe41-c062">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d044-13f6-1dce-2783" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Castellan Axe (Melee)" id="8309-734f-ce91-8211" hidden="false" type="profile" targetId="ae82-94d6-2140-c153"/>
+                <infoLink name="Castellan Axe (Ranged)" id="cdb2-6cf5-62d7-62da" hidden="false" type="profile" targetId="3cd4-823b-cbb1-35b7"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Guardian Spear" hidden="false" id="1e1b-09ef-73fa-a67f">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="114a-821c-6f37-afdb" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Guardian Spear (Ranged)" id="2266-a4f7-e63d-2b73" hidden="false" type="profile" targetId="992f-3c7b-a027-7a9e"/>
+                <infoLink name="Guardian Spear (Melee)" id="c220-483a-dbc9-20a2" hidden="false" type="profile" targetId="95e3-83fd-ca88-c43f"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="a637-cb4d-aade-837a">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Misericordia" id="92fc-735c-43ca-5da9" hidden="false" type="profile" targetId="272d-53bf-d333-c161"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b512-257e-40b6-91c5" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Storm Shield" hidden="false" id="c33f-eaae-b825-605a">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c13-08a3-0061-9178" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Storm Shield" id="552c-fa55-1d7d-b2c9" hidden="false" type="profile" targetId="c4c0-3c0d-006d-e5f2"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="25a5-f016-cd52-a934-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="25a5-f016-cd52-a934-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2097-0a9a-1e43-59a5-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2097-0a9a-1e43-59a5-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Vexilla" hidden="false" id="cbdd-d0e3-8c34-969f">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="8aec-3c0d-c732-b5bc-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8aec-3c0d-c732-b5bc-max" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3cf4-f1f5-540b-5441" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Defensor" hidden="false" id="92e6-5274-9ead-8c1a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef00-d482-d0a6-74e9" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Defensor" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="36f5-0569-3a05-e104">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">IMPERIUM INFANTRY units have a 5+ invulnerable save against ranged weapons whilst they are wholly within 9&quot; of any friendly VEXILUS PRAETORS with this vexilla.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Imperius" hidden="false" id="8bab-3ba6-93d6-31e9">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a7d-2865-1cc1-3445" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Imperius" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="f134-20bb-9068-b327">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">ADEPTUS CUSTODES models (other than VEHICLES) add 1 to their Attacks characteristic whilst their unit is within 6&quot; of any friendly VEXILUS PRAETORS with this vexilla.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Magnifica" hidden="false" id="9ade-5d0a-410d-af08">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f084-d07d-6520-d16d" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Magnifica" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="fd34-32e2-1dae-b10c">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Your opponent must subtract 1 from hit rolls in the Shooting phase for attacks that target ADEPTUS CUSTODES units within 6&quot; of any friendly VEXILUS PRAETORS with this vexilla.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="30"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="10da-a72d-22ae-42cf">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fc1c-d096-6c4b-7fdd" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="90"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Vexillus Praetor" id="7cee-d531-2c2f-f009" hidden="false" type="profile" targetId="f5ec-510c-9628-280b"/>
+        <infoLink name="Aegis of The Emperor" id="8b44-e290-43c7-5b27" hidden="false" type="profile" targetId="b102-9930-151f-c83e"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="7927-50cd-8297-fe75" primary="false" name="Infantry"/>
+        <categoryLink targetId="3275-df5e-2474-90ed" id="b2b0-1593-a40d-da05" primary="false" name="Character"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="59c9-334d-db8b-d080" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="f058-9cc3-bea8-e544" id="2f46-b3f1-56da-870d" primary="false" name="Faction: Adeptus Custodes"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Custodes Vexilla" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="30d4-9edb-efaa-07aa">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">You can re-roll failed morale tests for friendly IMPERIUM INFANTRY and BIKER units within 6&quot; of this model. In addition, when you add this model to your army, choose one of the following vexillas for this model to carry:</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Vexillus Praetor in Allarus Terminator Armour" hidden="false" id="a855-3e95-e803-af4f">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Vexilla" hidden="false" id="87f1-c970-8faa-60be">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="f808-8ed1-4ac5-c48f-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="f808-8ed1-4ac5-c48f-max" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="debf-6684-2cd8-da47" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Defensor" hidden="false" id="61b1-a69d-0c33-9c18">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b3e9-c010-10b7-37fd" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Defensor" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="3c2f-3918-cb37-cfd2">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">IMPERIUM INFANTRY units have a 5+ invulnerable save against ranged weapons whilst they are wholly within 9&quot; of any friendly VEXILUS PRAETORS with this vexilla.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Imperius" hidden="false" id="78bc-ccd0-ef80-a4a8">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4995-d5bf-840b-4858" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Imperius" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="4c02-5ec1-d270-a831">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">ADEPTUS CUSTODES models (other than VEHICLES) add 1 to their Attacks characteristic whilst their unit is within 6&quot; of any friendly VEXILUS PRAETORS with this vexilla.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Magnifica" hidden="false" id="c63b-f926-38c4-636b">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e9a-a1c2-6b54-1644" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Magnifica" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="3a09-66b2-03d6-85bf">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Your opponent must subtract 1 from hit rolls in the Shooting phase for attacks that target ADEPTUS CUSTODES units within 6&quot; of any friendly VEXILUS PRAETORS with this vexilla.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="30"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="969c-6fda-b594-8ee7">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf0e-5559-aaf5-9cd2" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="e03b-54bf-b2d1-6535">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Misericordia" id="3979-3271-1581-e1cb" hidden="false" type="profile" targetId="272d-53bf-d333-c161"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b67e-bb4b-1cf7-5bd4" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="120"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Vexillus Praetor" id="6ed9-7c60-2526-9f72" hidden="false" type="profile" targetId="f5ec-510c-9628-280b"/>
+        <infoLink name="Aegis of The Emperor" id="3a2b-7f8f-d553-0a93" hidden="false" type="profile" targetId="b102-9930-151f-c83e"/>
+        <infoLink name="Ballistus Grenade Launcher" id="18f5-17d1-fc0a-e639" hidden="false" type="profile" targetId="ba0f-1129-aab1-3ce1"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="2452-c1d1-e77f-5762" primary="false" name="Infantry"/>
+        <categoryLink targetId="3275-df5e-2474-90ed" id="a1b0-08fa-efc1-0c9d" primary="false" name="Character"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="9f50-2aaa-8287-450b" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="f058-9cc3-bea8-e544" id="21e6-2fd0-951f-75bc" primary="false" name="Faction: Adeptus Custodes"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Custodes Vexilla" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="193c-c97a-9456-f56f">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">You can re-roll failed morale tests for friendly IMPERIUM INFANTRY and BIKER units within 6&quot; of this model. In addition, when you add this model to your army, choose one of the following vexillas for this model to carry:</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Agamatus Custodians" hidden="false" id="901f-9d8b-71e8-4c79">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Agamatus Custodian" hidden="false" id="e2ae-6575-5482-893a">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="80"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="9e5c-3c00-082a-c2e3" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="5538-913b-2aef-6316" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="7486-a295-664a-9fb3">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Misericordia" id="0de6-d865-ff76-ff40" hidden="false" type="profile" targetId="272d-53bf-d333-c161"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e248-1f6e-3ab0-b0b1" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bike Weapon" hidden="false" id="dd92-c1ce-0e5b-0239">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Lastrum Bolt Cannon" hidden="false" id="7af2-aac3-df7a-78b7">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="06f4-5886-7735-2f9b" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Lastrum Bolt Cannon" id="cd62-71bf-47bf-9bc3" hidden="false" type="profile" targetId="11a9-5e01-35bb-0b5d"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Adrathic Devastator" hidden="false" id="6a2f-6fc4-d269-cfa2">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a3ad-1a0e-ccca-667c" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Adrathic Devastator" id="a4ac-1209-7009-c169" hidden="false" type="profile" targetId="a8b1-6b4f-7199-2006"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Twin Las-Pulsar" hidden="false" id="8422-4cef-64e1-ed2f">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a97e-dbae-8d3f-1ca3" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="35"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Twin Las-Pulsar" id="8e71-0987-bea0-255c" hidden="false" type="profile" targetId="52bd-537b-f810-2c14"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="c8e4-4149-541a-1c71-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c8e4-4149-541a-1c71-max" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="351b-6b2b-9f2c-3d17" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <infoLinks>
+            <infoLink name="Interceptor Lance" id="1e4f-4415-cacb-4413" hidden="false" type="profile" targetId="0b0a-0242-55d5-686c"/>
+            <infoLink name="Agamatus Custodian" id="81d2-c607-2644-6ebb" hidden="false" type="profile" targetId="6abe-7692-4fb5-90bd"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Aegis of The Emperor" id="7c58-3663-bef7-5541" hidden="false" type="profile" targetId="b102-9930-151f-c83e"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Implacable Vanguard" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="6fc1-6c2c-f4a5-cdd8">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">When this model Advances, add 6&quot; to its Move characteristic for that Movement phase instead of rolling a dice.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="c2c7-dbd8-014b-2228" id="9bd0-5d21-b25f-d674" primary="false" name="Fly"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="fce5-ae3b-56dd-8abe" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="b6f9-cd66-5fbf-a0cd" id="9119-205d-a808-1ef2" primary="false" name="Calvary"/>
+        <categoryLink targetId="f058-9cc3-bea8-e544" id="e526-e4c9-316e-2bf5" primary="false" name="Faction: Adeptus Custodes"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Vertus Praetor" hidden="false" id="8bef-ae0a-2c38-60e6">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Vertus Praetor" hidden="false" id="81da-2178-7936-7da0">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bike Weapon" hidden="false" id="8206-e11c-be6e-7feb">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Hurricane Bolter" hidden="false" id="39e6-6c52-2c01-4dbd">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b0b-1073-2113-50b9" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Hurricane Bolter" id="fb96-04fe-4228-f883" hidden="false" type="profile" targetId="c27c-1a04-2ab5-611d"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Salvo Launcher" hidden="false" id="1f06-f1c1-100c-eb18">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc15-5c69-c962-c65e" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Salvo Launcher (Melta)" id="935f-9534-1b27-e02e" hidden="false" type="profile" targetId="68c0-6357-3922-73df"/>
+                    <infoLink name="Salvo Launcher (Flakkburst)" id="81f9-2bf3-a74f-e7a4" hidden="false" type="profile" targetId="2328-87e1-90cd-f882"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="cd09-6e19-41a3-7c07-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="cd09-6e19-41a3-7c07-max" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b46-cbb3-823f-4847" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="d598-646f-c88e-070c">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Misericordia" id="526a-36a6-bafc-70f5" hidden="false" type="profile" targetId="272d-53bf-d333-c161"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="27ee-d594-7b85-8258" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <infoLinks>
+            <infoLink name="Interceptor Lance" id="e553-5d57-e840-988f" hidden="false" type="profile" targetId="0b0a-0242-55d5-686c"/>
+            <infoLink name="Aegis of The Emperor" id="2ce0-d129-4ac9-0a8c" hidden="false" type="profile" targetId="b102-9930-151f-c83e"/>
+            <infoLink name="Vertus Praetor" id="9af5-c3ae-bd73-d0d1" hidden="false" type="profile" targetId="6c8b-f518-7761-b6de"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Implacable Vanguard" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="c1fe-27b8-17bd-668e">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">When this model Advances, add 6&quot; to its Move characteristic for that Movement phase instead of rolling a dice.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="90"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="9e65-993a-5fb6-e22c" includeChildSelections="false"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="18e0-c286-d7d9-dce7" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="c2c7-dbd8-014b-2228" id="dd36-0f05-1c5a-39b5" primary="false" name="Fly"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="734a-2281-2753-c209" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="f058-9cc3-bea8-e544" id="024f-05e3-91c1-cfd4" primary="false" name="Faction: Adeptus Custodes"/>
+        <categoryLink targetId="b6f9-cd66-5fbf-a0cd" id="c507-d351-1f80-068a" primary="false" name="Calvary"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Venatari Custodians" hidden="false" id="ab9b-1a16-1105-2c19">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Venatari Custodian" hidden="false" id="a224-133e-a526-dcfd">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="50"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Weapon Options" hidden="false" id="3a1e-d77e-91be-c6ba">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3394-56b3-d198-c7f0" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="04e7-9637-2993-2617-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="04e7-9637-2993-2617-max" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Kinetic Destroyer and Tarsus Buckler" hidden="false" id="3cea-6f99-2e14-d298">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4730-ebe1-7924-d0e6" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Kinetic Destroyer" id="a7ff-5040-cbe1-f1e5" hidden="false" type="profile" targetId="21c2-c8d3-1654-6c36"/>
+                    <infoLink name="Tarsus Buckler" id="d9a2-1cfd-e5d9-26d2" hidden="false" type="profile" targetId="a7d4-ef79-f746-7938"/>
+                    <infoLink name="Tarsus Buckler" id="1497-f15c-118a-4416" hidden="false" type="profile" targetId="bd47-fc45-680e-0f2f"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="18"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Venatari Lance" hidden="false" id="bace-76b8-c0ba-8d74">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="179b-d6d8-1003-fb15" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Venatari Lance (Melee)" id="c93e-ad82-6d58-8c0c" hidden="false" type="profile" targetId="f220-3da9-f9ba-5878"/>
+                    <infoLink name="Venatari Lance (Shooting)" id="9c31-e024-1b01-8bb8" hidden="false" type="profile" targetId="ea1e-5e32-0311-da10"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="17"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="d981-18e7-d419-7a99">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Misericordia" id="8b81-837c-d123-571a" hidden="false" type="profile" targetId="272d-53bf-d333-c161"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a949-3192-5def-d3ae" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <profiles>
+            <profile name="Airborne Hunters" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="c656-57e5-c6a1-9005">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">During deployment, you can set up this unit high in the skies instead of setting it up on the battlefield. If you do, at the end of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Venatari Custodian" id="3487-feff-1e92-d208" hidden="false" type="profile" targetId="7d15-d899-6311-affd"/>
+            <infoLink name="Aegis of The Emperor" id="6805-bd2f-2859-995b" hidden="false" type="profile" targetId="b102-9930-151f-c83e"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="fa03-2d0e-7ed3-fe74" includeChildSelections="false"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="e802-8005-3df8-bcee" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="c2c7-dbd8-014b-2228" id="5af3-3ae3-8103-250f" primary="false" name="Fly"/>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="9a08-58f0-5aad-0a53" primary="false" name="Infantry"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="6cef-303a-d446-1f3a" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="f058-9cc3-bea8-e544" id="a044-c2af-6e5a-168b" primary="false" name="Faction: Adeptus Custodes"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Caladius Grav-Tank" hidden="false" id="d38d-f3f5-6667-9a68">
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="150"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Caladius Grav Tank" id="41cf-8b23-5122-d295" hidden="false" type="profile" targetId="bde5-b519-e7d0-bbbd"/>
+        <infoLink name="Twin Lastrum Bolt Cannon" id="94e2-01d7-e7cb-1436" hidden="false" type="profile" targetId="29f0-dfb4-bd9a-5b21"/>
+        <infoLink name="Hovering" id="7963-d70e-6ded-b008" hidden="false" type="rule" targetId="f250-dafa-dfba-4de7"/>
+        <infoLink name="Explodes" id="2a70-d5a2-d968-e898" hidden="false" type="rule" targetId="3541-94a7-a138-358b"/>
+        <infoLink name="Gravitic Backwash" id="e0c7-05f4-78f3-b87e" hidden="false" type="profile" targetId="6625-b0e1-76c1-497b"/>
+        <infoLink name="Flare Shield" id="cad4-98f8-713a-d77d" hidden="false" type="profile" targetId="c223-a1c6-30e4-9ccb"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Weapon Selection" hidden="false" id="e643-fc9a-f38c-d298">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin Arachnus Heavy Blaze Cannon" hidden="false" id="feeb-9773-d786-ce2e">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c4ef-6fd9-93a1-0446" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Twin Arachnus Heavy Blaze Cannon (Beam)" id="13b2-98b2-4b52-b41d" hidden="false" type="profile" targetId="d1ba-8ec4-6016-4f18"/>
+                <infoLink name="Twin Arachnus Heavy Blaze Cannon (Burst)" id="c41a-0a25-0b71-15a5" hidden="false" type="profile" targetId="351f-eb34-a4c0-9d4c"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="100"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin Illiastus Accelerator Cannon" hidden="false" id="7c43-e8c7-6523-ba16">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="54ba-c8dc-2c4d-f1d9" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Twin Illiastus Accelerator Cannon" id="f1ec-0396-f734-e866" hidden="false" type="profile" targetId="2372-6372-839c-b441"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="80"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="60f4-a9bf-ac7b-d2d3" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="9db8-209c-0431-6ee4-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9db8-209c-0431-6ee4-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="c2c7-dbd8-014b-2228" id="98e6-0bac-69b9-db41" primary="false" name="Fly"/>
+        <categoryLink targetId="a7a3-131f-c2e8-667f" id="223e-a025-ec3f-0326" primary="false" name="Vehicle"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="6f09-8651-1145-6aaa" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="f058-9cc3-bea8-e544" id="9493-7a50-9b6c-7980" primary="false" name="Faction: Adeptus Custodes"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Coronus Grav-Carrier" hidden="false" id="c5da-786d-95a9-fc35">
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="245"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Twin Lastrum Bolt Cannon" id="db66-de7d-d973-17ce" hidden="false" type="profile" targetId="29f0-dfb4-bd9a-5b21"/>
+        <infoLink name="Gravitic Backwash" id="f20c-3a6f-9ec1-6794" hidden="false" type="profile" targetId="6625-b0e1-76c1-497b"/>
+        <infoLink name="Flare Shield" id="f82b-b2f7-2c15-0df7" hidden="false" type="profile" targetId="c223-a1c6-30e4-9ccb"/>
+        <infoLink name="Explodes" id="8bb1-9e89-d2b9-2f45" hidden="false" type="rule" targetId="3541-94a7-a138-358b"/>
+        <infoLink name="Hovering" id="54e5-b880-bc21-5e73" hidden="false" type="rule" targetId="f250-dafa-dfba-4de7"/>
+        <infoLink name="Arachnus Blaze Cannon (Beam)" id="95de-d364-518e-95e7" hidden="false" type="profile" targetId="195d-b3c4-b17a-d5d4"/>
+        <infoLink name="Arachnus Blaze Cannon (Burst)" id="d5f4-b059-45cc-bbbe" hidden="false" type="profile" targetId="b339-3d4c-b7da-c9f2"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Coronus Grav-Carrier" typeId="d0b7-278c-fa1f-edd9" typeName="Transport" hidden="false" id="5218-9d02-753e-834d">
+          <characteristics>
+            <characteristic name="Capacity" typeId="a082-0383-c3c2-ef68">10 Adeptus Custodies Infantry Models</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="c2c7-dbd8-014b-2228" id="4f78-4e5f-f7ba-b514" primary="false" name="Fly"/>
+        <categoryLink targetId="a7a3-131f-c2e8-667f" id="3521-8e7f-2b49-5b89" primary="false" name="Vehicle"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="caef-5ada-70d5-c265" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="f058-9cc3-bea8-e544" id="8038-27ad-f8fe-eb33" primary="false" name="Faction: Adeptus Custodes"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Venerable Land Raider" hidden="false" id="5864-6bec-e111-a694">
+      <infoLinks>
+        <infoLink name="Venerable Land Raider" id="46e9-28d9-e4ed-1fbd" hidden="false" type="profile" targetId="0a0b-ac4e-0533-f7f6"/>
+        <infoLink name="Twin Lascannon" id="5c42-e198-b10a-f15c" hidden="false" type="profile" targetId="4f38-639f-4b9f-c4e7"/>
+        <infoLink name="Twin Lascannon" id="4443-b785-3150-f5e9" hidden="false" type="profile" targetId="4f38-639f-4b9f-c4e7"/>
+        <infoLink name="Twin Heavy Bolter" id="2f94-ff7b-f43a-9ce9" hidden="false" type="profile" targetId="0c2e-a0d3-25c9-1e0c"/>
+        <infoLink name="Hunter-Killer Missile" id="c12d-4cbd-8926-c0ec" hidden="false" type="profile" targetId="efc9-6206-b4da-c6db"/>
+        <infoLink name="Storm Bolter" id="7dce-dd22-e2bc-253a" hidden="false" type="profile" targetId="5347-18e6-69ec-ea9e"/>
+        <infoLink name="Smoke Launchers" id="5703-66b7-ad23-fceb" hidden="false" type="rule" targetId="51af-0fb9-3ca5-d307"/>
+        <infoLink name="Explodes" id="552c-b0e2-9c95-33f3" hidden="false" type="rule" targetId="3541-94a7-a138-358b"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="330"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Unyielding Ancient" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="a4f5-474f-ea45-e4df">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Roll a D6 each time this model loses a wound; on a 6 the damage is ignored and the wound is not lost.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Venerable Land Raider" typeId="d0b7-278c-fa1f-edd9" typeName="Transport" hidden="false" id="d1a7-ef7f-37f1-08de">
+          <characteristics>
+            <characteristic name="Capacity" typeId="a082-0383-c3c2-ef68">This model can Transport 5 Custodies Infantry Models</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Contemptor Achillus Dreadnought" hidden="false" id="98f4-6106-bd52-f0c2">
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="130"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Fist Weapons" hidden="false" id="4a59-16cc-9482-02b6">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="46f2-363b-3642-0b4f" includeChildSelections="false"/>
+            <constraint type="min" value="2" field="selections" scope="self" shared="true" id="a6fd-bea2-6c2d-ea5f-min" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="a6fd-bea2-6c2d-ea5f-max" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Infernus Incinerator" hidden="false" id="2983-5615-11d1-211a">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="85d1-deb9-54ac-057d" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Infernus Incinerator" id="190e-e96d-d23e-7fdf" hidden="false" type="profile" targetId="f3b4-fdb1-e6be-4e20"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lastrum Storm Bolter" hidden="false" id="ec16-f598-623d-60ed">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e6f0-4bce-5683-c4e2" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lastrum Storm Bolter" id="53f3-738f-a53d-643d" hidden="false" type="profile" targetId="21c3-2841-c2fb-09ad"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin Adrathic Destructor" hidden="false" id="1c4c-a06d-96e2-733c">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="b83d-c63f-ff47-ce85" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Twin Adrathic Destructor" id="c3b4-1f94-ff05-7e25" hidden="false" type="profile" targetId="c79f-16d5-30c9-9028"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Achillus Dreadspear (Melee)" id="75ed-531b-61e4-4b0e" hidden="false" type="profile" targetId="9775-2717-b6ad-1194"/>
+        <infoLink name="Achillus Dreadspear (Shooting)" id="5f78-19b5-6670-4fa4" hidden="false" type="profile" targetId="5fa5-f194-1149-be04"/>
+        <infoLink name="Contemptor Achillus Dreadnought 1" id="5ab9-d130-be08-945a" hidden="false" type="profile" targetId="a215-0ca0-7464-f7f0"/>
+        <infoLink name="Contemptor Achillus Dreadnought" id="b409-b73a-b48d-14d6" hidden="false" type="profile" targetId="1fff-5d44-517a-6f63"/>
+        <infoLink name="Contemptor Achillus Dreadnought 2" id="4669-73f7-c42c-f70a" hidden="false" type="profile" targetId="2afc-1b4c-ca37-7f31"/>
+        <infoLink name="Impaling Lunge" id="b13b-728e-11dc-c7b9" hidden="false" type="profile" targetId="c15b-720f-658d-e59c"/>
+        <infoLink name="Aegis of The Emperor" id="c87a-576e-b96e-3f16" hidden="false" type="profile" targetId="b102-9930-151f-c83e"/>
+        <infoLink name="Explodes" id="4e04-7b3e-e9fb-8b66" hidden="false" type="rule" targetId="3541-94a7-a138-358b"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="a87c-ffdd-175d-cbcb" id="76b9-208f-c037-7488" primary="false" name="Walker"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="59f7-c4fa-8480-8a73" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="d600-490e-cd19-6402" id="5d29-3c68-3922-4db7" primary="false" name="Faction: Imperial Guard"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Contemptor Galatus Dreadnought" hidden="false" id="f8af-5dfb-2ec2-9d00">
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="155"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Contemptor Galatus Dreadnought 1" id="8454-e3b1-fb8c-5ae8" hidden="false" type="profile" targetId="9a68-dbfc-d710-80ef"/>
+        <infoLink name="Contemptor Galatus Dreadnought" id="8cb9-3af0-3e0b-335b" hidden="false" type="profile" targetId="1cad-12b0-8ab0-c173"/>
+        <infoLink name="Contemptor Galatus Dreadnought 2" id="950c-dbcc-89b0-e52b" hidden="false" type="profile" targetId="1946-c5bf-03ae-edce"/>
+        <infoLink name="Galatus Shield" id="ded0-3a86-bb13-410e" hidden="false" type="profile" targetId="4dba-4d90-0e02-6c9a"/>
+        <infoLink name="Aegis of The Emperor" id="74fb-3ad5-548a-fc4a" hidden="false" type="profile" targetId="b102-9930-151f-c83e"/>
+        <infoLink name="Explodes" id="83da-2b11-7361-e5d2" hidden="false" type="rule" targetId="3541-94a7-a138-358b"/>
+        <infoLink name="Galatus Warblade (Shooting)" id="5590-6853-66da-e1e5" hidden="false" type="profile" targetId="26ad-4d40-a082-5988"/>
+        <infoLink name="Galatus Warblade (Melee)" id="690d-addd-bf16-e12a" hidden="false" type="profile" targetId="a479-b3c0-92bd-9b54"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="a87c-ffdd-175d-cbcb" id="d807-c3fd-c257-dbfd" primary="false" name="Walker"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="9ea5-1784-e449-139c" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="f058-9cc3-bea8-e544" id="2d8b-bcd3-aca2-0484" primary="false" name="Faction: Adeptus Custodes"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Telemon Heavy Deadnought" hidden="false" id="7d6f-4eaf-b292-ad03">
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="195"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Right Arm" hidden="false" id="edb8-23f1-0aa0-deda">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="827c-689c-e2a0-5fc3" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="98b7-11a0-eec4-525f-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="98b7-11a0-eec4-525f-max" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Arachnus Storm Cannon" hidden="false" id="39b0-1d27-7cb1-29aa">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a44c-74b5-b75a-038f" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="45"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Arachnus Blaze Cannon (Beam)" id="77da-fc51-30d7-b1a5" hidden="false" type="profile" targetId="195d-b3c4-b17a-d5d4"/>
+                <infoLink name="Arachnus Blaze Cannon (Burst)" id="e971-a12c-9fdd-218a" hidden="false" type="profile" targetId="b339-3d4c-b7da-c9f2"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Illiastus Accelerator Cannon" hidden="false" id="6f1b-baaf-8c0f-577a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c6eb-165c-0d84-707c" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="35"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Illiastus Accelerator Culverin" id="36ba-3887-cbff-d5a7" hidden="false" type="profile" targetId="d4df-9023-8173-30b3"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Telemon Caestus" hidden="false" id="993f-179e-9fc1-42cd">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a7fe-83ed-000a-3bc9" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Telemon Caestus" id="4539-a9de-41a3-02e6" hidden="false" type="profile" targetId="1d27-fa3c-35cf-7ba1"/>
+                <infoLink name="Twin Plasma Projector" id="a2c8-9865-1801-544a" hidden="false" type="profile" targetId="ee03-fc00-509a-494d"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="35"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Left Arm" hidden="false" id="c909-ac49-f6ec-3ac0">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4010-4feb-fc1f-a506" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="3d69-584a-1634-0b85-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3d69-584a-1634-0b85-max" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Arachnus Storm Cannon" hidden="false" id="686b-21ac-7796-bf17">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a61b-0165-edba-d4f0" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="45"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Arachnus Blaze Cannon (Beam)" id="d5ef-a349-a5fe-218f" hidden="false" type="profile" targetId="195d-b3c4-b17a-d5d4"/>
+                <infoLink name="Arachnus Blaze Cannon (Burst)" id="f380-16d5-9cf2-0adc" hidden="false" type="profile" targetId="b339-3d4c-b7da-c9f2"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Illiastus Accelerator Cannon" hidden="false" id="97e4-cdcc-1cd6-2adc">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0779-db72-167b-1b94" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="35"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Illiastus Accelerator Culverin" id="721c-be13-9484-bbd1" hidden="false" type="profile" targetId="d4df-9023-8173-30b3"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Telemon Caestus" hidden="false" id="cc4f-b2fa-114a-ed3d">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="47ba-8eed-3b17-45c1" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Telemon Caestus" id="7563-ab16-7ae2-2c0e" hidden="false" type="profile" targetId="1d27-fa3c-35cf-7ba1"/>
+                <infoLink name="Twin Plasma Projector" id="1f73-6712-5095-57f4" hidden="false" type="profile" targetId="ee03-fc00-509a-494d"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="35"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Telemon Heavy Dreadnought" id="555d-40d3-8be6-e49a" hidden="false" type="profile" targetId="ce9a-ccd4-cdaa-0a8d"/>
+        <infoLink name="Telemon Heavy Dreadnought 1" id="265f-3fcd-7d6a-cafc" hidden="false" type="profile" targetId="b5a6-613b-43cc-baa7"/>
+        <infoLink name="Telemon Heavy Dreadnought 2" id="d5b1-ba8d-505c-55f7" hidden="false" type="profile" targetId="e966-6999-cad1-a3f4"/>
+        <infoLink name="Aegis of The Emperor" id="c4c3-682f-12f5-873e" hidden="false" type="profile" targetId="b102-9930-151f-c83e"/>
+        <infoLink name="Explodes" id="3378-cc95-0eca-f242" hidden="false" type="rule" targetId="3541-94a7-a138-358b"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Spiculus Volley" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="6bf9-0794-a370-8124">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">When this model fires Overwatch or is chosen to shoot with, it can shoot with its Spiculus Bolt Launcher twice if it has not moved this turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Reinforced Atomantic Barriers" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="db89-3151-6cf6-1f60">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This model has a 4+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="a87c-ffdd-175d-cbcb" id="a1e1-529b-4722-8c14" primary="false" name="Walker"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="cf06-9c5f-8c46-599f" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="f058-9cc3-bea8-e544" id="96ae-7fa3-446e-1154" primary="false" name="Faction: Adeptus Custodes"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Trajann Valoris" hidden="false" id="9271-0feb-0553-8cae">
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="200"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Captain-General Trajann Valoris" id="b0ad-5cd6-db81-cd77" hidden="false" type="profile" targetId="49a2-3cf5-64c5-3951"/>
+        <infoLink name="Misericordia" id="408d-307f-1175-9dd5" hidden="false" type="profile" targetId="272d-53bf-d333-c161"/>
+        <infoLink name="Watcher&apos;s Axe (Melee)" id="15b1-c90b-76c8-b6ff" hidden="false" type="profile" targetId="4b05-ea64-3227-8ef0"/>
+        <infoLink name="Watcher&apos;s Axe (Shooting)" id="066f-5499-9971-53e6" hidden="false" type="profile" targetId="e2b6-10dc-7975-d42e"/>
+        <infoLink name="Aegis of The Emperor" id="294b-32e7-732f-c170" hidden="false" type="profile" targetId="b102-9930-151f-c83e"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Auramite Halo" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="7fa1-4454-2c33-8471">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Trajann Valoris has a 3+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Moment Shackle" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="6bf7-29ab-414a-3714">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Once per battle, if Trajann Valoris is on the battlefield, you can do one of the following: - Regain D3 wounds lost by Trajann Valoris during this phase (you cannot do this during an attack or if Trajann Valoris is slain) - At the end of the Fight phase, pile in and attack with Trajann Valoris an additional time - Regain up to D3 Command Points spent when you use a Stratagem (but no more than were spent on the Stratagem)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Legendary Commander" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="8925-1a6e-2d55-6399">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">You can re-roll hit rolls and wound rolls of 1 made for friendly ADEPTUS CUSTODES units within 6&quot; of Trajann Valoris.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="089b-ca28-eda1-841d" primary="false" name="Infantry"/>
+        <categoryLink targetId="3275-df5e-2474-90ed" id="ac98-9559-2621-e004" primary="false" name="Character"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="7d0b-e6ec-3c54-8d72" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="f058-9cc3-bea8-e544" id="9981-de58-b82e-5253" primary="false" name="Faction: Adeptus Custodes"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="7cbe-bfb3-a1a1-cbd4">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e10-11fc-5da9-85e0" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink targetId="9e08-fcf2-c2a3-cc46" id="a70e-809f-f4ce-380a" primary="false" name="Warlord"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Champion of the Imperium" hidden="true" id="fa60-ebec-0f51-f771">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3fb1-c3fc-3223-6ab9" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="7cbe-bfb3-a1a1-cbd4" shared="true" childName="Warlord"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Champion of the Imperium" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="4ff1-5925-74bf-0bb8">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Friendly ADEPTUS CUSTODES INFANTRY, BIKER, and DREADNOUGHT units that are within 12&quot; of your Warlord at the start of your opponent&apos;s Charge phase can make Heroic Interventions this phase in the same manner as CHARACTERS.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="-1"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Custodian Guard Squad" hidden="false" id="4acc-9771-3406-0e53" targetId="076e-7a83-dca3-75ef" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="168f-b2da-4fd7-90d7" id="4bfc-fd24-29db-c9f4" primary="true" name="Troop"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Shield Captain in Allarus Terminator Armour" hidden="false" id="2806-5fa8-2710-bf77" targetId="520e-139c-44ab-98d1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="df66-426b-8561-5154" id="511e-8baa-b9fb-8f6c" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sagittarum Squad" hidden="false" id="f4c8-d1ab-8a55-430b" targetId="24e1-328f-d788-d238" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="168f-b2da-4fd7-90d7" id="b43b-621b-e21e-33c5" primary="true" name="Troop"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Shield Captain" hidden="false" id="2dc7-5d46-7307-250f" targetId="db41-2be8-015a-48b0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="df66-426b-8561-5154" id="be0d-116a-eb72-74da" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Shield Captain on Dawneagle Jetbike" hidden="false" id="2ece-3eff-addc-ab39" targetId="74f9-f454-e670-d60d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="df66-426b-8561-5154" id="2e24-7b75-d247-ab1a" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Allarus Custodians" hidden="false" id="cc3e-125e-084f-5cfc" targetId="ca83-a09f-629a-61a3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="f4bc-7f06-10ba-80a3" id="982c-8bbb-5957-9b7b" primary="true" name="Elite"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Aquilon Custodians" hidden="false" id="4418-0de9-44f6-57db" targetId="ca3d-7c5e-40e3-cef4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="f4bc-7f06-10ba-80a3" id="6787-f5fb-4a26-9c28" primary="true" name="Elite"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Custodian Wardens" hidden="false" id="28ac-d080-5458-4bfe" targetId="6da0-a542-61c4-10e1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="f4bc-7f06-10ba-80a3" id="4397-8f64-8f97-262a" primary="true" name="Elite"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vexillus Praetor" hidden="false" id="c9f0-a12d-5026-5b0e" targetId="30fd-914b-8d93-9ee0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="df66-426b-8561-5154" id="d310-aeb6-919f-091e" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vexillus Praetor in Allarus Terminator Armour" hidden="false" id="d7fc-9029-8505-1d5f" targetId="a855-3e95-e803-af4f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="df66-426b-8561-5154" id="6e86-ccb0-6418-5727" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Agamatus Custodians" hidden="false" id="3799-ffd5-de79-0083" targetId="901f-9d8b-71e8-4c79" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="a2f8-3f8a-6b0f-82d7" id="3f7b-66f3-f674-7d23" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vertus Praetor" hidden="false" id="a86e-ab88-5bd8-5d5b" targetId="8bef-ae0a-2c38-60e6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="a2f8-3f8a-6b0f-82d7" id="8e2d-f7e4-8a21-402a" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Venatari Custodians" hidden="false" id="1483-42b6-d9c0-1413" targetId="ab9b-1a16-1105-2c19" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="a2f8-3f8a-6b0f-82d7" id="c53b-e9d5-e7a4-f44a" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Coronus Grav-Carrier" hidden="false" id="164a-8d46-e372-742a" targetId="c5da-786d-95a9-fc35" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="21a4-2f2e-888a-1b11" id="be46-7506-be07-6fe2" primary="true" name="Dedicated Transport"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Caladius Grav-Tank" hidden="false" id="8922-830c-890f-5883" targetId="d38d-f3f5-6667-9a68" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="4597-ff43-1b4c-478d" id="c2d2-fd7b-2806-ed22" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Contemptor Achillus Dreadnought" hidden="false" id="3bcb-9571-f590-8420" targetId="98f4-6106-bd52-f0c2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="f4bc-7f06-10ba-80a3" id="0bf4-0d0d-9e10-8702" primary="true" name="Elite"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Contemptor Galatus Dreadnought" hidden="false" id="8571-bf2b-52c3-517b" targetId="f8af-5dfb-2ec2-9d00" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="f4bc-7f06-10ba-80a3" id="adf1-3a8f-7294-f2a3" primary="true" name="Elite"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Telemon Heavy Deadnought" hidden="false" id="8c29-b0dd-a58e-67cc" targetId="7d6f-4eaf-b292-ad03" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="4597-ff43-1b4c-478d" id="c50a-ee62-9c2a-8ffe" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Trajann Valoris" hidden="false" id="54a7-937e-e49e-6129" targetId="9271-0feb-0553-8cae" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="df66-426b-8561-5154" id="aed8-a475-b8c8-88e7" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Venerable Land Raider" hidden="false" id="595c-5fc7-09c0-f43e" targetId="5864-6bec-e111-a694" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="4597-ff43-1b4c-478d" id="331d-655e-8d9a-ba6d" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>
