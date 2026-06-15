@@ -900,9 +900,6 @@
     <rule name="Against The Odds" id="db5b-2c16-5e58-b7aa" hidden="false">
       <description>While a Model with this special Rule is in close combat with 5 or more enemy models gain an extra attack for every 5 models in that unit.</description>
     </rule>
-    <rule name="Sunder" id="bc7f-77df-7cdf-deab" hidden="false">
-      <description>A weapon with this special rule may re-roll the Armour Penetration roll for its ranged weapons</description>
-    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Shield Captain in Allarus Terminator Armour" hidden="false" id="520e-139c-44ab-98d1">
@@ -2580,6 +2577,42 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Shield Host" hidden="false" id="0ab0-3aa2-0d3e-5357">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="ecee-2a8c-7906-f16b-min" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ecee-2a8c-7906-f16b-max" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Solar Watch" hidden="false" id="b017-41f2-d67a-6f13">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e59-c211-354a-9bdf" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Dread Host" hidden="false" id="1021-037d-50a6-4427">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1666-838f-9f0b-18ef" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Shadowkeepers" hidden="false" id="d010-f7a2-8e6d-cf1e">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="92c5-0e30-68ba-8f08" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Aquilan Shield" hidden="false" id="86c1-70ad-856f-d1c9">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf85-592b-76a2-a012" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Emissaries Imperatus" hidden="false" id="9724-8ba4-2ea3-8ac3">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2407-ce98-aac0-7001" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Martial Ka&apos;tah" id="454d-1cf8-b675-fe14" hidden="false" type="rule" targetId="0aa6-8bbc-d60c-cbb7"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Custodian Guard Squad" hidden="false" id="4acc-9771-3406-0e53" targetId="076e-7a83-dca3-75ef" type="selectionEntry">
@@ -2680,6 +2713,11 @@
     <entryLink import="true" name="Venerable Land Raider" hidden="false" id="595c-5fc7-09c0-f43e" targetId="5864-6bec-e111-a694" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="4597-ff43-1b4c-478d" id="331d-655e-8d9a-ba6d" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Shield Host" hidden="false" id="6675-dd2c-cfaa-fa14" targetId="0ab0-3aa2-0d3e-5357" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="2eb6-e424-69d8-5b7c" id="a10d-17be-d5d4-8e8b" primary="true" name="Configuration"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
