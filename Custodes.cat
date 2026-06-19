@@ -1150,7 +1150,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Shield Captain" hidden="false" id="db41-2be8-015a-48b0">
       <costs>
-        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="100"/>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="120"/>
         <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
       </costs>
@@ -2613,6 +2613,38 @@
         <infoLink name="Martial Ka&apos;tah" id="454d-1cf8-b675-fe14" hidden="false" type="rule" targetId="0aa6-8bbc-d60c-cbb7"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Blade Champion" hidden="false" id="815c-51ae-83b9-9a42">
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="120"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="065f-4538-ba5f-429e" primary="false" name="Infantry"/>
+        <categoryLink targetId="3275-df5e-2474-90ed" id="c43d-eba5-9b59-4a3e" primary="false" name="Character"/>
+        <categoryLink targetId="fb8f-9c9a-4f7c-d364" id="61e1-1ddc-e742-9a9d" primary="false" name="Faction: Imperium"/>
+        <categoryLink targetId="f058-9cc3-bea8-e544" id="9f49-b606-d677-965a" primary="false" name="Faction: Adeptus Custodes"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="0716-9ca4-85a7-26e5">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb75-5e88-1e3b-aecf" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Blade Champion" id="d4ea-71d7-2712-cc5e" hidden="false" type="profile" targetId="14ee-9465-9143-6d08"/>
+        <infoLink name="Vaultswords" id="2d5f-f5f6-df68-5d68" hidden="false" type="profile" targetId="76f2-885a-08b0-a038"/>
+        <infoLink name="Against The Odds" id="6fb7-27c3-5f28-580b" hidden="false" type="rule" targetId="db5b-2c16-5e58-b7aa"/>
+        <infoLink name="Master of the Stances" id="05a8-49d4-148b-861d" hidden="false" type="profile" targetId="3550-0fb2-6286-62f4"/>
+        <infoLink name="Aegis of The Emperor" id="8390-18e7-706c-7956" hidden="false" type="profile" targetId="b102-9930-151f-c83e"/>
+        <infoLink name="Swift Onslaught" id="d40f-1dde-847b-ef63" hidden="false" type="profile" targetId="24f0-3cef-d27d-ffac"/>
+        <infoLink name="From Golden Light" id="2913-4481-a7c0-e71f" hidden="false" type="profile" targetId="dfe0-4c89-df93-7dad"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Custodian Guard Squad" hidden="false" id="4acc-9771-3406-0e53" targetId="076e-7a83-dca3-75ef" type="selectionEntry">
@@ -2718,6 +2750,11 @@
     <entryLink import="true" name="Shield Host" hidden="false" id="6675-dd2c-cfaa-fa14" targetId="0ab0-3aa2-0d3e-5357" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="2eb6-e424-69d8-5b7c" id="a10d-17be-d5d4-8e8b" primary="true" name="Configuration"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Blade Champion" hidden="false" id="e66d-ea12-be64-6ace" targetId="815c-51ae-83b9-9a42" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="df66-426b-8561-5154" id="2a97-cbad-0f96-5e5a" primary="true" name="HQ"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
