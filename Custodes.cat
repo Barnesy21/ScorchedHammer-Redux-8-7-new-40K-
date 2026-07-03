@@ -987,7 +987,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Custodian" hidden="false" id="a342-a6e8-9b1b-4cd2">
           <costs>
-            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="50"/>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="52"/>
             <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
@@ -1109,7 +1109,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Sagittarum" hidden="false" id="ca04-d79c-6990-b1da">
           <costs>
-            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="50"/>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="51"/>
             <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
@@ -1391,7 +1391,7 @@
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="70"/>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="75"/>
             <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
@@ -1520,7 +1520,7 @@
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="80"/>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="84"/>
             <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
@@ -1547,7 +1547,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Warden" hidden="false" id="91ac-f05c-f365-67dc">
           <costs>
-            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="65"/>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="68"/>
             <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
@@ -1899,7 +1899,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Agamatus Custodian" hidden="false" id="e2ae-6575-5482-893a">
           <costs>
-            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="80"/>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="84"/>
             <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
@@ -2081,7 +2081,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Venatari Custodian" hidden="false" id="a224-133e-a526-dcfd">
           <costs>
-            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="50"/>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="52"/>
             <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>

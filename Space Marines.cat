@@ -4419,6 +4419,18 @@ Ferocious Strike: Each time this unit is selected to fight, select either the [L
                     <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
                     <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
                   </costs>
+                  <profiles>
+                    <profile name="Master-Crafted Power Lance" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="5f0a-9e28-92e1-598c">
+                      <characteristics>
+                        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+                        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+2</characteristic>
+                        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+                        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+                        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Lance Charge, Sweeping 1</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="71db-06f5-8c38-c4d8">
                   <infoLinks>
@@ -14233,7 +14245,11 @@ Shields of the Chapter: Each time an invulnerable saving throw is made for a mod
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Gravis Marine Sargent" hidden="false" id="8c79-9348-9eba-3c2e">
           <infoLinks>
-            <infoLink name="Gravis Sargent" id="5652-6bc4-f684-750a" hidden="false" type="profile" targetId="2bf3-e442-4553-6604"/>
+            <infoLink name="Gravis Sargent" id="5652-6bc4-f684-750a" hidden="false" type="profile" targetId="2bf3-e442-4553-6604">
+              <modifiers>
+                <modifier type="set" value="10&quot;" field="f861-1936-95cc-e6d3"/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="27"/>

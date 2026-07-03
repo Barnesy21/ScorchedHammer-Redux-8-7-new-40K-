@@ -976,6 +976,9 @@ D3 Effect
             <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Tzaangor" id="5769-4b63-769b-0489" hidden="false" type="profile" targetId="568c-1388-6699-8b8f"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Icon of Flame" hidden="false" id="af7a-046e-3e0a-5f36">
           <constraints>
@@ -1071,6 +1074,21 @@ D3 Effect
             <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
+          <profiles>
+            <profile name="Twisbray" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="282b-2bed-944d-fd4e">
+              <characteristics>
+                <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+                <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+                <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">4+</characteristic>
+                <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+                <characteristic name="T" typeId="7dd6-7000-6498-6a92">4</characteristic>
+                <characteristic name="W" typeId="f05f-2129-62a8-9a30">1</characteristic>
+                <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+                <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+                <characteristic name="Save" typeId="952f-14da-4484-d1ea">6+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
       <profiles>
@@ -1723,60 +1741,13 @@ D3 Effect
                 <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
               </costs>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Pistol" hidden="false" id="ff2c-f418-7e0f-d9d1">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="732c-0bf3-f8e8-a045" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd11-80e8-11f3-ceac" includeChildSelections="false"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Inferno Bolt Pistol" hidden="false" id="9454-a344-b779-dd15">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d0ab-6970-786e-6472" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Inferno Bolt pistol " id="a154-77d9-e428-27d5" hidden="false" type="profile" targetId="93a0-dc62-3797-347a"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Warpflame Pistol" hidden="false" id="462b-4a3a-7771-9a67">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2462-241b-fbb4-1fe1" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="4"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Warpflame Pistol" id="2c64-eef1-a674-322e" hidden="false" type="profile" targetId="a4b5-f5b7-825d-697d"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="0f50-7e88-f432-b1fc">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61f6-4b1e-e8c7-e6a1" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
-                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Plasma Pistol" id="bf05-76ae-2f30-e55b" hidden="false" type="profile" targetId="4cad-8e15-0a15-5da1"/>
-                      </infoLinks>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Melee Weapon" hidden="false" id="0372-1d6c-abd1-4e6c">
+                <selectionEntry type="upgrade" import="true" name="Melee Weapon" hidden="false" id="2dd9-11fb-f213-9fcf-1223">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="self" shared="true" id="90af-1702-2ad3-dec1" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf57-0ae7-7fff-d897" includeChildSelections="false"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Prosperine Blade" hidden="false" id="5465-e136-d6a4-9da5">
+                    <selectionEntry type="upgrade" import="true" name="Prosperine Blade" hidden="false" id="5fed-a595-3b2f-256d">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1768-3bae-5c7d-f5f3" includeChildSelections="false"/>
                       </constraints>
@@ -1789,7 +1760,7 @@ D3 Effect
                         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Prosperine Stave" hidden="false" id="dfad-bc1a-7826-5d8b">
+                    <selectionEntry type="upgrade" import="true" name="Prosperine Stave" hidden="false" id="29fa-84f1-f3af-94dc">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e47-8f9e-1a45-e818" includeChildSelections="false"/>
                       </constraints>
@@ -1802,7 +1773,7 @@ D3 Effect
                         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Prosperine Axe" hidden="false" id="816b-151a-c0cb-c95b">
+                    <selectionEntry type="upgrade" import="true" name="Prosperine Axe" hidden="false" id="9b02-eed5-6c07-2842">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc67-ae0f-e35f-5f98" includeChildSelections="false"/>
                       </constraints>
@@ -1827,6 +1798,9 @@ D3 Effect
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58b2-54d0-cc01-b4e2" includeChildSelections="false"/>
               </constraints>
+              <entryLinks>
+                <entryLink targetId="2ea1-a65a-c8f8-a47c-1" id="1d07-1eac-6e4a-b76b" type="selectionEntry" name="Pistol" hidden="false"/>
+              </entryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Sorcerer on Disc of Tzeentch" hidden="false" id="5da6-61a7-f87d-a43e">
               <costs>
@@ -1882,7 +1856,7 @@ D3 Effect
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Melee Weapon" hidden="false" id="0372-1d6c-abd1-4e6c">
+                <selectionEntry type="upgrade" import="true" name="Melee Weapon" hidden="false" id="0372-1d6c-abd1-4e6c-12">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="self" shared="true" id="90af-1702-2ad3-dec1" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf57-0ae7-7fff-d897" includeChildSelections="false"/>
@@ -4793,6 +4767,509 @@ D3 Effect
         <infoLink name="Deep Strike" id="e268-62e9-9ccc-7590" hidden="false" type="rule" targetId="70a9-a55c-0c70-9815"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Exalted Flamer" hidden="false" id="6809-f21d-1db8-c747">
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="19f4-f011-e7f6-3c43" primary="false" name="Infantry"/>
+        <categoryLink targetId="c2c7-dbd8-014b-2228" id="79f9-b836-da36-7f3d" primary="false" name="Fly"/>
+        <categoryLink targetId="fe3b-618d-1e31-f4db" id="132d-52b5-0262-2b19" primary="false" name="Faction: Chaos"/>
+        <categoryLink targetId="ac3d-1a22-5a52-78d7" id="1401-f30b-3f93-3705" primary="false" name="Faction: Daemon"/>
+        <categoryLink targetId="c367-74ae-0cd6-3433" id="0841-bea2-1326-ded2" primary="false" name="Faction: Tzeentch"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="70"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Favour of Tzeentch" id="fa5c-bd60-ccb5-c9f0" hidden="false" type="profile" targetId="5ee7-ada4-e817-e688"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Exalted Flamer" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="c8a4-0196-df1c-3734">
+          <characteristics>
+            <characteristic name="M" typeId="f861-1936-95cc-e6d3">10&quot;</characteristic>
+            <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+            <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">3+</characteristic>
+            <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+            <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+            <characteristic name="W" typeId="f05f-2129-62a8-9a30">6</characteristic>
+            <characteristic name="A" typeId="d794-d261-842e-1ef8">3</characteristic>
+            <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+            <characteristic name="Save" typeId="952f-14da-4484-d1ea">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fire of Tzeentch (Blue)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="fd7e-9cf6-64e6-4534">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 3</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+4</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fire of Tzeentch (Pink)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="2253-0966-77fe-3456">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Pistol D6</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Torrant</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Tongues of Flame" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="39e1-1b98-af40-e690">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Daemon Prince of Tzeentch" hidden="false" id="f679-20e3-d5cd-ac7e">
+      <categoryLinks>
+        <categoryLink name="Character" hidden="false" id="186c-20cc-29df-a25b" targetId="3275-df5e-2474-90ed" primary="false"/>
+        <categoryLink name="Monster" hidden="false" id="eadf-f55d-8e72-49ea" targetId="ba49-f4b5-60df-6b8f" primary="false"/>
+        <categoryLink name="Psyker" hidden="false" id="3918-82c3-1fa3-4ffe" targetId="ee96-9320-87e8-2474" primary="false"/>
+        <categoryLink name="Faction: Chaos" hidden="false" id="6cf4-998b-b4ae-0c7c" targetId="fe3b-618d-1e31-f4db" primary="false"/>
+        <categoryLink name="Faction: Heretic Astartes" hidden="false" id="8355-20a9-8ddc-f462" targetId="0349-c0bf-197c-9f69" primary="false"/>
+        <categoryLink name="Faction: Daemon" hidden="false" id="96ce-5363-9e6a-a887" targetId="ac3d-1a22-5a52-78d7" primary="false"/>
+        <categoryLink targetId="c367-74ae-0cd6-3433" id="d1f4-8b39-5ffa-b3f8" primary="false" name="Faction: Tzeentch"/>
+        <categoryLink targetId="c65a-496e-0db2-a585" id="981c-f5b8-8ded-271a" primary="false" name="Faction: Thousand Sons"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Favour of Tzeentch" id="b1ce-d968-d300-f91f" hidden="false" type="profile" targetId="5ee7-ada4-e817-e688"/>
+        <infoLink name="Hateful Assault" id="0bb4-0439-4b52-8179" hidden="false" type="rule" targetId="73c3-c791-cd2f-6ad2"/>
+        <infoLink name="Death to the False Emperor" id="3bf4-e014-b43e-d538" hidden="false" type="profile" targetId="2024-d649-d323-85c0"/>
+        <infoLink name="Smite" id="7bc0-12b0-5792-dd1b" hidden="false" type="profile" targetId="d933-af1d-85f4-05df"/>
+        <infoLink name="Malefic Talons" id="f622-1e97-fb10-57ed" hidden="false" type="profile" targetId="5db9-a7fe-d2d8-e0f7"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Prince of Chaos" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="ba57-ccf1-3225-8eb4">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">You can re-roll hit rolls of 1 made for friendly THOUSAND SONS and TZEENTCH DAEMON units within 6&quot; of this model.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Daemon Prince of Tzeentch" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="697a-4a2a-846f-762b">
+          <characteristics>
+            <characteristic name="M" typeId="f861-1936-95cc-e6d3">8&quot;</characteristic>
+            <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+            <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+            <characteristic name="S" typeId="ffee-9c9b-6655-d843">7</characteristic>
+            <characteristic name="T" typeId="7dd6-7000-6498-6a92">6</characteristic>
+            <characteristic name="W" typeId="f05f-2129-62a8-9a30">8</characteristic>
+            <characteristic name="A" typeId="d794-d261-842e-1ef8">4</characteristic>
+            <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+            <characteristic name="Save" typeId="952f-14da-4484-d1ea">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Daemon Prince of Tzeentch" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="76b0-8f12-365b-ddea">
+          <characteristics>
+            <characteristic name="Cast" typeId="ab6d-5995-d985-b192">1</characteristic>
+            <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
+            <characteristic name="Powers Known" typeId="7e89-4bd8-8f12-0cf7">Smite and 1 from the Discipline of Tzeentch</characteristic>
+            <characteristic name="Other" typeId="c046-4b98-ea8c-d36b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Disciple of Tzeentch" hidden="false" id="74f1-3637-268a-0b59" type="selectionEntry" targetId="2c7f-4749-0514-97c0">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5c7f-e257-1c4c-4351" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Wings" hidden="false" id="c164-1e86-9e55-b651">
+          <modifiers>
+            <modifier type="add" value="c2c7-dbd8-014b-2228" field="category"/>
+          </modifiers>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="24"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Wings" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="dfee-9d0f-c9a6-a705">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This Model has the Deep Strike Special Rule</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec53-8362-adfe-8518" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Weapon" hidden="false" id="5d48-e967-5019-874b">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Malefic Talon" hidden="false" id="a668-c984-d9bf-bd16">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a66a-e085-3387-37a7" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Malefic Talons" id="0230-1baa-371b-24d6" hidden="false" type="profile" targetId="5db9-a7fe-d2d8-e0f7"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Daemonic Axe" hidden="false" id="8b1c-54ca-e3fd-7a17">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3cae-807a-c391-6fa1" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Daemonic Axe" id="42ee-7758-c5b8-ad02" hidden="false" type="profile" targetId="2ca2-fbd8-b55f-18ee"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Hellforged Sword" hidden="false" id="0e37-047e-d562-e3e1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f2f-9876-8e4e-8c3e" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Hellforged Sword" id="f37d-0738-8113-53ca" hidden="false" type="profile" targetId="1b3f-3edf-cdff-2cd1"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="17e3-8784-227e-944b" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72a4-e324-ddc0-01ec" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="aa34-f240-656b-aa96">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6bb4-c05f-c53f-b39b" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="156"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Change master" hidden="false" id="5a5f-5467-8abc-f2a9">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Disc Of Tzeentch" hidden="false" id="363d-29f9-1ba0-13a3">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="11"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Blades of Disc of Tzeentch" id="8926-272f-631e-4a24" hidden="false" type="profile" targetId="8f47-b5fb-8d22-974f"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a83-2e81-7046-e19a" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink targetId="c2c7-dbd8-014b-2228" id="8b98-43b5-f7bf-340c" primary="false" name="Fly"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="103b-d8ed-c5a5-7f4b" shared="true" childName="Fateskimmer"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Staff of Change" hidden="false" id="870d-f6be-035d-50d4">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Staff of Change" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="75ba-3b0c-5cf4-1878">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Increase the range of this model&apos;s Smite power from 18&quot; to 24&quot;.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7be4-7d0c-eef8-ebd6" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="048f-3868-f9f4-7f2b">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d20d-0fd6-b662-6d0b" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Fateskimmer" hidden="false" id="103b-d8ed-c5a5-7f4b">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="72"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9bcb-27cc-2b1f-0e84" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="363d-29f9-1ba0-13a3" shared="true" childName="Disc Of Tzeentch"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Lamprey bite" id="edd2-d210-24d8-ff45" hidden="false" type="profile" targetId="e433-453f-e1dc-8cb1"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Irritating Chant" hidden="false" id="6063-8f03-56d8-44f5">
+              <profiles>
+                <profile name="Irritating Chant" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="4ccf-77f4-a921-e9bc">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Your opponent must subtract 1 from Psychic tests made for enemy units within 9&quot; of a Chanting Horror.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="28f6-fcba-bf67-a396" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Change master" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="aef2-5abd-11a2-9b48">
+          <characteristics>
+            <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+            <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">4+</characteristic>
+            <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">3+</characteristic>
+            <characteristic name="S" typeId="ffee-9c9b-6655-d843">3</characteristic>
+            <characteristic name="T" typeId="7dd6-7000-6498-6a92">3</characteristic>
+            <characteristic name="W" typeId="f05f-2129-62a8-9a30">4</characteristic>
+            <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+            <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+            <characteristic name="Save" typeId="952f-14da-4484-d1ea">6+</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="12&quot;" field="f861-1936-95cc-e6d3">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="self" childId="363d-29f9-1ba0-13a3" shared="true" childName="Disc Of Tzeentch"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="5" field="7dd6-7000-6498-6a92">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="self" childId="103b-d8ed-c5a5-7f4b" shared="true" childName="Fateskimmer"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="14&quot;" field="f861-1936-95cc-e6d3">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="self" childId="103b-d8ed-c5a5-7f4b" shared="true" childName="Fateskimmer"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="8" field="f05f-2129-62a8-9a30">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="self" childId="103b-d8ed-c5a5-7f4b" shared="true" childName="Fateskimmer"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Ritual Dagger" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="7fbe-46db-a619-fa41">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Change master" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="694e-bbeb-b3a0-871e">
+          <characteristics>
+            <characteristic name="Cast" typeId="ab6d-5995-d985-b192">1</characteristic>
+            <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
+            <characteristic name="Powers Known" typeId="7e89-4bd8-8f12-0cf7">Smite and 2 powers form Discipline of Tzeentch</characteristic>
+            <characteristic name="Other" typeId="c046-4b98-ea8c-d36b"/>
+          </characteristics>
+        </profile>
+        <profile name="Locus of Tzeentch" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="b877-b8d6-4b5d-04ca">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Add 1 to the Strength characteristic of TZEENTCH DAEMON units within 6&quot; of one or more friendly models with this ability.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Smite" id="b27a-63ae-f304-cc61" hidden="false" type="profile" targetId="d933-af1d-85f4-05df"/>
+        <infoLink name="Favour of Tzeentch" id="79a7-dc99-e406-8d4f" hidden="false" type="profile" targetId="5ee7-ada4-e817-e688"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="78"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Disciple of Tzeentch" hidden="false" id="967f-b6c1-7be1-d704" type="selectionEntry" targetId="2c7f-4749-0514-97c0">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="6e15-d12b-f453-a3cb" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="9faf-029d-5d37-3196" primary="false" name="Infantry"/>
+        <categoryLink targetId="3275-df5e-2474-90ed" id="ec33-5f6b-f6e6-4606" primary="false" name="Character"/>
+        <categoryLink targetId="fe3b-618d-1e31-f4db" id="1938-fae7-ce81-2a2a" primary="false" name="Faction: Chaos"/>
+        <categoryLink targetId="ac3d-1a22-5a52-78d7" id="e564-c092-0ad6-9a0b" primary="false" name="Faction: Daemon"/>
+        <categoryLink targetId="c367-74ae-0cd6-3433" id="5256-a9be-863f-e648" primary="false" name="Faction: Tzeentch"/>
+        <categoryLink targetId="eaba-5458-ed6b-b752" id="b59d-ece5-d5b8-989c" primary="false" name="Daemon"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Burning Chariot" hidden="false" id="a74a-507e-0f71-ebf5">
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="120"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Burning Chariot" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="2a3c-1942-3627-7088">
+          <characteristics>
+            <characteristic name="M" typeId="f861-1936-95cc-e6d3">14&quot;</characteristic>
+            <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">4+</characteristic>
+            <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">3+</characteristic>
+            <characteristic name="S" typeId="ffee-9c9b-6655-d843">5</characteristic>
+            <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+            <characteristic name="W" typeId="f05f-2129-62a8-9a30">8</characteristic>
+            <characteristic name="A" typeId="d794-d261-842e-1ef8">3</characteristic>
+            <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+            <characteristic name="Save" typeId="952f-14da-4484-d1ea">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fire of Tzeentch (Blue)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="3286-9d7f-ee87-5c4d">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 3</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+4</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fire of Tzeentch (Pink)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="99a1-6364-e5bf-7784">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Pistol D6</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Torrant</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Tongues of Flame" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="eb31-eecc-cbea-63d1">
+          <characteristics>
+            <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+            <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+            <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+            <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+            <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+            <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Favour of Tzeentch" id="09ee-1ac7-d071-2b92" hidden="false" type="profile" targetId="5ee7-ada4-e817-e688"/>
+        <infoLink name="Lamprey bite" id="20d8-74ae-5350-65e3" hidden="false" type="profile" targetId="e433-453f-e1dc-8cb1"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="3 Irritating Chant" hidden="false" id="ee39-ee25-1149-0c65">
+          <profiles>
+            <profile name="Irritating Chant" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="e2e9-9d4d-da45-fa5b">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Your opponent must subtract 1 from Psychic tests made for enemy units within 9&quot; of a Chanting Horror.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ddd-a0a8-d148-6ff2" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="b6f9-cd66-5fbf-a0cd" id="7612-213c-db85-4120" primary="false" name="Calvary"/>
+        <categoryLink targetId="eaba-5458-ed6b-b752" id="4f8b-c3d2-f592-05bc" primary="false" name="Daemon"/>
+        <categoryLink targetId="ac3d-1a22-5a52-78d7" id="ab79-1987-1d27-c201" primary="false" name="Faction: Daemon"/>
+        <categoryLink targetId="c367-74ae-0cd6-3433" id="21b1-f0e5-e565-e94d" primary="false" name="Faction: Tzeentch"/>
+        <categoryLink targetId="fe3b-618d-1e31-f4db" id="cd43-2171-28c2-8e23" primary="false" name="Faction: Chaos"/>
+        <categoryLink targetId="c2c7-dbd8-014b-2228" id="4bcb-635d-3a70-e7fd" primary="false" name="Fly"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Pistol" hidden="false" id="2ea1-a65a-c8f8-a47c-1">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="732c-0bf3-f8e8-a045" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd11-80e8-11f3-ceac" includeChildSelections="false"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Inferno Bolt Pistol" hidden="false" id="79a4-5c92-74f0-e9b9">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d0ab-6970-786e-6472" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Inferno Bolt pistol " id="a154-77d9-e428-27d5" hidden="false" type="profile" targetId="93a0-dc62-3797-347a"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warpflame Pistol" hidden="false" id="528a-8708-6cc9-3768">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2462-241b-fbb4-1fe1" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="4"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Warpflame Pistol" id="2c64-eef1-a674-322e" hidden="false" type="profile" targetId="a4b5-f5b7-825d-697d"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="67c5-760b-3755-e33b">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61f6-4b1e-e8c7-e6a1" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Plasma Pistol" id="bf05-76ae-2f30-e55b" hidden="false" type="profile" targetId="4cad-8e15-0a15-5da1"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Rubric Marine" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="bf0c-4afc-9413-46e5">
@@ -5109,7 +5586,7 @@ D3 Effect
         <characteristic name="Save" typeId="952f-14da-4484-d1ea">3+</characteristic>
       </characteristics>
     </profile>
-    <profile name="Blades of Disc of Tzeentch" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="8f47-b5fb-8d22-974f">
+    <profile name="Blades of Disc of Tzeentch" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="true" id="8f47-b5fb-8d22-974f">
       <characteristics>
         <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
         <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
@@ -5192,6 +5669,16 @@ D3 Effect
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lamprey bite" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="e433-453f-e1dc-8cb1">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">(Anti-Monster 4+), (Anti-Vehicle 4+), If this Model is a Fateskimmer or Burning Chariot This model Gains the Bonus attacks 6 SR</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -5316,6 +5803,26 @@ In your Command phase, if your opponent has one or more Flux tokens, you gain on
         <categoryLink targetId="a2f8-3f8a-6b0f-82d7" id="ee58-b56c-f615-d422" primary="true" name="Fast Attack"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Exalted Flamer" hidden="false" id="6072-dafd-4b48-ae54" targetId="6809-f21d-1db8-c747" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="f4bc-7f06-10ba-80a3" id="f670-2a15-ca9e-c6e6" primary="true" name="Elite"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Daemon Prince of Tzeentch" hidden="false" id="a8e4-38d4-632d-3748" targetId="f679-20e3-d5cd-ac7e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="df66-426b-8561-5154" id="4c55-ab01-eed4-984e" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Change master" hidden="false" id="f319-0829-265a-6287" targetId="5a5f-5467-8abc-f2a9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="df66-426b-8561-5154" id="7819-4e13-a58b-9850" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Burning Chariot" hidden="false" id="f4f9-2944-8d09-0448" targetId="a74a-507e-0f71-ebf5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="4597-ff43-1b4c-478d" id="bd16-40ae-1925-f112" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <categoryEntries>
     <categoryEntry name="Faction: Thousand Sons" id="c65a-496e-0db2-a585" hidden="false"/>
@@ -5350,17 +5857,10 @@ In your Command phase, if your opponent has one or more Flux tokens, you gain on
                 <characteristic name="Save" typeId="952f-14da-4484-d1ea">6+</characteristic>
               </characteristics>
             </profile>
-            <profile name="Lamprey bite" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="e433-453f-e1dc-8cb1">
-              <characteristics>
-                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
-                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
-                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
-                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
-                <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
-                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">(Anti-Monster 5+), (Anti-Vehicle 4+)</characteristic>
-              </characteristics>
-            </profile>
           </profiles>
+          <infoLinks>
+            <infoLink targetId="e433-453f-e1dc-8cb1" id="c483-1494-99a7-0992" type="profile" name="Lamprey bite" hidden="false"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <profiles>

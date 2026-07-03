@@ -874,6 +874,42 @@
         <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Add 1 to wound roles for friendly Adeptus Sororitas within 6&quot; of this model.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Novitiate Weapons" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="b71b-5f48-d97c-fb0c">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Extra Attack</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Insidiants" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="9fdd-8a1d-7ab2-b364">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">3+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">3</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">3</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">1</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Insidiants Superior" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="3375-fcce-ca85-64f6">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">3+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">3</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">3</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">1</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">3+</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Acts of Faith" id="daf6-e2f8-1f1f-c08b" hidden="false">
@@ -1793,7 +1829,7 @@ Note: You are not Limited to 1 Act of Faith Per Turn However you are Limited to 
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Sister Novitiate Squad" hidden="false" id="22ed-9e6d-8eaa-1af9">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Sister Novitiate" hidden="false" id="9b43-be53-53ea-7ab0">
+        <selectionEntry type="model" import="true" name="Novitiate Militant" hidden="false" id="9b43-be53-53ea-7ab0">
           <infoLinks>
             <infoLink name="Frag Grenade" id="ed77-875c-5c8b-9bc4" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
             <infoLink name="Frag Grenade (B)" id="270f-d031-4a6a-781a" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
@@ -1813,11 +1849,6 @@ Note: You are not Limited to 1 Act of Faith Per Turn However you are Limited to 
             <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="35b2-81b3-38dd-5f7d" includeChildSelections="false"/>
           </constraints>
           <modifiers>
-            <modifier type="decrement" value="1" field="35b2-81b3-38dd-5f7d">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="b8c8-5634-1b8a-0733" shared="true" childName="Battle Sister /WF Heavy Weapon"/>
-              </conditions>
-            </modifier>
             <modifier type="decrement" value="1" field="6acc-409e-aecd-0419">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="92f7-f2ff-e336-b4b5" shared="true" childName="Battle Sister /WF Simulacrum"/>
@@ -1830,17 +1861,92 @@ Note: You are not Limited to 1 Act of Faith Per Turn However you are Limited to 
             </modifier>
             <modifier type="decrement" value="1" field="6acc-409e-aecd-0419">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="b8c8-5634-1b8a-0733" shared="true" childName="Battle Sister /WF Heavy Weapon"/>
-              </conditions>
-            </modifier>
-            <modifier type="decrement" value="1" field="6acc-409e-aecd-0419">
-              <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="2d48-cab9-a6b4-9e79" shared="true" childName="Battle Sister /WF Simulacrum"/>
               </conditions>
             </modifier>
             <modifier type="decrement" value="1" field="35b2-81b3-38dd-5f7d">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="2d48-cab9-a6b4-9e79" shared="true" childName="Battle Sister /WF Simulacrum"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="35b2-81b3-38dd-5f7d">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="a6f2-7fec-5747-a603" shared="true" childName="Novitiate Pronatus"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="6acc-409e-aecd-0419">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="a6f2-7fec-5747-a603" shared="true" childName="Novitiate Pronatus"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="35b2-81b3-38dd-5f7d">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="0d2a-8992-4782-bf00" shared="true" childName="Novitiate Condemnor"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="6acc-409e-aecd-0419">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="0d2a-8992-4782-bf00" shared="true" childName="Novitiate Condemnor"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="35b2-81b3-38dd-5f7d">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="7944-3caa-ecdd-39aa" shared="true" childName="Novitiate Dialogus"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="6acc-409e-aecd-0419">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="7944-3caa-ecdd-39aa" shared="true" childName="Novitiate Dialogus"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="6acc-409e-aecd-0419">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="f6ed-8a07-8ee1-2a27" shared="true" childName="Novitiate Extractor"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="35b2-81b3-38dd-5f7d">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="f6ed-8a07-8ee1-2a27" shared="true" childName="Novitiate Extractor"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="35b2-81b3-38dd-5f7d">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="8129-9692-520e-b69e" shared="true" childName="Novitiate Dualist"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="6acc-409e-aecd-0419">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="8129-9692-520e-b69e" shared="true" childName="Novitiate Dualist"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="35b2-81b3-38dd-5f7d">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="4cec-c489-16fb-7886" shared="true" childName="Novitiate Hospitaller"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="6acc-409e-aecd-0419">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="4cec-c489-16fb-7886" shared="true" childName="Novitiate Hospitaller"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="35b2-81b3-38dd-5f7d">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="a76b-be30-7769-1634" shared="true" childName="Novitiate Penitent"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="6acc-409e-aecd-0419">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="a76b-be30-7769-1634" shared="true" childName="Novitiate Penitent"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="6acc-409e-aecd-0419">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="b23f-7c83-542b-4100" shared="true" childName="Novitiate Preceptor"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="35b2-81b3-38dd-5f7d">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="b23f-7c83-542b-4100" shared="true" childName="Novitiate Preceptor"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1857,7 +1963,7 @@ Note: You are not Limited to 1 Act of Faith Per Turn However you are Limited to 
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Battle Sister /WF Ministorum Flamer" hidden="false" id="92f7-f2ff-e336-b4b5">
+        <selectionEntry type="model" import="true" name="Novitiate Purgatus" hidden="false" id="92f7-f2ff-e336-b4b5">
           <infoLinks>
             <infoLink name="Frag Grenade" id="9c85-3a27-b9aa-ad7d" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
             <infoLink name="Frag Grenade (B)" id="031b-b122-c93f-6937" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
@@ -1888,231 +1994,25 @@ Note: You are not Limited to 1 Act of Faith Per Turn However you are Limited to 
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Battle Sister /WF Special Weapon" hidden="false" id="b8c8-5634-1b8a-0733">
-          <infoLinks>
-            <infoLink name="Frag Grenade" id="072e-c27d-91ea-70da" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
-            <infoLink name="Frag Grenade (B)" id="841a-0787-1f2e-a25d" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
-            <infoLink name="Krak Grenade" id="b802-0191-afe0-d723" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
-            <infoLink name="Sister Novitiate" id="0703-1f5c-3c7e-7c9b" hidden="false" type="profile" targetId="54cc-9d29-8ed1-cc3d"/>
-            <infoLink name="Auto Pistol" id="abfd-4fe7-a34c-9cf8" hidden="false" type="profile" targetId="97a0-8301-4468-979e"/>
-            <infoLink name="Shield of Faith" id="c3fe-5a74-18da-fbc9" hidden="false" type="profile" targetId="07ae-d6ca-2b7d-7bf6"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
-            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="169b-ab43-efe8-527a" includeChildSelections="false"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Special Weapon" hidden="false" id="6a83-2ae7-e3ca-b51b">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3f4c-5cda-e5f3-b13f" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="34a8-fae3-8356-395a" includeChildSelections="false"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="e771-a2c3-cbae-d7e0">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ed8-d1fa-44ab-d32e" includeChildSelections="false"/>
-                  </constraints>
-                  <costs>
-                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
-                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Ministorum Flamer" id="50e5-d41d-a8d9-c926" hidden="false" type="profile" targetId="bfe7-52a3-00be-837c"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="8d2c-205d-0227-f450">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6419-d2c7-9976-a5a9" includeChildSelections="false"/>
-                  </constraints>
-                  <costs>
-                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
-                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Meltagun" id="50da-38d4-970f-bdd8" hidden="false" type="profile" targetId="0457-12b1-1d6e-b59d"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntry>
-          </selectionEntries>
-          <profiles>
-            <profile name="Novitiate Weapons" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="bc4f-e2a7-8753-dfa2">
-              <characteristics>
-                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
-                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
-                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
-                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
-                <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
-                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Extra Attack</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-        <selectionEntry type="model" import="true" name="Novitiate Superior" hidden="false" id="a76b-be30-7769-1634">
+        <selectionEntry type="model" import="true" name="Novitiate Penitent" hidden="false" id="a76b-be30-7769-1634">
           <infoLinks>
             <infoLink name="Frag Grenade" id="b321-e2be-3a16-687b" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
             <infoLink name="Frag Grenade (B)" id="22a5-3af8-ecf8-0e06" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
             <infoLink name="Krak Grenade" id="5564-f896-8c0d-3ee2" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
-            <infoLink name="Novitiate Superior" id="e53e-6320-e44d-7d8e" hidden="false" type="profile" targetId="1e92-28ce-972d-70b4"/>
+            <infoLink name="Sister Novitiate" id="e53e-6320-e44d-7d8e" hidden="false" type="profile" targetId="54cc-9d29-8ed1-cc3d"/>
             <infoLink name="Shield of Faith" id="0a9c-5c78-b211-4b2b" hidden="false" type="profile" targetId="07ae-d6ca-2b7d-7bf6"/>
+            <infoLink name="Penitent Eviscerator" id="4d37-1c28-1388-aecb" hidden="false" type="profile" targetId="e5e6-81d1-3ecb-d8f4"/>
           </infoLinks>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Pistol" hidden="false" id="8db8-84ec-2122-11b0">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="8580-9e0e-5d86-7df6">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="794b-cbc7-46fb-48f1" includeChildSelections="false"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink name="Bolt Pistol" id="3a27-af0f-7ca1-f2d7" hidden="false" type="profile" targetId="1806-24b6-c877-b09c"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Ministorum Hand Flamer" hidden="false" id="6560-b0f2-ea93-9276">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9fe3-bbe2-d2ec-2f32" includeChildSelections="false"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink name="Ministorum Hand Flamer" id="705b-9247-0bf9-d67c" hidden="false" type="profile" targetId="2f0a-7ecf-a52f-4ce2"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
-                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="a579-b229-bceb-c001">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3fed-7bee-0095-cf50" includeChildSelections="false"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink name="Plasma Pistol" id="8e67-10ee-c127-f405" hidden="false" type="profile" targetId="4cad-8e15-0a15-5da1"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
-                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="31f9-5c27-0714-7789" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="6cca-59e3-66c1-5a98" includeChildSelections="false"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Melee Weapon" hidden="false" id="8795-7533-5f4a-d21a">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="15a5-85b8-4756-58e9" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5d47-8d23-6e6f-6774" includeChildSelections="false"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Chainsword" hidden="false" id="1a29-67c3-5d7d-2b86">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f7a-e54c-111b-ec1d" includeChildSelections="false"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink name="Chainsword" id="4671-76cf-fed5-9554" hidden="false" type="profile" targetId="1dcb-d141-e4b1-dea0"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Power Axe" hidden="false" id="3ca9-9c67-ad4a-bb7a">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f5b9-9894-91a0-ad09" includeChildSelections="false"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink name="Power Axe" id="0295-2363-1806-efbd" hidden="false" type="profile" targetId="1b34-6d07-e29f-ccc0"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
-                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Power Maul" hidden="false" id="2975-0494-0bfb-2a99">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1541-8e22-e6b7-96fd" includeChildSelections="false"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink name="Power Maul" id="35d0-2144-244a-6c5a" hidden="false" type="profile" targetId="2787-ecbc-1ea4-857e"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="4"/>
-                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Power Sword" hidden="false" id="eed8-c59f-5a7f-94f6">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5cee-3e6e-4a2d-5c41" includeChildSelections="false"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink name="Power Sword" id="85b8-9ba7-51c1-ee1f" hidden="false" type="profile" targetId="5e7d-82e2-f13c-31ec"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="4"/>
-                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="bf6f-daa2-9a54-b871">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Condemnor Boltgun" hidden="false" id="d8d1-aa2c-7246-89f0">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="68cd-0b8f-316b-5df8" includeChildSelections="false"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink name="Condemnor Boltgun" id="347a-72f2-5d28-f468" hidden="false" type="profile" targetId="443b-0c64-ac13-9ced"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
-                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
-                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="4234-3b5b-64d0-2bbd">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7733-91f6-c990-a0e8" includeChildSelections="false"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink name="Boltgun" id="a51a-0fdb-8b2f-38ff" hidden="false" type="profile" targetId="6e59-15d1-ba4a-238f"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="12be-aad5-e434-867c" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d962-5037-e480-c516" includeChildSelections="false"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b9e6-f122-2c3d-6afe-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b9e6-f122-2c3d-6afe-max" includeChildSelections="false"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
             <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
-          <profiles>
-            <profile name="Novitiate Weapons" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="d7f8-c6eb-8111-8a7a">
-              <characteristics>
-                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
-                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
-                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
-                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
-                <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
-                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Extra Attack</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Battle Sister /WF Simulacrum" hidden="false" id="2d48-cab9-a6b4-9e79">
+        <selectionEntry type="model" import="true" name="Novitiate Reliquarius" hidden="false" id="2d48-cab9-a6b4-9e79">
           <infoLinks>
             <infoLink name="Frag Grenade" id="ea53-5362-0d8d-7a9e" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
             <infoLink name="Frag Grenade (B)" id="c6bb-668c-c214-4d0b" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
@@ -2149,6 +2049,390 @@ Note: You are not Limited to 1 Act of Faith Per Turn However you are Limited to 
             </profile>
           </profiles>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Novitiate Dualist" hidden="false" id="8129-9692-520e-b69e">
+          <infoLinks>
+            <infoLink name="Frag Grenade" id="cea1-9b87-e416-30cd" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+            <infoLink name="Frag Grenade (B)" id="8cf7-ae84-a712-86f0" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+            <infoLink name="Krak Grenade" id="4a0e-b9dc-f475-b430" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+            <infoLink name="Sister Novitiate" id="7b13-a0a5-c9df-8573" hidden="false" type="profile" targetId="54cc-9d29-8ed1-cc3d"/>
+            <infoLink name="Auto Pistol" id="b6a5-8616-5ce0-bfee" hidden="false" type="profile" targetId="97a0-8301-4468-979e"/>
+            <infoLink name="Shield of Faith" id="cd21-4472-8e26-bd0b" hidden="false" type="profile" targetId="07ae-d6ca-2b7d-7bf6"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="31a1-97db-0668-8bcf" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Dueling Blades" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="a7c7-1125-0d9e-a0c4">
+              <characteristics>
+                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+                <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Extra Attack, Sustained Hits 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Novitiate Condemnor" hidden="false" id="0d2a-8992-4782-bf00">
+          <infoLinks>
+            <infoLink name="Frag Grenade" id="0bb4-aeda-3978-a01f" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+            <infoLink name="Frag Grenade (B)" id="3155-e378-588f-7791" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+            <infoLink name="Krak Grenade" id="734b-a4d9-c6f0-9c28" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+            <infoLink name="Sister Novitiate" id="7b46-3ec7-357a-b0ca" hidden="false" type="profile" targetId="54cc-9d29-8ed1-cc3d"/>
+            <infoLink name="Shield of Faith" id="4261-3f71-9995-54df" hidden="false" type="profile" targetId="07ae-d6ca-2b7d-7bf6"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="12"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="945f-b248-5fca-d9da" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Null Rod" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="c167-a2ac-bf59-e089">
+              <characteristics>
+                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+1</characteristic>
+                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+                <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Purifier (4+)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Condemnor Stakethrower" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="3ee0-9bcc-7373-3389">
+              <characteristics>
+                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">3</characteristic>
+                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+                <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Purifier (4+), Devastating wounds</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Novitiate Dialogus" hidden="false" id="7944-3caa-ecdd-39aa">
+          <infoLinks>
+            <infoLink name="Frag Grenade" id="5914-f427-48d7-0407" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+            <infoLink name="Frag Grenade (B)" id="1165-bb59-8d54-468c" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+            <infoLink name="Krak Grenade" id="e00d-2ee1-ccc4-96d1" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+            <infoLink name="Sister Novitiate" id="2fb2-223a-8de4-1991" hidden="false" type="profile" targetId="54cc-9d29-8ed1-cc3d"/>
+            <infoLink name="Auto Pistol" id="05a6-ee90-dded-e0bf" hidden="false" type="profile" targetId="97a0-8301-4468-979e"/>
+            <infoLink name="Shield of Faith" id="fed3-2678-5cab-6433" hidden="false" type="profile" targetId="07ae-d6ca-2b7d-7bf6"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="11"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94da-7cda-ebba-0962" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Dialogus Staff" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="edc7-2435-ede4-ce16">
+              <characteristics>
+                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+1</characteristic>
+                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+                <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Auto-Broadcaster" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="5a9b-4282-9dc7-ca8c">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">All Enemy Units within 8&quot; of this unit cannot User Stratagems or Perform Objective Actions while the Dialogus is alive.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Novitiate Hospitaller" hidden="false" id="4cec-c489-16fb-7886">
+          <infoLinks>
+            <infoLink name="Frag Grenade" id="9076-03a5-8ea1-cd8f" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+            <infoLink name="Frag Grenade (B)" id="6a53-2278-3f01-14ef" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+            <infoLink name="Krak Grenade" id="958f-417f-5d53-f192" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+            <infoLink name="Sister Novitiate" id="d926-4778-8edd-2c00" hidden="false" type="profile" targetId="54cc-9d29-8ed1-cc3d"/>
+            <infoLink name="Auto Pistol" id="cf4c-f6d8-1e0f-ee04" hidden="false" type="profile" targetId="97a0-8301-4468-979e"/>
+            <infoLink name="Shield of Faith" id="2f97-48b3-ac69-8b60" hidden="false" type="profile" targetId="07ae-d6ca-2b7d-7bf6"/>
+            <infoLink name="Chirurgeon&apos;s Tools" id="9751-3727-90c7-446c" hidden="false" type="profile" targetId="e306-8f96-8d2a-e9ff"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="662e-57d4-dd1b-d9bf" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Novitiate Extractor" hidden="false" id="f6ed-8a07-8ee1-2a27">
+          <infoLinks>
+            <infoLink name="Frag Grenade" id="f715-25fc-b2c0-00c9" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+            <infoLink name="Frag Grenade (B)" id="82a6-8e76-b58f-62c5" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+            <infoLink name="Krak Grenade" id="3735-bc35-c905-5469" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+            <infoLink name="Sister Novitiate" id="3c32-c767-6465-92df" hidden="false" type="profile" targetId="54cc-9d29-8ed1-cc3d"/>
+            <infoLink name="Shield of Faith" id="c044-8078-80de-d8bf" hidden="false" type="profile" targetId="07ae-d6ca-2b7d-7bf6"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="9"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="54a4-97fe-b689-7a71" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Neural Whips (Melee)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="535a-9adf-9087-5ff2">
+              <characteristics>
+                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+                <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Lethal Hits</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Neural Whips (Ranged)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="3edf-f780-88ed-2c4b">
+              <characteristics>
+                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">6&quot;</characteristic>
+                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 2D3</characteristic>
+                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">3</characteristic>
+                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+                <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Lethal Hits</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Novitiate Superior" hidden="false" id="2a70-6a13-c24d-72f6">
+          <infoLinks>
+            <infoLink name="Frag Grenade" id="bf4a-d602-e86e-3a80" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+            <infoLink name="Frag Grenade (B)" id="c94e-171b-89c3-29c9" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+            <infoLink name="Krak Grenade" id="42f8-347e-24f2-56c1" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+            <infoLink name="Novitiate Superior" id="0e20-c48b-889a-02bc" hidden="false" type="profile" targetId="1e92-28ce-972d-70b4"/>
+            <infoLink name="Shield of Faith" id="7da5-1472-4e27-f29d" hidden="false" type="profile" targetId="07ae-d6ca-2b7d-7bf6"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Pistol" hidden="false" id="cfd8-eb74-fca6-c9ca">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="b245-def4-fa6c-f0ad">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a2a-7998-ba9f-e936" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Bolt Pistol" id="e711-6a69-c9e1-bdb5" hidden="false" type="profile" targetId="1806-24b6-c877-b09c"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Ministorum Hand Flamer" hidden="false" id="aa7b-db2c-69d9-a360">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="607c-ec0a-7df5-5c7d" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Ministorum Hand Flamer" id="126d-dc95-c869-a8c0" hidden="false" type="profile" targetId="2f0a-7ecf-a52f-4ce2"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="85e9-54b4-7777-48d7">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98b0-9dbf-5bd3-f28f" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Plasma Pistol" id="8f79-8193-c1ff-c63a" hidden="false" type="profile" targetId="4cad-8e15-0a15-5da1"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be21-4e5a-f74f-cb9e" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5494-85fb-f843-bf19" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee Weapon" hidden="false" id="37b5-c247-cd9a-bb7c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7042-c880-de22-6f38" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a3f0-95d0-4edd-0744" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Chainsword" hidden="false" id="d1f5-e0b2-8dd4-ec8f">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb77-8182-5737-afdb" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Chainsword" id="0ba8-7387-3b11-5010" hidden="false" type="profile" targetId="1dcb-d141-e4b1-dea0"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Power Axe" hidden="false" id="f8dd-4aa8-62a2-d615">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="083a-dfaa-3912-2f14" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Power Axe" id="802f-467e-210b-79ca" hidden="false" type="profile" targetId="1b34-6d07-e29f-ccc0"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Power Maul" hidden="false" id="117a-ce88-6f35-f057">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9fda-28f0-5429-4cd6" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Power Maul" id="2284-342e-8a9e-dac2" hidden="false" type="profile" targetId="2787-ecbc-1ea4-857e"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="4"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Power Sword" hidden="false" id="49d0-5d07-0b21-ccff">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7aba-39e9-8057-93e8" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Power Sword" id="5b49-0066-f848-2dc2" hidden="false" type="profile" targetId="5e7d-82e2-f13c-31ec"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="4"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="f61e-7540-039a-070e">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Condemnor Boltgun" hidden="false" id="02a5-6c9f-79ca-baf3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6148-8b91-aa1a-293e" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Condemnor Boltgun" id="b31c-66e9-59ea-7f3b" hidden="false" type="profile" targetId="443b-0c64-ac13-9ced"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="4027-9778-2e2f-78cf">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="78e8-a894-7a66-70e9" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Boltgun" id="3c18-90dc-d1a3-0223" hidden="false" type="profile" targetId="6e59-15d1-ba4a-238f"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8e2b-f197-b8e5-c7b6" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e14c-ab10-b14d-1f90" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5780-8e15-884b-74f3" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd47-2e9b-8e9c-2328" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Novitiate Weapons" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="0489-647d-78bf-5f82">
+              <characteristics>
+                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+                <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Extra Attack</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Novitiate Preceptor" hidden="false" id="b23f-7c83-542b-4100">
+          <infoLinks>
+            <infoLink name="Frag Grenade" id="b304-a5a1-7b58-7438" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+            <infoLink name="Frag Grenade (B)" id="1e98-7a2b-2159-b28e" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+            <infoLink name="Krak Grenade" id="bba0-c880-3f59-706e" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+            <infoLink name="Shield of Faith" id="4bca-1700-4f04-457e" hidden="false" type="profile" targetId="07ae-d6ca-2b7d-7bf6"/>
+            <infoLink name="Sister Novitiate" id="6b2e-a7fb-d912-56cb" hidden="false" type="profile" targetId="54cc-9d29-8ed1-cc3d"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5be9-05c1-3095-9bc6" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Mace of the Righteous" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="de87-ba30-b2ed-a33e">
+              <characteristics>
+                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+1</characteristic>
+                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+                <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Devastating wounds</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Novitiate Pronatus" hidden="false" id="a6f2-7fec-5747-a603">
+          <infoLinks>
+            <infoLink name="Frag Grenade" id="82d9-d806-108d-1dfb" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+            <infoLink name="Frag Grenade (B)" id="6f06-2eeb-8f73-c970" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+            <infoLink name="Krak Grenade" id="f32c-1e43-c5a4-b1d8" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+            <infoLink name="Sister Novitiate" id="c6f1-8348-4898-ccd1" hidden="false" type="profile" targetId="54cc-9d29-8ed1-cc3d"/>
+            <infoLink name="Shield of Faith" id="5b22-5b70-1353-9aea" hidden="false" type="profile" targetId="07ae-d6ca-2b7d-7bf6"/>
+            <infoLink name="Autogun" id="688e-80f3-97a3-dfe4" hidden="false" type="profile" targetId="d45e-92e9-f52d-0667"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c2a0-2ba4-1a55-cf85" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="9"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Novitiate Weapons" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="b889-4db8-6f42-a3e6">
+              <characteristics>
+                <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+                <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+                <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+                <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+                <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Extra Attack</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Relic Seeker" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="a4d0-54c9-0eff-c467">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">While this model is alive, This unit may perform and action and still shoot.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
       </selectionEntries>
       <categoryLinks>
         <categoryLink name="Infantry" hidden="false" id="2b98-ae56-761b-2ed4" targetId="2853-e9f2-7a9e-0e91" primary="false"/>
@@ -2169,6 +2453,9 @@ Note: You are not Limited to 1 Act of Faith Per Turn However you are Limited to 
           </characteristics>
         </profile>
       </profiles>
+      <constraints>
+        <constraint type="max" value="10" field="selections" scope="self" shared="true" id="c4db-c661-8d4e-b06c"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Arco-Flagellants" hidden="false" id="49e3-0761-6c77-415c">
       <categoryLinks>
@@ -5318,6 +5605,232 @@ Note: You are not Limited to 1 Act of Faith Per Turn However you are Limited to 
         <categoryLink targetId="3482-0a57-41c1-3aa9" id="d938-4814-bd09-0399" primary="false" name="Adeptus Sororitas"/>
       </categoryLinks>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Celestian Insidiants" hidden="false" id="ff2d-b1e9-bb47-9abb">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Insidiants" hidden="false" id="6892-5807-fb98-4562">
+          <infoLinks>
+            <infoLink targetId="9fdd-8a1d-7ab2-b364" id="0851-e658-990d-70b2" type="profile" name="Insidiants" hidden="false"/>
+            <infoLink name="Frag Grenade" id="9c87-7fce-ad2d-2275" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+            <infoLink name="Frag Grenade (B)" id="9bea-7a04-94fa-8356" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+            <infoLink name="Krak Grenade" id="347f-f0e6-666f-5c95" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+            <infoLink name="Shield of Faith" id="d6e2-8a01-5ebd-806e" hidden="false" type="profile" targetId="07ae-d6ca-2b7d-7bf6"/>
+            <infoLink name="Condemnor Boltgun" id="a4ca-c061-d743-5fc0" hidden="false" type="profile" targetId="443b-0c64-ac13-9ced"/>
+            <infoLink name="Null Mace" id="1c35-da16-d598-71e7" hidden="false" type="profile" targetId="217d-41aa-56fb-d93a"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="18"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="9" field="selections" scope="parent" shared="true" id="0df1-7f1c-6efe-bad8" includeChildSelections="false"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="7f24-7a74-2582-837a" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="0df1-7f1c-6efe-bad8">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="f7d7-363d-324f-cabc" shared="true" childName="Insidiant Reliquarius"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="7f24-7a74-2582-837a">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="f7d7-363d-324f-cabc" shared="true" childName="Insidiant Reliquarius"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="0df1-7f1c-6efe-bad8">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="6f3f-7a22-b07b-e8eb" shared="true" childName="Insidiant Mortisanctus"/>
+              </conditions>
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="6f3f-7a22-b07b-e8eb" shared="true" roundUp="false" childName="Insidiant Mortisanctus"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="7f24-7a74-2582-837a">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="6f3f-7a22-b07b-e8eb" shared="true" childName="Insidiant Mortisanctus"/>
+              </conditions>
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="6f3f-7a22-b07b-e8eb" shared="true" roundUp="false" childName="Insidiant Mortisanctus"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="0df1-7f1c-6efe-bad8">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="631b-5e10-5fc3-ea37" shared="true" childName="Insidiant Cremator"/>
+              </conditions>
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="631b-5e10-5fc3-ea37" shared="true" roundUp="false" childName="Insidiant Cremator"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="7f24-7a74-2582-837a">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="631b-5e10-5fc3-ea37" shared="true" childName="Insidiant Cremator"/>
+              </conditions>
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="631b-5e10-5fc3-ea37" shared="true" roundUp="false" childName="Insidiant Cremator"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Insidiant Mortisanctus" hidden="false" id="6f3f-7a22-b07b-e8eb">
+          <infoLinks>
+            <infoLink name="Frag Grenade" id="0d0b-da7e-fd93-dec0" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+            <infoLink name="Frag Grenade (B)" id="e288-9e8c-c1be-5e53" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+            <infoLink name="Krak Grenade" id="500e-028a-e86b-8fad" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+            <infoLink name="Sister Novitiate" id="2eb3-c5c3-0f6e-b0f5" hidden="false" type="profile" targetId="54cc-9d29-8ed1-cc3d"/>
+            <infoLink name="Shield of Faith" id="be04-83aa-0e88-f36e" hidden="false" type="profile" targetId="07ae-d6ca-2b7d-7bf6"/>
+            <infoLink name="Blessed Blade" id="1af1-a322-4aff-d1e1" hidden="false" type="profile" targetId="f938-3906-2e2d-383c"/>
+            <infoLink name="Condemnor Boltgun" id="ca91-8742-a0ee-0af7" hidden="false" type="profile" targetId="443b-0c64-ac13-9ced"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="22"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0e02-93b7-f634-37e6" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Insidiant Reliquarius" hidden="false" id="f7d7-363d-324f-cabc">
+          <infoLinks>
+            <infoLink name="Frag Grenade" id="d41f-7c37-7fd3-efbd" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+            <infoLink name="Frag Grenade (B)" id="3051-72d5-37db-99da" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+            <infoLink name="Krak Grenade" id="5fc3-ff62-19cb-e200" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+            <infoLink name="Sister Novitiate" id="a9bd-1a9e-7f66-ec15" hidden="false" type="profile" targetId="54cc-9d29-8ed1-cc3d"/>
+            <infoLink name="Condemnor Boltgun" id="a310-dac4-3e0b-4c1e" hidden="false" type="profile" targetId="443b-0c64-ac13-9ced"/>
+            <infoLink name="Shield of Faith" id="581a-a710-3485-64de" hidden="false" type="profile" targetId="07ae-d6ca-2b7d-7bf6"/>
+            <infoLink name="Simulacrum Imperialis" id="b9b4-4eab-d4ed-bca5" hidden="false" type="profile" targetId="ef1a-8b10-9edf-8c57"/>
+            <infoLink name="Null Mace" id="95b5-8673-794b-f92e" hidden="false" type="profile" targetId="217d-41aa-56fb-d93a"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="519e-2beb-9fb8-df58" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Sacred Banner" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="415d-ef31-daf0-db67">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">You can re-roll Advance and Charge rolls made for the bearer’s unit.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Denuncia Oratory" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="79c9-e5a2-a5c0-4362">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Each time the bearer’s unit’s quarry is destroyed, you can select a new unit from your opponent’s army to be its quarry.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Insidiant Superior" hidden="false" id="3ce5-0d7f-9693-52ec">
+          <infoLinks>
+            <infoLink name="Frag Grenade" id="8171-a603-5dea-579e" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+            <infoLink name="Frag Grenade (B)" id="7b96-6ee1-a04e-3675" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+            <infoLink name="Krak Grenade" id="0a78-d794-3480-22d7" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+            <infoLink name="Shield of Faith" id="0dc0-75d7-41fd-4711" hidden="false" type="profile" targetId="07ae-d6ca-2b7d-7bf6"/>
+            <infoLink name="Insidiants Superior" id="2411-4608-09ee-1fde" hidden="false" type="profile" targetId="3375-fcce-ca85-64f6"/>
+            <infoLink name="Null Mace" id="2d3c-bd26-84b9-78d5" hidden="false" type="profile" targetId="217d-41aa-56fb-d93a"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged Weapon" hidden="false" id="c6ca-a9f7-287a-f3d1">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Inferno Pistol" hidden="false" id="dfe8-1616-4a88-4599">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4691-f9f1-f394-386d" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="inferno Pistol" id="9f35-35fb-fa90-1630" hidden="false" type="profile" targetId="6305-b1f9-3d39-0ef0"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Condemnor Boltgun" hidden="false" id="41e0-d189-06e3-e20d">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d810-e460-f835-6cb7" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Condemnor Bolt pistol" id="a881-7b13-97ab-86a3" hidden="false" type="profile" targetId="17e3-8360-50ee-30c9"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="1"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="346c-3265-4e9e-7c9d" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0004-0454-1808-5032" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6ae5-95a0-7e90-3064" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eaac-d9dd-0225-4a54" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="18"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Insidiant Cremator" hidden="false" id="631b-5e10-5fc3-ea37">
+          <infoLinks>
+            <infoLink name="Frag Grenade" id="0fd8-3d00-5d47-5029" hidden="false" type="profile" targetId="deab-5cc5-c468-3770"/>
+            <infoLink name="Frag Grenade (B)" id="79bd-3729-f2c6-fa20" hidden="false" type="profile" targetId="b541-c8c6-9e2d-ee3d"/>
+            <infoLink name="Krak Grenade" id="7b57-2a1a-4783-7ad7" hidden="false" type="profile" targetId="1eca-9959-1926-60d9"/>
+            <infoLink name="Sister Novitiate" id="5849-26e0-2968-d209" hidden="false" type="profile" targetId="54cc-9d29-8ed1-cc3d"/>
+            <infoLink name="Shield of Faith" id="42cb-c033-5a8c-1e2b" hidden="false" type="profile" targetId="07ae-d6ca-2b7d-7bf6"/>
+            <infoLink name="Ministorum Hand Flamer" id="bc84-c82c-66ef-ba85" hidden="false" type="profile" targetId="2f0a-7ecf-a52f-4ce2"/>
+            <infoLink name="Null Mace" id="fc66-922b-814d-01c2" hidden="false" type="profile" targetId="217d-41aa-56fb-d93a"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1343-1439-576f-775e" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="02c8-a097-eb71-1925" targetId="2853-e9f2-7a9e-0e91" primary="false"/>
+        <categoryLink name="Faction: Imperium" hidden="false" id="c2cb-a1d1-91c4-4492" targetId="fb8f-9c9a-4f7c-d364" primary="false"/>
+        <categoryLink name="Faction: Adeptus Sororitas" hidden="false" id="4883-d24c-4c26-b2e9" targetId="48d9-a083-ab48-9c4e" primary="false"/>
+        <categoryLink name="Battle Sister" hidden="false" id="f613-246a-25bc-e73a" targetId="a5a2-1e35-6b26-ad4b" primary="false"/>
+        <categoryLink name="Adeptus Sororitas" hidden="false" id="5e89-d86b-ae90-2d79" targetId="3482-0a57-41c1-3aa9" primary="false"/>
+        <categoryLink name="Faction: Order" hidden="false" id="a95c-e187-74a1-d7a1" targetId="85d9-2da0-20da-0dc2" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Acts of Faith" id="88df-003a-c428-cba1" hidden="false" type="rule" targetId="daf6-e2f8-1f1f-c08b"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Impetuous Fervour" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="afb8-f88f-d36e-94f5">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Hit roll instead.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Greater Faith" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="f7b3-4bd2-a584-729b">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This Unit has +1 to the Shield of Faith Invulnerable Save to a Maximum of a 4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Rituale Nullificatus" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="13cd-fbb0-8025-2beb">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Models in this unit have the Feel No Pain 4+ ability against Psychic Attacks and mortal wounds.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Virtue of Intolerance" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="86aa-f69d-59fc-930b">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">At the start of the battle, select one unit from your opponent’s army to be this unit’s quarry. Each time a model in this unit makes an attack that targets its quarry, that attack has the [PRECISION] ability and you can re-roll the Hit roll. This ability can be used even if this unit is embarked within a TRANSPORT.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Faction: Order" id="85d9-2da0-20da-0dc2" hidden="false"/>
@@ -5432,6 +5945,11 @@ Note: You are not Limited to 1 Act of Faith Per Turn However you are Limited to 
     <entryLink import="true" name="Castigator" hidden="false" id="e384-b144-28bd-6bd3" targetId="5292-d84c-58ea-7691" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Heavy Support" hidden="false" id="672e-618e-d416-1a51" targetId="4597-ff43-1b4c-478d" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Celestian Insidiants" hidden="false" id="feeb-7876-5072-0482" targetId="ff2d-b1e9-bb47-9abb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="f4bc-7f06-10ba-80a3" id="d642-6ae3-76f4-ddb3" primary="true" name="Elite"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

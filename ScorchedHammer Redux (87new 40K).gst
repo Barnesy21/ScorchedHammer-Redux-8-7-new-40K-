@@ -975,7 +975,7 @@
     </profile>
     <profile name="Storm Shield" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="c4c0-3c0d-006d-e5f2">
       <characteristics>
-        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">A model with a storm shield has a 4+ invulnerable save. If this model already has a 4+ invulnerable save. Increase the save by +1</characteristic>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">A model with a storm shield has a 4+ invulnerable save. If this model already has a 4+ invulnerable save. Increase the save by +1, If this Model has a 2+ Save and a 4+ Invulnerable save then this model has a 3+ Invulnerable save</characteristic>
       </characteristics>
     </profile>
     <profile name="Astartes Chainsword" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="255f-2329-c08e-ff09">
@@ -2279,4 +2279,9 @@ Matched Play: This model and any units embarked aboard it are exempt from the Ta
       </categoryLinks>
     </entryLink>
   </entryLinks>
+  <rules>
+    <rule name="Sunder" id="bc7f-77df-7cdf-deab" hidden="false">
+      <description>A weapon with this special rule may re-roll the Armour Penetration roll for its ranged weapons</description>
+    </rule>
+  </rules>
 </gameSystem>
