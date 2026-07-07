@@ -7,6 +7,7 @@
         <infoLink name="Daemonic" id="6a71-9b18-0d39-53dd" hidden="false" type="profile" targetId="1f45-5b21-ff49-2884"/>
         <infoLink name="Maulerfiend Fists" id="5631-2723-0fde-2340" hidden="false" type="profile" targetId="b63b-6398-fb66-d106"/>
         <infoLink name="Hateful Assault" id="b9a3-45d0-b470-d99f" hidden="false" type="rule" targetId="73c3-c791-cd2f-6ad2"/>
+        <infoLink name="Maulerfiend" id="b65b-5f2b-b003-22ec" hidden="false" type="profile" targetId="ef46-09d9-0a5f-2514"/>
       </infoLinks>
       <profiles>
         <profile name="Infernal Regeneration" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="25d2-1ed0-1775-e5a3">
