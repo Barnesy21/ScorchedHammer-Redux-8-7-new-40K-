@@ -4705,14 +4705,6 @@ Until the start of your next Command phase, the unit you selected is affected by
         <categoryLink targetId="4109-22ee-8500-a629" id="75c8-e56d-56f7-946e" primary="false" name="Squad"/>
       </categoryLinks>
       <profiles>
-        <profile name="Wyrdvane Psykers" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="eab8-6279-8bcc-7b52">
-          <characteristics>
-            <characteristic name="Cast" typeId="ab6d-5995-d985-b192">1</characteristic>
-            <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
-            <characteristic name="Powers Known" typeId="7e89-4bd8-8f12-0cf7">2 Powers From the Psykana Disipline</characteristic>
-            <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">-</characteristic>
-          </characteristics>
-        </profile>
         <profile name="It&apos;s For Your Own Good" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="d24d-ba0c-e162-ba1b">
           <characteristics>
             <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">If this model is slain as a result of Perils of the Warp whilst within 6&quot; of a friendly COMMISSAR they are executed before anything untoward can happen -- the power they were attempting still fails, but units within 6&quot; of them do not suffer D3 mortal wounds as normal.</characteristic>
@@ -4725,6 +4717,7 @@ Until the start of your next Command phase, the unit you selected is affected by
             <constraint type="max" value="2" field="selections" scope="self" shared="true" id="0233-7459-2b08-db89" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Level 3 Psyker" hidden="false" id="ff38-8eaa-e2e1-52dc" type="selectionEntry" targetId="0791-841b-51c3-f838"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Tech-priest Enginseer" hidden="false" id="ab02-731f-2ff7-85d9">
@@ -11360,7 +11353,7 @@ Models in those units count as having made a Normal Move this phase they cannon 
                 <characteristic name="S" typeId="a4b2-ce42-4524-4475">6</characteristic>
                 <characteristic name="AP" typeId="ad1a-ecf9-b29f-0f6a">-2</characteristic>
                 <characteristic name="D" typeId="4249-543a-3dc5-4143">2</characteristic>
-                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Devastating wounds, Psychic Power</characteristic>
+                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Devastating wounds, Torrant, Psychic Power</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11523,6 +11516,26 @@ Models in those units count as having made a Normal Move this phase they cannon 
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cbb1-c1a0-74c5-27eb" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="9acf-e788-4bba-eb40">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="83c9-456c-d2fc-dda2" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b278-3a51-d48f-f65d" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7e5d-c938-1ee1-d414" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="55ac-8fca-2e93-f33f" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Level 4 Psyker" hidden="false" id="a799-dd4e-9559-57e8" type="selectionEntry" targetId="419e-9ceb-6c2b-253c">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Level 3 Psyker" hidden="false" id="23e7-a9aa-1b27-1902" type="selectionEntry" targetId="0791-841b-51c3-f838">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="38"/>
@@ -11536,14 +11549,6 @@ Models in those units count as having made a Normal Move this phase they cannon 
         <profile name="It&apos;s For Your Own Good" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="33d3-6483-9a09-874d">
           <characteristics>
             <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">If this model is slain as a result of Perils of the Warp whilst within 6&quot; of a friendly COMMISSAR they are executed before anything untoward can happen -- the power they were attempting still fails, but units within 6&quot; of them do not suffer D3 mortal wounds as normal.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Primus Psyker" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="7949-3d1e-1f45-addd">
-          <characteristics>
-            <characteristic name="Cast" typeId="ab6d-5995-d985-b192">1</characteristic>
-            <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
-            <characteristic name="Powers Known" typeId="7e89-4bd8-8f12-0cf7">Smite &amp; 2 from Psykana Disipline</characteristic>
-            <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12094,7 +12099,7 @@ Make a Surge move. To do so, roll one D6: models in that unit move a number of i
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a98-adc5-d0f2-073b" includeChildSelections="false"/>
           </constraints>
           <infoLinks>
-            <infoLink name="Graves Aquiline RSV" id="90e7-967d-1d75-88dc" hidden="false" type="profile" targetId="d109-c86f-e80e-14b2"/>
+            <infoLink name="Vigilance" id="90e7-967d-1d75-88dc" hidden="false" type="profile" targetId="d109-c86f-e80e-14b2"/>
             <infoLink name="Chiron Gatling Cannon" id="2cbb-fa92-5ca0-0788" hidden="false" type="profile" targetId="2464-18cb-03f2-22cc"/>
             <infoLink name="Heavy Stubber" id="705f-5be3-35e5-5520" hidden="false" type="profile" targetId="36a9-6824-5d27-c11a"/>
             <infoLink name="Heavy Stubber" id="dbe6-13f9-7bb3-afbd" hidden="false" type="profile" targetId="36a9-6824-5d27-c11a"/>
@@ -12128,7 +12133,7 @@ Make a Surge move. To do so, roll one D6: models in that unit move a number of i
             </profile>
             <profile name="Vigilance" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="520a-5456-128c-5775">
               <characteristics>
-                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">While Graves is being transported by Vigilance she may still Provides Aura of Discipline. </characteristic>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">While Graves is being transported by Vigilance she may still Provides Aura of Discipline.</characteristic>
               </characteristics>
             </profile>
             <profile name="Vigilance" typeId="d0b7-278c-fa1f-edd9" typeName="Transport" hidden="false" id="e5fd-dbbe-0be6-0447">

@@ -78,16 +78,6 @@
             <infoLink name="Aspiring Sorcerer" id="9d9f-f92e-9965-b4c8" hidden="false" type="profile" targetId="026e-87d0-c1fa-8c8c"/>
             <infoLink name="Warp Bolt" id="b971-ec0b-801a-8b30" hidden="false" type="profile" targetId="d402-a878-faae-878d"/>
           </infoLinks>
-          <profiles>
-            <profile name="Aspiring Sorcerer" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="8ecb-24d5-79c4-1ccc">
-              <characteristics>
-                <characteristic name="Cast" typeId="ab6d-5995-d985-b192">1</characteristic>
-                <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
-                <characteristic name="Powers Known" typeId="7e89-4bd8-8f12-0cf7">Warp Bolt and 1 power from one of the Disciple of your Cult</characteristic>
-                <characteristic name="Other" typeId="c046-4b98-ea8c-d36b"/>
-              </characteristics>
-            </profile>
-          </profiles>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Power" hidden="false" id="0c60-561a-3382-bebf">
               <constraints>
@@ -200,6 +190,9 @@
             <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
+          <entryLinks>
+            <entryLink import="true" name="Level 2 Psyker" hidden="false" id="bb39-1037-2505-d656" type="selectionEntry" targetId="7b10-1b44-7a36-51ff"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Icon of Flame" hidden="false" id="d226-9d74-0a28-4939">
           <constraints>
@@ -276,7 +269,7 @@
                 <characteristic name="S" typeId="a4b2-ce42-4524-4475">9</characteristic>
                 <characteristic name="AP" typeId="ad1a-ecf9-b29f-0f6a">-2</characteristic>
                 <characteristic name="D" typeId="4249-543a-3dc5-4143">D3</characteristic>
-                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Weapon, Pinning</characteristic>
+                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Weapon, Pinning, Blast(1)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -407,7 +400,7 @@ D3 Effect
                 <characteristic name="S" typeId="a4b2-ce42-4524-4475">8</characteristic>
                 <characteristic name="AP" typeId="ad1a-ecf9-b29f-0f6a">-2</characteristic>
                 <characteristic name="D" typeId="4249-543a-3dc5-4143">3</characteristic>
-                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Weapon, Ignores Cover.</characteristic>
+                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Weapon, Torrant, Ignores Cover, Blast(2)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -750,16 +743,6 @@ D3 Effect
             <infoLink name="Aspiring Sorcerer" id="0dc3-050a-2167-1bec" hidden="false" type="profile" targetId="026e-87d0-c1fa-8c8c"/>
             <infoLink name="Warp Bolt" id="25f6-cfb9-2579-9b80" hidden="false" type="profile" targetId="d402-a878-faae-878d"/>
           </infoLinks>
-          <profiles>
-            <profile name="Aspiring Sorcerer" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="3aed-9e40-9440-46d4">
-              <characteristics>
-                <characteristic name="Cast" typeId="ab6d-5995-d985-b192">1</characteristic>
-                <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
-                <characteristic name="Powers Known" typeId="7e89-4bd8-8f12-0cf7">Warp Bolt and 1 power from one of the Disciple of your Cult</characteristic>
-                <characteristic name="Other" typeId="c046-4b98-ea8c-d36b"/>
-              </characteristics>
-            </profile>
-          </profiles>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Power" hidden="false" id="aa4a-a96b-8c07-cc15">
               <constraints>
@@ -874,6 +857,9 @@ D3 Effect
             <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
+          <entryLinks>
+            <entryLink import="true" name="Level 2 Psyker" hidden="false" id="b672-63c1-a11a-330e" type="selectionEntry" targetId="7b10-1b44-7a36-51ff"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Icon of Flame" hidden="false" id="df62-630f-5b84-13ba">
           <constraints>
@@ -1180,16 +1166,6 @@ D3 Effect
               </constraints>
             </selectionEntry>
           </selectionEntries>
-          <profiles>
-            <profile name="Scarab Occult Sorcerer" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="9729-d537-30de-cf5a">
-              <characteristics>
-                <characteristic name="Cast" typeId="ab6d-5995-d985-b192">1</characteristic>
-                <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
-                <characteristic name="Powers Known" typeId="7e89-4bd8-8f12-0cf7">Warp Bolt and 1 power from one of the Disciple of your Cult</characteristic>
-                <characteristic name="Other" typeId="c046-4b98-ea8c-d36b"/>
-              </characteristics>
-            </profile>
-          </profiles>
           <infoLinks>
             <infoLink name="Warp Bolt" id="1ab4-7072-da55-c887" hidden="false" type="profile" targetId="d402-a878-faae-878d"/>
             <infoLink name="Scarab Occult Sorcerer" id="371a-703e-82c6-d9a3" hidden="false" type="profile" targetId="a369-ccee-b0ec-28e7"/>
@@ -1203,6 +1179,9 @@ D3 Effect
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1dd6-7108-f144-a793-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1dd6-7108-f144-a793-max" includeChildSelections="false"/>
           </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Level 2 Psyker" hidden="false" id="b252-5c7c-1045-2bf9" type="selectionEntry" targetId="7b10-1b44-7a36-51ff"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Hellfyre Missile Rack" hidden="false" id="85b3-bd8d-2916-a8cb">
           <constraints>
@@ -1697,6 +1676,22 @@ D3 Effect
             <entryLink import="true" name="Disciple of Tzeentch" hidden="false" id="cfcc-d983-20b4-0b3d" type="selectionEntry" targetId="2c7f-4749-0514-97c0"/>
           </entryLinks>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="6a18-1b6d-ff10-e8d0">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="e3bb-d3bc-1d98-53c4-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e3bb-d3bc-1d98-53c4-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="de19-8a46-4d64-eb9c-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de19-8a46-4d64-eb9c-max" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Level 5 Psyker" hidden="false" id="c18e-2431-1200-70a3" type="selectionEntry" targetId="65d8-a6a0-7fc8-b50c">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Level 4 Psyker" hidden="false" id="a177-a647-ab18-97a9" type="selectionEntry" targetId="419e-9ceb-6c2b-253c"/>
+          </entryLinks>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink targetId="a9be-5fc4-40b1-8831" id="1325-5c16-6215-b964" type="profile" name="Lord of the Thousand Sons" hidden="false"/>
@@ -1714,16 +1709,6 @@ D3 Effect
         <categoryLink name="Cult" hidden="false" id="ac63-1864-7e8b-7b08" targetId="279a-a2ee-6851-496f" primary="false"/>
         <categoryLink targetId="ee96-9320-87e8-2474" id="dbea-06df-c5e1-7ea7" primary="false" name="Psyker"/>
       </categoryLinks>
-      <profiles>
-        <profile name="Exaulted Sorcerer" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="6a84-7a72-6797-9360">
-          <characteristics>
-            <characteristic name="Cast" typeId="ab6d-5995-d985-b192">2</characteristic>
-            <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
-            <characteristic name="Powers Known" typeId="7e89-4bd8-8f12-0cf7">Smite and two Powers from any of the Disciplines</characteristic>
-            <characteristic name="Other" typeId="c046-4b98-ea8c-d36b"/>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Sorcerer" hidden="false" id="0dc7-e9a4-a732-375f">
       <selectionEntries>
@@ -2029,17 +2014,23 @@ D3 Effect
             <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
           </modifiers>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="78ef-3a1b-c53f-165c">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="d0a1-cdd3-0253-00b7-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d0a1-cdd3-0253-00b7-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="538f-8ddf-ba59-7690-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="538f-8ddf-ba59-7690-max" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Level 4 Psyker" hidden="false" id="c2ba-5779-db8a-2dcb" type="selectionEntry" targetId="419e-9ceb-6c2b-253c">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Level 3 Psyker" hidden="false" id="3cb3-cc50-9c04-11b4" type="selectionEntry" targetId="0791-841b-51c3-f838"/>
+          </entryLinks>
+        </selectionEntry>
       </selectionEntries>
-      <profiles>
-        <profile name="Sorcerer" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="28af-44a0-0b2b-b257">
-          <characteristics>
-            <characteristic name="Cast" typeId="ab6d-5995-d985-b192">2</characteristic>
-            <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
-            <characteristic name="Powers Known" typeId="7e89-4bd8-8f12-0cf7">Smite and 2 power from one of the Disciple of your Cult</characteristic>
-            <characteristic name="Other" typeId="c046-4b98-ea8c-d36b"/>
-          </characteristics>
-        </profile>
-      </profiles>
       <infoLinks>
         <infoLink name="Smite" id="75e2-a8db-676d-b911" hidden="false" type="profile" targetId="d933-af1d-85f4-05df"/>
         <infoLink name="Lord of the Thousand Sons" id="81cd-5beb-d607-a52a" hidden="false" targetId="a9be-5fc4-40b1-8831" type="profile"/>
@@ -2172,6 +2163,22 @@ D3 Effect
             <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
           </modifiers>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="6c1a-bd83-2168-77cd">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="8315-34f6-47fb-d16c-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8315-34f6-47fb-d16c-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d41a-8373-cc11-761a-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d41a-8373-cc11-761a-max" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Level 5 Psyker" hidden="false" id="e55b-ad1c-9e60-973d" type="selectionEntry" targetId="65d8-a6a0-7fc8-b50c">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Level 4 Psyker" hidden="false" id="32ff-da8a-5258-cd68" type="selectionEntry" targetId="419e-9ceb-6c2b-253c"/>
+          </entryLinks>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Infernal Master" id="0dbf-046a-314b-cf9d" hidden="false" type="profile" targetId="a368-4bf4-de2e-d878"/>
@@ -2183,14 +2190,6 @@ D3 Effect
         <profile name="Malific Maelstorm (Psychic)" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="8511-e763-1e9a-aded">
           <characteristics>
             <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Pick one friendly unit within 6&quot; of this model. that unit&apos;s Weapons have the sustained hits 1 Special rule until a new unit is chosen.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Infernal Master" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="cf59-46ee-b3e2-127f">
-          <characteristics>
-            <characteristic name="Cast" typeId="ab6d-5995-d985-b192">2</characteristic>
-            <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
-            <characteristic name="Powers Known" typeId="7e89-4bd8-8f12-0cf7">Smite and 1 Power from available Disciplines</characteristic>
-            <characteristic name="Other" typeId="c046-4b98-ea8c-d36b"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2493,6 +2492,22 @@ D3 Effect
           <modifiers>
             <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
           </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="3503-6ef6-af87-970e">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="a8d4-5467-d181-4a3b-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a8d4-5467-d181-4a3b-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f436-7555-9592-4945-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f436-7555-9592-4945-max" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Level 4 Psyker" hidden="false" id="9228-65a6-a644-c05a" type="selectionEntry" targetId="419e-9ceb-6c2b-253c">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Level 3 Psyker" hidden="false" id="2769-d503-4f68-2d90" type="selectionEntry" targetId="0791-841b-51c3-f838"/>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <profiles>
@@ -4375,6 +4390,32 @@ D3 Effect
             <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
           </modifiers>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="072b-61e3-8296-4a36">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="94bb-90be-5656-490b-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="94bb-90be-5656-490b-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="106a-4cf0-0c17-6b48-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="106a-4cf0-0c17-6b48-max" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Level 8 Psyker" hidden="false" id="a215-f05e-d612-afbe" type="selectionEntry" targetId="7a06-2ee6-005c-d0b6">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Level 9 Psyker" hidden="false" id="7588-beb6-8e79-9ef4" type="selectionEntry" targetId="8ed6-d58d-98ec-cc68">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="50"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Level 7 Psyker" hidden="false" id="10eb-f0d1-9466-06de" type="selectionEntry" targetId="d1e2-fd9f-397c-3b6d"/>
+            <entryLink import="true" name="Level 10 Psyker" hidden="false" id="a3b3-051f-eede-7d10" type="selectionEntry" targetId="dcda-1658-b606-5189">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="75"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Fate In Flux" hidden="false" id="a0ac-36de-f836-94ec">
@@ -5054,6 +5095,22 @@ D3 Effect
             </selectionEntry>
           </selectionEntries>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="ae6c-c7b7-cab8-28d5">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="9f58-5dae-07ff-722d-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9f58-5dae-07ff-722d-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cdd8-e5ab-af4f-383e-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cdd8-e5ab-af4f-383e-max" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Level 4 Psyker" hidden="false" id="022d-2455-9895-b6b3" type="selectionEntry" targetId="419e-9ceb-6c2b-253c">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Level 3 Psyker" hidden="false" id="7069-5386-adda-4bc9" type="selectionEntry" targetId="0791-841b-51c3-f838"/>
+          </entryLinks>
+        </selectionEntry>
       </selectionEntries>
       <profiles>
         <profile name="Change master" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="aef2-5abd-11a2-9b48">
@@ -5099,14 +5156,6 @@ D3 Effect
             <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
             <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
             <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Change master" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="694e-bbeb-b3a0-871e">
-          <characteristics>
-            <characteristic name="Cast" typeId="ab6d-5995-d985-b192">1</characteristic>
-            <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
-            <characteristic name="Powers Known" typeId="7e89-4bd8-8f12-0cf7">Smite and 2 powers form Discipline of Tzeentch</characteristic>
-            <characteristic name="Other" typeId="c046-4b98-ea8c-d36b"/>
           </characteristics>
         </profile>
         <profile name="Locus of Tzeentch" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="b877-b8d6-4b5d-04ca">

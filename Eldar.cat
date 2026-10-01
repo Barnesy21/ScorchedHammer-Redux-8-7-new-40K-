@@ -1,0 +1,1735 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="ad40-34db-0499-b9f5" name="Eldar" gameSystemId="sys-d1dc-a418-d2d6-9a0a" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="Seer Council" id="d781-0d23-5e1b-7272" hidden="false"/>
+    <categoryEntry name="Aspect Host" id="40f4-96cd-fb9e-497c" hidden="false"/>
+    <categoryEntry name="Guardian Host" id="e9ba-ebe9-0e2b-6001" hidden="false"/>
+    <categoryEntry name="Spirit Host" id="9bee-ad15-8d6c-f24f" hidden="false"/>
+    <categoryEntry name="Cegorach’s Chosen" id="eaa8-da88-6ae1-fbd1" hidden="false"/>
+    <categoryEntry name="Ynnead&apos;s Chosen" id="671c-54f2-d12b-a6c5" hidden="false"/>
+  </categoryEntries>
+  <sharedProfiles>
+    <profile name="Banshee Mask" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="0782-c863-13ab-c062">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Enemy units cannot fire Overwatch at this unit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Autarch" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="ad09-cbdd-cf94-8d3b">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">7&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">3</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">3</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">5</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">4</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Force Shield" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="ef95-5286-df98-4179">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This model has a 4+ Invulnerable save</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Path of Command" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="792a-5ecb-3e8f-e024">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">During the command Phase Select one Friendly Unit within 6&quot; of this model, that unit may Re-roll Hit Roles of 1. In Addition Whenever the target unit uses a stratagem targeting the unit, roll a D6 on a 6 Refund the command point.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rune Armour" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="c37a-495d-2ee3-e58c">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This model has a 4+ Invulnerable save</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ghosthelm" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="daf1-f655-e8b2-0852">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Roll a D6 whenever this model suffers a mortal wound, adding 3 to the roll if the mortal wound was inflicted as a result of the Psyker suffering Perils of the Warp. On a roll of 5+, that wound is ignored.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Runes of the Farseer" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="835a-0326-7da7-01c2">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Once in each Psychic phase, you can re-roll any number of dice used for this model&apos;s attempt to manifest or deny a psychic power.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Spirit Mark" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="2b6a-08ab-5ade-0f5c">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">You can re-roll hit rolls of 1 for friendly SPIRIT HOST units&apos; attacks against enemy units that are within 6&quot; of this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Aeldari Power Sword" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="82a2-3518-23dd-451c">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Banshee Blade" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="5ab6-2914-7fd6-5d5f">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+1</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Anti-Infantry 3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Scorpion Chainword" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="4ad0-0fe4-7a6c-c0ab">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+1</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Sustained Hits 1, Extra Attacks 2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Avenger Shuriken Catapult" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="6802-9894-0378-e452">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 4</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Rending 6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shuriken Catapult" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="351f-198e-81d2-3be6">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Rending 6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Death Spinner" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="9ae3-af94-55bb-4a86">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault D6</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Torrant, Ignores cover</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dragon Fusion Gun" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="6581-407e-ae09-ebb6">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Melta</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dragon Fusion Pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="2cf0-33d7-356b-5b7f">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">6&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Pistol 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Melta</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lasblaster" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="6a11-4e47-2da2-6cc9">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 4</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">3</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Reaper Launcher - Starshot" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="9579-0c67-09bd-b0b1">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">9</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Ignores cover</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Reaper Launcher - Starswarm" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="b574-d53d-1be9-6fce">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 2</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Ignores cover</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Star Glave" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="37ba-01ad-3610-ee6f">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">X2</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Lance Charge</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mandiblasters" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="5471-ee2e-29a7-7692">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">At the beginning of each Fight phase, you can pick a single enemy INFANTRY unit within 1&quot; of this unit. Roll a D6 for each model in this unit; for each roll of a 6, the enemy unit suffers a mortal wound.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ride the Wind" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="b4d0-cbac-20f0-6abe">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">When this model Advances, add 6&quot; to its Move characteristic for that Movement phase instead of rolling a dice.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Autarch Skyrunner" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="56df-c493-3b35-caca">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">16&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">3</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">4</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">6</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">4</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Autarch Wayflicker" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="e197-4d28-49b4-b9cb">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">7&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">3</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">3</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">5</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">4</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Autarch Wayleaper" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="86a6-6db9-90f2-b51e">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">14&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">3</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">3</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">5</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">4</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">9</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Path of Command" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="2c6f-f977-7721-1527">
+      <characteristics>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">You can re-roll hit rolls of 1 for friendly units within 6&quot; of this model. In addition, if your army is Battle-forged and this model is your Warlord and on the battlefield, roll a D6 for each Command Point spent when using Stratagems; on a 6 that Command Point is immediately refunded.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Plasma Grenade" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="ce43-0c3f-4fb4-20c6">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">6&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Grenade D6</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Blast 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sunburst Grenades" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="6ee1-eea3-6368-8a85">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">6&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Grenade D6</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Blast 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Guardian" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="0c8f-29f9-dac6-1fc4">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">7&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">3+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">3</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">3</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">1</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">1</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Scatter Laser" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="08f4-851b-0f7b-c8cd">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 4</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shuriken Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="34f7-8d09-06cf-0ed1">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">24&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 3</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Rending</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin Suriken Catapults" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="d840-8377-3db7-3aa9">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 4</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Rending</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Guardian Apprentice" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="eb90-f1be-0218-31f6">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">7&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">3+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">3</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">3</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">1</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">1</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Aeldari Flamer" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="24cd-de14-f06f-c4a4">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault D6</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Ignores cover, Torrant</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fusion Gun" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="1398-83ba-9567-118e">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Melta</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Aeldari Chainsword" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="c412-c64e-9dfb-a47a">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Extra attack</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shuriken Pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="3db6-625e-385e-6ff2">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Pistol 1</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Rending</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Autarch" hidden="false" id="21b2-fb26-d0b4-be3e">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="9174-6ccf-3dfe-b367">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3265-5ae4-8fb6-8327-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3265-5ae4-8fb6-8327-max" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged" hidden="false" id="d6ce-92c4-8b03-a38b">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="45a6-9de3-2be1-9788-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="45a6-9de3-2be1-9788-max" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8fcd-7b99-f4b5-c1ae-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8fcd-7b99-f4b5-c1ae-max" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Dragon Fusion Gun" hidden="false" id="3e4a-de02-2f2f-6817">
+                  <infoLinks>
+                    <infoLink targetId="6581-407e-ae09-ebb6" id="dbb4-a6d2-a04c-7bd5" type="profile" name="Dragon Fusion Gun" hidden="false"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="57dc-6f84-ba5c-a7f7" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Dragon Fusion Pistol" hidden="false" id="e9e9-2eb0-1824-9a39">
+                  <infoLinks>
+                    <infoLink targetId="2cf0-33d7-356b-5b7f" id="91ee-1a0e-ff36-8a7f" type="profile" name="Dragon Fusion Pistol" hidden="false"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="7"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b3d4-4d43-0a70-d8d9" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Death Spinner" hidden="false" id="d351-4f46-41a9-176a">
+                  <infoLinks>
+                    <infoLink targetId="9ae3-af94-55bb-4a86" id="e78f-0fdc-d1d5-4d45" type="profile" name="Death Spinner" hidden="false"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f8c1-6c5a-6478-bd20" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Reaper Launcher" hidden="false" id="5317-a54f-88c4-6c5b">
+                  <infoLinks>
+                    <infoLink targetId="b574-d53d-1be9-6fce" id="8d22-8112-8a94-c761" type="profile" name="Reaper Launcher - Starswarm" hidden="false"/>
+                    <infoLink targetId="9579-0c67-09bd-b0b1" id="1b5e-0370-cbfe-9d37" type="profile" name="Reaper Launcher - Starshot" hidden="false"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="22"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="81d8-693b-b169-ba55" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Shuriken Pistol" hidden="false" id="d9dd-392f-b149-cea4" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d520-61cc-d2d7-96de" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink targetId="3db6-625e-385e-6ff2" id="2365-2655-b1d3-4587" type="profile" name="Shuriken Pistol" hidden="false"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Avenger Shuriken Catapult" hidden="false" id="a6af-91e6-615e-a24d">
+                  <infoLinks>
+                    <infoLink targetId="6802-9894-0378-e452" id="500d-5146-5874-96ae" type="profile" name="Avenger Shuriken Catapult" hidden="false"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d50a-d425-4811-5c2a" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Lasblaster" hidden="false" id="3034-f3cf-9580-6b9e">
+                  <infoLinks>
+                    <infoLink targetId="6a11-4e47-2da2-6cc9" id="9b2f-6be5-0e7f-e098" type="profile" name="Lasblaster" hidden="false"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="7"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="674f-b5a0-b6b9-0ad9" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="dcf7-60e3-dcb1-49a0">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cb5f-7f57-49f0-3e9a-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb5f-7f57-49f0-3e9a-max" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7c62-a8d3-151b-48bc-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c62-a8d3-151b-48bc-max" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Star Glave" hidden="false" id="afeb-3865-96f0-a245">
+                  <infoLinks>
+                    <infoLink targetId="37ba-01ad-3610-ee6f" id="c7ef-dd5d-4718-24e9" type="profile" name="Star Glave" hidden="false"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f45-bd5a-39fa-9e37" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Aeldari Chainsword" hidden="false" id="dab5-0d43-0122-e4e0" defaultAmount="1">
+                  <infoLinks>
+                    <infoLink targetId="c412-c64e-9dfb-a47a" id="8f6f-900d-d34c-4838" type="profile" name="Aeldari Chainsword" hidden="false"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="980f-4522-628f-c38f" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Scorpion Chainword" hidden="false" id="0e6e-b701-176c-1da3">
+                  <infoLinks>
+                    <infoLink targetId="4ad0-0fe4-7a6c-c0ab" id="d146-88e2-21fa-d844" type="profile" name="Scorpion Chainword" hidden="false"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed6c-ac17-9801-c58c" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Banshee Blade" hidden="false" id="8fa9-a943-84d3-5507">
+                  <infoLinks>
+                    <infoLink targetId="5ab6-2914-7fd6-5d5f" id="993a-d19d-b2ac-3a52" type="profile" name="Banshee Blade" hidden="false"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="1"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d8b5-5f90-62b7-01e1" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Aeldari Power Sword" hidden="false" id="d1bb-2c75-0b45-1b4c">
+                  <infoLinks>
+                    <infoLink targetId="82a2-3518-23dd-451c" id="1d30-befb-5ec4-e037" type="profile" name="Aeldari Power Sword" hidden="false"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="4"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="203a-33f9-2c04-d2f5" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Type" hidden="false" id="1761-c8dc-d9ea-1b3b">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Autarch Wayleaper" hidden="false" id="b859-93bf-f6a7-6164">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="78e5-558a-c28f-c51d" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink targetId="86a6-6db9-90f2-b51e" id="1c47-d72c-dffc-d9ed" type="profile" name="Autarch Wayleaper" hidden="false"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Skyleap" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="aace-2dbf-3042-a72f">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">At the beginning of your Movement phase, if this model is not within 1&quot; of an enemy model it can leap back into the skies. Remove this model from the battlefield. It can return to the battlefield as described in the Children of Baharroth ability. This model may not both Skyleap and descend on Swooping Hawk wings in the same turn. If the battle ends while this model is in the skies, it is considered to be slain.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Children of Baharroth" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="be90-9f71-0901-bfd3">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">During deployment, you can set up this model in the skies instead of on the battlefield. At the end of any of your Movement phases this model can descend - set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink targetId="2853-e9f2-7a9e-0e91" id="0939-d06c-dc0c-51a9" primary="false" name="Infantry"/>
+                <categoryLink targetId="c2c7-dbd8-014b-2228" id="061c-bc9c-af9f-221a" primary="false" name="Fly"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Autarch" hidden="false" id="e428-5ff7-6a76-9e78" defaultAmount="1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b0a-6990-ab1f-306e" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Autarch" id="1e15-da0b-5f21-dd09" hidden="false" type="profile" targetId="ad09-cbdd-cf94-8d3b"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink targetId="2853-e9f2-7a9e-0e91" id="94a8-6b0d-c6a3-2a1b" primary="false" name="Infantry"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Autarch Skyrunner" hidden="false" id="95aa-11e1-bfb1-c77f">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e7fd-9788-b992-12cf" includeChildSelections="false"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink targetId="c2c7-dbd8-014b-2228" id="8ac8-4a87-9dde-7eb6" primary="false" name="Fly"/>
+                <categoryLink targetId="b6f9-cd66-5fbf-a0cd" id="a76a-8d67-84fa-8737" primary="false" name="Calvary"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="35"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="56df-c493-3b35-caca" id="741e-0790-a1de-37eb" type="profile" name="Autarch Skyrunner" hidden="false"/>
+                <infoLink targetId="b4d0-cbac-20f0-6abe" id="d4a1-5e91-5b0f-87a5" type="profile" name="Ride the Wind" hidden="false"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Bike Weapon" hidden="false" id="06d8-6b50-a6c3-3474">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="9894-ca2e-bd1a-a245-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9894-ca2e-bd1a-a245-max" includeChildSelections="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="daf6-8da2-2c83-179b-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="daf6-8da2-2c83-179b-max" includeChildSelections="false"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Twin Suriken Catapults" hidden="false" id="37f6-33a5-9345-e29f" defaultAmount="1">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="484a-9185-c987-a504" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink targetId="d840-8377-3db7-3aa9" id="c326-2212-dd16-d12c" type="profile" name="Twin Suriken Catapults" hidden="false"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Scatter Laser" hidden="false" id="fba6-6f81-ad4c-cdc5">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="12dd-1221-f770-b052" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink targetId="08f4-851b-0f7b-c8cd" id="1cd5-ea2e-44bd-1ec4" type="profile" name="Scatter Laser" hidden="false"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Shuriken Cannon" hidden="false" id="e2db-5701-d649-8be4">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5081-6dd5-ba8e-7cc6" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink targetId="34f7-8d09-06cf-0ed1" id="5d43-0669-cda6-d8b2" type="profile" name="Shuriken Cannon" hidden="false"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Autarch Wayflicker" hidden="false" id="7d1b-9214-f44d-705b">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cdc2-2ab3-f17a-0fa7" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Warp Jump Genorator" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="51eb-111f-c277-aced">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">When this model moves in the Movement phase, it can do so normally or using its warp jump generator. If it uses its warp jump generator it cannot Advance or Charge this turn, but its Move characteristic is increased by 4D6&quot; and it can FLY until the end of the phase.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Flicker Menice" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="2dd2-64fe-ce24-fb56">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink targetId="2853-e9f2-7a9e-0e91" id="6c6e-150f-54fb-8c5d" primary="false" name="Infantry"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="15"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="e197-4d28-49b4-b9cb" id="c5e6-1888-682c-126e" type="profile" name="Autarch Wayflicker" hidden="false"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1490-318c-d493-f90e-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1490-318c-d493-f90e-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="567d-26b2-f1a5-9906-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="567d-26b2-f1a5-9906-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Special Equipment" hidden="false" id="0654-f4c9-3142-6f78">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Banshee Mask" hidden="false" id="204a-241d-2b75-8f15">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2dc3-4703-d110-24ce" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Banshee Mask" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="5aa4-0cf2-ce52-d8df">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Enemy units cannot fire Overwatch at this unit.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mandiblasters" hidden="false" id="8d02-1498-e266-6f13">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b78-adff-732a-5f9b" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Mandiblasters (Autarch)" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="2cc9-858c-d76d-4adb">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">At the beginning of each Fight phase, you can pick a single enemy INFANTRY unit within 1&quot; of this model and roll a D6. On a roll of 6, that unit suffers a mortal wound.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Force Field" hidden="false" id="4a52-b57b-76de-46ee">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="71ba-1b17-bb77-7c2a" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Force Field" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="d0b7-a712-0e89-faa9">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This model has a 4+ Invulnerable Save</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shroud Field Generator" hidden="false" id="6a3a-dace-8470-df70">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c0e-1ee1-32e5-c1a7" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Shroud Field Generator" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="ea99-b26d-0d8a-0408">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This model has the Stealth, Infiltrator and Scout Special Rules</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Dire Targeting Systems" hidden="false" id="ae15-5add-8533-b88a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1670-977c-2170-3242" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Dire Targeting Systems" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="e383-0ecc-1c3e-389a">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">When this unit fires Overwatch, it hits successfully on a roll of 5 or 6, instead of only 6.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Sunburst Grenades" hidden="false" id="56a3-a6dd-92e1-3c68">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="6ee1-eea3-6368-8a85" id="d014-b2c6-5090-acdb" type="profile" name="Sunburst Grenades" hidden="false"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7240-cae9-f0d6-9f12" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="48d8-48b3-786f-bf78-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="48d8-48b3-786f-bf78-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="aae2-7b59-34f3-4d8b">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a54-8672-70a1-09e3" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink targetId="9e08-fcf2-c2a3-cc46" id="4ce5-068e-fbed-b206" primary="false" name="Warlord"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="3275-df5e-2474-90ed" id="7f74-c717-d424-e536" primary="false" name="Character"/>
+        <categoryLink targetId="e366-6b38-aed5-143b" id="45db-5268-e39e-1b9b" primary="false" name="Faction: Aeldari"/>
+        <categoryLink targetId="40f4-96cd-fb9e-497c" id="6ba9-915b-67b3-6cac" primary="false" name="Aspect Host"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="65"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink targetId="2c6f-f977-7721-1527" id="2716-e4ca-b046-7f17" type="profile" name="The Path of Command" hidden="false"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Guardian Defenders" hidden="false" id="992b-e590-545a-ef54">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Guardian Apprentice" hidden="false" id="0dd7-52f6-c67d-0562">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5afc-b2cb-ea7a-bbc0" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink targetId="eb90-f1be-0218-31f6" id="e286-75ca-06a0-cf70" type="profile" name="Guardian Apprentice" hidden="false"/>
+            <infoLink name="Plasma Grenade" id="ab3f-28ea-1e77-2e66" hidden="false" targetId="ce43-0c3f-4fb4-20c6" type="profile"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="63b0-f49b-9f21-0a2c">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="self" shared="true" id="3c44-40fc-dea9-147a" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0671-2683-809a-545f-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0671-2683-809a-545f-max" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="0f3a-c612-e1fa-9a2e" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Shuriken Cataplut" hidden="false" id="49f9-fdbd-4cc0-9e68" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7153-85db-1904-77e8" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Shuriken Catapult" id="dc0f-c9ad-0c03-3ccd" hidden="false" type="profile" targetId="351f-198e-81d2-3be6"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Shuriken Pistol" hidden="false" id="e411-dcf8-0a8a-5aca">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ae1-0be4-83ce-89ee" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Shuriken Pistol" id="f54c-9c69-39dc-abe0" hidden="false" type="profile" targetId="3db6-625e-385e-6ff2"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Aeldari Power sword" hidden="false" id="389c-ee25-a965-cfb5">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="48f4-169b-adce-d527" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Aeldari Power Sword" id="5373-5654-6e7d-c662" hidden="false" type="profile" targetId="82a2-3518-23dd-451c"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Smite" hidden="false" id="6ae4-dcbe-80ed-4f8f">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49c1-51b2-c801-6594" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Smite" id="7890-e921-665a-cd5b" hidden="false" type="profile" targetId="d933-af1d-85f4-05df"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <categoryLinks>
+                    <categoryLink targetId="ee96-9320-87e8-2474" id="2593-8b84-9c06-9d4a" primary="false" name="Psyker"/>
+                  </categoryLinks>
+                  <entryLinks>
+                    <entryLink import="true" name="Level 1 Psyker" hidden="false" id="204c-3d8e-6cd2-f7df" type="selectionEntry" targetId="0449-94af-0d5e-0f5c"/>
+                  </entryLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Aeldari Chainsword" hidden="false" id="ca24-3971-c9e1-810e">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6251-b4d8-6aaf-2d33" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Aeldari Chainsword" id="de37-a5af-fe67-7e54" hidden="false" type="profile" targetId="c412-c64e-9dfb-a47a"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="1"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Wraithbone Saber" hidden="false" id="c73e-df7e-5909-780c" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5eca-643c-b8a3-f5a4" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Wraithbone Saber" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="afac-6c0e-dbba-7897">
+                      <characteristics>
+                        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+                        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+                        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+                        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Shred</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Guardian" hidden="false" id="0649-0f4a-d567-eed8">
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="c655-9439-1871-ccfb" includeChildSelections="false"/>
+            <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="1f83-d8e8-e868-75e9" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink targetId="0c8f-29f9-dac6-1fc4" id="a71c-d00c-720b-a97f" type="profile" name="Guardian" hidden="false"/>
+            <infoLink name="Shuriken Catapult" id="2b2d-ce7f-3ce1-1f15" hidden="false" type="profile" targetId="351f-198e-81d2-3be6"/>
+            <infoLink targetId="ce43-0c3f-4fb4-20c6" id="35d0-255e-d010-294d" type="profile" name="Plasma Grenade" hidden="false"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="decrement" value="1" field="1f83-d8e8-e868-75e9">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="0dd7-52f6-c67d-0562" shared="true" childName="Guardian Apprentice"/>
+              </conditions>
+              <comment>Apprentice</comment>
+            </modifier>
+            <modifier type="decrement" value="1" field="c655-9439-1871-ccfb">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="0dd7-52f6-c67d-0562" shared="true" childName="Guardian Apprentice"/>
+              </conditions>
+              <comment>Apprentice</comment>
+            </modifier>
+            <modifier type="decrement" value="1" field="c655-9439-1871-ccfb">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="c621-0a15-7524-c05f" shared="true" childName="Guardian /WF Special Weapon"/>
+              </conditions>
+              <comment>SW</comment>
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="c621-0a15-7524-c05f" shared="true" roundUp="false" childName="Guardian /WF Special Weapon"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="1f83-d8e8-e868-75e9">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="c621-0a15-7524-c05f" shared="true" childName="Guardian /WF Special Weapon"/>
+              </conditions>
+              <comment>SW</comment>
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="c621-0a15-7524-c05f" shared="true" roundUp="false" childName="Guardian /WF Special Weapon"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Guardian /WF Special Weapon" hidden="false" id="c621-0a15-7524-c05f">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Weapon" hidden="false" id="634c-6e01-8856-732e">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="d48b-519f-76e2-e730-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d48b-519f-76e2-e730-max" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cd86-f2de-65ea-fd1e-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cd86-f2de-65ea-fd1e-max" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Fusion Gun" hidden="false" id="0a1b-f8a1-a809-dd11">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="079b-da49-168e-aa0a" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="13"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink targetId="1398-83ba-9567-118e" id="ea4a-5030-8345-2180" type="profile" name="Fusion Gun" hidden="false"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Aeldari Flamer" hidden="false" id="9308-61f9-6fae-b831" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de8f-fd74-3c8d-4e1e" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink targetId="24cd-de14-f06f-c4a4" id="032e-72e9-6f09-7b55" type="profile" name="Aeldari Flamer" hidden="false"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+          <infoLinks>
+            <infoLink name="Plasma Grenade" id="198f-556a-2f4a-077f" hidden="false" targetId="ce43-0c3f-4fb4-20c6" type="profile"/>
+            <infoLink name="Guardian" id="8030-4353-fa63-b029" hidden="false" targetId="0c8f-29f9-dac6-1fc4" type="profile"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="406f-e29e-a672-eb2c" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="4" field="406f-e29e-a672-eb2c">
+              <conditions>
+                <condition type="greaterThan" value="14" field="selections" scope="parent" childId="0649-0f4a-d567-eed8" shared="true" childName="Guardian"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Heavy Weapons Platform" hidden="false" id="9d84-75ab-3c7f-c594">
+          <profiles>
+            <profile name="Heavy Weapons Platform" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="f2e2-f0ae-d526-518f">
+              <characteristics>
+                <characteristic name="M" typeId="f861-1936-95cc-e6d3">7&quot;</characteristic>
+                <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">6+</characteristic>
+                <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">3+</characteristic>
+                <characteristic name="S" typeId="ffee-9c9b-6655-d843">3</characteristic>
+                <characteristic name="T" typeId="7dd6-7000-6498-6a92">3</characteristic>
+                <characteristic name="W" typeId="f05f-2129-62a8-9a30">2</characteristic>
+                <characteristic name="A" typeId="d794-d261-842e-1ef8">1</characteristic>
+                <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+                <characteristic name="Save" typeId="952f-14da-4484-d1ea">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Weapon" hidden="false" id="ddb5-a727-95a0-ea32">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="0ec5-5c9c-59f9-98d8-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0ec5-5c9c-59f9-98d8-max" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9590-01aa-2786-bfd5-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9590-01aa-2786-bfd5-max" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Aeldari Missile Launcher" hidden="false" id="809d-4f48-29d3-3401">
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6aff-5ce8-9ba3-49c2" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="AML - Starshot Missile" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="9155-1f4b-5d4f-54ad">
+                      <characteristics>
+                        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&quot;</characteristic>
+                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 1</characteristic>
+                        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+                        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+                        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+                        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="AML - Sunburst Missile" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="a6dd-b804-5913-7d64">
+                      <characteristics>
+                        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">48&quot;</characteristic>
+                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy D6</characteristic>
+                        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
+                        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+                        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Blast 1</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Bright Lance" hidden="false" id="7f24-ea87-8e9a-1601">
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e326-aa76-12a5-a265" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Bright Lance" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="17ba-9e6e-d601-dce1">
+                      <characteristics>
+                        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 1</characteristic>
+                        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
+                        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
+                        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
+                        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Scatter Laser" hidden="false" id="db6a-9533-9161-ae9f">
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="7"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f792-59e4-3454-e5c0" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Scatter Laser" id="9ef4-ba93-8cf1-49c3" hidden="false" type="profile" targetId="08f4-851b-0f7b-c8cd"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Shuriken Cannon" hidden="false" id="0cef-fb45-70a5-3688" defaultAmount="1">
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="557f-b355-3b6a-3c5b" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Shuriken Cannon" id="3b67-e014-f901-c8f7" hidden="false" type="profile" targetId="34f7-8d09-06cf-0ed1"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Starcannon" hidden="false" id="3890-52c2-be0c-3cd0">
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="13"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="23d7-12b7-7cb4-c86d" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Starcannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="cebf-8f1f-9a41-1ed8">
+                      <characteristics>
+                        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
+                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy 2</characteristic>
+                        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+                        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+                        <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
+                        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ecfe-f71f-00c6-68bf" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="2" field="ecfe-f71f-00c6-68bf">
+              <conditions>
+                <condition type="greaterThan" value="14" field="selections" scope="parent" childId="0649-0f4a-d567-eed8" shared="true" childName="Guardian"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="9f32-0b65-3268-2303" primary="false" name="Infantry"/>
+        <categoryLink targetId="e366-6b38-aed5-143b" id="897f-8e73-564d-e11e" primary="false" name="Faction: Aeldari"/>
+        <categoryLink targetId="e9ba-ebe9-0e2b-6001" id="7b3d-bdd5-b27a-0f1b" primary="false" name="Guardian Host"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Storm Guardians" hidden="false" id="1e75-a95b-3e41-b35a">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Guardian Apprentice" hidden="false" id="ba19-f362-3cb4-0522">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="51cf-cfb4-feab-71c4" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink targetId="eb90-f1be-0218-31f6" id="9d79-6756-e220-01e2" type="profile" name="Guardian Apprentice" hidden="false"/>
+            <infoLink name="Plasma Grenade" id="5a78-fdbb-9958-db84" hidden="false" targetId="ce43-0c3f-4fb4-20c6" type="profile"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="3b3f-2346-d23f-730a">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="self" shared="true" id="0bf0-0aa6-f992-3a6e" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1fd0-c2cf-271a-35bb-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1fd0-c2cf-271a-35bb-max" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="0939-410a-e9eb-5845" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Shuriken Cataplut" hidden="false" id="0c57-8917-8dc0-d7d6" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff6b-f659-2513-40ff" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Shuriken Catapult" id="6b5d-b628-6d9f-c611" hidden="false" type="profile" targetId="351f-198e-81d2-3be6"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Shuriken Pistol" hidden="false" id="a34f-5f4c-f0d2-a8e7">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a71b-957e-16e3-2bb0" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Shuriken Pistol" id="c478-c018-9dd9-451a" hidden="false" type="profile" targetId="3db6-625e-385e-6ff2"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Aeldari Power sword" hidden="false" id="b259-84f7-cde0-f6a1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e611-a191-518d-053f" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Aeldari Power Sword" id="807c-fedf-0632-a459" hidden="false" type="profile" targetId="82a2-3518-23dd-451c"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Smite" hidden="false" id="456d-6004-1f14-6d82">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="91ba-2d8a-0a0f-e767" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Smite" id="fa64-e09c-4941-e25b" hidden="false" type="profile" targetId="d933-af1d-85f4-05df"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <categoryLinks>
+                    <categoryLink targetId="ee96-9320-87e8-2474" id="50d8-bee5-7846-fb77" primary="false" name="Psyker"/>
+                  </categoryLinks>
+                  <entryLinks>
+                    <entryLink import="true" name="Level 1 Psyker" hidden="false" id="4e50-ebfe-9055-d6f1" type="selectionEntry" targetId="0449-94af-0d5e-0f5c"/>
+                  </entryLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Aeldari Chainsword" hidden="false" id="44a2-1186-5cfd-d3e0">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="27a5-a9ad-1b25-128c" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Aeldari Chainsword" id="1733-b3d5-e0c0-5497" hidden="false" type="profile" targetId="c412-c64e-9dfb-a47a"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="1"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Wraithbone Saber" hidden="false" id="f9ca-c34c-1489-1eb3" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="495c-3d03-0ec3-6c57" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Wraithbone Saber" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="ee5e-f5b2-436c-bc30">
+                      <characteristics>
+                        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+                        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+                        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+                        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Shred</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Storm Guardian" hidden="false" id="5772-0233-7fb6-bd83">
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="3140-2f16-a7e6-713c" includeChildSelections="false"/>
+            <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="5128-f1a0-b6f5-caca" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink targetId="0c8f-29f9-dac6-1fc4" id="d0d3-35c1-a8a7-225e" type="profile" name="Guardian" hidden="false"/>
+            <infoLink name="Shuriken Pistol" id="ec1f-e120-fae5-a418" hidden="false" type="profile" targetId="3db6-625e-385e-6ff2"/>
+            <infoLink targetId="ce43-0c3f-4fb4-20c6" id="c7bd-8a24-69fd-75d1" type="profile" name="Plasma Grenade" hidden="false"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="decrement" value="1" field="5128-f1a0-b6f5-caca">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="ba19-f362-3cb4-0522" shared="true" childName="Guardian Apprentice"/>
+              </conditions>
+              <comment>Apprentice</comment>
+            </modifier>
+            <modifier type="decrement" value="1" field="3140-2f16-a7e6-713c">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="ba19-f362-3cb4-0522" shared="true" childName="Guardian Apprentice"/>
+              </conditions>
+              <comment>Apprentice</comment>
+            </modifier>
+            <modifier type="decrement" value="1" field="3140-2f16-a7e6-713c">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="d371-a742-9664-1232" shared="true" childName="Guardian /WF Special Weapon"/>
+              </conditions>
+              <comment>SW</comment>
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="d371-a742-9664-1232" shared="true" roundUp="false" childName="Guardian /WF Special Weapon"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="5128-f1a0-b6f5-caca">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="d371-a742-9664-1232" shared="true" childName="Guardian /WF Special Weapon"/>
+              </conditions>
+              <comment>SW</comment>
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="d371-a742-9664-1232" shared="true" roundUp="false" childName="Guardian /WF Special Weapon"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Close Combat weapon" hidden="false" id="b8e1-fd39-6da8-5479">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9db0-bd64-e216-7e27-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9db0-bd64-e216-7e27-max" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="fe90-1a7b-cf63-39b0-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="fe90-1a7b-cf63-39b0-max" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Aeldari Chainsword" hidden="false" id="0e31-2ab6-13d8-f28d">
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="1"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c478-d494-7e18-4c5d" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Aeldari Chainsword" id="6a6c-919d-7e9d-4fd1" hidden="false" type="profile" targetId="c412-c64e-9dfb-a47a"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Wraithbone Saber" hidden="false" id="9bea-4016-7b21-e5f7" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29d2-93d1-56bd-af4f" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Wraithbone Saber" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="b6ec-dc5c-fcf3-eaed">
+                      <characteristics>
+                        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+                        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+                        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+                        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
+                        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+                        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Shred</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Storm Guardian /WF Special Weapon" hidden="false" id="d371-a742-9664-1232">
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Weapon" hidden="false" id="e9b5-104d-bb92-c6b2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="9a13-28f6-2d00-af7d" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="09a9-df19-6726-82ef-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="09a9-df19-6726-82ef-max" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="self" shared="true" id="827f-26c0-b059-93a4" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Fusion Gun" hidden="false" id="e675-0839-258b-5a06">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b17-48b3-5290-039d" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="unit-self" shared="true" id="5621-c5c2-6294-cde7" includeChildSelections="true" includeChildForces="false" traverseAssociationGroup="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="13"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink targetId="1398-83ba-9567-118e" id="99f1-0630-856c-e021" type="profile" name="Fusion Gun" hidden="false"/>
+                  </infoLinks>
+                  <modifiers>
+                    <modifier type="increment" value="2" field="5621-c5c2-6294-cde7">
+                      <conditions>
+                        <condition type="greaterThan" value="10" field="selections" scope="unit" childId="5772-0233-7fb6-bd83" shared="true" childName="Storm Guardian"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Aeldari Flamer" hidden="false" id="3c84-f249-faa2-7dae" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17b0-e556-2021-a22c" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="unit-self" shared="true" id="d58d-c7b4-e10f-34a2" includeChildSelections="true" includeChildForces="false" traverseAssociationGroup="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="6"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink targetId="24cd-de14-f06f-c4a4" id="ca9e-17f2-23bd-2ded" type="profile" name="Aeldari Flamer" hidden="false"/>
+                  </infoLinks>
+                  <modifiers>
+                    <modifier type="increment" value="2" field="d58d-c7b4-e10f-34a2">
+                      <conditions>
+                        <condition type="greaterThan" value="10" field="selections" scope="unit" childId="5772-0233-7fb6-bd83" shared="true" childName="Storm Guardian"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Aeldari Power Sword" hidden="false" id="52ef-8df8-2940-878f">
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2468-6e40-f380-066e" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="unit-self" shared="true" id="ba4e-fb08-afef-ce7f" includeChildSelections="true" includeChildForces="false" traverseAssociationGroup="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Aeldari Power Sword" id="6fa5-facb-3794-3e20" hidden="false" type="profile" targetId="82a2-3518-23dd-451c"/>
+                  </infoLinks>
+                  <modifiers>
+                    <modifier type="increment" value="2" field="ba4e-fb08-afef-ce7f">
+                      <conditions>
+                        <condition type="greaterThan" value="10" field="selections" scope="unit" childId="5772-0233-7fb6-bd83" shared="true" childName="Storm Guardian"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+          <infoLinks>
+            <infoLink name="Plasma Grenade" id="cfc8-a4a8-ccd1-2a3e" hidden="false" targetId="ce43-0c3f-4fb4-20c6" type="profile"/>
+            <infoLink name="Guardian" id="bff7-140f-a7b8-204e" hidden="false" targetId="0c8f-29f9-dac6-1fc4" type="profile"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="c882-8722-251c-fdad" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="8" field="c882-8722-251c-fdad">
+              <conditions>
+                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="5772-0233-7fb6-bd83" shared="true" childName="Guardian"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Serpent&apos;s Scale Platform" hidden="false" id="d643-2d51-6f75-1d07">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9fe4-7779-0a5f-48c1" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="2" field="9fe4-7779-0a5f-48c1">
+              <conditions>
+                <condition type="greaterThan" value="11" field="selections" scope="parent" childId="5772-0233-7fb6-bd83" shared="true" childName="Storm Guardian"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Serpent Shield" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="8b9f-6bbb-01d2-ee95">
+              <characteristics>
+                <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Models in the bearer’s unit have a 5+ Invulnerable Save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Serpent&apos;s Scale Platform" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="2e7f-17f6-5e84-8cc2">
+              <characteristics>
+                <characteristic name="M" typeId="f861-1936-95cc-e6d3">7&quot;</characteristic>
+                <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">6+</characteristic>
+                <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">6+</characteristic>
+                <characteristic name="S" typeId="ffee-9c9b-6655-d843">3</characteristic>
+                <characteristic name="T" typeId="7dd6-7000-6498-6a92">3</characteristic>
+                <characteristic name="W" typeId="f05f-2129-62a8-9a30">2</characteristic>
+                <characteristic name="A" typeId="d794-d261-842e-1ef8">1</characteristic>
+                <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+                <characteristic name="Save" typeId="952f-14da-4484-d1ea">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="2853-e9f2-7a9e-0e91" id="0ae8-c5f8-7362-15da" primary="false" name="Infantry"/>
+        <categoryLink targetId="e366-6b38-aed5-143b" id="28b4-001e-e909-dd1d" primary="false" name="Faction: Aeldari"/>
+        <categoryLink targetId="e9ba-ebe9-0e2b-6001" id="9fd5-db6e-a4a7-c754" primary="false" name="Guardian Host"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Farseer" hidden="false" id="8723-bc2a-eb35-6c74">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Type" hidden="false" id="541b-457b-47f4-3a72">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Farseer" hidden="false" id="eb34-267a-c309-642f" defaultAmount="1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="edc3-2b42-22c2-365e" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Autarch" id="59ff-83ce-0671-1269" hidden="false" type="profile" targetId="ad09-cbdd-cf94-8d3b"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink targetId="2853-e9f2-7a9e-0e91" id="38ff-65b6-a52e-4f15" primary="false" name="Infantry"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Farseer Skyrunner" hidden="false" id="7dc0-04fa-f2ab-3ca5">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4489-823b-2734-87e4" includeChildSelections="false"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink targetId="c2c7-dbd8-014b-2228" id="e707-d173-db27-8c33" primary="false" name="Fly"/>
+                <categoryLink targetId="b6f9-cd66-5fbf-a0cd" id="0597-386f-2aab-185d" primary="false" name="Calvary"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="35"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="56df-c493-3b35-caca" id="18cc-ea1a-61d4-e32e" type="profile" name="Autarch Skyrunner" hidden="false"/>
+                <infoLink targetId="b4d0-cbac-20f0-6abe" id="a480-fc9e-1840-844c" type="profile" name="Ride the Wind" hidden="false"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Bike Weapon" hidden="false" id="1e3a-b4be-15a2-f7b9">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="5b36-c596-b3cb-85cf-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5b36-c596-b3cb-85cf-max" includeChildSelections="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cf11-ae3e-0f9d-1cd2-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf11-ae3e-0f9d-1cd2-max" includeChildSelections="false"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Twin Suriken Catapults" hidden="false" id="fb5f-8fb3-7968-c503" defaultAmount="1">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe24-4113-5bf1-44aa" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink targetId="d840-8377-3db7-3aa9" id="8d29-5e32-bcb9-62f5" type="profile" name="Twin Suriken Catapults" hidden="false"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Scatter Laser" hidden="false" id="090d-6454-cbc1-4d8a">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b8c-9d41-73f8-2add" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink targetId="08f4-851b-0f7b-c8cd" id="7993-d219-0f5a-71d1" type="profile" name="Scatter Laser" hidden="false"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Shuriken Cannon" hidden="false" id="e600-d7b8-6828-38f7">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="97aa-8b53-4b80-be09" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="8"/>
+                        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink targetId="34f7-8d09-06cf-0ed1" id="ea58-3f6c-7865-68cd" type="profile" name="Shuriken Cannon" hidden="false"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="91d3-3048-4d22-9195-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="91d3-3048-4d22-9195-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="f699-285c-52b0-29c4-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="f699-285c-52b0-29c4-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="d51d-b218-2a94-4ff2">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6323-48ee-549f-a717" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink targetId="9e08-fcf2-c2a3-cc46" id="bf7a-63a3-3a14-e7e1" primary="false" name="Warlord"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="0542-46dc-2930-bcec">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="996a-7d97-8dc3-ccb5-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="996a-7d97-8dc3-ccb5-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="378f-03b2-aa3c-4e9a-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="378f-03b2-aa3c-4e9a-max" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Level 5 Psyker" hidden="false" id="87bd-416a-3909-c5cf" type="selectionEntry" targetId="65d8-a6a0-7fc8-b50c">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Level 4 Psyker" hidden="false" id="7cef-85bd-7a16-4ad4" type="selectionEntry" targetId="419e-9ceb-6c2b-253c"/>
+            <entryLink import="true" name="Level 6 Psyker" hidden="false" id="5a78-3f4c-dcff-31cf" type="selectionEntry" targetId="b077-ec4b-20af-b3a4">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="50"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="3275-df5e-2474-90ed" id="3bd7-8d26-db5d-6dce" primary="false" name="Character"/>
+        <categoryLink targetId="e366-6b38-aed5-143b" id="5fb0-d060-31bb-ebf1" primary="false" name="Faction: Aeldari"/>
+        <categoryLink targetId="40f4-96cd-fb9e-497c" id="0be9-4982-3ee2-63c8" primary="false" name="Aspect Host"/>
+        <categoryLink targetId="ee96-9320-87e8-2474" id="1b6a-16da-87ad-68d2" primary="false" name="Psyker"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="65"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Runes of Fortune" hidden="false" id="23f4-0d7f-4e41-f766">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Smite" hidden="false" id="b555-8608-a928-68d6">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c810-0d9a-4824-0442" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Fate Divergence" hidden="false" id="8daa-c92b-1603-184f">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b3da-eb54-d603-f701" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Witch Strike" hidden="false" id="6849-a28c-93a7-4df1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b1dc-f6a9-b8f5-1dfc" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Crushing Orb" hidden="false" id="9505-dc53-c1af-f5bb">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="28cd-d424-cd7e-13c6" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Ghostwalk" hidden="false" id="b356-e579-f3fb-a4bb">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="158d-beea-9161-c204" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Impair Senses" hidden="false" id="1501-680a-3ba2-3016">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e34-b70d-b0d1-f0ef" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Focus Will" hidden="false" id="e9bd-af1e-8d71-1e59">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0162-f6c4-85b7-99d2" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0d4d-22c8-4793-2995-min" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d4d-22c8-4793-2995-max" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Runes of Fate" hidden="false" id="87ad-d2cc-381e-81af">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d407-d2ed-391b-d3c8-min" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d407-d2ed-391b-d3c8-max" includeChildSelections="false"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Guide" hidden="false" id="4a96-37b8-c871-8d02">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c8aa-5c03-3f2d-08c3" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Fortune" hidden="false" id="974a-7ee0-29f2-9011">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b09-8f7d-e5ce-751b" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Doom" hidden="false" id="55b7-23d5-096a-3ccd">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a91b-8a7e-a54a-a83c" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Executioner" hidden="false" id="9423-f3b9-4f27-80f6">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b27-cd18-43e9-b391" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Will of Asuryan" hidden="false" id="8863-78b4-e50b-5a2a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ea6-9043-c340-d1cf" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Mind War" hidden="false" id="4bcb-2478-e261-e656">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a74-6811-9a39-5279" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Autarch" hidden="false" id="50c5-2ab1-cfaf-d35a" targetId="21b2-fb26-d0b4-be3e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="df66-426b-8561-5154" id="e5e1-d32e-abcb-19a6" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Guardian Defenders" hidden="false" id="8617-d0cb-cf88-8c9d" targetId="992b-e590-545a-ef54" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="168f-b2da-4fd7-90d7" id="3ef1-2dde-dc0e-0dd9" primary="true" name="Troop"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Storm Guardians" hidden="false" id="59db-d49b-3f13-9f6a" targetId="1e75-a95b-3e41-b35a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="168f-b2da-4fd7-90d7" id="27a8-92f0-4e9f-5826" primary="true" name="Troop"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>

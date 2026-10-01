@@ -1557,7 +1557,7 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
                 <characteristic name="S" typeId="a4b2-ce42-4524-4475">4</characteristic>
                 <characteristic name="AP" typeId="ad1a-ecf9-b29f-0f6a">-2</characteristic>
                 <characteristic name="D" typeId="4249-543a-3dc5-4143">1</characteristic>
-                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Power</characteristic>
+                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Power, Torrant</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1667,7 +1667,7 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
                 <characteristic name="S" typeId="a4b2-ce42-4524-4475">3</characteristic>
                 <characteristic name="AP" typeId="ad1a-ecf9-b29f-0f6a">-3</characteristic>
                 <characteristic name="D" typeId="4249-543a-3dc5-4143">1</characteristic>
-                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Power, Devastating Wounds</characteristic>
+                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Power, Torrant, Devastating Wounds</characteristic>
               </characteristics>
             </profile>
           </profiles>

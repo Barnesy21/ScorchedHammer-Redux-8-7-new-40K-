@@ -557,7 +557,6 @@
       <characteristicTypes>
         <characteristicType name="Cast" id="ab6d-5995-d985-b192"/>
         <characteristicType name="Deny" id="9a3f-a270-5f77-8e90"/>
-        <characteristicType name="Powers Known" id="7e89-4bd8-8f12-0cf7"/>
         <characteristicType name="Other" id="c046-4b98-ea8c-d36b"/>
       </characteristicTypes>
     </profileType>
@@ -601,6 +600,11 @@
         <characteristicType name="AP" id="ad1a-ecf9-b29f-0f6a"/>
         <characteristicType name="D" id="4249-543a-3dc5-4143"/>
         <characteristicType name="Abilities" id="7b54-f22e-32e3-b559"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Psyker&apos;s Known Powers" id="425e-9952-e822-31f4" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Powers Known" id="2a56-ea01-ca2c-5b9f"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -778,7 +782,7 @@
       <description>A weapon with this special Rule regains Lost wound equal to the number specified if a enemy model is slain by it.</description>
     </rule>
     <rule name="Psychic Power" id="3523-6d8f-6ec2-d607" hidden="false">
-      <description>A weapon with this special Rule Automatically Hits the target with the specified Amount of attacks when the cast is successful.</description>
+      <description>A weapon with this special Rule Must Perform a Psychic test before Using this weapon. A Weapon with the SR Ignores all Negative Modifiers to Hit, Wound or Damage.</description>
     </rule>
     <rule name="It Will Not Die" id="a986-140c-698b-a206" hidden="false">
       <description>A Model with this Special Rule at the Beginning of each turn Roll a D6 on the Number Specified The model Regains one Wound</description>
@@ -815,6 +819,18 @@
     <rule name="fire Line" id="24a5-05da-0a2a-d887" hidden="false">
       <description>All Models that are within 1&quot; of a straight line between the caster and the target Are also hit by this weapon</description>
     </rule>
+    <rule name="Blast(1)" id="afb0-7b46-812c-de38" hidden="false">
+      <description>A Weapon that makes attacks that target a Unit that contains 5 or more models gains a number of attacks equal to the number in the brackets for every 5 Models in the target unit.</description>
+    </rule>
+    <rule name="Blast(2)" id="e40c-9b56-e78f-765d" hidden="false">
+      <description>A Weapon that makes attacks that target a Unit that contains 5 or more models gains a number of attacks equal to the number in the brackets for every 5 Models in the target unit.</description>
+    </rule>
+    <rule name="Blast(3)" id="c980-4d0e-0c73-7e02" hidden="false">
+      <description>A Weapon that makes attacks that target a Unit that contains 5 or more models gains a number of attacks equal to the number in the brackets for every 5 Models in the target unit.</description>
+    </rule>
+    <rule name="Psyker Covern" id="f92c-bf5f-6f26-26f1" hidden="false">
+      <description>A Model may Join with other Psyker&apos;s to increase there Casting power Add 1 Casting Dice For Each Psyker In the Covern, When Doing some this uses there Cast for the turn, Also Any Resault of a Failed Or Critical Fail would Effect All Psykers Casting.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile name="Smite" typeId="e57e-15c3-e702-5811" typeName="Psychic Power Weapon" hidden="false" id="d933-af1d-85f4-05df">
@@ -845,7 +861,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">3</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Blast(1)</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -975,7 +991,7 @@
     </profile>
     <profile name="Storm Shield" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="c4c0-3c0d-006d-e5f2">
       <characteristics>
-        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">A model with a storm shield has a 4+ invulnerable save. If this model already has a 4+ invulnerable save. Increase the save by +1, If this Model has a 2+ Save and a 4+ Invulnerable save then this model has a 3+ Invulnerable save</characteristic>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">A model with a storm shield has a 4+ invulnerable save. If this model already has a 4+ invulnerable save. Increase the save by +1, If this Model has a 2+ Save and a 4+ Invulnerable save then this model has it&apos;s wound count increased by 1</characteristic>
       </characteristics>
     </profile>
     <profile name="Astartes Chainsword" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="255f-2329-c08e-ff09">
@@ -1155,7 +1171,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot, Rending (4+)</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot, Rending (4+), Blast(1)</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -1242,7 +1258,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Blast(1)</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -1399,7 +1415,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Blast(1)</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -1451,7 +1467,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">9</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot, Rending 4+</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot, Rending 4+, Blast(1)</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -1498,7 +1514,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Melta</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Melta, Blast(1)</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -1525,7 +1541,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D3</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Conversion</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Conversion, Blast(1)</characteristic>
       </characteristics>
     </profile>
     <profile name="Twin Volkite Culverin" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="8f8d-3c0c-91ba-5a1c">
@@ -1628,7 +1644,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">10</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Blast(3)</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -1645,7 +1661,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Indirect Fire</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Indirect Fire, Blast(2)</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -1662,7 +1678,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Indirect Fire</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Indirect Fire, Blast(3)</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -1679,7 +1695,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot, Rending 4+</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot, Rending 4+, Blast(1)</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -1812,7 +1828,7 @@ Matched Play: This model and any units embarked aboard it are exempt from the Ta
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Instant Death</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Instant Death, Blast(1)</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -2054,9 +2070,9 @@ Matched Play: This model and any units embarked aboard it are exempt from the Ta
         <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">36&quot;</characteristic>
         <characteristic name="Type" typeId="b392-8288-2208-6ab2">Heavy D3</characteristic>
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
-        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot, Rending 4+</characteristic>
       </characteristics>
     </profile>
     <profile name="Heavy Hades Autocannons" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="4f8c-e1cb-cc4c-7ff3">
@@ -2201,7 +2217,7 @@ Matched Play: This model and any units embarked aboard it are exempt from the Ta
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">4</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Blast(1)</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -2270,6 +2286,290 @@ Matched Play: This model and any units embarked aboard it are exempt from the Ta
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0676-24d6-2071-4e51-max" includeChildSelections="true"/>
       </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Psyker Levels" hidden="false" id="c6b4-6204-f045-c5ac">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Level 1 Psyker" hidden="false" id="6234-11d1-e2de-c942">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c4f-19da-2089-cd8f" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Level 1 Psyker" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="8a56-b7fa-e27d-6985">
+              <characteristics>
+                <characteristic name="Cast" typeId="ab6d-5995-d985-b192">1*</characteristic>
+                <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1*</characteristic>
+                <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">Can only Cast 1 Power or Deny 1 per Turn not Both</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Level 2 Psyker" hidden="false" id="2665-09ab-9e54-6c9d">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="838b-09ff-6a2c-8e4a" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Level 2 Psyker" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="07ff-01c5-d89c-d28d">
+              <characteristics>
+                <characteristic name="Cast" typeId="ab6d-5995-d985-b192">1</characteristic>
+                <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
+                <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">May Cast or Deny 1 Power</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Level 3 Psyker" hidden="false" id="1847-6464-7ec0-c46a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d3a-2142-eb3d-5db8" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Level 3 Psyker" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="274f-7656-e1e1-dfab">
+              <characteristics>
+                <characteristic name="Cast" typeId="ab6d-5995-d985-b192">1</characteristic>
+                <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
+                <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">May Cast or Deny one Power and may Use the Psyker Covern Rule</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Level 6 Psyker" hidden="false" id="8d86-f172-787b-66ea">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d49-0851-98ac-2708" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Level 6 Psyker" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="2c83-3829-bcde-e356">
+              <characteristics>
+                <characteristic name="Cast" typeId="ab6d-5995-d985-b192">2</characteristic>
+                <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">2</characteristic>
+                <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">May Cast 2 and Deny 2 Power, When this model Casts a Power it may Add 1 Additional Dice when Casting and may Use the Psyker Covern Rule</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Level 5 Psyker" hidden="false" id="94c1-5085-10e9-8909">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9290-7f71-15a5-c913" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Level 5 Psyker" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="abb0-e030-b424-96eb">
+              <characteristics>
+                <characteristic name="Cast" typeId="ab6d-5995-d985-b192">2</characteristic>
+                <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">2</characteristic>
+                <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">May Cast and deny 2 Powers and may Use the Psyker Covern Rule</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Level 4 Psyker" hidden="false" id="7590-59a7-3472-bbd0">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e978-0550-2251-aa89" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Level 4 Psyker" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="3164-8920-6b8b-207a">
+              <characteristics>
+                <characteristic name="Cast" typeId="ab6d-5995-d985-b192">2</characteristic>
+                <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
+                <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">May Cast 2 and Deny 1 Power and may Use the Psyker Covern Rule</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Level 7 Psyker" hidden="false" id="6367-f5c3-671a-316c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f27-c5fd-0e76-2d97" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Level 7 Psyker" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="020e-ffcd-69ed-3664">
+              <characteristics>
+                <characteristic name="Cast" typeId="ab6d-5995-d985-b192">2</characteristic>
+                <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">2</characteristic>
+                <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">May Cast 2 and Deny 2 Power, When this model Casts a Power it may Add 2 Additional Dice when Casting and may Use the Psyker Covern Rule</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Level 8 Psyker" hidden="false" id="27de-1926-0145-ab6b">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b62-4d2f-1a40-23b4" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Level 8 Psyker" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="c02d-d450-7d3a-3f2a">
+              <characteristics>
+                <characteristic name="Cast" typeId="ab6d-5995-d985-b192">3</characteristic>
+                <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">2</characteristic>
+                <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">May Cast 3 and Deny 2 Power, and may Use the Psyker Covern Rule</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Level 10 Psyker" hidden="false" id="93d0-b8b9-b251-29c6">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f0b3-7728-6e0f-cb7e" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Level 10 Psyker" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="895b-eafb-9885-7bbf">
+              <characteristics>
+                <characteristic name="Cast" typeId="ab6d-5995-d985-b192">3</characteristic>
+                <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">2</characteristic>
+                <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">May Cast 3 and Deny 2 Power, When this model Casts a Power it may Add 4 Additional Dice when Casting and may Use the Psyker Covern Rule</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Level 9 Psyker" hidden="false" id="60f2-8eb8-fd35-c8f4">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8853-a689-7658-6f74" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Level 9 Psyker" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="a671-a8f1-e16b-9b60">
+              <characteristics>
+                <characteristic name="Cast" typeId="ab6d-5995-d985-b192">3</characteristic>
+                <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">2</characteristic>
+                <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">May Cast 3 and Deny 2 Power, When this model Casts a Power it may Add 3 Additional Dice when Casting and may Use the Psyker Covern Rule</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Level 1 Psyker" hidden="false" id="0449-94af-0d5e-0f5c">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17ec-acea-0fca-2e72" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Level 1 Psyker" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="11a3-934d-1220-bb97">
+          <characteristics>
+            <characteristic name="Cast" typeId="ab6d-5995-d985-b192">1*</characteristic>
+            <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1*</characteristic>
+            <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">Can only Cast 1 Power or Deny 1 per Turn not Both</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Level 2 Psyker" hidden="false" id="7b10-1b44-7a36-51ff">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b931-2923-4534-e798" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Level 2 Psyker" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="0268-8a3b-26ff-8e11">
+          <characteristics>
+            <characteristic name="Cast" typeId="ab6d-5995-d985-b192">1</characteristic>
+            <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
+            <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">May Cast or Deny 1 Power</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Level 3 Psyker" hidden="false" id="0791-841b-51c3-f838">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="42c5-39a8-65c1-cea8" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Level 3 Psyker" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="a568-d1dc-aece-632c">
+          <characteristics>
+            <characteristic name="Cast" typeId="ab6d-5995-d985-b192">1</characteristic>
+            <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
+            <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">May Cast or Deny one Power and may Use the Psyker Covern Rule</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Level 4 Psyker" hidden="false" id="419e-9ceb-6c2b-253c">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3541-cf06-d9da-76a7" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Level 4 Psyker" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="f57e-8fcd-de7f-ae71">
+          <characteristics>
+            <characteristic name="Cast" typeId="ab6d-5995-d985-b192">2</characteristic>
+            <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
+            <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">May Cast 2 and Deny 1 Power and may Use the Psyker Covern Rule</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Level 5 Psyker" hidden="false" id="65d8-a6a0-7fc8-b50c">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="901b-f1f5-c504-d3cf" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Level 5 Psyker" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="0dbc-27fe-3bb6-e6b0">
+          <characteristics>
+            <characteristic name="Cast" typeId="ab6d-5995-d985-b192">2</characteristic>
+            <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">2</characteristic>
+            <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">May Cast and deny 2 Powers and may Use the Psyker Covern Rule</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Level 6 Psyker" hidden="false" id="b077-ec4b-20af-b3a4">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d9f-dc1c-e6c6-d8a1" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Level 6 Psyker" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="377d-770c-aa62-1c05">
+          <characteristics>
+            <characteristic name="Cast" typeId="ab6d-5995-d985-b192">2</characteristic>
+            <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">2</characteristic>
+            <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">May Cast 2 and Deny 2 Power, When this model Casts a Power it may Add 1 Additional Dice when Casting and may Use the Psyker Covern Rule</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Level 7 Psyker" hidden="false" id="d1e2-fd9f-397c-3b6d">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb87-890e-9ffa-c135" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Level 7 Psyker" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="1c23-2dda-800c-73ca">
+          <characteristics>
+            <characteristic name="Cast" typeId="ab6d-5995-d985-b192">2</characteristic>
+            <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">2</characteristic>
+            <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">May Cast 2 and Deny 2 Power, When this model Casts a Power it may Add 2 Additional Dice when Casting and may Use the Psyker Covern Rule</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Level 8 Psyker" hidden="false" id="7a06-2ee6-005c-d0b6">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="90a6-209f-74c7-4ebb" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Level 8 Psyker" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="493d-7655-82b7-29fc">
+          <characteristics>
+            <characteristic name="Cast" typeId="ab6d-5995-d985-b192">3</characteristic>
+            <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">2</characteristic>
+            <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">May Cast 3 and Deny 2 Power, and may Use the Psyker Covern Rule</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Level 9 Psyker" hidden="false" id="8ed6-d58d-98ec-cc68">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dee8-dcab-710f-0026" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Level 9 Psyker" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="070b-cbb2-8b7d-6f78">
+          <characteristics>
+            <characteristic name="Cast" typeId="ab6d-5995-d985-b192">3</characteristic>
+            <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">2</characteristic>
+            <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">May Cast 3 and Deny 2 Power, When this model Casts a Power it may Add 3 Additional Dice when Casting and may Use the Psyker Covern Rule</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Level 10 Psyker" hidden="false" id="dcda-1658-b606-5189">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f2ac-2857-5a38-69d4" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Level 10 Psyker" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="5d0e-4c05-d4ce-5d4f">
+          <characteristics>
+            <characteristic name="Cast" typeId="ab6d-5995-d985-b192">3</characteristic>
+            <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">2</characteristic>
+            <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">May Cast 3 and Deny 2 Power, When this model Casts a Power it may Add 4 Additional Dice when Casting and may Use the Psyker Covern Rule</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>

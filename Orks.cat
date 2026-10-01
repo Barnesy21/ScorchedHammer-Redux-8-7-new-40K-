@@ -5399,6 +5399,26 @@ weapon by a model in a unit with this Subkultur, while that model or any model i
             <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
           </modifiers>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="c37e-7752-ba02-7803">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="57df-4a5e-6795-4c61" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3a88-31cf-a520-0d82" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6045-87a8-527e-c921" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ffda-5036-f6e4-9e76" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Level 5 Psyker" hidden="false" id="9abf-dc4a-45f7-be64" type="selectionEntry" targetId="65d8-a6a0-7fc8-b50c">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Level 4 Psyker" hidden="false" id="dc72-7ca8-00c4-1492" type="selectionEntry" targetId="419e-9ceb-6c2b-253c">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Power of the WAAAGH!" hidden="false" id="44bc-9311-0e47-953b" type="selectionEntry" targetId="5b07-1cb2-e0f1-db4a">
@@ -5415,14 +5435,6 @@ weapon by a model in a unit with this Subkultur, while that model or any model i
         <infoLink name="Weirdboy" id="871d-bc20-06d4-8689" hidden="false" type="profile" targetId="6484-0595-04e0-dc02"/>
       </infoLinks>
       <profiles>
-        <profile name="Weirdboy" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="20cc-16b4-6014-3d2c">
-          <characteristics>
-            <characteristic name="Cast" typeId="ab6d-5995-d985-b192">1</characteristic>
-            <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
-            <characteristic name="Powers Known" typeId="7e89-4bd8-8f12-0cf7">Smite &amp; 1 from Power of the WAAAGH!</characteristic>
-            <characteristic name="Other" typeId="c046-4b98-ea8c-d36b">-</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Waaagh! Energy" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="8edd-c6d8-50e8-6ef8">
           <characteristics>
             <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Add 1 to any Psychic test rolls made for this model for every 10 friendly ORK models excluding Gretchin within 10&quot; of it when the roll is made, to a maximum of +3. However, if result of the test is 12+, this model immediately suffers Perils of the Warp.</characteristic>
@@ -5887,7 +5899,7 @@ weapon by a model in a unit with this Subkultur, while that model or any model i
         <infoLink targetId="287d-18be-de5f-0030" id="ca93-0c63-0405-0ed5" type="profile" name="Big n&apos; Stompy" hidden="false"/>
         <infoLink name="&apos;Ere We Go!" id="2fce-9965-f2af-4235" hidden="false" type="rule" targetId="a095-edc1-6ea8-2e6d"/>
         <infoLink name="Explodes" id="e355-4b18-c427-3382" hidden="false" type="rule" targetId="3541-94a7-a138-358b"/>
-        <infoLink name="Mega-Dread" id="0815-b9ca-8ea8-862d" hidden="false" type="profile" targetId="899d-66af-ac22-abaf"/>
+        <infoLink name="Meka-Dread" id="0815-b9ca-8ea8-862d" hidden="false" type="profile" targetId="899d-66af-ac22-abaf"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="230"/>

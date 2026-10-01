@@ -166,7 +166,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Blast(2)</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -323,7 +323,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">8</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Blast(2)</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -360,7 +360,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">16</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-5</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6+8</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Blast(2)</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -387,7 +387,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">9</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot, Rending 4+</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gets Hot, Rending 4+, Blast(1)</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -451,7 +451,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">9</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">D6+2</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Melta</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Melta, Blast(2)</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -480,7 +480,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Blast(1)</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -577,7 +577,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gravitation</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Gravitation, Blast(2)</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -604,7 +604,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">0</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Conversion</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Conversion, Blast(2)</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -767,7 +767,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">7</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Blast(1)</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -815,7 +815,7 @@
         <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
-        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Blast(2)</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -1734,6 +1734,34 @@ Inflict D3 mortal wounds on this model and select one result on the table [on th
         <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="62f9-7e0a-8f58-af8c">
+          <entryLinks>
+            <entryLink import="true" name="Level 4 Psyker" hidden="false" id="8c20-7919-aaa2-2570" type="selectionEntry" targetId="419e-9ceb-6c2b-253c">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Level 3 Psyker" hidden="false" id="1637-b135-453d-b0d0" type="selectionEntry" targetId="0791-841b-51c3-f838" defaultAmount="1"/>
+            <entryLink import="true" name="Level 5 Psyker" hidden="false" id="82d7-f47f-50fc-7b82" type="selectionEntry" targetId="65d8-a6a0-7fc8-b50c">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Level 6 Psyker" hidden="false" id="9979-fad3-0226-ede3" type="selectionEntry" targetId="b077-ec4b-20af-b3a4">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="50"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="1081-e41c-065c-ae37-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1081-e41c-065c-ae37-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dd45-4cfd-e465-b4f5-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd45-4cfd-e465-b4f5-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="WarpStrom Discipline" hidden="false" id="fdbe-893d-b23b-346b">
       <selectionEntries>
@@ -1908,6 +1936,37 @@ If the result of the psychic test was 8 or more, while a friendly WAR DOG-CLASS 
           </modifiers>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b7b-81a3-f9ed-4608" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="aba1-9047-41e8-b296">
+          <entryLinks>
+            <entryLink import="true" name="Level 4 Psyker" hidden="false" id="115a-a8b3-8404-e72f" type="selectionEntry" targetId="419e-9ceb-6c2b-253c">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Level 3 Psyker" hidden="false" id="5ba7-3684-bea1-a236" type="selectionEntry" targetId="0791-841b-51c3-f838" defaultAmount="1"/>
+            <entryLink import="true" name="Level 5 Psyker" hidden="false" id="5b6d-cc6c-fe71-0ab1" type="selectionEntry" targetId="65d8-a6a0-7fc8-b50c">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Level 6 Psyker" hidden="false" id="59b5-a80e-59af-74c0" type="selectionEntry" targetId="b077-ec4b-20af-b3a4">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="50"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Level 7 Psyker" hidden="false" id="0b5e-49ff-f727-08ee" type="selectionEntry" targetId="d1e2-fd9f-397c-3b6d">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="70"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="a422-38b6-c1e6-ce20-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a422-38b6-c1e6-ce20-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8198-0d7a-bcd0-6947-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8198-0d7a-bcd0-6947-max" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>

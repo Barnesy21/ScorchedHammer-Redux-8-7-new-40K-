@@ -1412,21 +1412,6 @@
             </modifier>
           </modifiers>
         </profile>
-        <profile name="Daemon Prince" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="d501-6f6a-a71b-1e72">
-          <characteristics>
-            <characteristic name="Cast" typeId="ab6d-5995-d985-b192">1</characteristic>
-            <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
-            <characteristic name="Powers Known" typeId="7e89-4bd8-8f12-0cf7">Smite and 1 from the Discipline of Tzeentch</characteristic>
-            <characteristic name="Other" typeId="c046-4b98-ea8c-d36b"/>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="greaterThan" value="0" field="selections" scope="736f-de88-7fb0-6ebc" childId="cb45-c0d6-a69e-cc74" shared="true" childName="Mark of Khorne" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </profile>
       </profiles>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Wings" hidden="false" id="973f-17cf-38f1-3505">
@@ -1504,6 +1489,29 @@
             <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
           </modifiers>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="22c1-e021-5acf-e97a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="1279-82f8-25da-f9fe-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1279-82f8-25da-f9fe-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2107-70d6-8d14-92a4-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2107-70d6-8d14-92a4-max" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Level 5 Psyker" hidden="false" id="d338-48e9-ca86-3f2c" type="selectionEntry" targetId="65d8-a6a0-7fc8-b50c"/>
+            <entryLink import="true" name="Level 6 Psyker" hidden="false" id="e617-38e5-0267-f0da" type="selectionEntry" targetId="b077-ec4b-20af-b3a4">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="736f-de88-7fb0-6ebc" childId="cb45-c0d6-a69e-cc74" shared="true" childName="Mark of Khorne" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="156"/>
@@ -1512,6 +1520,11 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Mark of Chaos" hidden="false" id="4dab-a056-4472-7a7f" type="selectionEntry" targetId="4308-99eb-2d61-fb7e"/>
+        <entryLink import="true" name="Disciple Dark Hereticus" hidden="false" id="7f0a-65a2-f7ba-7553" type="selectionEntry" targetId="80de-d96c-fcd0-ed21">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="a4f2-ad08-11b3-705e" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Chaos Champion" hidden="false" id="1472-9cb3-b577-8f82">
@@ -2630,6 +2643,7 @@
       </constraints>
       <categoryLinks>
         <categoryLink name="Faction: Slaanesh" hidden="false" id="d53e-d779-6a9a-64e0" targetId="2481-5d91-8b32-e003" primary="false"/>
+        <categoryLink targetId="e2ea-80e6-b980-d7ba" id="bd90-3773-3a13-f4cf" primary="false" name="Faction: &lt;Mark of Chaos&gt;"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Mark of Tzeentch" hidden="false" id="bae2-5176-bfff-292c">
@@ -4200,16 +4214,6 @@ All Black Path and Undivided Units in your army Gain the Following Bonus when ta
             <infoLink name="Aspiring Sorcerer" id="832f-6be9-701b-c68c" hidden="false" type="profile" targetId="b69e-18f1-d9f2-e22e"/>
             <infoLink name="Warp Bolt" id="852f-99f8-6a8f-5a5a" hidden="false" type="profile" targetId="ff30-c3f1-f48e-2436"/>
           </infoLinks>
-          <profiles>
-            <profile name="Aspiring Sorcerer" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="d380-e0e3-1a8e-e86c">
-              <characteristics>
-                <characteristic name="Cast" typeId="ab6d-5995-d985-b192">1</characteristic>
-                <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
-                <characteristic name="Powers Known" typeId="7e89-4bd8-8f12-0cf7">Warp Bolt and 1 power from one of the Disciple of your Cult</characteristic>
-                <characteristic name="Other" typeId="c046-4b98-ea8c-d36b"/>
-              </characteristics>
-            </profile>
-          </profiles>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Power" hidden="false" id="1d9d-f7db-a7c3-f8af">
               <constraints>
@@ -4321,6 +4325,9 @@ All Black Path and Undivided Units in your army Gain the Following Bonus when ta
             <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
+          <entryLinks>
+            <entryLink import="true" name="Level 2 Psyker" hidden="false" id="d425-43f5-7c3f-9191" type="selectionEntry" targetId="7b10-1b44-7a36-51ff"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Icon of Flame" hidden="false" id="8f98-c261-e727-77d8">
           <constraints>
@@ -4435,16 +4442,6 @@ All Black Path and Undivided Units in your army Gain the Following Bonus when ta
               </constraints>
             </selectionEntry>
           </selectionEntries>
-          <profiles>
-            <profile name="Scarab Occult Sorcerer" typeId="731e-9ee6-c9e5-305a" typeName="Psyker" hidden="false" id="bdca-e7ce-48ee-2feb">
-              <characteristics>
-                <characteristic name="Cast" typeId="ab6d-5995-d985-b192">1</characteristic>
-                <characteristic name="Deny" typeId="9a3f-a270-5f77-8e90">1</characteristic>
-                <characteristic name="Powers Known" typeId="7e89-4bd8-8f12-0cf7">Warp Bolt and 1 power from one of the Disciple of your Cult</characteristic>
-                <characteristic name="Other" typeId="c046-4b98-ea8c-d36b"/>
-              </characteristics>
-            </profile>
-          </profiles>
           <infoLinks>
             <infoLink name="Warp Bolt" id="d313-71ab-c483-9c72" hidden="false" type="profile" targetId="ff30-c3f1-f48e-2436"/>
             <infoLink name="Scarab Occult Sorcerer" id="dec4-d9f8-1c8d-828f" hidden="false" type="profile" targetId="6d14-972f-b2f5-1817"/>
@@ -4458,6 +4455,9 @@ All Black Path and Undivided Units in your army Gain the Following Bonus when ta
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d0b6-a76f-b006-02c4" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9032-a6b4-4351-3bdb" includeChildSelections="false"/>
           </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Level 2 Psyker" hidden="false" id="6df5-1e89-ee9d-d969" type="selectionEntry" targetId="7b10-1b44-7a36-51ff"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Hellfyre Missile Rack" hidden="false" id="c171-812a-4a18-466b">
           <constraints>
@@ -4624,7 +4624,7 @@ All Black Path and Undivided Units in your army Gain the Following Bonus when ta
                 <characteristic name="S" typeId="a4b2-ce42-4524-4475">9</characteristic>
                 <characteristic name="AP" typeId="ad1a-ecf9-b29f-0f6a">-2</characteristic>
                 <characteristic name="D" typeId="4249-543a-3dc5-4143">D3</characteristic>
-                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Weapon, Pinning</characteristic>
+                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Weapon, Pinning, Blast(1)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4755,7 +4755,7 @@ D3 Effect
                 <characteristic name="S" typeId="a4b2-ce42-4524-4475">8</characteristic>
                 <characteristic name="AP" typeId="ad1a-ecf9-b29f-0f6a">-2</characteristic>
                 <characteristic name="D" typeId="4249-543a-3dc5-4143">3</characteristic>
-                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Weapon, Ignores Cover.</characteristic>
+                <characteristic name="Abilities" typeId="7b54-f22e-32e3-b559">Psychic Weapon, Torrant, Ignores Cover, Blast(2)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5403,7 +5403,7 @@ D3 Effect
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="8e53-03ec-3461-8f7f" includeChildSelections="false"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Sorcerer" hidden="false" id="353f-7076-3c7b-4d32">
+            <selectionEntry type="model" import="true" name="Sorcerer" hidden="false" id="353f-7076-3c7b-4d32" defaultAmount="1">
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="90"/>
                 <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
@@ -5439,7 +5439,7 @@ D3 Effect
                         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Force Stave" hidden="false" id="9a8d-d8a7-7af5-5e17">
+                    <selectionEntry type="upgrade" import="true" name="Force Stave" hidden="false" id="9a8d-d8a7-7af5-5e17" defaultAmount="1">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="66ec-8033-c770-ca6c" includeChildSelections="false"/>
                       </constraints>
@@ -5514,7 +5514,7 @@ D3 Effect
                         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Force Stave" hidden="false" id="989b-dc65-2038-dfd3">
+                    <selectionEntry type="upgrade" import="true" name="Force Stave" hidden="false" id="989b-dc65-2038-dfd3" defaultAmount="1">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea8f-0969-3088-40a4" includeChildSelections="false"/>
                       </constraints>
@@ -5549,13 +5549,13 @@ D3 Effect
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84fd-0f1c-b7f0-b515" includeChildSelections="false"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Combi-Weapon" hidden="false" id="2919-1684-97bf-541b">
+                    <selectionEntry type="upgrade" import="true" name="Combi-Weapon" hidden="false" id="2919-1684-97bf-541b" defaultAmount="1">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96fc-fa04-02af-21fd" includeChildSelections="false"/>
                         <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1461-b9b1-8ecc-6ac7" includeChildSelections="false"/>
                       </constraints>
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Combi-bolter" hidden="false" id="649c-7063-7003-2f99">
+                        <selectionEntry type="upgrade" import="true" name="Combi-bolter" hidden="false" id="649c-7063-7003-2f99" defaultAmount="1">
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd78-80f3-8cea-6c3b" includeChildSelections="false"/>
                           </constraints>
@@ -5664,6 +5664,22 @@ D3 Effect
               </categoryLinks>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="5a36-08ff-6fbc-2c75">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="417c-ce5d-4468-e73d-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="417c-ce5d-4468-e73d-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b901-1580-52c0-2dba-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b901-1580-52c0-2dba-max" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Level 4 Psyker" hidden="false" id="2cfc-0fae-1814-b6d5" type="selectionEntry" targetId="419e-9ceb-6c2b-253c"/>
+            <entryLink import="true" name="Level 5 Psyker" hidden="false" id="e3fb-5655-a1ad-5ce7" type="selectionEntry" targetId="65d8-a6a0-7fc8-b50c">
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <profiles>
@@ -5787,6 +5803,511 @@ D3 Effect
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a03d-3c58-317b-ee6d" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="316b-d3db-531a-ffea" includeChildSelections="false"/>
       </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Noise Marines" hidden="false" id="755a-dde0-3174-ab38">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Noise Marine" hidden="false" id="939a-ebf9-ce1a-baea">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="5f89-3889-0455-239c" includeChildSelections="false"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="2d6e-1b87-cfe5-8020" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Noise Marines" id="b3a3-25fd-c009-1887" hidden="false" type="profile" targetId="a184-959a-2e04-3361"/>
+            <infoLink name="Sonic Blaster" id="3058-11be-892b-19f0" hidden="false" type="profile" targetId="12ab-0823-186f-726d"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="24"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="decrement" value="1" field="2d6e-1b87-cfe5-8020">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="bf1c-50d2-937d-0b02" shared="true" childName="Noise Marine /wf Blastmaster"/>
+              </conditions>
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="bf1c-50d2-937d-0b02" shared="true" roundUp="false" childName="Noise Marine /wf Blastmaster"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Disharmonist" hidden="false" id="f22d-af28-c2c4-a78c">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fb9f-4c1f-277e-84ac-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb9f-4c1f-277e-84ac-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Disharmonist" id="f8ee-2877-37c4-eba4" hidden="false" type="profile" targetId="6328-2dc7-0ccc-ee01"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Weapon" hidden="false" id="5a7d-0d9c-be52-ff45">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Sonic Blaster" hidden="false" id="071d-01a3-4fbb-6dbd" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be67-b276-a370-e091" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Sonic Blaster" id="b85f-a85c-1f93-00b8" hidden="false" type="profile" targetId="12ab-0823-186f-726d"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Screamer Pistol and Power Sword" hidden="false" id="6fdd-7873-4af7-3e18">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c3f-3e1f-f365-30d6" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Power Sword" id="bfce-3aa5-c241-6f7b" hidden="false" type="profile" targetId="5e7d-82e2-f13c-31ec"/>
+                    <infoLink name="Screamer Pistol" id="f4d0-718f-6c8e-0ea5" hidden="false" type="profile" targetId="b2d5-4ab5-795a-cccc"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a18b-d677-2f7d-a028-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a18b-d677-2f7d-a028-max" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="a8b0-5bfc-d08b-ece9-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a8b0-5bfc-d08b-ece9-max" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="24"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Noise Marine /wf Blastmaster" hidden="false" id="bf1c-50d2-937d-0b02">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc57-2366-beb3-755d" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Noise Marines" id="4e88-78b0-3336-ea81" hidden="false" type="profile" targetId="a184-959a-2e04-3361"/>
+            <infoLink name="Blastmaster - Veried Frequency" id="6ac9-6eb7-6b3f-f991" hidden="false" type="profile" targetId="c035-bd6a-b074-9781"/>
+            <infoLink name="Blastmaster - Single Frequency" id="f54f-7c8f-2302-90a3" hidden="false" type="profile" targetId="d25b-92e4-6298-6f6b"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="30"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="2" field="bc57-2366-beb3-755d">
+              <conditions>
+                <condition type="greaterThan" value="2" field="selections" scope="parent" childId="939a-ebf9-ce1a-baea" shared="true" childName="Noise Marine"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Terrifying Crescendo" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="946a-434c-8c7a-2cb5">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 1 from that test.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="0090-5e0a-b74b-7214" targetId="2853-e9f2-7a9e-0e91" primary="false"/>
+        <categoryLink name="Faction: Chaos" hidden="false" id="3427-42e1-3f84-0d4a" targetId="fe3b-618d-1e31-f4db" primary="false"/>
+        <categoryLink name="Faction: Heretic Astartes" hidden="false" id="4336-40ae-4408-cf34" targetId="0349-c0bf-197c-9f69" primary="false"/>
+        <categoryLink name="Faction: Slaanesh" hidden="false" id="7427-5f5f-3f10-0689" targetId="2481-5d91-8b32-e003" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Mark of Slaanesh" hidden="false" id="2e57-fd95-4184-d909" type="selectionEntry" targetId="af70-dde7-cc0c-48b9">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aed4-a373-82bc-be2a-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aed4-a373-82bc-be2a-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Infractors" hidden="false" id="81b7-3aa9-e6bf-90d7">
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="fb97-d886-8e87-c420" targetId="2853-e9f2-7a9e-0e91" primary="false"/>
+        <categoryLink name="Faction: Slaanesh" hidden="false" id="3ee1-e7dc-7294-7790" targetId="2481-5d91-8b32-e003" primary="false"/>
+        <categoryLink name="Faction: Heretic Astartes" hidden="false" id="c4bf-821d-631e-8578" targetId="0349-c0bf-197c-9f69" primary="false"/>
+        <categoryLink name="Faction: Chaos" hidden="false" id="6f2c-a258-2972-5699" targetId="fe3b-618d-1e31-f4db" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Obsessionist" hidden="false" id="925d-33f6-b6e8-ca7c">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="110d-c505-43e8-0dfb" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7fbd-0e16-d738-e828" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Melee Weapon" hidden="false" id="46ab-6c9a-a520-0819">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="9d4a-4cf1-71ea-07c7" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2fff-c121-4e75-5cdd" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2a06-4899-2bcc-0d06" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f31-fdab-36e3-abde" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Rapture Lash" hidden="false" id="846e-c193-5f6a-a321">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f28-2be6-c7c9-6e88" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Rapture Lash" id="f6b6-3e38-ff97-97e5" hidden="false" type="profile" targetId="ee0a-2d2f-8bcf-e19c"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Charnabal Power Blade" hidden="false" id="2181-7f30-32db-11cf" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be90-f417-d7d2-8adf" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Charnabal Power Blade" id="1844-d375-a81a-b73b" hidden="false" type="profile" targetId="220c-5d27-0eb4-baee"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Pistol" hidden="false" id="c1cc-26a1-9173-3b41">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="2015-9a3d-5b0e-50a7" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="38f8-5b93-c5da-da78" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3761-2958-e342-a0da" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f9e-6e16-5b57-c61c" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="f4be-d535-7f6b-7a79" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9113-4b07-4b01-8d4e" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Bolt Pistol" id="2cb7-e984-b7d1-3b0b" hidden="false" type="profile" targetId="1806-24b6-c877-b09c"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="1fef-5824-040d-39d6">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d116-3774-9fda-47e6" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Plasma Pistol" id="5d53-3cef-5941-9c4c" hidden="false" type="profile" targetId="4cad-8e15-0a15-5da1"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+          <infoLinks>
+            <infoLink name="Obsessionist" id="2fef-6b71-501d-8d61" hidden="false" type="profile" targetId="9d37-b2d4-c07f-4e74"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="17"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Infractor" hidden="false" id="09d3-5512-472c-ea40">
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="9015-bb64-b4a8-01f6" includeChildSelections="false"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="6475-858b-1f5c-8abf" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Dualing Saber" id="4bcf-0e87-66c3-d7d6" hidden="false" type="profile" targetId="f7b8-ffca-3e78-dfaa"/>
+            <infoLink name="Bolt Pistol" id="451b-a8b8-9cfa-4a3b" hidden="false" type="profile" targetId="1806-24b6-c877-b09c"/>
+            <infoLink name="Infractor" id="f21f-f007-d36c-9aa7" hidden="false" type="profile" targetId="4b89-5c0d-df7e-c42f"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="17"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Mark of Slaanesh" hidden="false" id="2e31-8f2e-ab5c-1e6c" type="selectionEntry" targetId="af70-dde7-cc0c-48b9">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3729-1eb0-3ca3-fd9e-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3729-1eb0-3ca3-fd9e-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="Excessive Assault" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="4b6e-aed4-05df-6a11">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Each time a model in this unit targets an enemy unit with a melee attack, re-roll a Wound roll of 1. If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Scout" id="5cfc-731a-4870-f0b1" hidden="false" type="rule" targetId="d9f4-7d62-442c-e50f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Flawless Blades" hidden="false" id="daee-794c-abb7-a74c">
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="cf78-1cb4-82ce-bcd3" targetId="2853-e9f2-7a9e-0e91" primary="false"/>
+        <categoryLink name="Faction: Chaos" hidden="false" id="da56-4477-5110-afea" targetId="fe3b-618d-1e31-f4db" primary="false"/>
+        <categoryLink name="Faction: Heretic Astartes" hidden="false" id="d840-9dbf-2434-be3c" targetId="0349-c0bf-197c-9f69" primary="false"/>
+        <categoryLink name="Faction: Slaanesh" hidden="false" id="efd2-9bbe-26d2-0333" targetId="2481-5d91-8b32-e003" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Flawless Blades" hidden="false" id="9b65-ec24-7a12-c50c">
+          <infoLinks>
+            <infoLink name="Flawless Blades" id="c770-64eb-cbf1-638a" hidden="false" type="profile" targetId="658e-9b1d-237a-55bd"/>
+            <infoLink name="Bolt Pistol" id="e87c-725a-cf85-8a19" hidden="false" type="profile" targetId="1806-24b6-c877-b09c"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bliss Blade/s" hidden="false" id="0ea3-49d1-c27b-6286">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Dual Bliss Blades" hidden="false" id="0f38-68d5-6ffd-2765">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b560-badd-b906-4123" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Dual Bliss Blades" id="4ed6-23b1-becf-fdf9" hidden="false" type="profile" targetId="8167-bda9-3e6e-d8fd"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Bliss Blade" hidden="false" id="092b-465f-a07c-39c7" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40d4-1dd9-491f-0dec" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Bliss Blade" id="ba6a-73b6-0bd5-8678" hidden="false" type="profile" targetId="0bbb-b129-c405-4e57"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c989-8ca6-35f6-fc2d-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c989-8ca6-35f6-fc2d-max" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="ef3b-16fc-b30c-6490-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="ef3b-16fc-b30c-6490-max" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="35"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="d102-9f89-2b79-b5df" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="d3bc-ec1c-a951-494f" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Daemonic Chosen" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="3192-40b6-5b8c-f907">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This model has a 5+ Invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Daemonic Patrons" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="d2de-b41b-a0d1-f957">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Each time this unit is selected to fight, it can call upon daemonic patrons. If it does, until the end of the phase, each time a model in this unit makes an attack. an unmodified Wound roll of 3+ scores a Critical Wound. At the end of the Fight phase, if this unit called upon daemonic patrons this phase and no enemy models were destroyed by attacks made by models in this unit this phase, one model in this unit is destroyed.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Mark of Slaanesh" hidden="false" id="ff2b-e249-4f3b-c076" type="selectionEntry" targetId="af70-dde7-cc0c-48b9">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="308a-0784-5e19-63dc-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="308a-0784-5e19-63dc-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Tormentors" hidden="false" id="72cd-864d-4f0b-1473">
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="b6b5-0f09-1266-7066" targetId="2853-e9f2-7a9e-0e91" primary="false"/>
+        <categoryLink name="Faction: Slaanesh" hidden="false" id="41a9-f4c5-898a-9ec2" targetId="2481-5d91-8b32-e003" primary="false"/>
+        <categoryLink name="Faction: Heretic Astartes" hidden="false" id="9c92-5535-a8c5-557f" targetId="0349-c0bf-197c-9f69" primary="false"/>
+        <categoryLink name="Faction: Chaos" hidden="false" id="e073-52f4-c72e-f13a" targetId="fe3b-618d-1e31-f4db" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Tormentor" hidden="false" id="c852-d926-6222-797b">
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="ec79-6bb5-2259-9053" includeChildSelections="false"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="35f3-5668-fbc3-43eb" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Tormentor" id="0a88-bc23-a403-3edc" hidden="false" type="profile" targetId="42a2-4431-a8be-b81a"/>
+            <infoLink name="Boltgun" id="ed2f-095b-9b9c-30f0" hidden="false" type="profile" targetId="6e59-15d1-ba4a-238f"/>
+            <infoLink name="Close Combat Weapons" id="9a23-d69b-ad80-c385" hidden="false" type="profile" targetId="f340-ead0-6af8-0728"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="17"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="8" field="35f3-5668-fbc3-43eb">
+              <conditions>
+                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="5c23-5354-15de-8d2e" shared="true" childName="Tormentor /wf Special Weapon"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="ec79-6bb5-2259-9053">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="5c23-5354-15de-8d2e" shared="true" childName="Tormentor /wf Special Weapon"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Obsessionist" hidden="false" id="39d7-b44b-10a5-a169">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1d8e-4120-fd4a-fe53" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b85-88bb-d210-dfea" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Melee Weapon" hidden="false" id="e8ef-87c2-e6f6-24b3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="b13c-7fe4-9e82-ad92" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="017d-d4d6-b51c-d66c" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="67af-8aae-97c2-cf3e" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b3c5-72da-71af-0515" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Rapture Lash" hidden="false" id="31a7-f47e-f92d-fee6">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4681-01bb-e537-6479" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Rapture Lash" id="f633-1d5b-e3bb-bff3" hidden="false" type="profile" targetId="ee0a-2d2f-8bcf-e19c"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="3"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Charnabal Power Blade" hidden="false" id="72a6-1c2e-abc4-b9d8" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c19a-cb76-2061-33e9" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Charnabal Power Blade" id="942b-928f-0276-f46c" hidden="false" type="profile" targetId="220c-5d27-0eb4-baee"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Pistol" hidden="false" id="2ae2-fcda-ce6e-9067">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="c0dc-1675-f172-1abb" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b8cf-96bd-f6c6-a906" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3b3e-4a2c-c2a2-6cc4" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9cd-ff2d-75dc-9857" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="0fcd-777e-76f3-e762" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="28eb-fa16-1022-7dfd" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Bolt Pistol" id="2fb1-6c6a-fe85-81c5" hidden="false" type="profile" targetId="1806-24b6-c877-b09c"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="828a-05e2-5883-5a12">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52fe-5868-3b6d-dcde" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Plasma Pistol" id="1fce-2ab6-c7e3-88ba" hidden="false" type="profile" targetId="4cad-8e15-0a15-5da1"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="5"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+          <infoLinks>
+            <infoLink name="Obsessionist" id="1438-fc2d-13f7-7ed1" hidden="false" type="profile" targetId="9d37-b2d4-c07f-4e74"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="17"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Tormentor /wf Special Weapon" hidden="false" id="5c23-5354-15de-8d2e">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d63e-7b2a-f8d0-0d95" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Tormentor" id="25b1-a774-732f-b8ed" hidden="false" type="profile" targetId="42a2-4431-a8be-b81a"/>
+            <infoLink name="Close Combat Weapons" id="46dd-d390-ff17-026d" hidden="false" type="profile" targetId="f340-ead0-6af8-0728"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="17"/>
+            <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+            <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+          </costs>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Weapon" hidden="false" id="9c6f-2e77-bbf4-e000">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="b21c-9112-bcd7-b3f1" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1006-a63e-5f2f-676a" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Plasma Gun" id="1157-9f7c-583c-34a9" hidden="false" type="profile" targetId="e405-dfde-fb54-5782"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="11"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Melta Gun" hidden="false" id="ac03-829f-51c0-39d9">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="27c5-02cc-7279-8436" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Meltagun" id="73eb-e1d7-9b12-5649" hidden="false" type="profile" targetId="0457-12b1-1d6e-b59d"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="14"/>
+                    <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                    <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5f3f-67d6-dc06-85ad-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5f3f-67d6-dc06-85ad-max" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="a74f-9afb-49e0-c99e-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a74f-9afb-49e0-c99e-max" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="2" field="d63e-7b2a-f8d0-0d95">
+              <conditions>
+                <condition type="greaterThan" value="7" field="selections" scope="parent" childId="c852-d926-6222-797b" shared="true" childName="Tormentor"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Objective Defieled" id="7803-cd40-fe12-9490" hidden="false" targetId="87ca-935a-f7f6-6ffd" type="rule"/>
+        <infoLink name="Infiltrator" id="d6e1-4a54-1e84-a34a" hidden="false" type="rule" targetId="74b3-2e30-9d76-a958"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Mark of Slaanesh" hidden="false" id="7876-9bc5-ca52-2baa" type="selectionEntry" targetId="af70-dde7-cc0c-48b9">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7921-4f31-7683-2d88-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7921-4f31-7683-2d88-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
@@ -6501,6 +7022,174 @@ D3 Effect
         <characteristic name="Save" typeId="952f-14da-4484-d1ea">3+</characteristic>
       </characteristics>
     </profile>
+    <profile name="Flawless Blades" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="658e-9b1d-237a-55bd">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">8&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">3+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">2</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">3</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Disharmonist" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="6328-2dc7-0ccc-ee01">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">3+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">2</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Infractor" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="4b89-5c0d-df7e-c42f">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">7&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">3+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">4</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">2</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">3</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Obsessionist" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="9d37-b2d4-c07f-4e74">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">7&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">3+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">4</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">2</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">4</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Noise Marines" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="a184-959a-2e04-3361">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">6&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">3+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">2</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tormentor" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="42a2-4431-a8be-b81a">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">7&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">3+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">4</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">2</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blastmaster - Single Frequency" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="d25b-92e4-6298-6f6b">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 3</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">9</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">3</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Ignores cover</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blastmaster - Veried Frequency" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="c035-bd6a-b074-9781">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 6</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">6</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Ignores cover</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bliss Blade" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="0bbb-b129-c405-4e57">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+2</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-3</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Charnabal Power Blade" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="220c-5d27-0eb4-baee">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">+1</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Precision, Extra Attack</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dual Bliss Blades" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="8167-bda9-3e6e-d8fd">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-2</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Extra Attacks 2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dualing Saber" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="f7b8-ffca-3e78-dfaa">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Extra Attack, Precision</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rapture Lash" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="ee0a-2d2f-8bcf-e19c">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">User</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">1</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Precision</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Screamer Pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="b2d5-4ab5-795a-cccc">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">12&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Pistol 3</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Ignores cover</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sonic Blaster" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="12ab-0823-186f-726d">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">18&quot;</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Assault 3</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">5</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Ignores cover</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <categoryEntries>
     <categoryEntry name="Faction: &lt;Legion&gt;" id="a121-0140-1a64-5a50" hidden="false"/>
@@ -6603,6 +7292,26 @@ D3 Effect
         <categoryLink name="HQ" hidden="false" id="01fc-279d-b9b1-bade" targetId="df66-426b-8561-5154" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Tormentors" hidden="false" id="ea7a-f8ce-7df2-6eec" targetId="72cd-864d-4f0b-1473" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="168f-b2da-4fd7-90d7" id="06df-064d-0c95-8600" primary="true" name="Troop"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Noise Marines" hidden="false" id="7661-7717-b7eb-770e" targetId="755a-dde0-3174-ab38" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="f4bc-7f06-10ba-80a3" id="e444-4bfe-af04-d35f" primary="true" name="Elite"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Infractors" hidden="false" id="cf74-0de7-7243-46b4" targetId="81b7-3aa9-e6bf-90d7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="168f-b2da-4fd7-90d7" id="2c90-5540-7685-641f" primary="true" name="Troop"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Flawless Blades" hidden="false" id="ff27-776f-5eb2-dc06" targetId="daee-794c-abb7-a74c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="f4bc-7f06-10ba-80a3" id="036a-4d2e-a2b0-3a3c" primary="true" name="Elite"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedRules>
     <rule name="Hateful Volleys" id="6d06-3442-2716-f050" hidden="false">
@@ -6623,6 +7332,9 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon wi
     </rule>
     <rule name="Psychic Focus" id="dd2b-242d-c3ff-a882" hidden="false">
       <description>Once per Game if the Wielder of this weapon fails a Psychic test, they may re-roll the test</description>
+    </rule>
+    <rule name="Objective Defieled" id="87ca-935a-f7f6-6ffd" hidden="false">
+      <description>At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent&apos;s Level of Control over that objective marker is greater than yours at the end of a phase.</description>
     </rule>
   </sharedRules>
 </catalogue>
