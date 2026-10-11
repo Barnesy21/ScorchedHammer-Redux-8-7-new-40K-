@@ -889,7 +889,7 @@
 2. Rendax, While this Style is active, Custodian Models Gains +1 Attack and Must use one attack to Parry an incoming attack. if a Character model is within look out sir range this unit the unit gains a 6+ Feel no Pain and +1 to Look out sir Tests.
 
 
-3. Soliari, While this Style is Active, Custodian Models weapons must be Used to Parry incoming attacks to protect Themselves, only one attack per model may be used to Make a normal Attack. all Parry attacks made by this unit may re-roll hit roles of 1, if a character model is within look out sir range this unit gains a 4+ Feel no pain and Automatically pass look out sir test for that character</description>
+3. Soliari, While this Style is Active, Custodian Models weapons must be Used to Parry incoming attacks, only one attack per model may be used to Make a normal Attack. Each Model Gains +2 A while in this stance. all Parry attacks made by this unit may re-roll hit roles of 1, if a character model is within look out sir range this unit gains a 4+ Feel no pain and Automatically pass look out sir test for that character</description>
     </rule>
     <rule name="Parry" id="548b-c6b2-8283-1969" hidden="false">
       <description>At the start of the Close Combat Phase A Model with this special rule may choose to parry instead of Attacking. When doing so After a enemy model has made attacks targeting a model in this unit this model rolls hit roles as normal for it&apos;s weapon for each successful hit you may remove one successful hit roll from your opponents attacks. you can only parry equal to the number of attacks your model has. If you weapon has the Extra attacks or sweeping Special rules may still Allocate these attacks to Parrying but must use all there attacks to do so</description>
@@ -909,7 +909,7 @@
         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Primary Weapon" hidden="false" id="af29-b11b-9a32-af86">
+        <selectionEntry type="upgrade" import="true" name="Primary Weapon" hidden="false" id="af29-b11b-9a32-af86" defaultAmount="1">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Castellan Axe" hidden="false" id="30a1-a371-8907-2738">
               <constraints>
@@ -925,7 +925,7 @@
                 <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Guardian Spear" hidden="false" id="ac3c-a730-547f-5ec9">
+            <selectionEntry type="upgrade" import="true" name="Guardian Spear" hidden="false" id="ac3c-a730-547f-5ec9" defaultAmount="1">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="21d0-abd6-667b-a96c" includeChildSelections="false"/>
               </constraints>
@@ -987,7 +987,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Custodian" hidden="false" id="a342-a6e8-9b1b-4cd2">
           <costs>
-            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="52"/>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="55"/>
             <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
@@ -1005,9 +1005,9 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cd8d-25a2-7730-e028" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Primary Weapon" hidden="false" id="52ae-2d12-1159-e114">
+            <selectionEntry type="upgrade" import="true" name="Primary Weapon" hidden="false" id="52ae-2d12-1159-e114" defaultAmount="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Guardian Spear" hidden="false" id="0599-a656-baad-84a3">
+                <selectionEntry type="upgrade" import="true" name="Guardian Spear" hidden="false" id="0599-a656-baad-84a3" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="06f0-0c7f-d16f-5447" includeChildSelections="false"/>
                   </constraints>
@@ -1088,8 +1088,8 @@
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="732b-d85b-3704-48b1" includeChildSelections="false"/>
-            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="dc5a-f26d-55af-0cbe" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="732b-d85b-3704-48b1" includeChildSelections="false"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="dc5a-f26d-55af-0cbe" includeChildSelections="false"/>
           </constraints>
           <infoLinks>
             <infoLink name="Custodian" id="2839-d094-a575-f8f6" hidden="false" type="profile" targetId="3b3c-2266-f880-9bb7"/>
@@ -1109,7 +1109,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Sagittarum" hidden="false" id="ca04-d79c-6990-b1da">
           <costs>
-            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="51"/>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="60"/>
             <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
@@ -1129,8 +1129,8 @@
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="3c93-4af2-5b15-a193" includeChildSelections="false"/>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="e036-4b5a-fbf1-f46b" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3c93-4af2-5b15-a193" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="e036-4b5a-fbf1-f46b" includeChildSelections="false"/>
           </constraints>
           <infoLinks>
             <infoLink name="Sagittarum Custodian" id="4cd5-3cf9-087e-9145" hidden="false" type="profile" targetId="e434-4ace-294f-9bf1"/>
@@ -1150,12 +1150,12 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Shield Captain" hidden="false" id="db41-2be8-015a-48b0">
       <costs>
-        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="120"/>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="125"/>
         <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Primary Weapon" hidden="false" id="01d1-9097-306a-7183">
+        <selectionEntry type="upgrade" import="true" name="Primary Weapon" hidden="false" id="01d1-9097-306a-7183" defaultAmount="1">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Castellan Axe" hidden="false" id="22b7-4b6a-3a59-5aaa">
               <constraints>
@@ -1171,7 +1171,7 @@
                 <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Guardian Spear" hidden="false" id="dcc4-2d42-f192-6e55">
+            <selectionEntry type="upgrade" import="true" name="Guardian Spear" hidden="false" id="dcc4-2d42-f192-6e55" defaultAmount="1">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8803-8288-86ba-ca0b" includeChildSelections="false"/>
               </constraints>
@@ -1283,7 +1283,7 @@
             <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Bike Weapon" hidden="false" id="6737-5ea8-bc02-4024">
+        <selectionEntry type="upgrade" import="true" name="Bike Weapon" hidden="false" id="6737-5ea8-bc02-4024" defaultAmount="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="be98-6245-b613-7539-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="be98-6245-b613-7539-max" includeChildSelections="false"/>
@@ -1304,7 +1304,7 @@
                 <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Hurricane Bolter" hidden="false" id="b9c9-cb2c-338f-23c0">
+            <selectionEntry type="upgrade" import="true" name="Hurricane Bolter" hidden="false" id="b9c9-cb2c-338f-23c0" defaultAmount="1">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7926-c020-b89b-9876" includeChildSelections="false"/>
               </constraints>
@@ -1351,9 +1351,9 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e437-335c-a61e-c146" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Primary Weapon" hidden="false" id="8b4c-f5bb-fa28-9c3f">
+            <selectionEntry type="upgrade" import="true" name="Primary Weapon" hidden="false" id="8b4c-f5bb-fa28-9c3f" defaultAmount="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Castellan Axe" hidden="false" id="704b-6c49-3786-3a07">
+                <selectionEntry type="upgrade" import="true" name="Castellan Axe" hidden="false" id="704b-6c49-3786-3a07" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="321e-e079-95aa-4571" includeChildSelections="false"/>
                   </constraints>
@@ -1391,7 +1391,7 @@
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="75"/>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="77"/>
             <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
@@ -1401,8 +1401,8 @@
             <infoLink name="Ballistus Grenade Launcher" id="2f52-bb20-75ba-6707" hidden="false" type="profile" targetId="ba0f-1129-aab1-3ce1"/>
           </infoLinks>
           <constraints>
-            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="cadd-6be8-f829-8127" includeChildSelections="false"/>
-            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="d65d-fb01-ee9f-5218" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cadd-6be8-f829-8127" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="d65d-fb01-ee9f-5218" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -1448,7 +1448,7 @@
                     <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Solarite Power Talon" hidden="false" id="ac7c-7082-02a1-6c34">
+                <selectionEntry type="upgrade" import="true" name="Solarite Power Talon" hidden="false" id="ac7c-7082-02a1-6c34" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eff4-9770-7e8a-5016" includeChildSelections="false"/>
                   </constraints>
@@ -1490,7 +1490,7 @@
                     <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Lastrum Storm Bolter" hidden="false" id="e6fd-b21c-4197-4b6c">
+                <selectionEntry type="upgrade" import="true" name="Lastrum Storm Bolter" hidden="false" id="e6fd-b21c-4197-4b6c" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="569b-f817-3446-7891" includeChildSelections="false"/>
                   </constraints>
@@ -1520,7 +1520,7 @@
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="84"/>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="86"/>
             <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
@@ -1529,8 +1529,8 @@
             <infoLink name="Aegis of The Emperor" id="546b-f8b2-ba8b-42a5" hidden="false" type="profile" targetId="b102-9930-151f-c83e"/>
           </infoLinks>
           <constraints>
-            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="897f-2ef5-63a5-9626" includeChildSelections="false"/>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="1964-0ee2-2a9d-a189" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="897f-2ef5-63a5-9626" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1964-0ee2-2a9d-a189" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -1547,7 +1547,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Warden" hidden="false" id="91ac-f05c-f365-67dc">
           <costs>
-            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="68"/>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="70"/>
             <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
@@ -1565,9 +1565,9 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be36-be30-f2c6-3126" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Primary Weapon" hidden="false" id="e7c8-7967-32ee-aeeb">
+            <selectionEntry type="upgrade" import="true" name="Primary Weapon" hidden="false" id="e7c8-7967-32ee-aeeb" defaultAmount="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Guardian Spear" hidden="false" id="f514-8ef9-cf36-17ad">
+                <selectionEntry type="upgrade" import="true" name="Guardian Spear" hidden="false" id="f514-8ef9-cf36-17ad" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="08a2-17cf-d7ef-98e4" includeChildSelections="false"/>
                   </constraints>
@@ -1605,8 +1605,8 @@
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="ef9d-bb8f-37e8-cb3b" includeChildSelections="false"/>
-            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="f5d0-17dd-2aa8-abe6" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ef9d-bb8f-37e8-cb3b" includeChildSelections="false"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="f5d0-17dd-2aa8-abe6" includeChildSelections="false"/>
           </constraints>
           <infoLinks>
             <infoLink name="Custodian Warden" id="9bb4-feff-f7d5-c935" hidden="false" type="profile" targetId="a94f-37f5-459e-bd7c"/>
@@ -1627,11 +1627,16 @@
             <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">Roll a D6 each time a model in this unit loses a wound; on a 6 the damage is ignored and the wound is not lost</characteristic>
           </characteristics>
         </profile>
+        <profile name="Wardens Oath" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="9bf5-687d-1da3-30d9">
+          <characteristics>
+            <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">This unit may Change which stance is in Use when it enters Close combat once per battle.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Vexillus Praetor" hidden="false" id="30fd-914b-8d93-9ee0">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Primary Weapon" hidden="false" id="1252-7d2b-0d6b-1931">
+        <selectionEntry type="upgrade" import="true" name="Primary Weapon" hidden="false" id="1252-7d2b-0d6b-1931" defaultAmount="1">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Castellan Axe" hidden="false" id="4897-3a3d-fe41-c062">
               <constraints>
@@ -1647,7 +1652,7 @@
                 <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Guardian Spear" hidden="false" id="1e1b-09ef-73fa-a67f">
+            <selectionEntry type="upgrade" import="true" name="Guardian Spear" hidden="false" id="1e1b-09ef-73fa-a67f" defaultAmount="1">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="114a-821c-6f37-afdb" includeChildSelections="false"/>
               </constraints>
@@ -1695,14 +1700,14 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2097-0a9a-1e43-59a5-max" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Vexilla" hidden="false" id="cbdd-d0e3-8c34-969f">
+        <selectionEntry type="upgrade" import="true" name="Vexilla" hidden="false" id="cbdd-d0e3-8c34-969f" defaultAmount="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="8aec-3c0d-c732-b5bc-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8aec-3c0d-c732-b5bc-max" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3cf4-f1f5-540b-5441" includeChildSelections="false"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Defensor" hidden="false" id="92e6-5274-9ead-8c1a">
+            <selectionEntry type="upgrade" import="true" name="Defensor" hidden="false" id="92e6-5274-9ead-8c1a" defaultAmount="1">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef00-d482-d0a6-74e9" includeChildSelections="false"/>
               </constraints>
@@ -1789,7 +1794,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Vexillus Praetor in Allarus Terminator Armour" hidden="false" id="a855-3e95-e803-af4f">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Vexilla" hidden="false" id="87f1-c970-8faa-60be">
+        <selectionEntry type="upgrade" import="true" name="Vexilla" hidden="false" id="87f1-c970-8faa-60be" defaultAmount="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="f808-8ed1-4ac5-c48f-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="f808-8ed1-4ac5-c48f-max" includeChildSelections="false"/>
@@ -1813,7 +1818,7 @@
                 <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Imperius" hidden="false" id="78bc-ccd0-ef80-a4a8">
+            <selectionEntry type="upgrade" import="true" name="Imperius" hidden="false" id="78bc-ccd0-ef80-a4a8" defaultAmount="1">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4995-d5bf-840b-4858" includeChildSelections="false"/>
               </constraints>
@@ -1899,13 +1904,13 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Agamatus Custodian" hidden="false" id="e2ae-6575-5482-893a">
           <costs>
-            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="84"/>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="86"/>
             <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
           <constraints>
-            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="9e5c-3c00-082a-c2e3" includeChildSelections="false"/>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="5538-913b-2aef-6316" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9e5c-3c00-082a-c2e3" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5538-913b-2aef-6316" includeChildSelections="false"/>
           </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="7486-a295-664a-9fb3">
@@ -1921,9 +1926,9 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e248-1f6e-3ab0-b0b1" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Bike Weapon" hidden="false" id="dd92-c1ce-0e5b-0239">
+            <selectionEntry type="upgrade" import="true" name="Bike Weapon" hidden="false" id="dd92-c1ce-0e5b-0239" defaultAmount="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Lastrum Bolt Cannon" hidden="false" id="7af2-aac3-df7a-78b7">
+                <selectionEntry type="upgrade" import="true" name="Lastrum Bolt Cannon" hidden="false" id="7af2-aac3-df7a-78b7" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="06f4-5886-7735-2f9b" includeChildSelections="false"/>
                   </constraints>
@@ -1997,9 +2002,9 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Vertus Praetor" hidden="false" id="81da-2178-7936-7da0">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Bike Weapon" hidden="false" id="8206-e11c-be6e-7feb">
+            <selectionEntry type="upgrade" import="true" name="Bike Weapon" hidden="false" id="8206-e11c-be6e-7feb" defaultAmount="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Hurricane Bolter" hidden="false" id="39e6-6c52-2c01-4dbd">
+                <selectionEntry type="upgrade" import="true" name="Hurricane Bolter" hidden="false" id="39e6-6c52-2c01-4dbd" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b0b-1073-2113-50b9" includeChildSelections="false"/>
                   </constraints>
@@ -2060,13 +2065,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="90"/>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="100"/>
             <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
           <constraints>
-            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="9e65-993a-5fb6-e22c" includeChildSelections="false"/>
-            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="18e0-c286-d7d9-dce7" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9e65-993a-5fb6-e22c" includeChildSelections="false"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="18e0-c286-d7d9-dce7" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -2081,19 +2086,19 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Venatari Custodian" hidden="false" id="a224-133e-a526-dcfd">
           <costs>
-            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="52"/>
+            <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="55"/>
             <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Weapon Options" hidden="false" id="3a1e-d77e-91be-c6ba">
+            <selectionEntry type="upgrade" import="true" name="Weapon Options" hidden="false" id="3a1e-d77e-91be-c6ba" defaultAmount="1">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3394-56b3-d198-c7f0" includeChildSelections="false"/>
                 <constraint type="min" value="1" field="selections" scope="self" shared="true" id="04e7-9637-2993-2617-min" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="self" shared="true" id="04e7-9637-2993-2617-max" includeChildSelections="false"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Kinetic Destroyer and Tarsus Buckler" hidden="false" id="3cea-6f99-2e14-d298">
+                <selectionEntry type="upgrade" import="true" name="Kinetic Destroyer and Tarsus Buckler" hidden="false" id="3cea-6f99-2e14-d298" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4730-ebe1-7924-d0e6" includeChildSelections="false"/>
                   </constraints>
@@ -2150,8 +2155,8 @@
             <infoLink name="Aegis of The Emperor" id="6805-bd2f-2859-995b" hidden="false" type="profile" targetId="b102-9930-151f-c83e"/>
           </infoLinks>
           <constraints>
-            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="fa03-2d0e-7ed3-fe74" includeChildSelections="false"/>
-            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="e802-8005-3df8-bcee" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fa03-2d0e-7ed3-fe74" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="e802-8005-3df8-bcee" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -2164,7 +2169,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Caladius Grav-Tank" hidden="false" id="d38d-f3f5-6667-9a68">
       <costs>
-        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="150"/>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="180"/>
         <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
       </costs>
@@ -2177,7 +2182,7 @@
         <infoLink name="Flare Shield" id="cad4-98f8-713a-d77d" hidden="false" type="profile" targetId="c223-a1c6-30e4-9ccb"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Weapon Selection" hidden="false" id="e643-fc9a-f38c-d298">
+        <selectionEntry type="upgrade" import="true" name="Weapon Selection" hidden="false" id="e643-fc9a-f38c-d298" defaultAmount="1">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Twin Arachnus Heavy Blaze Cannon" hidden="false" id="feeb-9773-d786-ce2e">
               <constraints>
@@ -2193,7 +2198,7 @@
                 <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Twin Illiastus Accelerator Cannon" hidden="false" id="7c43-e8c7-6523-ba16">
+            <selectionEntry type="upgrade" import="true" name="Twin Illiastus Accelerator Cannon" hidden="false" id="7c43-e8c7-6523-ba16" defaultAmount="1">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="54ba-c8dc-2c4d-f1d9" includeChildSelections="false"/>
               </constraints>
@@ -2223,7 +2228,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Coronus Grav-Carrier" hidden="false" id="c5da-786d-95a9-fc35">
       <costs>
-        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="245"/>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="275"/>
         <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
       </costs>
@@ -2281,12 +2286,12 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Contemptor Achillus Dreadnought" hidden="false" id="98f4-6106-bd52-f0c2">
       <costs>
-        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="130"/>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="135"/>
         <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Fist Weapons" hidden="false" id="4a59-16cc-9482-02b6">
+        <selectionEntry type="upgrade" import="true" name="Fist Weapons" hidden="false" id="4a59-16cc-9482-02b6" defaultAmount="1">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="46f2-363b-3642-0b4f" includeChildSelections="false"/>
             <constraint type="min" value="2" field="selections" scope="self" shared="true" id="a6fd-bea2-6c2d-ea5f-min" includeChildSelections="false"/>
@@ -2306,7 +2311,7 @@
                 <infoLink name="Infernus Incinerator" id="190e-e96d-d23e-7fdf" hidden="false" type="profile" targetId="f3b4-fdb1-e6be-4e20"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Lastrum Storm Bolter" hidden="false" id="ec16-f598-623d-60ed">
+            <selectionEntry type="upgrade" import="true" name="Lastrum Storm Bolter" hidden="false" id="ec16-f598-623d-60ed" defaultAmount="1">
               <constraints>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e6f0-4bce-5683-c4e2" includeChildSelections="false"/>
               </constraints>
@@ -2353,7 +2358,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Contemptor Galatus Dreadnought" hidden="false" id="f8af-5dfb-2ec2-9d00">
       <costs>
-        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="155"/>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="160"/>
         <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
       </costs>
@@ -2375,12 +2380,12 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Telemon Heavy Deadnought" hidden="false" id="7d6f-4eaf-b292-ad03">
       <costs>
-        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="195"/>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="210"/>
         <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Right Arm" hidden="false" id="edb8-23f1-0aa0-deda">
+        <selectionEntry type="upgrade" import="true" name="Right Arm" hidden="false" id="edb8-23f1-0aa0-deda" defaultAmount="1">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="827c-689c-e2a0-5fc3" includeChildSelections="false"/>
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="98b7-11a0-eec4-525f-min" includeChildSelections="false"/>
@@ -2414,7 +2419,7 @@
                 <infoLink name="Illiastus Accelerator Culverin" id="36ba-3887-cbff-d5a7" hidden="false" type="profile" targetId="d4df-9023-8173-30b3"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Telemon Caestus" hidden="false" id="993f-179e-9fc1-42cd">
+            <selectionEntry type="upgrade" import="true" name="Telemon Caestus" hidden="false" id="993f-179e-9fc1-42cd" defaultAmount="1">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a7fe-83ed-000a-3bc9" includeChildSelections="false"/>
               </constraints>
@@ -2430,14 +2435,14 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Left Arm" hidden="false" id="c909-ac49-f6ec-3ac0">
+        <selectionEntry type="upgrade" import="true" name="Left Arm" hidden="false" id="c909-ac49-f6ec-3ac0" defaultAmount="1">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4010-4feb-fc1f-a506" includeChildSelections="false"/>
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="3d69-584a-1634-0b85-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3d69-584a-1634-0b85-max" includeChildSelections="false"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Arachnus Storm Cannon" hidden="false" id="686b-21ac-7796-bf17">
+            <selectionEntry type="upgrade" import="true" name="Arachnus Storm Cannon" hidden="false" id="686b-21ac-7796-bf17" defaultAmount="1">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a61b-0165-edba-d4f0" includeChildSelections="false"/>
               </constraints>
@@ -2615,7 +2620,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Blade Champion" hidden="false" id="815c-51ae-83b9-9a42">
       <costs>
-        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="120"/>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="130"/>
         <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
       </costs>

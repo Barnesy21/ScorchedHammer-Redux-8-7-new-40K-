@@ -651,7 +651,7 @@
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="0414-1b90-057e-4cb7">
+            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="0414-1b90-057e-4cb7" defaultAmount="1">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Devourer" hidden="false" id="d5b0-36f3-f3ba-4c7e">
                   <constraints>
@@ -666,7 +666,7 @@
                     <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Fleshborer" hidden="false" id="83a8-3201-dc52-92d5">
+                <selectionEntry type="upgrade" import="true" name="Fleshborer" hidden="false" id="83a8-3201-dc52-92d5" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="self" shared="true" id="890d-cae8-a9bd-26b5" includeChildSelections="false"/>
                   </constraints>
@@ -751,9 +751,9 @@
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="43b3-ad07-2f82-8f0c">
+            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="43b3-ad07-2f82-8f0c" defaultAmount="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Strangle Web" hidden="false" id="504c-d3f0-2029-632a">
+                <selectionEntry type="upgrade" import="true" name="Strangle Web" hidden="false" id="504c-d3f0-2029-632a" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8b5a-3044-be8f-1f66" includeChildSelections="false"/>
                   </constraints>
@@ -793,6 +793,9 @@
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="aac5-b2c3-3211-343e" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="3685-0655-8768-b1ab">
               <infoLinks>
@@ -996,7 +999,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Genestealer" hidden="false" id="d3f8-b938-9041-cff3">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="b910-b64c-14f5-553d">
+            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="b910-b64c-14f5-553d" defaultAmount="1">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Rending Claws" hidden="false" id="d3fe-e32b-b32f-b166">
                   <infoLinks>
@@ -1012,7 +1015,7 @@
                     <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="4922-d9ff-d5f4-461d">
+                <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="4922-d9ff-d5f4-461d" defaultAmount="1">
                   <infoLinks>
                     <infoLink name="Scything Talons" id="3537-3bf3-0fd4-47ca" hidden="false" type="profile" targetId="822c-3ca7-1fbf-ef9e"/>
                   </infoLinks>
@@ -1085,7 +1088,7 @@
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Genestealer /WF Face Morph" hidden="false" id="af7c-6800-5570-2de6">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="6b0d-b3ff-60e6-6776">
+            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="6b0d-b3ff-60e6-6776" defaultAmount="1">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Rending Claws" hidden="false" id="b21f-6b9e-f79d-c35a">
                   <infoLinks>
@@ -1101,7 +1104,7 @@
                     <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="8e97-a1b2-141f-6234">
+                <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="8e97-a1b2-141f-6234" defaultAmount="1">
                   <infoLinks>
                     <infoLink name="Scything Talons" id="37df-1139-22bf-79f4" hidden="false" type="profile" targetId="822c-3ca7-1fbf-ef9e"/>
                   </infoLinks>
@@ -1114,7 +1117,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a7e4-11b7-c2c6-22f7" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Morph Upgrades" hidden="false" id="8f6e-a0fb-bb32-2336">
+            <selectionEntry type="upgrade" import="true" name="Morph Upgrades" hidden="false" id="8f6e-a0fb-bb32-2336" defaultAmount="1">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Flesh Hooks" hidden="false" id="6250-30ef-dd1f-dde1">
                   <constraints>
@@ -1130,7 +1133,7 @@
                     <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Acid Maw" hidden="false" id="949a-2298-3af9-5a15">
+                <selectionEntry type="upgrade" import="true" name="Acid Maw" hidden="false" id="949a-2298-3af9-5a15" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="self" shared="true" id="78f7-874d-f58f-ac69" includeChildSelections="false"/>
                   </constraints>
@@ -1221,7 +1224,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Warrior" hidden="false" id="4a18-b8c8-967a-6e15">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="bdb1-d949-9cbf-f9ba">
+            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="bdb1-d949-9cbf-f9ba" defaultAmount="1">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Ranged Weapons" hidden="false" id="ca93-aa57-26ba-b8bb">
                   <constraints>
@@ -1271,9 +1274,9 @@
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Melee Weapons" hidden="false" id="8a03-eb5d-743d-f2cb">
+                <selectionEntry type="upgrade" import="true" name="Melee Weapons" hidden="false" id="8a03-eb5d-743d-f2cb" defaultAmount="1">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="8d2c-54ed-c5f8-1c6f">
+                    <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="8d2c-54ed-c5f8-1c6f" defaultAmount="1">
                       <constraints>
                         <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="24fe-57b0-7dad-d5f7" includeChildSelections="false"/>
                       </constraints>
@@ -1396,11 +1399,11 @@
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Warrior /WF Special Weapon" hidden="false" id="da7c-1ca9-2979-dc71">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="549f-294f-3f53-b6b2">
+            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="549f-294f-3f53-b6b2" defaultAmount="1">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Ranged Weapons" hidden="false" id="c036-0abd-392a-2de5">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Venom Cannon" hidden="false" id="58e5-f43b-3a2d-d23d">
+                    <selectionEntry type="upgrade" import="true" name="Venom Cannon" hidden="false" id="58e5-f43b-3a2d-d23d" defaultAmount="1">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a74f-6790-0914-6855" includeChildSelections="false"/>
                       </constraints>
@@ -1434,7 +1437,7 @@
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Melee Weapons" hidden="false" id="4463-142b-e675-40c3">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="e493-d2c6-e720-c7bd">
+                    <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="e493-d2c6-e720-c7bd" defaultAmount="1">
                       <constraints>
                         <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5d7d-9662-00bb-8e3a" includeChildSelections="false"/>
                       </constraints>
@@ -1725,7 +1728,7 @@ Each time a friendly TYRANIDS model makes an attack that targets that unit, add 
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="84bd-9f60-64b2-7dd8">
+        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="84bd-9f60-64b2-7dd8" defaultAmount="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="0e2d-04bc-57c6-fdd7-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0e2d-04bc-57c6-fdd7-max" includeChildSelections="false"/>
@@ -1733,7 +1736,7 @@ Each time a friendly TYRANIDS model makes an attack that targets that unit, add 
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c2f6-05ba-4848-b5b0-max" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Level 3 Psyker" hidden="false" id="ace2-064d-f852-1a5e" type="selectionEntry" targetId="0791-841b-51c3-f838"/>
+            <entryLink import="true" name="Level 3 Psyker" hidden="false" id="ace2-064d-f852-1a5e" type="selectionEntry" targetId="0791-841b-51c3-f838" defaultAmount="1"/>
             <entryLink import="true" name="Level 4 Psyker" hidden="false" id="ce04-266d-a8f6-ab6a" type="selectionEntry" targetId="419e-9ceb-6c2b-253c">
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
@@ -1956,7 +1959,7 @@ Each time a friendly TYRANIDS model makes an attack that targets that unit, add 
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="264f-754a-cab3-14fe">
+        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="264f-754a-cab3-14fe" defaultAmount="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="6443-ce38-72cc-228a-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="6443-ce38-72cc-228a-max" includeChildSelections="false"/>
@@ -1964,7 +1967,7 @@ Each time a friendly TYRANIDS model makes an attack that targets that unit, add 
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d2b-df83-9ba8-6d82-max" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Level 3 Psyker" hidden="false" id="48da-fb95-080b-d529" type="selectionEntry" targetId="0791-841b-51c3-f838"/>
+            <entryLink import="true" name="Level 3 Psyker" hidden="false" id="48da-fb95-080b-d529" type="selectionEntry" targetId="0791-841b-51c3-f838" defaultAmount="1"/>
             <entryLink import="true" name="Level 4 Psyker" hidden="false" id="0006-6e29-ccb3-88cf" type="selectionEntry" targetId="419e-9ceb-6c2b-253c">
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
@@ -2193,7 +2196,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
         <categoryLink name="Vanguard Invader" hidden="false" id="ee9d-337a-1ea4-926e" targetId="e101-24cf-4ff1-83c8" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="8847-faf4-37bc-fc2a">
+        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="8847-faf4-37bc-fc2a" defaultAmount="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="3088-c251-c1e5-6712-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3088-c251-c1e5-6712-max" includeChildSelections="false"/>
@@ -2201,7 +2204,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="472b-63c3-72fa-2a3a-max" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Level 2 Psyker" hidden="false" id="b97e-9d36-3d42-ee04" type="selectionEntry" targetId="7b10-1b44-7a36-51ff"/>
+            <entryLink import="true" name="Level 2 Psyker" hidden="false" id="b97e-9d36-3d42-ee04" type="selectionEntry" targetId="7b10-1b44-7a36-51ff" defaultAmount="1"/>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -2399,7 +2402,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
             <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="a896-bb82-cfb9-6a49" includeChildSelections="false"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="4794-2743-0267-2b03">
+            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="4794-2743-0267-2b03" defaultAmount="1">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Ranged Weapons" hidden="false" id="a380-d265-cc9e-f5ab">
                   <constraints>
@@ -2449,9 +2452,9 @@ Select one objective marker. Until the end of the battle, while this model is wi
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Melee Weapons" hidden="false" id="8751-10e8-57f8-340c">
+                <selectionEntry type="upgrade" import="true" name="Melee Weapons" hidden="false" id="8751-10e8-57f8-340c" defaultAmount="1">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="27b9-63da-e6ef-c869">
+                    <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="27b9-63da-e6ef-c869" defaultAmount="1">
                       <constraints>
                         <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1493-26a5-c6d3-bf5f" includeChildSelections="false"/>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2613-e9ab-a94a-6e1b" includeChildSelections="false"/>
@@ -2542,7 +2545,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Shrike" hidden="false" id="5837-23c1-3df9-f120">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="c2c3-47f7-ed86-faaf">
+            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="c2c3-47f7-ed86-faaf" defaultAmount="1">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Ranged Weapons" hidden="false" id="05dd-3a12-0c5e-5eab">
                   <constraints>
@@ -2592,9 +2595,9 @@ Select one objective marker. Until the end of the battle, while this model is wi
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Melee Weapons" hidden="false" id="5500-db97-50f0-e814">
+                <selectionEntry type="upgrade" import="true" name="Melee Weapons" hidden="false" id="5500-db97-50f0-e814" defaultAmount="1">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="bf8b-9937-f26b-d804">
+                    <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="bf8b-9937-f26b-d804" defaultAmount="1">
                       <constraints>
                         <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a34e-c947-51dd-bfbf" includeChildSelections="false"/>
                       </constraints>
@@ -2717,11 +2720,11 @@ Select one objective marker. Until the end of the battle, while this model is wi
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Shrike /WF Special Weapon" hidden="false" id="8405-c081-51e9-63d5">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="58df-5437-65b9-fea3">
+            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="58df-5437-65b9-fea3" defaultAmount="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Ranged Weapons" hidden="false" id="c372-cbc3-f9fa-4a31">
+                <selectionEntry type="upgrade" import="true" name="Ranged Weapons" hidden="false" id="c372-cbc3-f9fa-4a31" defaultAmount="1">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Venom Cannon" hidden="false" id="66ab-aaad-0252-3316">
+                    <selectionEntry type="upgrade" import="true" name="Venom Cannon" hidden="false" id="66ab-aaad-0252-3316" defaultAmount="1">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4fc3-838b-8ffb-1ab6" includeChildSelections="false"/>
                       </constraints>
@@ -3166,7 +3169,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Weapon Options" hidden="false" id="b01b-2a32-fde3-7eab">
+            <selectionEntry type="upgrade" import="true" name="Weapon Options" hidden="false" id="b01b-2a32-fde3-7eab" defaultAmount="1">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Boi Weapons" hidden="false" id="c4ba-0a76-8172-ab4f">
                   <selectionEntries>
@@ -3230,9 +3233,9 @@ Select one objective marker. Until the end of the battle, while this model is wi
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b0a-9018-6365-ad47-max" includeChildSelections="false"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Melee Weapons" hidden="false" id="6df5-431f-ff56-24c4">
+                <selectionEntry type="upgrade" import="true" name="Melee Weapons" hidden="false" id="6df5-431f-ff56-24c4" defaultAmount="1">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Two Monstrous Scything Talons" hidden="false" id="4c6d-ea58-2049-48f7">
+                    <selectionEntry type="upgrade" import="true" name="Two Monstrous Scything Talons" hidden="false" id="4c6d-ea58-2049-48f7" defaultAmount="1">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4cb1-6f76-7b38-f167" includeChildSelections="false"/>
                       </constraints>
@@ -3254,7 +3257,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
                         <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Monstrous Scything Talons" hidden="false" id="4b76-b26d-0375-c788">
+                    <selectionEntry type="upgrade" import="true" name="Monstrous Scything Talons" hidden="false" id="4b76-b26d-0375-c788" defaultAmount="">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="acf7-93d5-2d61-c635" includeChildSelections="false"/>
                       </constraints>
@@ -3477,7 +3480,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Tyrannofex" hidden="false" id="28cf-4e3b-e8a6-c1c6">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Main Weapon" hidden="false" id="1e89-c4b4-d58d-b72c">
+        <selectionEntry type="upgrade" import="true" name="Main Weapon" hidden="false" id="1e89-c4b4-d58d-b72c" defaultAmount="1">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Acid Spray" hidden="false" id="f471-fbc2-17de-0cea">
               <constraints>
@@ -3505,7 +3508,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
                 <infoLink name="Fleshborer Hive" id="ce3c-130c-f970-008a" hidden="false" type="profile" targetId="8559-f828-0649-9f3b"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Rupture Cannon" hidden="false" id="6be3-14fd-8161-a05a">
+            <selectionEntry type="upgrade" import="true" name="Rupture Cannon" hidden="false" id="6be3-14fd-8161-a05a" defaultAmount="1">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="690f-677e-dc9f-25b7" includeChildSelections="false"/>
               </constraints>
@@ -3603,14 +3606,14 @@ Select one objective marker. Until the end of the battle, while this model is wi
         <categoryLink name="Faction: Tyranids" hidden="false" id="82ad-01f6-0b07-0343" targetId="e52c-b741-deee-a791" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Varient" hidden="false" id="08af-8702-4972-85cf">
+        <selectionEntry type="upgrade" import="true" name="Varient" hidden="false" id="08af-8702-4972-85cf" defaultAmount="1">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Prime" hidden="false" id="5242-9cce-4616-e234">
+            <selectionEntry type="upgrade" import="true" name="Prime" hidden="false" id="5242-9cce-4616-e234" defaultAmount="1">
               <infoLinks>
                 <infoLink name="Tyranid Prime" id="b486-bb0e-a4ec-cf73" hidden="false" type="profile" targetId="5d49-e376-0763-176c"/>
               </infoLinks>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="4674-dcda-cb09-fb2c">
+                <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="4674-dcda-cb09-fb2c" defaultAmount="1">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Ranged Weapons" hidden="false" id="104c-b2d0-c9f8-3b1d">
                       <constraints>
@@ -3660,9 +3663,9 @@ Select one objective marker. Until the end of the battle, while this model is wi
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Melee Weapons" hidden="false" id="a52d-e2f7-d028-970e">
+                    <selectionEntry type="upgrade" import="true" name="Melee Weapons" hidden="false" id="a52d-e2f7-d028-970e" defaultAmount="1">
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="1d75-fca7-6471-be7c">
+                        <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="1d75-fca7-6471-be7c" defaultAmount="1">
                           <constraints>
                             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5d07-1318-edbc-1399" includeChildSelections="false"/>
                           </constraints>
@@ -3670,7 +3673,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
                             <infoLink name="Scything Talons" id="d5f3-3284-3e3f-3a52" hidden="false" type="profile" targetId="822c-3ca7-1fbf-ef9e"/>
                           </infoLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Lash Whip and BoneSword" hidden="false" id="c212-f6e3-8ed4-ac91">
+                        <selectionEntry type="upgrade" import="true" name="Lash Whip and BoneSword" hidden="false" id="c212-f6e3-8ed4-ac91" defaultAmount="1">
                           <constraints>
                             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f1bf-5af3-3711-32e4" includeChildSelections="false"/>
                           </constraints>
@@ -3772,7 +3775,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
                 <categoryLink name="Fly" hidden="false" id="232b-6d88-b80a-7a51" targetId="c2c7-dbd8-014b-2228" primary="false"/>
               </categoryLinks>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="86e9-d0b0-cbe3-af14">
+                <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="86e9-d0b0-cbe3-af14" defaultAmount="1">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Ranged Weapons" hidden="false" id="0ca9-2a4a-e79b-1266">
                       <constraints>
@@ -3822,9 +3825,9 @@ Select one objective marker. Until the end of the battle, while this model is wi
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Melee Weapons" hidden="false" id="d35c-937a-c88b-9c4e">
+                    <selectionEntry type="upgrade" import="true" name="Melee Weapons" hidden="false" id="d35c-937a-c88b-9c4e" defaultAmount="1">
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="53b3-34f9-bd60-d15e">
+                        <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="53b3-34f9-bd60-d15e" defaultAmount="1">
                           <constraints>
                             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="ce2c-eda4-2402-0a37" includeChildSelections="false"/>
                           </constraints>
@@ -3901,7 +3904,8 @@ Select one objective marker. Until the end of the battle, while this model is wi
           <constraints>
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="0f28-7087-2534-d5f2-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0f28-7087-2534-d5f2-max" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e16a-5d1b-be02-5f37" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e16a-5d1b-be02-5f37-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e16a-5d1b-be02-5f37-max" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Flesh Hooks" hidden="false" id="117d-c59e-bbfa-b632">
@@ -3991,7 +3995,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="4f8c-0353-d62a-e58f">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Ranged Weapons" hidden="false" id="214a-511a-cb3c-1983">
+            <selectionEntry type="upgrade" import="true" name="Ranged Weapons" hidden="false" id="214a-511a-cb3c-1983" defaultAmount="1">
               <constraints>
                 <constraint type="max" value="2" field="selections" scope="self" shared="true" id="6bff-cf7f-87db-81c6" includeChildSelections="false"/>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="76cc-3431-a20b-64e4" includeChildSelections="false"/>
@@ -4011,7 +4015,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
                     <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Stranglethorn Cannon" hidden="false" id="5de9-0ad6-4e59-d0ee">
+                <selectionEntry type="upgrade" import="true" name="Stranglethorn Cannon" hidden="false" id="5de9-0ad6-4e59-d0ee" defaultAmount="1">
                   <infoLinks>
                     <infoLink name="Stranglethorn Cannon" id="9f2c-7c14-2a40-cbc3" hidden="false" type="profile" targetId="7833-e366-8b2e-d4a3"/>
                   </infoLinks>
@@ -4054,9 +4058,9 @@ Select one objective marker. Until the end of the battle, while this model is wi
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Melee Weapons" hidden="false" id="f112-f202-c792-5b8e">
+            <selectionEntry type="upgrade" import="true" name="Melee Weapons" hidden="false" id="f112-f202-c792-5b8e" defaultAmount="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Monstrous Scything Talons" hidden="false" id="f13f-73f5-3157-5cc7">
+                <selectionEntry type="upgrade" import="true" name="Monstrous Scything Talons" hidden="false" id="f13f-73f5-3157-5cc7" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="23cc-94c1-396e-67c4" includeChildSelections="false"/>
                   </constraints>
@@ -4122,14 +4126,6 @@ Select one objective marker. Until the end of the battle, while this model is wi
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Monstrous Scything Talons" hidden="false" id="b83c-1361-6702-eb91">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e63f-4bc9-44b1-1d91" includeChildSelections="false"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink name="Monstrous Scything Talons" id="38fe-8e8a-b417-8c27" hidden="false" type="profile" targetId="8045-76ad-03e0-6fdb"/>
-                  </infoLinks>
-                </selectionEntry>
               </selectionEntries>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c3cf-f4fb-a98c-c39a" includeChildSelections="false"/>
@@ -4178,7 +4174,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="b35d-6b93-47de-f42f">
+        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="b35d-6b93-47de-f42f" defaultAmount="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="1633-31d5-b734-5deb-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1633-31d5-b734-5deb-max" includeChildSelections="false"/>
@@ -4186,7 +4182,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="562d-eabb-0c35-2aff-max" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Level 4 Psyker" hidden="false" id="ae6e-04a0-4087-82cd" type="selectionEntry" targetId="419e-9ceb-6c2b-253c"/>
+            <entryLink import="true" name="Level 4 Psyker" hidden="false" id="ae6e-04a0-4087-82cd" type="selectionEntry" targetId="419e-9ceb-6c2b-253c" defaultAmount="1"/>
             <entryLink import="true" name="Level 5 Psyker" hidden="false" id="54b9-d6f0-fbc8-1ed4" type="selectionEntry" targetId="65d8-a6a0-7fc8-b50c">
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
@@ -4415,7 +4411,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
             <infoLink name="Hive Guard" id="6b14-c844-3c22-9650" hidden="false" type="profile" targetId="4852-8982-c2be-c815"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Weapon Options" hidden="false" id="4df9-3bf5-942d-afc8">
+            <selectionEntry type="upgrade" import="true" name="Weapon Options" hidden="false" id="4df9-3bf5-942d-afc8" defaultAmount="1">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Impaler Cannon" hidden="false" id="675b-a7e7-41b3-c55f">
                   <constraints>
@@ -4430,7 +4426,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
                     <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Shockcannon" hidden="false" id="d72d-2c27-1ce4-3e2a">
+                <selectionEntry type="upgrade" import="true" name="Shockcannon" hidden="false" id="d72d-2c27-1ce4-3e2a" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="24b9-89b1-a6ab-70e7" includeChildSelections="false"/>
                   </constraints>
@@ -4504,9 +4500,9 @@ Select one objective marker. Until the end of the battle, while this model is wi
             <infoLink name="Hive Guard" id="b0de-1177-a86d-1766" hidden="false" type="profile" targetId="4852-8982-c2be-c815"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Weapon Options" hidden="false" id="c865-21e1-9ab2-0fe7">
+            <selectionEntry type="upgrade" import="true" name="Weapon Options" hidden="false" id="c865-21e1-9ab2-0fe7" defaultAmount="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Crushing Claws" hidden="false" id="783b-4b9b-5ffd-6566">
+                <selectionEntry type="upgrade" import="true" name="Crushing Claws" hidden="false" id="783b-4b9b-5ffd-6566" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="6c2e-8e40-9f4e-82a8" includeChildSelections="false"/>
                   </constraints>
@@ -4827,7 +4823,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
         <entryLink import="true" name="Monsters Adaptive Physiology" hidden="false" id="46f3-e230-086d-3053" type="selectionEntry" targetId="8fa3-dc21-98bb-cfb1"/>
       </entryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="1a32-3648-181c-9d5a">
+        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="1a32-3648-181c-9d5a" defaultAmount="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="1095-4985-af9e-659f-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1095-4985-af9e-659f-max" includeChildSelections="false"/>
@@ -4835,7 +4831,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e25-d89b-0f67-efec-max" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Level 4 Psyker" hidden="false" id="67c9-bbc2-4f0c-4911" type="selectionEntry" targetId="419e-9ceb-6c2b-253c"/>
+            <entryLink import="true" name="Level 4 Psyker" hidden="false" id="67c9-bbc2-4f0c-4911" type="selectionEntry" targetId="419e-9ceb-6c2b-253c" defaultAmount="1"/>
             <entryLink import="true" name="Level 5 Psyker" hidden="false" id="6520-3f30-8d16-f6fd" type="selectionEntry" targetId="65d8-a6a0-7fc8-b50c">
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
@@ -4886,9 +4882,9 @@ Select one objective marker. Until the end of the battle, while this model is wi
             <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Tail Weapon" hidden="false" id="392c-c7c8-7a00-0e55">
+        <selectionEntry type="upgrade" import="true" name="Tail Weapon" hidden="false" id="392c-c7c8-7a00-0e55" defaultAmount="1">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Biostatic Rattle" hidden="false" id="b198-fea5-f037-e79e">
+            <selectionEntry type="upgrade" import="true" name="Biostatic Rattle" hidden="false" id="b198-fea5-f037-e79e" defaultAmount="1">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="364a-6ceb-6b7c-e0da" includeChildSelections="false"/>
               </constraints>
@@ -5127,6 +5123,10 @@ Select one objective marker. Until the end of the battle, while this model is wi
               </characteristics>
             </profile>
           </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3a86-2fda-c171-9cde" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9f02-a420-b077-b2c5" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -5195,7 +5195,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
             <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="a4be-2b0f-9a85-4c3b">
+        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="a4be-2b0f-9a85-4c3b" defaultAmount="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="f554-06eb-b96c-ea22-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="f554-06eb-b96c-ea22-max" includeChildSelections="false"/>
@@ -5203,7 +5203,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc1b-0ad0-4271-67bf-max" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Level 4 Psyker" hidden="false" id="2060-cfbb-04ff-784a" type="selectionEntry" targetId="419e-9ceb-6c2b-253c"/>
+            <entryLink import="true" name="Level 4 Psyker" hidden="false" id="2060-cfbb-04ff-784a" type="selectionEntry" targetId="419e-9ceb-6c2b-253c" defaultAmount="1"/>
             <entryLink import="true" name="Level 5 Psyker" hidden="false" id="6aee-85f6-982c-bdda" type="selectionEntry" targetId="65d8-a6a0-7fc8-b50c">
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
@@ -5265,7 +5265,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
             <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="0a72-cd78-4cec-3b27">
+        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="0a72-cd78-4cec-3b27" defaultAmount="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="e10d-7352-2b00-0c97-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e10d-7352-2b00-0c97-max" includeChildSelections="false"/>
@@ -5273,7 +5273,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3897-cd4b-0e0c-fdcc-max" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Level 5 Psyker" hidden="false" id="0ae0-bbb2-59b4-a228" type="selectionEntry" targetId="65d8-a6a0-7fc8-b50c"/>
+            <entryLink import="true" name="Level 5 Psyker" hidden="false" id="0ae0-bbb2-59b4-a228" type="selectionEntry" targetId="65d8-a6a0-7fc8-b50c" defaultAmount="1"/>
             <entryLink import="true" name="Level 6 Psyker" hidden="false" id="fb87-0fd8-3340-5eb4" type="selectionEntry" targetId="b077-ec4b-20af-b3a4">
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
@@ -5456,7 +5456,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
             <modifier type="add" value="9e08-fcf2-c2a3-cc46" field="category"/>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="9c2c-88b4-8a04-4c52">
+        <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="9c2c-88b4-8a04-4c52" defaultAmount="1">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d80b-c77c-3dec-4d3d" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0007-a56f-64f0-b031" includeChildSelections="false"/>
@@ -5470,7 +5470,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
                 <infoLink name="Massive Crushing Claws" id="7f98-328f-8eae-5d2d" hidden="false" type="profile" targetId="3f6b-4c5a-fa1b-6206"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Massive Scything Talons" hidden="false" id="a4bc-eb1b-2e6c-558c">
+            <selectionEntry type="upgrade" import="true" name="Massive Scything Talons" hidden="false" id="a4bc-eb1b-2e6c-558c" defaultAmount="1">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f246-4d42-3479-efbf" includeChildSelections="false"/>
               </constraints>
@@ -5480,7 +5480,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
             </selectionEntry>
           </selectionEntries>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="8ff0-6cce-00d8-bb73">
+        <selectionEntry type="upgrade" import="true" name="Psyker Level" hidden="false" id="8ff0-6cce-00d8-bb73" defaultAmount="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="c679-81f3-42a0-cbd6-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c679-81f3-42a0-cbd6-max" includeChildSelections="false"/>
@@ -5488,7 +5488,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea45-c5b7-cb4e-c213-max" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Level 3 Psyker" hidden="false" id="386f-14bd-428e-786a" type="selectionEntry" targetId="0791-841b-51c3-f838"/>
+            <entryLink import="true" name="Level 3 Psyker" hidden="false" id="386f-14bd-428e-786a" type="selectionEntry" targetId="0791-841b-51c3-f838" defaultAmount="1"/>
             <entryLink import="true" name="Level 4 Psyker" hidden="false" id="aa05-b5fe-5634-c2c1" type="selectionEntry" targetId="419e-9ceb-6c2b-253c">
               <costs>
                 <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="25"/>
@@ -5614,7 +5614,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c8d3-2783-16af-6915-max" includeChildSelections="false"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="34f6-7a7e-72d7-2a76">
+            <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="34f6-7a7e-72d7-2a76" defaultAmount="1">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Ranged Weapons" hidden="false" id="31de-e92b-63fe-20c8">
                   <constraints>
@@ -5666,7 +5666,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Melee Weapons" hidden="false" id="9ddd-1d6e-081d-a38f">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="b24e-78bc-eb95-de2e">
+                    <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="b24e-78bc-eb95-de2e" defaultAmount="1">
                       <constraints>
                         <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="243e-bea0-e94a-1184" includeChildSelections="false"/>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e344-0595-8771-c2e5" includeChildSelections="false"/>
@@ -6401,9 +6401,9 @@ Select one objective marker. Until the end of the battle, while this model is wi
             <infoLink name="Carnifex" id="8b23-054f-ff40-6a55" hidden="false" type="profile" targetId="aaff-9089-d7cf-5a6e"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Arm Weapons" hidden="false" id="53b3-f439-211c-637f">
+            <selectionEntry type="upgrade" import="true" name="Arm Weapons" hidden="false" id="53b3-f439-211c-637f" defaultAmount="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="2x Wrecker Claws" hidden="false" id="101f-50be-6f2c-0873">
+                <selectionEntry type="upgrade" import="true" name="2x Wrecker Claws" hidden="false" id="101f-50be-6f2c-0873" defaultAmount="1">
                   <infoLinks>
                     <infoLink name="Wrecker Claws" id="7f3c-7919-126a-6505" hidden="false" type="profile" targetId="8265-0094-f889-f653"/>
                     <infoLink name="Wrecker Claws" id="56a6-ff0e-d413-51aa" hidden="false" type="profile" targetId="8265-0094-f889-f653"/>
@@ -6693,8 +6693,12 @@ Select one objective marker. Until the end of the battle, while this model is wi
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8376-1320-c465-3db1-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8376-1320-c465-3db1-max" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Main Weapon" hidden="false" id="187b-d961-f4ce-155a">
+            <selectionEntry type="upgrade" import="true" name="Main Weapon" hidden="false" id="187b-d961-f4ce-155a" defaultAmount="1">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Stranglethorn Cannon" hidden="false" id="3a48-c462-846c-ee51">
                   <constraints>
@@ -6709,7 +6713,7 @@ Select one objective marker. Until the end of the battle, while this model is wi
                     <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Monstrous Scything Talons" hidden="false" id="cede-3f34-ec6b-693e">
+                <selectionEntry type="upgrade" import="true" name="Monstrous Scything Talons" hidden="false" id="cede-3f34-ec6b-693e" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6323-b261-a2f9-ce8b" includeChildSelections="false"/>
                   </constraints>
@@ -6723,6 +6727,10 @@ Select one objective marker. Until the end of the battle, while this model is wi
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="60e9-0b07-9333-fd4e-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="60e9-0b07-9333-fd4e-max" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Thresher Scythe" hidden="false" id="c796-935d-ae4b-b3ac">
               <constraints>
