@@ -6309,6 +6309,130 @@ D3 Effect
         </entryLink>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Hell Forged Preditor" hidden="false" id="6ebe-ed45-836f-8122">
+      <infoLinks>
+        <infoLink name="Daemonic" id="a6d3-c34f-3dd9-f7e5" hidden="false" type="profile" targetId="1f45-5b21-ff49-2884"/>
+        <infoLink name="Explodes" id="8478-8fda-9965-1f03" hidden="false" type="rule" targetId="3541-94a7-a138-358b"/>
+        <infoLink name="Smoke Launchers" id="27e8-6844-fd8b-8e3d" hidden="false" type="rule" targetId="51af-0fb9-3ca5-d307"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Cupola" hidden="false" id="1b6a-2daf-5409-7edd">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="897c-b4f4-6c81-75a3"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="0e9c-6220-b7a0-a1cd">
+              <infoLinks>
+                <infoLink name="Storm Bolter" id="067d-bd01-b734-16ef" hidden="false" type="profile" targetId="5347-18e6-69ec-ea9e"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e665-d3d0-33a8-8c4a"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="2"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Main Gun" hidden="false" id="6ccd-3166-0122-f834">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Predator Autocannon" hidden="false" id="1695-f27a-5a2e-41c7">
+              <infoLinks>
+                <infoLink name="Predator autocannon" id="bac0-ea67-aa7b-5d25" hidden="false" type="profile" targetId="65f2-37ae-6ff2-6658"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5bc1-0705-4738-fd61"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="40"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin Lascannon" hidden="false" id="22a0-ae80-2622-493d">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9802-37f8-30ed-a85b"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Twin Lascannon" id="b096-479f-102c-b52a" hidden="false" type="profile" targetId="4f38-639f-4b9f-c4e7"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="40"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4c2b-96d2-3b4b-cea7"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Sponsons" hidden="false" id="b8ab-63db-5433-d14b">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Heavy Bolter" hidden="false" id="c116-42a0-0300-96bc">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="6d93-a414-55f5-c511"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Heavy Bolter" id="7f0a-b8fd-98c2-c75e" hidden="false" type="profile" targetId="e784-37b9-e7a7-5298"/>
+                <infoLink name="Heavy Bolter" id="38b8-01d2-ab94-fc8f" hidden="false" type="profile" targetId="e784-37b9-e7a7-5298"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="20"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lascannon" hidden="false" id="6084-2eaf-4025-e5cd">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b9a9-dc9e-fed9-4694"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Lascannon" id="ef48-495a-4bb3-fbd1" hidden="false" type="profile" targetId="1732-e074-a0dc-d063"/>
+                <infoLink name="Lascannon" id="a805-be6c-c6e6-4f18" hidden="false" type="profile" targetId="1732-e074-a0dc-d063"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="50"/>
+                <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+                <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7be0-20f7-2c1b-a2b0"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="115"/>
+        <cost name="PL" typeId="edc4-6fbc-a1d5-3d58" value="0"/>
+        <cost name="CP" typeId="3e73-ebb4-4a79-ba46" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="9a56-aeeb-416c-9488" targetId="a7a3-131f-c2e8-667f" primary="false"/>
+        <categoryLink name="Faction: Chaos" hidden="false" id="dd05-d1b3-4ed5-7acf" targetId="fe3b-618d-1e31-f4db" primary="false"/>
+        <categoryLink name="Faction: Heretic Astartes" hidden="false" id="aa90-7d10-c804-00b9" targetId="0349-c0bf-197c-9f69" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Hell Forged Preditor" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="84b2-8162-a43d-0c85">
+          <characteristics>
+            <characteristic name="M" typeId="0df1-75ce-6b80-72bf">12&quot;</characteristic>
+            <characteristic name="WS" typeId="042e-4f5a-44ba-9e4b">3+</characteristic>
+            <characteristic name="BS" typeId="87f1-2980-9859-0543">3+</characteristic>
+            <characteristic name="Front" typeId="d514-9580-34ec-9228">13</characteristic>
+            <characteristic name="Side" typeId="9f1c-63d0-36b5-d1bc">11</characteristic>
+            <characteristic name="Rear" typeId="2860-31bc-c8c7-ef9b">10</characteristic>
+            <characteristic name="A" typeId="1d7f-46f3-6b93-222d">3</characteristic>
+            <characteristic name="HP" typeId="0766-41aa-1542-dddd">11</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Mark of Chaos" hidden="false" id="40eb-e110-96a9-aa26" type="selectionEntry" targetId="4308-99eb-2d61-fb7e"/>
+      </entryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Maulerfiend" typeId="163a-a7eb-6df2-c02e" typeName="Vehicle Unit" hidden="false" id="ef46-09d9-0a5f-2514">
@@ -7310,6 +7434,11 @@ D3 Effect
     <entryLink import="true" name="Flawless Blades" hidden="false" id="ff27-776f-5eb2-dc06" targetId="daee-794c-abb7-a74c" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="f4bc-7f06-10ba-80a3" id="036a-4d2e-a2b0-3a3c" primary="true" name="Elite"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hell Forged Preditor" hidden="false" id="c52f-71e6-445f-36ab" targetId="6ebe-ed45-836f-8122" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="4597-ff43-1b4c-478d" id="3975-0038-4daf-e1e8" primary="true" name="Heavy Support"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
