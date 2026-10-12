@@ -4982,7 +4982,7 @@ D3 Effect
             </modifier>
           </modifiers>
           <infoLinks>
-            <infoLink name="Chaos Space Marine" id="a470-f4c7-1bc0-1854" hidden="false" targetId="bb22-4358-f2b3-c946" type="profile"/>
+            <infoLink targetId="774f-cd4a-ba6e-9d01" id="e318-ecff-7141-ae20" type="profile" name="Chaos Terminator" hidden="false"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="40"/>
@@ -5141,7 +5141,7 @@ D3 Effect
             </modifier>
           </modifiers>
           <infoLinks>
-            <infoLink name="Chaos Space Marine" id="0a4d-8a86-0fe4-be19" hidden="false" targetId="bb22-4358-f2b3-c946" type="profile"/>
+            <infoLink name="Chaos Terminator" id="df38-0f6f-329f-d931" hidden="false" targetId="774f-cd4a-ba6e-9d01" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="40"/>
@@ -5320,7 +5320,7 @@ D3 Effect
             </selectionEntry>
           </selectionEntries>
           <infoLinks>
-            <infoLink name="Aspiring Champion" id="0581-1c6b-279e-e15d" hidden="false" targetId="fff7-c7df-65b0-7dc6" type="profile"/>
+            <infoLink targetId="4f82-83a0-62d4-ceda" id="4475-a73f-84a1-4981" type="profile" name="Chaos Terminator Champion" hidden="false"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="cc70-4a02-fa6e-e0b2" value="40"/>
@@ -6031,7 +6031,12 @@ D3 Effect
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Mark of Slaanesh" hidden="false" id="2444-7c7f-cd8e-931a" type="selectionEntry" targetId="af70-dde7-cc0c-48b9"/>
+        <entryLink import="true" name="Mark of Slaanesh" hidden="false" id="2444-7c7f-cd8e-931a" type="selectionEntry" targetId="af70-dde7-cc0c-48b9">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c199-0bd7-27ed-6ffe-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c199-0bd7-27ed-6ffe-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <profiles>
         <profile name="Excessive Assault" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="4b6e-aed4-05df-6a11">
@@ -6109,7 +6114,12 @@ D3 Effect
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Mark of Slaanesh" hidden="false" id="6201-f900-984d-6098" type="selectionEntry" targetId="af70-dde7-cc0c-48b9"/>
+        <entryLink import="true" name="Mark of Slaanesh" hidden="false" id="6201-f900-984d-6098" type="selectionEntry" targetId="af70-dde7-cc0c-48b9">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0928-4ef7-0c27-a461-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0928-4ef7-0c27-a461-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Tormentors" hidden="false" id="72cd-864d-4f0b-1473">
@@ -6291,7 +6301,12 @@ D3 Effect
         <infoLink name="Infiltrator" id="d6e1-4a54-1e84-a34a" hidden="false" type="rule" targetId="74b3-2e30-9d76-a958"/>
       </infoLinks>
       <entryLinks>
-        <entryLink import="true" name="Mark of Slaanesh" hidden="false" id="3c0b-96a0-9030-b1da" type="selectionEntry" targetId="af70-dde7-cc0c-48b9"/>
+        <entryLink import="true" name="Mark of Slaanesh" hidden="false" id="3c0b-96a0-9030-b1da" type="selectionEntry" targetId="af70-dde7-cc0c-48b9">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="137f-632c-4eff-d36a-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="137f-632c-4eff-d36a-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Hell Forged Preditor" hidden="false" id="6ebe-ed45-836f-8122">
@@ -7297,6 +7312,32 @@ D3 Effect
         <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-1</characteristic>
         <characteristic name="D" typeId="805f-6ece-e727-1ac1">2</characteristic>
         <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Ignores cover</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chaos Terminator" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="774f-cd4a-ba6e-9d01">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">5&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">3+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">3+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">2</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">7</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chaos Terminator Champion" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="4f82-83a0-62d4-ceda">
+      <characteristics>
+        <characteristic name="M" typeId="f861-1936-95cc-e6d3">5&quot;</characteristic>
+        <characteristic name="WS" typeId="6d32-22be-cfa3-e21b">2+</characteristic>
+        <characteristic name="BS" typeId="a1a2-1b7c-7431-d43d">2+</characteristic>
+        <characteristic name="S" typeId="ffee-9c9b-6655-d843">4</characteristic>
+        <characteristic name="T" typeId="7dd6-7000-6498-6a92">5</characteristic>
+        <characteristic name="W" typeId="f05f-2129-62a8-9a30">2</characteristic>
+        <characteristic name="A" typeId="d794-d261-842e-1ef8">3</characteristic>
+        <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">8</characteristic>
+        <characteristic name="Save" typeId="952f-14da-4484-d1ea">2+</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
