@@ -4066,7 +4066,7 @@
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
                   <conditions>
-                    <condition type="greaterThan" value="5" field="selections" scope="roster" childId="e9e5-53ca-6e2c-1f04" shared="true" includeChildSelections="true" includeChildForces="true" childName="Mark of Khorne"/>
+                    <condition type="greaterThan" value="5" field="selections" scope="roster" childId="af70-dde7-cc0c-48b9" shared="true" includeChildSelections="true" includeChildForces="true" childName="Mark of Slaanesh"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4078,7 +4078,7 @@
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
                   <conditions>
-                    <condition type="greaterThan" value="7" field="selections" scope="roster" childId="e9e5-53ca-6e2c-1f04" shared="true" includeChildSelections="true" includeChildForces="true" childName="Mark of Khorne"/>
+                    <condition type="greaterThan" value="7" field="selections" scope="roster" childId="af70-dde7-cc0c-48b9" shared="true" includeChildSelections="true" includeChildForces="true" childName="Mark of Slaanesh"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -6031,12 +6031,7 @@ D3 Effect
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Mark of Slaanesh" hidden="false" id="2e31-8f2e-ab5c-1e6c" type="selectionEntry" targetId="af70-dde7-cc0c-48b9">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3729-1eb0-3ca3-fd9e-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3729-1eb0-3ca3-fd9e-max" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
+        <entryLink import="true" name="Mark of Slaanesh" hidden="false" id="2444-7c7f-cd8e-931a" type="selectionEntry" targetId="af70-dde7-cc0c-48b9"/>
       </entryLinks>
       <profiles>
         <profile name="Excessive Assault" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="4b6e-aed4-05df-6a11">
@@ -6114,12 +6109,7 @@ D3 Effect
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Mark of Slaanesh" hidden="false" id="ff2b-e249-4f3b-c076" type="selectionEntry" targetId="af70-dde7-cc0c-48b9">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="308a-0784-5e19-63dc-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="308a-0784-5e19-63dc-max" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
+        <entryLink import="true" name="Mark of Slaanesh" hidden="false" id="6201-f900-984d-6098" type="selectionEntry" targetId="af70-dde7-cc0c-48b9"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Tormentors" hidden="false" id="72cd-864d-4f0b-1473">
@@ -6301,12 +6291,7 @@ D3 Effect
         <infoLink name="Infiltrator" id="d6e1-4a54-1e84-a34a" hidden="false" type="rule" targetId="74b3-2e30-9d76-a958"/>
       </infoLinks>
       <entryLinks>
-        <entryLink import="true" name="Mark of Slaanesh" hidden="false" id="7876-9bc5-ca52-2baa" type="selectionEntry" targetId="af70-dde7-cc0c-48b9">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7921-4f31-7683-2d88-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7921-4f31-7683-2d88-max" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
+        <entryLink import="true" name="Mark of Slaanesh" hidden="false" id="3c0b-96a0-9030-b1da" type="selectionEntry" targetId="af70-dde7-cc0c-48b9"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Hell Forged Preditor" hidden="false" id="6ebe-ed45-836f-8122">
