@@ -831,6 +831,15 @@
     <rule name="Psyker Covern" id="f92c-bf5f-6f26-26f1" hidden="false">
       <description>A Model may Join with other Psyker&apos;s to increase there Casting power Add 1 Casting Dice For Each Psyker In the Covern, When Doing some this uses there Cast for the turn, Also Any Resault of a Failed Or Critical Fail would Effect All Psykers Casting.</description>
     </rule>
+    <rule name="Cleave(1)" id="13a6-f56a-c5b5-fd20" hidden="false">
+      <description>A Weapon that makes attacks that target a Unit that contains 5 or more models gains a number of attacks equal to the number in the brackets for every 5 Models in the target unit.</description>
+    </rule>
+    <rule name="Cleave(2)" id="d530-6b36-cf50-d566" hidden="false">
+      <description>A Weapon that makes attacks that target a Unit that contains 5 or more models gains a number of attacks equal to the number in the brackets for every 5 Models in the target unit.</description>
+    </rule>
+    <rule name="Cleave(3)" id="1080-d57e-32de-f3cf" hidden="false">
+      <description>A Weapon that makes attacks that target a Unit that contains 5 or more models gains a number of attacks equal to the number in the brackets for every 5 Models in the target unit.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile name="Smite" typeId="e57e-15c3-e702-5811" typeName="Psychic Power Weapon" hidden="false" id="d933-af1d-85f4-05df">
@@ -991,7 +1000,7 @@
     </profile>
     <profile name="Storm Shield" typeId="10e3-235b-fd89-87a6" typeName="Abillities" hidden="false" id="c4c0-3c0d-006d-e5f2">
       <characteristics>
-        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">A model with a storm shield has a 4+ invulnerable save. If this model already has a 4+ invulnerable save. Increase the save by +1, If this Model has a 2+ Save and a 4+ Invulnerable save then this model has it&apos;s wound count increased by 1</characteristic>
+        <characteristic name="Description" typeId="a1eb-0258-504f-a2f2">A model with a storm shield has a 4+ invulnerable save. If this model already has a 4+ invulnerable save. Increase the wound count increased by 1</characteristic>
       </characteristics>
     </profile>
     <profile name="Astartes Chainsword" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="255f-2329-c08e-ff09">
@@ -2278,6 +2287,16 @@ Matched Play: This model and any units embarked aboard it are exempt from the Ta
         <characteristic name="A" typeId="d794-d261-842e-1ef8">2</characteristic>
         <characteristic name="Ld" typeId="95fd-4f19-4acc-61f8">6</characteristic>
         <characteristic name="Save" typeId="952f-14da-4484-d1ea">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Great Thunder hammer" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapons" hidden="false" id="5d92-4430-eb1b-718b">
+      <characteristics>
+        <characteristic name="Range" typeId="4c40-c12d-8d74-1fe7">Melee</characteristic>
+        <characteristic name="Type" typeId="b392-8288-2208-6ab2">Melee</characteristic>
+        <characteristic name="S" typeId="b6e6-61d9-0a48-2696">X2</characteristic>
+        <characteristic name="AP" typeId="15b5-fbf0-b823-d985">-4</characteristic>
+        <characteristic name="D" typeId="805f-6ece-e727-1ac1">6</characteristic>
+        <characteristic name="Abilities" typeId="90e1-1023-d27e-1bb2">Unwieldly</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
